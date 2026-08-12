@@ -1,0 +1,5 @@
+gpu_name=NVIDIA RTX 6000D
+total_vram_gib=83.0489501953125
+peak_allocated_gib=12.848191738128662
+peak_reserved_gib=13.00390625
+oom=False

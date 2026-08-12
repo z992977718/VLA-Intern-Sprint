@@ -1,0 +1,52 @@
+=== ros2 topic list -t ===
+/joint_command [sensor_msgs/msg/JointState]
+/joint_states [sensor_msgs/msg/JointState]
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/rosout [rcl_interfaces/msg/Log]
+=== joint states sample ===
+header:
+  stamp:
+    sec: 479
+    nanosec: 916666666
+  frame_id: ''
+name:
+- panda_joint1
+- panda_joint2
+- panda_joint3
+- panda_joint4
+- panda_joint5
+- panda_joint6
+- panda_joint7
+- panda_finger_joint1
+- panda_finger_joint2
+position:
+- 0.012
+- -0.5686
+- 0.0
+- -2.8109
+- 0.0
+- 3.0368
+- 0.741
+- 0.0
+- 0.0
+velocity:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+effort:
+- 0.0
+- -6.5473
+- 0.0
+- 18.6717
+- 0.0
+- 1.0509
+- 0.0
+- 0.0044
+- -0.0044
+---

@@ -1,0 +1,49 @@
+# Local server connection metadata
+.autodl_known_hosts
+
+# Upstream LeRobot checkout (kept locally; record its commit in project notes)
+lerobot/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model weights and training checkpoints
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+~$*

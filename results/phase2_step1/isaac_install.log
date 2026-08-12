@@ -1,0 +1,523 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: pip in ./autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages (26.1.2)
+Collecting pip
+  Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 4.7 MB/s  0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 26.1.2
+    Uninstalling pip-26.1.2:
+      Successfully uninstalled pip-26.1.2
+Successfully installed pip-26.2.1
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple, https://pypi.nvidia.com
+Collecting isaacsim==6.0.1.0
+  Downloading isaacsim-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (33 kB)
+Collecting isaacsim-app==6.0.1.0
+  Downloading isaacsim_app-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 7.2 MB/s  0:00:00
+Collecting isaacsim-core==6.0.1.0
+  Downloading isaacsim_core-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (12.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.5/12.5 MB 11.0 MB/s  0:00:01
+Collecting isaacsim-robot==6.0.1.0
+  Downloading isaacsim_robot-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (12.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 9.4 MB/s  0:00:01
+Collecting isaacsim-storage==6.0.1.0
+  Downloading isaacsim_storage-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (642 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 642.2/642.2 kB 6.5 MB/s  0:00:00
+Collecting isaacsim-ros2==6.0.1.0
+  Downloading isaacsim_ros2-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (91.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.4/91.4 MB 4.0 MB/s  0:00:22
+Collecting isaacsim-extscache-kit==6.0.1.0
+  Downloading isaacsim_extscache_kit-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (5879.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.9/5.9 GB 10.5 MB/s  0:13:01
+Collecting isaacsim-extscache-kit-sdk==6.0.1.0
+  Downloading isaacsim_extscache_kit_sdk-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (1686.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 GB 9.9 MB/s  0:02:43
+Collecting isaacsim-extscache-physics==6.0.1.0
+  Downloading isaacsim_extscache_physics-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (258.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 258.4/258.4 MB 9.6 MB/s  0:00:26
+Collecting isaacsim-kernel==6.0.1.0 (from isaacsim==6.0.1.0)
+  Downloading isaacsim_kernel-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (73.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.5/73.5 MB 9.9 MB/s  0:00:07
+Collecting llvmlite==0.46.0 (from isaacsim-core==6.0.1.0)
+  Downloading llvmlite-0.46.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 2.0 MB/s  0:00:27
+Collecting nest_asyncio==1.6.0 (from isaacsim-core==6.0.1.0)
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Collecting matplotlib==3.10.8 (from isaacsim-core==6.0.1.0)
+  Downloading matplotlib-3.10.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 2.5 MB/s  0:00:03
+Collecting contourpy==1.3.3 (from isaacsim-core==6.0.1.0)
+  Downloading contourpy-1.3.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (362 kB)
+Collecting fonttools==4.61.1 (from isaacsim-core==6.0.1.0)
+  Downloading fonttools-4.61.1-cp312-cp312-manylinux1_x86_64.manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_5_x86_64.whl (5.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 4.0 MB/s  0:00:01
+Collecting pyparsing==3.3.2 (from isaacsim-core==6.0.1.0)
+  Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Collecting cycler==0.12.1 (from isaacsim-core==6.0.1.0)
+  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting kiwisolver==1.4.9 (from isaacsim-core==6.0.1.0)
+  Downloading kiwisolver-1.4.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 5.7 MB/s  0:00:00
+Collecting packaging==26.0 (from isaacsim-core==6.0.1.0)
+  Downloading packaging-26.0-py3-none-any.whl (74 kB)
+Collecting osqp==1.0.5 (from isaacsim-core==6.0.1.0)
+  Downloading osqp-1.0.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (357 kB)
+Collecting qdldl==0.1.7.post5 (from isaacsim-core==6.0.1.0)
+  Downloading qdldl-0.1.7.post5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 3.4 MB/s  0:00:00
+Collecting pyperclip==1.11.0 (from isaacsim-core==6.0.1.0)
+  Downloading pyperclip-1.11.0-py3-none-any.whl (11 kB)
+Collecting python-dateutil==2.9.0.post0 (from isaacsim-core==6.0.1.0)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting six==1.17.0 (from isaacsim-core==6.0.1.0)
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting imageio==2.37.2 (from isaacsim-core==6.0.1.0)
+  Downloading imageio-2.37.2-py3-none-any.whl (317 kB)
+Collecting scipy==1.17.0 (from isaacsim-core==6.0.1.0)
+  Downloading scipy-1.17.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.0/35.0 MB 2.1 MB/s  0:00:16
+Collecting pyyaml==6.0.3 (from isaacsim-core==6.0.1.0)
+  Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 6.5 MB/s  0:00:00
+Collecting opencv-python-headless==4.13.0.90 (from isaacsim-core==6.0.1.0)
+  Downloading opencv_python_headless-4.13.0.90-cp37-abi3-manylinux_2_28_x86_64.whl (62.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.5/62.5 MB 1.8 MB/s  0:00:33
+Collecting trimesh==4.11.1 (from isaacsim-core==6.0.1.0)
+  Downloading trimesh-4.11.1-py3-none-any.whl (740 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 740.4/740.4 kB 6.1 MB/s  0:00:00
+Collecting rtree==1.4.1 (from isaacsim-core==6.0.1.0)
+  Downloading rtree-1.4.1-py3-none-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (507 kB)
+Collecting aioboto3==15.5.0 (from isaacsim-core==6.0.1.0)
+  Downloading aioboto3-15.5.0-py3-none-any.whl (35 kB)
+Collecting boto3==1.40.61 (from isaacsim-core==6.0.1.0)
+  Downloading boto3-1.40.61-py3-none-any.whl (139 kB)
+Collecting botocore==1.40.61 (from isaacsim-core==6.0.1.0)
+  Downloading botocore-1.40.61-py3-none-any.whl (14.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.1/14.1 MB 1.9 MB/s  0:00:07
+Collecting awscrt==0.23.8 (from isaacsim-core==6.0.1.0)
+  Downloading awscrt-0.23.8-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 2.0 MB/s  0:00:04
+Collecting s3transfer==0.14.0 (from isaacsim-core==6.0.1.0)
+  Downloading s3transfer-0.14.0-py3-none-any.whl (85 kB)
+Collecting azure-storage-blob==12.17.0 (from isaacsim-core==6.0.1.0)
+  Downloading azure_storage_blob-12.17.0-py3-none-any.whl (388 kB)
+Collecting azure-identity==1.13.0 (from isaacsim-core==6.0.1.0)
+  Downloading azure_identity-1.13.0-py3-none-any.whl (151 kB)
+Collecting oauthlib==3.2.2 (from isaacsim-core==6.0.1.0)
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Collecting requests-oauthlib==1.3.1 (from isaacsim-core==6.0.1.0)
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting isodate==0.6.1 (from isaacsim-core==6.0.1.0)
+  Downloading isodate-0.6.1-py2.py3-none-any.whl (41 kB)
+Collecting cryptography==46.0.7 (from isaacsim-core==6.0.1.0)
+  Downloading cryptography-46.0.7-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 2.5 MB/s  0:00:01
+Collecting azure-core==1.38.0 (from isaacsim-core==6.0.1.0)
+  Downloading azure_core-1.38.0-py3-none-any.whl (217 kB)
+Collecting msal==1.35.1 (from isaacsim-core==6.0.1.0)
+  Downloading msal-1.35.1-py3-none-any.whl (119 kB)
+Collecting msal-extensions==1.3.1 (from isaacsim-core==6.0.1.0)
+  Downloading msal_extensions-1.3.1-py3-none-any.whl (20 kB)
+Collecting portalocker==2.7.0 (from isaacsim-core==6.0.1.0)
+  Downloading portalocker-2.7.0-py2.py3-none-any.whl (15 kB)
+Collecting jmespath==1.0.1 (from isaacsim-core==6.0.1.0)
+  Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Collecting mujoco==3.8.0 (from isaacsim-core==6.0.1.0)
+  Downloading mujoco-3.8.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 2.4 MB/s  0:00:02
+Collecting mujoco-warp==3.8.0.3 (from isaacsim-core==6.0.1.0)
+  Downloading mujoco_warp-3.8.0.3-py3-none-any.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 2.9 MB/s  0:00:00
+Collecting newton==1.2.1 (from newton[sim]==1.2.1->isaacsim-core==6.0.1.0)
+  Downloading newton-1.2.1-py3-none-any.whl (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 2.3 MB/s  0:00:01
+Collecting newton-actuators==0.1.0 (from isaacsim-core==6.0.1.0)
+  Downloading newton_actuators-0.1.0-py3-none-any.whl (25 kB)
+Collecting newton-usd-schemas==0.2.0 (from isaacsim-core==6.0.1.0)
+  Downloading newton_usd_schemas-0.2.0-py3-none-any.whl (15 kB)
+Collecting mujoco-usd-converter==0.2.0 (from isaacsim-core==6.0.1.0)
+  Downloading mujoco_usd_converter-0.2.0-py3-none-any.whl (52 kB)
+Collecting cbor2==5.9.0 (from isaacsim-core==6.0.1.0)
+  Downloading cbor2-5.9.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (288 kB)
+Collecting imgui-bundle==1.92.601 (from isaacsim-core==6.0.1.0)
+  Downloading imgui_bundle-1.92.601-cp312-cp312-manylinux_2_28_x86_64.whl (10.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 2.5 MB/s  0:00:04
+Collecting PyOpenGL-accelerate==3.1.10 (from isaacsim-core==6.0.1.0)
+  Downloading pyopengl_accelerate-3.1.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 2.7 MB/s  0:00:01
+Collecting glfw==2.10.0 (from isaacsim-core==6.0.1.0)
+  Downloading glfw-2.10.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38.py39.py310.py311.py312.py313.py314-none-manylinux_2_28_x86_64.whl (243 kB)
+Collecting absl-py==2.4.0 (from isaacsim-core==6.0.1.0)
+  Downloading absl_py-2.4.0-py3-none-any.whl (135 kB)
+Collecting etils==1.13.0 (from etils[epath]==1.13.0->isaacsim-core==6.0.1.0)
+  Downloading etils-1.13.0-py3-none-any.whl (170 kB)
+Collecting numpy-stl (from isaacsim-core==6.0.1.0)
+  Downloading numpy_stl-4.0.0-py3-none-any.whl (32 kB)
+Collecting python-utils (from isaacsim-core==6.0.1.0)
+  Downloading python_utils-4.0.0-py3-none-any.whl (39 kB)
+Collecting tinyobjloader==2.0.0rc13 (from isaacsim-core==6.0.1.0)
+  Downloading tinyobjloader-2.0.0rc13-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (241 kB)
+Collecting coacd==1.0.7 (from isaacsim-core==6.0.1.0)
+  Downloading coacd-1.0.7-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 5.0 MB/s  0:00:00
+Collecting urdf-usd-converter==0.1.3 (from isaacsim-core==6.0.1.0)
+  Downloading urdf_usd_converter-0.1.3-py3-none-any.whl (62 kB)
+Collecting pycollada==0.9.3 (from isaacsim-core==6.0.1.0)
+  Downloading pycollada-0.9.3-py3-none-any.whl (129 kB)
+Collecting torch==2.11.0 (from isaacsim-core==6.0.1.0)
+  Downloading torch-2.11.0-cp312-cp312-manylinux_2_28_x86_64.whl (530.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 530.7/530.7 MB 2.0 MB/s  0:04:51
+Collecting torchvision==0.26.0 (from isaacsim-core==6.0.1.0)
+  Downloading torchvision-0.26.0-cp312-cp312-manylinux_2_28_x86_64.whl (7.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.5/7.5 MB 2.4 MB/s  0:00:03
+Collecting torchaudio==2.11.0 (from isaacsim-core==6.0.1.0)
+  Downloading torchaudio-2.11.0-cp312-cp312-manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 5.6 MB/s  0:00:00
+Collecting filelock==3.25.2 (from isaacsim-core==6.0.1.0)
+  Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+Collecting fsspec==2026.2.0 (from isaacsim-core==6.0.1.0)
+  Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+Collecting mpmath==1.3.0 (from isaacsim-core==6.0.1.0)
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 11.2 MB/s  0:00:00
+Collecting networkx==3.6.1 (from isaacsim-core==6.0.1.0)
+  Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 4.3 MB/s  0:00:00
+Collecting sympy==1.14.0 (from isaacsim-core==6.0.1.0)
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 4.6 MB/s  0:00:01
+Collecting isaacsim-sensor==6.0.1.0 (from isaacsim-robot==6.0.1.0)
+  Downloading isaacsim_sensor-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (21.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.7/21.7 MB 10.9 MB/s  0:00:02
+Collecting isaacsim-robot-motion==6.0.1.0 (from isaacsim-robot==6.0.1.0)
+  Downloading isaacsim_robot_motion-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (107.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.9/107.9 MB 10.6 MB/s  0:00:10
+Collecting aiobotocore==2.25.1 (from aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aiobotocore-2.25.1-py3-none-any.whl (86 kB)
+Collecting aiofiles>=23.2.1 (from aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Collecting aiohttp<4.0.0,>=3.9.2 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 5.5 MB/s  0:00:00
+Collecting aioitertools<1.0.0,>=0.5.1 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aioitertools-0.13.0-py3-none-any.whl (24 kB)
+Collecting multidict<7.0.0,>=6.0.0 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (256 kB)
+Collecting wrapt<2.0.0,>=1.10.10 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading wrapt-1.17.3-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (88 kB)
+Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore==1.40.61->isaacsim-core==6.0.1.0)
+  Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Collecting requests>=2.21.0 (from azure-core==1.38.0->isaacsim-core==6.0.1.0)
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting typing-extensions>=4.6.0 (from azure-core==1.38.0->isaacsim-core==6.0.1.0)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Collecting PyJWT<3,>=1.0.0 (from PyJWT[crypto]<3,>=1.0.0->msal==1.35.1->isaacsim-core==6.0.1.0)
+  Downloading pyjwt-2.13.0-py3-none-any.whl (31 kB)
+Collecting cffi>=2.0.0 (from cryptography==46.0.7->isaacsim-core==6.0.1.0)
+  Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Collecting numpy (from coacd==1.0.7->isaacsim-core==6.0.1.0)
+  Downloading numpy-2.5.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 2.6 MB/s  0:00:06
+Collecting importlib_resources (from etils[epath]==1.13.0->isaacsim-core==6.0.1.0)
+  Downloading importlib_resources-7.1.0-py3-none-any.whl (37 kB)
+Collecting zipp (from etils[epath]==1.13.0->isaacsim-core==6.0.1.0)
+  Downloading zipp-4.1.0-py3-none-any.whl (10 kB)
+Collecting pillow>=8.3.2 (from imageio==2.37.2->isaacsim-core==6.0.1.0)
+  Downloading pillow-12.3.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 2.5 MB/s  0:00:02
+Collecting aiohttp<4.0.0,>=3.9.2 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aiohttp-3.13.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 2.4 MB/s  0:00:00
+Collecting pycares==5.0.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pycares-5.0.1-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (223 kB)
+Collecting aiodns==3.1.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading aiodns-3.1.1-py3-none-any.whl (5.4 kB)
+Collecting pillow>=8.3.2 (from imageio==2.37.2->isaacsim-core==6.0.1.0)
+  Downloading pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 3.2 MB/s  0:00:02
+Collecting toml==0.10.2 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting numpy (from coacd==1.0.7->isaacsim-core==6.0.1.0)
+  Downloading numpy-2.3.1-cp312-cp312-manylinux_2_28_x86_64.whl (16.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 2.0 MB/s  0:00:08
+Collecting click==8.1.7 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading click-8.1.7-py3-none-any.whl (97 kB)
+Collecting websockets==12.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading websockets-12.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (131 kB)
+Collecting fastapi==0.120.4 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading fastapi-0.120.4-py3-none-any.whl (108 kB)
+Collecting attrs==25.1.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading attrs-25.1.0-py3-none-any.whl (63 kB)
+Collecting multidict<7.0.0,>=6.0.0 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading multidict-6.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (131 kB)
+Collecting async_timeout==5.0.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Collecting yarl==1.18.3 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading yarl-1.18.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (336 kB)
+Collecting idna==3.10 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+Collecting idna-ssl==1.1.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading idna-ssl-1.1.0.tar.gz (3.4 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting typing-extensions>=4.6.0 (from azure-core==1.38.0->isaacsim-core==6.0.1.0)
+  Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Collecting aiofiles>=23.2.1 (from aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Collecting aiosignal==1.4.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting uvicorn==0.29.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading uvicorn-0.29.0-py3-none-any.whl (60 kB)
+Collecting httptools==0.6.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading httptools-0.6.1-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (344 kB)
+Collecting asteval==1.0.6 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading asteval-1.0.6-py3-none-any.whl (22 kB)
+Collecting python-multipart==0.0.26 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading python_multipart-0.0.26-py3-none-any.whl (28 kB)
+Collecting wrapt<2.0.0,>=1.10.10 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading wrapt-1.16.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (87 kB)
+Collecting aioitertools<1.0.0,>=0.5.1 (from aiobotocore==2.25.1->aiobotocore[boto3]==2.25.1->aioboto3==15.5.0->isaacsim-core==6.0.1.0)
+  Downloading aioitertools-0.11.0-py3-none-any.whl (23 kB)
+Collecting coverage==7.4.4 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading coverage-7.4.4-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (238 kB)
+Collecting watchdog==4.0.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading watchdog-4.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+Collecting sentry-sdk==2.42.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading sentry_sdk-2.42.1-py2.py3-none-any.whl (380 kB)
+Collecting charset_normalizer==3.3.2 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Collecting frozenlist==1.5.0 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading frozenlist-1.5.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (283 kB)
+Collecting pytz==2024.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Collecting qrcode==7.4.2 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading qrcode-7.4.2-py3-none-any.whl (46 kB)
+Collecting Jinja2==3.1.5 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading jinja2-3.1.5-py3-none-any.whl (134 kB)
+Collecting aiohappyeyeballs==2.6.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Collecting propcache==0.2.1 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading propcache-0.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (243 kB)
+Collecting urllib3!=2.2.0,<3,>=1.25.4 (from botocore==1.40.61->isaacsim-core==6.0.1.0)
+  Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+Collecting psutil==5.9.8 (from isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (288 kB)
+Collecting requests>=2.21.0 (from azure-core==1.38.0->isaacsim-core==6.0.1.0)
+  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.21.0->azure-core==1.38.0->isaacsim-core==6.0.1.0)
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Collecting starlette<0.50.0,>=0.40.0 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading starlette-0.49.3-py3-none-any.whl (74 kB)
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+Collecting isaacsim-gui==6.0.1.0 (from isaacsim-robot-motion==6.0.1.0->isaacsim-robot==6.0.1.0)
+  Downloading isaacsim_gui-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 11.5 MB/s  0:00:00
+Collecting isaacsim-utils==6.0.1.0 (from isaacsim-sensor==6.0.1.0->isaacsim-robot==6.0.1.0)
+  Downloading isaacsim_utils-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl (178.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 178.3/178.3 MB 10.4 MB/s  0:00:17
+Collecting MarkupSafe>=2.0 (from Jinja2==3.1.5->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Collecting pyopengl (from mujoco==3.8.0->isaacsim-core==6.0.1.0)
+  Downloading pyopengl-3.1.10-py3-none-any.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 4.4 MB/s  0:00:00
+Collecting usd-exchange>=2.2.2 (from mujoco-usd-converter==0.2.0->isaacsim-core==6.0.1.0)
+  Downloading usd_exchange-2.3.0-cp312-cp312-manylinux_2_35_x86_64.whl (20.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 11.0 MB/s  0:00:01
+Collecting warp-lang>=1.12 (from mujoco-warp==3.8.0.3->isaacsim-core==6.0.1.0)
+  Downloading warp_lang-1.16.0-py3-none-manylinux_2_28_x86_64.whl (163.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.1/163.1 MB 9.9 MB/s  0:00:16
+  Downloading warp_lang-1.13.0-py3-none-manylinux_2_28_x86_64.whl (138.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 138.3/138.3 MB 9.9 MB/s  0:00:13
+Requirement already satisfied: setuptools in ./autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages (from osqp==1.0.5->isaacsim-core==6.0.1.0) (83.0.0)
+Collecting joblib (from osqp==1.0.5->isaacsim-core==6.0.1.0)
+  Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting pypng (from qrcode==7.4.2->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pypng-0.20220715.0-py3-none-any.whl (58 kB)
+Collecting setuptools (from osqp==1.0.5->isaacsim-core==6.0.1.0)
+  Downloading setuptools-81.0.0-py3-none-any.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 3.9 MB/s  0:00:00
+Collecting cuda-toolkit==13.0.2 (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading cuda_toolkit-13.0.2-py2.py3-none-any.whl (2.4 kB)
+Collecting cuda-bindings<14,>=13.0.3 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading cuda_bindings-13.3.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (6.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 3.4 MB/s  0:00:01
+Collecting nvidia-cudnn-cu13==9.19.0.56 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cudnn_cu13-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl (366.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 366.1/366.1 MB 10.3 MB/s  0:00:35
+Collecting nvidia-cusparselt-cu13==0.8.0 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cusparselt_cu13-0.8.0-py3-none-manylinux2014_x86_64.whl (169.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.9/169.9 MB 10.3 MB/s  0:00:16
+Collecting nvidia-nccl-cu13==2.28.9 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_nccl_cu13-2.28.9-py3-none-manylinux_2_18_x86_64.whl (196.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 196.5/196.5 MB 10.0 MB/s  0:00:19
+Collecting nvidia-nvshmem-cu13==3.4.5 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.4/60.4 MB 10.3 MB/s  0:00:05
+Collecting triton==3.6.0 (from torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading triton-3.6.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (188.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.3/188.3 MB 2.0 MB/s  0:01:32
+Collecting nvidia-cublas==13.1.0.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cublas-13.1.0.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 423.1/423.1 MB 9.3 MB/s  0:00:43
+Collecting nvidia-cuda-runtime==13.0.96.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 7.6 MB/s  0:00:00
+Collecting nvidia-cufft==12.0.0.61.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.1/214.1 MB 9.8 MB/s  0:00:21
+Collecting nvidia-cufile==1.15.1.6.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 7.6 MB/s  0:00:00
+Collecting nvidia-cuda-cupti==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 12.1 MB/s  0:00:00
+Collecting nvidia-curand==10.4.0.35.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 MB 9.9 MB/s  0:00:06
+Collecting nvidia-cusolver==12.0.4.66.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.9/200.9 MB 8.7 MB/s  0:00:23
+Collecting nvidia-cusparse==12.6.3.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 145.9/145.9 MB 8.9 MB/s  0:00:16
+Collecting nvidia-nvjitlink==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_nvjitlink-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (40.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.7/40.7 MB 10.3 MB/s  0:00:03
+Collecting nvidia-cuda-nvrtc==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.2/90.2 MB 9.4 MB/s  0:00:09
+Collecting nvidia-nvtx==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading nvidia_nvtx-13.0.85-py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (148 kB)
+Collecting h11>=0.8 (from uvicorn==0.29.0->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting cuda-pathfinder>=1.4.2 (from cuda-bindings<14,>=13.0.3->torch==2.11.0->isaacsim-core==6.0.1.0)
+  Downloading cuda_pathfinder-1.6.0-py3-none-any.whl (54 kB)
+Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.4 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.46.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 3.4 MB/s  0:00:00
+INFO: pip is looking at multiple versions of pydantic to determine which version is compatible with other requirements. This could take a while.
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.13.3-py3-none-any.whl (471 kB)
+Collecting pydantic-core==2.46.3 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.46.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.0 MB/s  0:00:00
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.13.2-py3-none-any.whl (471 kB)
+Collecting pydantic-core==2.46.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.46.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 1.6 MB/s  0:00:01
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.13.1-py3-none-any.whl (471 kB)
+Collecting pydantic-core==2.46.1 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.46.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.3 MB/s  0:00:00
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.13.0-py3-none-any.whl (471 kB)
+Collecting pydantic-core==2.46.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.46.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.3 MB/s  0:00:00
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.12.5-py3-none-any.whl (463 kB)
+Collecting pydantic-core==2.41.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.41.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 1.8 MB/s  0:00:01
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.12.4-py3-none-any.whl (463 kB)
+  Downloading pydantic-2.12.3-py3-none-any.whl (462 kB)
+Collecting pydantic-core==2.41.4 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.41.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 2.0 MB/s  0:00:00
+INFO: pip is still looking at multiple versions of pydantic to determine which version is compatible with other requirements. This could take a while.
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.12.2-py3-none-any.whl (460 kB)
+  Downloading pydantic-2.12.0-py3-none-any.whl (459 kB)
+Collecting pydantic-core==2.41.1 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.41.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 1.8 MB/s  0:00:01
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic-2.11.10-py3-none-any.whl (444 kB)
+Collecting pydantic-core==2.33.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading pydantic_core-2.33.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 1.9 MB/s  0:00:01
+Collecting typing-inspection>=0.4.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading typing_inspection-0.4.3-py3-none-any.whl (14 kB)
+Collecting anyio<5,>=3.6.2 (from starlette<0.50.0,>=0.40.0->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading anyio-4.14.2-py3-none-any.whl (125 kB)
+Collecting pycparser (from cffi>=2.0.0->cryptography==46.0.7->isaacsim-core==6.0.1.0)
+  Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+INFO: pip is looking at multiple versions of typing-inspection to determine which version is compatible with other requirements. This could take a while.
+Collecting typing-inspection>=0.4.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.120.4->isaacsim-kernel==6.0.1.0->isaacsim==6.0.1.0)
+  Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Building wheels for collected packages: idna-ssl
+  Building wheel for idna-ssl (pyproject.toml): started
+  Building wheel for idna-ssl (pyproject.toml): finished with status 'done'
+  Created wheel for idna-ssl: filename=idna_ssl-1.1.0-py3-none-any.whl size=3234 sha256=a12a95d7e4fa14c4cf0ba1a81c8e7c664ff7632e201a53aea930394544dfef3c
+  Stored in directory: /root/autodl-tmp/isaac_cache/tmp/pip-ephem-wheel-cache-_lppd5_t/wheels/48/26/d3/b560387ff8b524c75f83a8d6c51682b0464ad38bcf08ff952c
+Successfully built idna-ssl
+Installing collected packages: torchaudio, tinyobjloader, pytz, pypng, pyperclip, PyOpenGL-accelerate, pyopengl, nvidia-cusparselt-cu13, mpmath, glfw, cuda-toolkit, zipp, wrapt, websockets, watchdog, usd-exchange, urllib3, typing-extensions, triton, toml, sympy, six, setuptools, rtree, pyyaml, python-multipart, pyparsing, PyJWT, pycparser, psutil, propcache, portalocker, pillow, packaging, oauthlib, nvidia-nvtx, nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, nvidia-cublas, numpy, newton-usd-schemas, networkx, nest_asyncio, multidict, MarkupSafe, llvmlite, kiwisolver, joblib, jmespath, isaacsim-extscache-physics, isaacsim-extscache-kit-sdk, isaacsim-extscache-kit, importlib_resources, idna, httptools, h11, fsspec, frozenlist, fonttools, filelock, etils, cycler, cuda-pathfinder, coverage, click, charset_normalizer, certifi, cbor2, awscrt, attrs, async_timeout, asteval, annotated-types, annotated-doc, aioitertools, aiohappyeyeballs, aiofiles, absl-py, yarl, warp-lang, uvicorn, typing-inspection, trimesh, sentry-sdk, scipy, requests, qrcode, python-utils, python-dateutil, pydantic-core, opencv-python-headless, nvidia-cusparse, nvidia-cufft, nvidia-cudnn-cu13, Jinja2, isodate, imgui-bundle, imageio, idna-ssl, cuda-bindings, contourpy, coacd, cffi, anyio, aiosignal, starlette, requests-oauthlib, qdldl, pydantic, pycollada, pycares, osqp, nvidia-cusolver, numpy-stl, newton-actuators, newton, matplotlib, cryptography, botocore, azure-core, aiohttp, urdf-usd-converter, s3transfer, mujoco, fastapi, azure-storage-blob, aiodns, aiobotocore, torch, mujoco-warp, mujoco-usd-converter, msal, boto3, torchvision, msal-extensions, isaacsim-kernel, isaacsim-storage, isaacsim-app, isaacsim, azure-identity, aioboto3, isaacsim-core, isaacsim-gui, isaacsim-utils, isaacsim-robot-motion, isaacsim-sensor, isaacsim-ros2, isaacsim-robot
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 83.0.0
+    Uninstalling setuptools-83.0.0:
+      Successfully uninstalled setuptools-83.0.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.2
+    Uninstalling packaging-26.2:
+      Successfully uninstalled packaging-26.2
+
+Successfully installed Jinja2-3.1.5 MarkupSafe-3.0.3 PyJWT-2.13.0 PyOpenGL-accelerate-3.1.10 absl-py-2.4.0 aioboto3-15.5.0 aiobotocore-2.25.1 aiodns-3.1.1 aiofiles-23.2.1 aiohappyeyeballs-2.6.1 aiohttp-3.13.4 aioitertools-0.11.0 aiosignal-1.4.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.14.2 asteval-1.0.6 async_timeout-5.0.1 attrs-25.1.0 awscrt-0.23.8 azure-core-1.38.0 azure-identity-1.13.0 azure-storage-blob-12.17.0 boto3-1.40.61 botocore-1.40.61 cbor2-5.9.0 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.3.2 click-8.1.7 coacd-1.0.7 contourpy-1.3.3 coverage-7.4.4 cryptography-46.0.7 cuda-bindings-13.3.1 cuda-pathfinder-1.6.0 cuda-toolkit-13.0.2 cycler-0.12.1 etils-1.13.0 fastapi-0.120.4 filelock-3.25.2 fonttools-4.61.1 frozenlist-1.5.0 fsspec-2026.2.0 glfw-2.10.0 h11-0.16.0 httptools-0.6.1 idna-3.10 idna-ssl-1.1.0 imageio-2.37.2 imgui-bundle-1.92.601 importlib_resources-7.1.0 isaacsim-6.0.1.0 isaacsim-app-6.0.1.0 isaacsim-core-6.0.1.0 isaacsim-extscache-kit-6.0.1.0 isaacsim-extscache-kit-sdk-6.0.1.0 isaacsim-extscache-physics-6.0.1.0 isaacsim-gui-6.0.1.0 isaacsim-kernel-6.0.1.0 isaacsim-robot-6.0.1.0 isaacsim-robot-motion-6.0.1.0 isaacsim-ros2-6.0.1.0 isaacsim-sensor-6.0.1.0 isaacsim-storage-6.0.1.0 isaacsim-utils-6.0.1.0 isodate-0.6.1 jmespath-1.0.1 joblib-1.5.3 kiwisolver-1.4.9 llvmlite-0.46.0 matplotlib-3.10.8 mpmath-1.3.0 msal-1.35.1 msal-extensions-1.3.1 mujoco-3.8.0 mujoco-usd-converter-0.2.0 mujoco-warp-3.8.0.3 multidict-6.1.0 nest_asyncio-1.6.0 networkx-3.6.1 newton-1.2.1 newton-actuators-0.1.0 newton-usd-schemas-0.2.0 numpy-2.3.1 numpy-stl-4.0.0 nvidia-cublas-13.1.0.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.19.0.56 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-cusparselt-cu13-0.8.0 nvidia-nccl-cu13-2.28.9 nvidia-nvjitlink-13.0.88 nvidia-nvshmem-cu13-3.4.5 nvidia-nvtx-13.0.85 oauthlib-3.2.2 opencv-python-headless-4.13.0.90 osqp-1.0.5 packaging-26.0 pillow-12.2.0 portalocker-2.7.0 propcache-0.2.1 psutil-5.9.8 pycares-5.0.1 pycollada-0.9.3 pycparser-3.0 pydantic-2.11.10 pydantic-core-2.33.2 pyopengl-3.1.10 pyparsing-3.3.2 pyperclip-1.11.0 pypng-0.20220715.0 python-dateutil-2.9.0.post0 python-multipart-0.0.26 python-utils-4.0.0 pytz-2024.1 pyyaml-6.0.3 qdldl-0.1.7.post5 qrcode-7.4.2 requests-2.32.3 requests-oauthlib-1.3.1 rtree-1.4.1 s3transfer-0.14.0 scipy-1.17.0 sentry-sdk-2.42.1 setuptools-81.0.0 six-1.17.0 starlette-0.49.3 sympy-1.14.0 tinyobjloader-2.0.0rc13 toml-0.10.2 torch-2.11.0 torchaudio-2.11.0 torchvision-0.26.0 trimesh-4.11.1 triton-3.6.0 typing-extensions-4.12.2 typing-inspection-0.4.2 urdf-usd-converter-0.1.3 urllib3-2.6.3 usd-exchange-2.3.0 uvicorn-0.29.0 warp-lang-1.13.0 watchdog-4.0.0 websockets-12.0 wrapt-1.16.0 yarl-1.18.3 zipp-4.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+No broken requirements found.
+Name: isaacsim
+Version: 6.0.1.0
+Summary: A metapackage to manage the Isaac Sim installation
+Home-page: https://developer.nvidia.com/isaac-sim
+Author: Isaac Sim team
+Author-email: 
+License: NVIDIA Proprietary Software
+Location: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages
+Requires: isaacsim-kernel
+Required-by: 
+---
+Name: isaacsim-core
+Version: 6.0.1.0
+Summary: Isaac Sim core extensions and APIs
+Home-page: https://developer.nvidia.com/isaac-sim
+Author: Isaac Sim team
+Author-email: 
+License: NVIDIA Proprietary Software
+Location: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages
+Requires: absl-py, aioboto3, awscrt, azure-core, azure-identity, azure-storage-blob, boto3, botocore, cbor2, coacd, contourpy, cryptography, cycler, etils, filelock, fonttools, fsspec, glfw, imageio, imgui-bundle, isaacsim-kernel, isodate, jmespath, kiwisolver, llvmlite, matplotlib, mpmath, msal, msal-extensions, mujoco, mujoco-usd-converter, mujoco-warp, nest_asyncio, networkx, newton, newton-actuators, newton-usd-schemas, numpy-stl, oauthlib, opencv-python-headless, osqp, packaging, portalocker, pycollada, PyOpenGL-accelerate, pyparsing, pyperclip, python-dateutil, python-utils, pyyaml, qdldl, requests-oauthlib, rtree, s3transfer, scipy, six, sympy, tinyobjloader, torch, torchaudio, torchvision, trimesh, urdf-usd-converter
+Required-by: isaacsim-gui
+---
+Name: isaacsim-robot
+Version: 6.0.1.0
+Summary: Isaac Sim's robot models and APIs
+Home-page: https://developer.nvidia.com/isaac-sim
+Author: Isaac Sim team
+Author-email: 
+License: NVIDIA Proprietary Software
+Location: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages
+Requires: isaacsim-robot-motion, isaacsim-sensor
+Required-by: 
+---
+Name: isaacsim-ros2
+Version: 6.0.1.0
+Summary: Isaac Sim components for ROS 2 system integration
+Home-page: https://developer.nvidia.com/isaac-sim
+Author: Isaac Sim team
+Author-email: 
+License: NVIDIA Proprietary Software
+Location: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages
+Requires: isaacsim-sensor
+Required-by: 

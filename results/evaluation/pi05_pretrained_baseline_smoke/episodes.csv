@@ -1,0 +1,2 @@
+episode_index,seed,suite,task_id,task_description,checkpoint,success,episode_length,sum_reward,max_reward,rollout_wall_s,model_inference_calls,mean_model_inference_ms,median_model_inference_ms,p95_model_inference_ms,video_path
+0,999,libero_10,0,put both the alphabet soup and the tomato sauce in the basket,/root/autodl-tmp/cache/huggingface/pi05_libero_base,False,520,0.0,0.0,29.04263182496652,52,176.84976547920647,158.48425193689764,209.38325540628284,/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_pretrained_baseline_smoke/videos/eval_episode_0.mp4

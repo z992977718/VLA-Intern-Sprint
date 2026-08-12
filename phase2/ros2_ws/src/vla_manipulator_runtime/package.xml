@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>vla_manipulator_runtime</name>
+  <version>0.0.1</version>
+  <description>Phase 2 Step 1 的 Franka ROS 2 关节闭环 smoke test。</description>
+  <maintainer email="local@example.com">VLA Intern Sprint</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

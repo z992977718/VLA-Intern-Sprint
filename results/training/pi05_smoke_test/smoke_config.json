@@ -1,0 +1,70 @@
+{
+  "status": "preflight_passed_ready_to_train",
+  "lerobot_commit": "22bd7a2f489b367d8df42de803b1e8c4ca63a3f9",
+  "lerobot_version": "0.6.2",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "total_vram_gib": 23.5164794921875,
+  "model": {
+    "repo_id": "lerobot/pi05_libero_base",
+    "revision": "a217bfd3b14673cf2ce597e69997ab21866438dd",
+    "remote_path": "/root/autodl-tmp/cache/huggingface/pi05_libero_base"
+  },
+  "dataset": {
+    "repo_id": "lerobot/libero",
+    "revision": "a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4",
+    "remote_path": "/root/autodl-tmp/cache/huggingface/lerobot/lerobot/libero",
+    "video_backend": "torchcodec"
+  },
+  "training": {
+    "steps": 50,
+    "batch_size": 1,
+    "num_workers": 1,
+    "policy_dtype": "bfloat16",
+    "accelerator_mixed_precision": "bf16",
+    "gradient_checkpointing": true,
+    "train_expert_only": true,
+    "freeze_vision_encoder": true,
+    "compile_model": false,
+    "ema_enabled": false,
+    "n_action_steps": 10,
+    "chunk_size": 50,
+    "empty_cameras": 1,
+    "normalization_mapping": {
+      "ACTION": "MEAN_STD",
+      "STATE": "MEAN_STD",
+      "VISUAL": "IDENTITY"
+    },
+    "log_freq": 1,
+    "save_checkpoint": true,
+    "save_freq": 0,
+    "env_eval_freq": 0,
+    "eval_steps": 0,
+    "push_to_hub": false,
+    "output_dir": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_smoke_test/run",
+    "final_checkpoint_dir": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_smoke_test/run/checkpoints/000050"
+  },
+  "preflight_validation": {
+    "dataset_frames": 273465,
+    "dataset_episodes": 1693,
+    "camera_keys": [
+      "observation.images.image",
+      "observation.images.image2"
+    ],
+    "camera_shape_chw": [3, 256, 256],
+    "state_dim": 8,
+    "action_dim": 7,
+    "model_safetensors_bytes": 14467165872,
+    "model_tensor_count": 812,
+    "offline_sample_decode": "success",
+    "bf16_supported": true
+  },
+  "blocking_preflight": {
+    "repository": "google/paligemma-3b-pt-224",
+    "gating": "manual",
+    "revision": "35e4f46485b4d07967e7e9935bc3786aad50687c",
+    "remote_hf_authenticated": true,
+    "tokenizer_access_test": "success",
+    "tokenizer_class": "GemmaTokenizer",
+    "tokenizer_vocab_size": 257153
+  }
+}

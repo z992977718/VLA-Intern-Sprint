@@ -1,0 +1,21 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 0.0,
+      "max_reward": 0.0,
+      "success": false,
+      "seed": 999
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 0.0,
+    "avg_max_reward": 0.0,
+    "pc_success": 0.0,
+    "eval_s": 29.809619188308716,
+    "eval_ep_s": 29.80962109565735
+  },
+  "video_paths": [
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_pretrained_baseline_smoke/videos/eval_episode_0.mp4"
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Checkpoint 2k 完整固定初态评测</title>
+  <desc id="desc">Checkpoint 2k 在重点任务的 50 个存储固定初态中成功 46 次、失败 4 次。</desc>
+  <rect width="960" height="540" fill="#ffffff"/>
+  <style>
+    text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+    .title { font-size: 28px; font-weight: 600; }
+    .subtitle { font-size: 15px; fill: #5f6b7a; }
+    .axis { font-size: 13px; fill: #5f6b7a; }
+    .value { font-size: 16px; font-weight: 600; }
+    .label { font-size: 15px; }
+  </style>
+  <text x="105" y="48" class="title">Checkpoint 2k：完整固定初态评测</text>
+  <text x="105" y="78" class="subtitle">仅重点任务：状态 0-29 为 28/30，此前未评测状态 30-49 为 18/20</text>
+  <rect x="105" y="135" width="736.0" height="92" rx="7" fill="#159a63"/>
+  <rect x="841.0" y="135" width="64.0" height="92" rx="7" fill="#c2413b"/>
+  <text x="473.0" y="190" text-anchor="middle" style="font-size:26px;font-weight:600;fill:#ffffff">46 次成功</text>
+  <text x="873.0" y="190" text-anchor="middle" style="font-size:18px;font-weight:600;fill:#ffffff">4</text>
+  <text x="105" y="275" class="value">46/50 = 92.0%</text>
+  <text x="105" y="305" class="subtitle">同一任务的全部存储固定初态；不是完整 LIBERO Benchmark</text>
+  <text x="105" y="349" class="label">失败：Init-State ID 14、18、41、49</text>
+  <text x="105" y="378" class="subtitle">四个已审查失败均出现错误物体选择行为。</text>
+</svg>

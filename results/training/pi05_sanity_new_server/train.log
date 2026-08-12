@@ -1,0 +1,223 @@
+INFO 2026-08-11 12:57:31 ot_train.py:406 {'accelerator': {'activation_checkpointing': {'mode': <ActivationCheckpointingMode.NONE: 'none'>},
+                 'compile': {'backend': 'inductor',
+                             'enabled': False,
+                             'mode': None,
+                             'regional': True},
+                 'ddp': {'find_unused_parameters': True,
+                         'gradient_as_bucket_view': False,
+                         'static_graph': False},
+                 'fsdp': {'cpu_offload': False,
+                          'ignored_modules': None,
+                          'min_num_params': None,
+                          'reshard_after_forward': True,
+                          'wrap_modules': None},
+                 'gradient_accumulation': {'steps': 1},
+                 'mixed_precision': 'bf16'},
+ 'batch_size': 1,
+ 'checkpoint_format': <CheckpointFormat.SAFETENSORS: 'safetensors'>,
+ 'checkpoint_path': None,
+ 'cudnn_deterministic': False,
+ 'dataloader_multiprocessing_context': 'spawn',
+ 'dataset': {'depth_output_unit': 'mm',
+             'episodes': None,
+             'eval_split': 0.0,
+             'exclude_episodes': None,
+             'image_transforms': {'enable': False,
+                                  'max_num_transforms': 3,
+                                  'random_order': False,
+                                  'tfs': {'affine': {'kwargs': {'degrees': [-5.0,
+                                                                            5.0],
+                                                                'translate': [0.05,
+                                                                              0.05]},
+                                                     'type': 'RandomAffine',
+                                                     'weight': 1.0},
+                                          'brightness': {'kwargs': {'brightness': [0.8,
+                                                                                   1.2]},
+                                                         'type': 'ColorJitter',
+                                                         'weight': 1.0},
+                                          'contrast': {'kwargs': {'contrast': [0.8,
+                                                                               1.2]},
+                                                       'type': 'ColorJitter',
+                                                       'weight': 1.0},
+                                          'hue': {'kwargs': {'hue': [-0.05,
+                                                                     0.05]},
+                                                  'type': 'ColorJitter',
+                                                  'weight': 1.0},
+                                          'saturation': {'kwargs': {'saturation': [0.5,
+                                                                                   1.5]},
+                                                         'type': 'ColorJitter',
+                                                         'weight': 1.0},
+                                          'sharpness': {'kwargs': {'sharpness': [0.5,
+                                                                                 1.5]},
+                                                        'type': 'SharpnessJitter',
+                                                        'weight': 1.0}}},
+             'repo_id': 'lerobot/libero',
+             'repo_type': 'dataset',
+             'return_uint8': False,
+             'revision': 'a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4',
+             'root': '/root/autodl-tmp/cache/huggingface/lerobot/lerobot/libero',
+             'streaming': False,
+             'use_imagenet_stats': True,
+             'video_backend': 'torchcodec'},
+ 'ema': {'decay': None,
+         'enable': False,
+         'inv_gamma': 1.0,
+         'max_decay': 0.9999,
+         'min_decay': 0.0,
+         'power': 0.75,
+         'update_after_step': 0,
+         'use_for_eval': True},
+ 'env': None,
+ 'env_eval_freq': 0,
+ 'eval': {'batch_size': 50,
+          'n_episodes': 50,
+          'recording': False,
+          'recording_private': False,
+          'recording_repo_id': None,
+          'use_async_envs': True},
+ 'eval_steps': 0,
+ 'job': {'detach': False,
+         'image': 'huggingface/lerobot-gpu:latest',
+         'tags': [],
+         'target': None,
+         'timeout': '2d'},
+ 'job_name': 'pi05_libero_rtx6000d_sanity',
+ 'log_freq': 1,
+ 'max_eval_samples': 0,
+ 'num_workers': 1,
+ 'optimizer': {'betas': [0.9, 0.95],
+               'eps': 1e-08,
+               'grad_clip_norm': 1.0,
+               'lr': 2.5e-05,
+               'type': 'adamw',
+               'weight_decay': 0.01},
+ 'output_dir': '/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_sanity_new_server/run',
+ 'parallelism': {'cfg_parallel': 1,
+                 'context_parallel': {'ring_degree': 1, 'ulysses_degree': 1},
+                 'dp_replicate': 1,
+                 'dp_shard': 1},
+ 'peft': None,
+ 'persistent_workers': True,
+ 'policy': {'action_expert_variant': 'gemma_300m',
+            'action_feature_names': None,
+            'chunk_size': 50,
+            'compile_mode': 'max-autotune',
+            'compile_model': False,
+            'device': 'cuda',
+            'dtype': 'bfloat16',
+            'empty_cameras': 1,
+            'freeze_vision_encoder': True,
+            'gradient_checkpointing': True,
+            'image_resolution': [224, 224],
+            'input_features': {},
+            'license': None,
+            'max_action_dim': 32,
+            'max_period': 4.0,
+            'max_state_dim': 32,
+            'min_period': 0.004,
+            'n_action_steps': 10,
+            'n_obs_steps': 1,
+            'normalization_mapping': {'ACTION': <NormalizationMode.MEAN_STD: 'MEAN_STD'>,
+                                      'STATE': <NormalizationMode.MEAN_STD: 'MEAN_STD'>,
+                                      'VISUAL': <NormalizationMode.IDENTITY: 'IDENTITY'>},
+            'num_inference_steps': 10,
+            'optimizer_betas': [0.9, 0.95],
+            'optimizer_eps': 1e-08,
+            'optimizer_grad_clip_norm': 1.0,
+            'optimizer_lr': 2.5e-05,
+            'optimizer_weight_decay': 0.01,
+            'output_features': {},
+            'paligemma_variant': 'gemma_2b',
+            'pretrained_path': '/root/autodl-tmp/cache/huggingface/pi05_libero_base',
+            'pretrained_revision': None,
+            'private': None,
+            'push_to_hub': False,
+            'relative_exclude_joints': ['gripper'],
+            'repo_id': None,
+            'rtc_config': None,
+            'scheduler_decay_lr': 2.5e-06,
+            'scheduler_decay_steps': 30000,
+            'scheduler_warmup_steps': 1000,
+            'tags': None,
+            'time_sampling_beta_alpha': 1.5,
+            'time_sampling_beta_beta': 1.0,
+            'time_sampling_offset': 0.001,
+            'time_sampling_scale': 0.999,
+            'tokenizer_max_length': 200,
+            'train_expert_only': True,
+            'type': 'pi05',
+            'use_amp': False,
+            'use_peft': False,
+            'use_relative_actions': False},
+ 'prefetch_factor': 4,
+ 'rename_map': {},
+ 'resume': False,
+ 'reward_model': None,
+ 'sample_weighting': None,
+ 'save_checkpoint': True,
+ 'save_checkpoint_to_hub': False,
+ 'save_freq': 0,
+ 'scheduler': {'decay_lr': 2.5e-06,
+               'num_decay_steps': 30000,
+               'num_warmup_steps': 1000,
+               'peak_lr': 2.5e-05,
+               'type': 'cosine_decay_with_warmup'},
+ 'seed': 1000,
+ 'steps': 20,
+ 'tolerance_s': 0.0001,
+ 'use_policy_training_preset': True,
+ 'wandb': {'add_tags': True,
+           'disable_artifact': False,
+           'enable': False,
+           'entity': None,
+           'mode': None,
+           'notes': None,
+           'project': 'lerobot',
+           'run_id': None}}
+INFO 2026-08-11 12:57:31 ot_train.py:413 Logs will be saved locally.
+INFO 2026-08-11 12:57:31 ot_train.py:428 Creating dataset
+INFO 2026-08-11 12:57:31 ot_train.py:456 Creating policy
+INFO 2026-08-11 12:59:08 ing_pi05.py:449 Enabled gradient checkpointing for PI05Pytorch model
+WARNING 2026-08-11 12:59:10 ing_pi05.py:912 Vision embedding key might need handling: paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING 2026-08-11 12:59:10 ing_pi05.py:912 Vision embedding key might need handling: paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+INFO 2026-08-11 12:59:16 ot_train.py:537 Creating optimizer and scheduler
+INFO 2026-08-11 12:59:16 hedulers.py:155 Auto-scaling LR scheduler: num_training_steps (20) < num_decay_steps (30000). Scaling warmup: 1000 → 0, decay: 30000 → 20 (scale factor: 0.001)
+INFO 2026-08-11 12:59:16 ot_train.py:588 Output dir: /root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_sanity_new_server/run
+INFO 2026-08-11 12:59:16 ot_train.py:595 cfg.steps=20 (20)
+INFO 2026-08-11 12:59:16 ot_train.py:596 dataset.num_frames=273465 (273K)
+INFO 2026-08-11 12:59:16 ot_train.py:597 dataset.num_episodes=1693
+INFO 2026-08-11 12:59:16 ot_train.py:598 Effective batch size: 1 x 1 dp workers x 1 grad accum = 1 (topology: dp_replicate=1, dp_shard=1)
+INFO 2026-08-11 12:59:16 ot_train.py:603 num_learnable_params=693422112 (693M)
+INFO 2026-08-11 12:59:16 ot_train.py:604 num_total_params=4143404816 (4B)
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: /root/autodl-tmp/cache/huggingface/pi05_libero_base
+✓ Loaded state dict from model.safetensors
+Remapped 812 state dict keys
+All keys loaded successfully!
+Training:   0%|          | 0/20 [00:00<?, ?step/s]INFO 2026-08-11 12:59:16 ot_train.py:706 Start offline training on a fixed dataset, with effective batch size: 1
+Training:   5%|▌         | 1/20 [00:04<01:31,  4.79s/step]INFO 2026-08-11 12:59:21 ot_train.py:756 step:1 smpl:1 ep:0 epch:0.00 loss:1.470 grdn:3.949 lr:2.5e-05 data_s:4.149 prep_s:0.029 updt_s:0.613 step_s:4.793 smp/s:0 mem_gb:12.85
+Training:  10%|█         | 2/20 [00:05<00:40,  2.24s/step]INFO 2026-08-11 12:59:21 ot_train.py:756 step:2 smpl:2 ep:0 epch:0.00 loss:2.626 grdn:4.996 lr:2.4e-05 data_s:0.000 prep_s:0.002 updt_s:0.447 step_s:0.450 smp/s:2 mem_gb:12.85
+Training:  15%|█▌        | 3/20 [00:05<00:22,  1.31s/step]INFO 2026-08-11 12:59:22 ot_train.py:756 step:3 smpl:3 ep:0 epch:0.00 loss:1.610 grdn:3.026 lr:2.4e-05 data_s:0.000 prep_s:0.002 updt_s:0.211 step_s:0.215 smp/s:5 mem_gb:12.85
+Training:  20%|██        | 4/20 [00:05<00:14,  1.14step/s]INFO 2026-08-11 12:59:22 ot_train.py:756 step:4 smpl:4 ep:0 epch:0.00 loss:0.977 grdn:3.676 lr:2.3e-05 data_s:0.000 prep_s:0.002 updt_s:0.210 step_s:0.214 smp/s:5 mem_gb:12.85
+Training:  25%|██▌       | 5/20 [00:05<00:09,  1.56step/s]INFO 2026-08-11 12:59:22 ot_train.py:756 step:5 smpl:5 ep:0 epch:0.00 loss:1.492 grdn:2.489 lr:2.2e-05 data_s:0.000 prep_s:0.002 updt_s:0.211 step_s:0.215 smp/s:5 mem_gb:12.85
+Training:  30%|███       | 6/20 [00:06<00:06,  2.01step/s]INFO 2026-08-11 12:59:22 ot_train.py:756 step:6 smpl:6 ep:0 epch:0.00 loss:0.757 grdn:1.744 lr:2.0e-05 data_s:0.000 prep_s:0.002 updt_s:0.214 step_s:0.218 smp/s:5 mem_gb:12.85
+Training:  35%|███▌      | 7/20 [00:06<00:05,  2.47step/s]INFO 2026-08-11 12:59:22 ot_train.py:756 step:7 smpl:7 ep:0 epch:0.00 loss:2.309 grdn:8.780 lr:1.9e-05 data_s:0.001 prep_s:0.001 updt_s:0.212 step_s:0.216 smp/s:5 mem_gb:12.85
+Training:  40%|████      | 8/20 [00:06<00:04,  2.90step/s]INFO 2026-08-11 12:59:23 ot_train.py:756 step:8 smpl:8 ep:0 epch:0.00 loss:0.479 grdn:1.602 lr:1.7e-05 data_s:0.000 prep_s:0.002 updt_s:0.210 step_s:0.214 smp/s:5 mem_gb:12.85
+Training:  45%|████▌     | 9/20 [00:06<00:03,  3.29step/s]INFO 2026-08-11 12:59:23 ot_train.py:756 step:9 smpl:9 ep:0 epch:0.00 loss:3.284 grdn:6.055 lr:1.6e-05 data_s:0.001 prep_s:0.001 updt_s:0.210 step_s:0.214 smp/s:5 mem_gb:12.85
+Training:  50%|█████     | 10/20 [00:07<00:02,  3.46step/s]INFO 2026-08-11 12:59:23 ot_train.py:756 step:10 smpl:10 ep:0 epch:0.00 loss:3.455 grdn:25.420 lr:1.4e-05 data_s:0.000 prep_s:0.002 updt_s:0.252 step_s:0.256 smp/s:4 mem_gb:12.85
+Training:  55%|█████▌    | 11/20 [00:07<00:02,  3.64step/s]INFO 2026-08-11 12:59:23 ot_train.py:756 step:11 smpl:11 ep:0 epch:0.00 loss:2.867 grdn:10.363 lr:1.2e-05 data_s:0.001 prep_s:0.001 updt_s:0.238 step_s:0.242 smp/s:4 mem_gb:12.85
+Training:  60%|██████    | 12/20 [00:07<00:02,  3.89step/s]INFO 2026-08-11 12:59:24 ot_train.py:756 step:12 smpl:12 ep:0 epch:0.00 loss:1.613 grdn:3.629 lr:1.0e-05 data_s:0.000 prep_s:0.002 updt_s:0.212 step_s:0.216 smp/s:5 mem_gb:12.85
+Training:  65%|██████▌   | 13/20 [00:07<00:01,  4.03step/s]INFO 2026-08-11 12:59:24 ot_train.py:756 step:13 smpl:13 ep:0 epch:0.00 loss:0.451 grdn:2.043 lr:8.6e-06 data_s:0.001 prep_s:0.002 updt_s:0.223 step_s:0.227 smp/s:4 mem_gb:12.85
+Training:  70%|███████   | 14/20 [00:07<00:01,  4.16step/s]INFO 2026-08-11 12:59:24 ot_train.py:756 step:14 smpl:14 ep:0 epch:0.00 loss:2.282 grdn:16.097 lr:7.1e-06 data_s:0.001 prep_s:0.001 updt_s:0.217 step_s:0.221 smp/s:5 mem_gb:12.85
+Training:  75%|███████▌  | 15/20 [00:08<00:01,  4.22step/s]INFO 2026-08-11 12:59:24 ot_train.py:756 step:15 smpl:15 ep:0 epch:0.00 loss:4.718 grdn:9.022 lr:5.8e-06 data_s:0.001 prep_s:0.002 updt_s:0.224 step_s:0.229 smp/s:4 mem_gb:12.85
+Training:  80%|████████  | 16/20 [00:08<00:01,  3.46step/s]INFO 2026-08-11 12:59:25 ot_train.py:756 step:16 smpl:16 ep:0 epch:0.00 loss:3.715 grdn:19.700 lr:4.6e-06 data_s:0.001 prep_s:0.002 updt_s:0.406 step_s:0.410 smp/s:2 mem_gb:12.85
+Training:  85%|████████▌ | 17/20 [00:08<00:00,  3.68step/s]INFO 2026-08-11 12:59:25 ot_train.py:756 step:17 smpl:17 ep:0 epch:0.00 loss:0.985 grdn:1.935 lr:3.7e-06 data_s:0.001 prep_s:0.002 updt_s:0.227 step_s:0.231 smp/s:4 mem_gb:12.85
+Training:  90%|█████████ | 18/20 [00:09<00:00,  3.89step/s]INFO 2026-08-11 12:59:25 ot_train.py:756 step:18 smpl:18 ep:0 epch:0.00 loss:3.715 grdn:8.418 lr:3.1e-06 data_s:0.001 prep_s:0.001 updt_s:0.219 step_s:0.223 smp/s:4 mem_gb:12.85
+Training:  95%|█████████▌| 19/20 [00:09<00:00,  4.05step/s]INFO 2026-08-11 12:59:25 ot_train.py:756 step:19 smpl:19 ep:0 epch:0.00 loss:0.800 grdn:1.920 lr:2.6e-06 data_s:0.001 prep_s:0.001 updt_s:0.219 step_s:0.223 smp/s:4 mem_gb:12.85
+Training: 100%|██████████| 20/20 [00:09<00:00,  4.14step/s]INFO 2026-08-11 12:59:26 ot_train.py:756 step:20 smpl:20 ep:0 epch:0.00 loss:1.912 grdn:4.870 lr:2.5e-06 data_s:0.001 prep_s:0.001 updt_s:0.225 step_s:0.229 smp/s:4 mem_gb:12.85
+INFO 2026-08-11 12:59:26 ot_train.py:799 Checkpoint policy after step 20
+INFO 2026-08-11 12:59:35 n/_torch.py:289 Model weights successfully saved to /root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_sanity_new_server/run/checkpoints/000020/pretrained_model!
+Training: 100%|██████████| 20/20 [00:24<00:00,  1.23s/step]
+INFO 2026-08-11 12:59:41 ot_train.py:894 End of training

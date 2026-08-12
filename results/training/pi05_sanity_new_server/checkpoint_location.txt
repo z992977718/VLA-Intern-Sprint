@@ -1,0 +1,3 @@
+server=autodl-container-d3zpepxr3b-a4e43468
+path=/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_sanity_new_server/run/checkpoints/000020
+size_human=11G

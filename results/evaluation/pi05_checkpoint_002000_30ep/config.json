@@ -1,0 +1,123 @@
+{
+  "arguments": {
+    "checkpoint": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+    "output_dir": "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_checkpoint_002000_30ep",
+    "suite": "libero_10",
+    "task_id": 0,
+    "episodes": 30,
+    "seed": 1000,
+    "dtype": "bfloat16",
+    "n_action_steps": 10,
+    "observation_height": 360,
+    "observation_width": 360
+  },
+  "environment": {
+    "task": "libero_10",
+    "fps": 20,
+    "features": {
+      "action": {
+        "type": "ACTION",
+        "shape": [
+          7
+        ]
+      },
+      "pixels/agentview_image": {
+        "type": "VISUAL",
+        "shape": [
+          360,
+          360,
+          3
+        ]
+      },
+      "pixels/robot0_eye_in_hand_image": {
+        "type": "VISUAL",
+        "shape": [
+          360,
+          360,
+          3
+        ]
+      },
+      "robot_state/eef/pos": {
+        "type": "STATE",
+        "shape": [
+          3
+        ]
+      },
+      "robot_state/eef/quat": {
+        "type": "STATE",
+        "shape": [
+          4
+        ]
+      },
+      "robot_state/eef/mat": {
+        "type": "STATE",
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "robot_state/gripper/qpos": {
+        "type": "STATE",
+        "shape": [
+          2
+        ]
+      },
+      "robot_state/gripper/qvel": {
+        "type": "STATE",
+        "shape": [
+          2
+        ]
+      },
+      "robot_state/joints/pos": {
+        "type": "STATE",
+        "shape": [
+          7
+        ]
+      },
+      "robot_state/joints/vel": {
+        "type": "STATE",
+        "shape": [
+          7
+        ]
+      }
+    },
+    "features_map": {
+      "action": "action",
+      "robot_state/eef/pos": "observation.state.eef_pos",
+      "robot_state/eef/quat": "observation.state.eef_quat",
+      "robot_state/eef/mat": "observation.state.eef_mat",
+      "robot_state/gripper/qpos": "observation.state.gripper_qpos",
+      "robot_state/gripper/qvel": "observation.state.gripper_qvel",
+      "robot_state/joints/pos": "observation.state.joint_pos",
+      "robot_state/joints/vel": "observation.state.joint_vel",
+      "pixels/agentview_image": "observation.images.image",
+      "pixels/robot0_eye_in_hand_image": "observation.images.image2"
+    },
+    "max_parallel_tasks": 1,
+    "disable_env_checker": true,
+    "task_ids": [
+      0
+    ],
+    "episode_length": null,
+    "obs_type": "pixels_agent_pos",
+    "render_mode": "rgb_array",
+    "camera_name": "agentview_image,robot0_eye_in_hand_image",
+    "init_states": true,
+    "hard_reset": true,
+    "camera_name_mapping": null,
+    "observation_height": 360,
+    "observation_width": 360,
+    "is_libero_plus": false,
+    "control_mode": "relative"
+  },
+  "policy": {
+    "type": "pi05",
+    "dtype": "bfloat16",
+    "use_amp": false,
+    "device": "cuda",
+    "n_action_steps": 10,
+    "chunk_size": 50,
+    "num_inference_steps": 10,
+    "empty_cameras": 1
+  }
+}

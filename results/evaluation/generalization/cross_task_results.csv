@@ -1,0 +1,2 @@
+experiment_status,eligible_unseen_to_finetuning_tasks,requested_tasks,pretrained_episodes,checkpoint_002000_episodes,training_dataset_tasks,reason
+skipped,0,3,0,0,40,"The executed 2k run used the complete lerobot/libero dataset without a task filter, so no task in that 40-task dataset satisfies unseen-to-this-finetuning."

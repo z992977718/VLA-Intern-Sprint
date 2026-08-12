@@ -1,0 +1,14 @@
+steps=20
+batch_size=1
+precision=bfloat16
+accelerator_mixed_precision=bf16
+gradient_checkpointing=true
+train_expert_only=true
+freeze_vision_encoder=true
+compile_model=false
+ema=false
+num_workers=1
+save_checkpoint=true
+save_freq=0 (final checkpoint only)
+env_eval_freq=0
+eval_steps=0

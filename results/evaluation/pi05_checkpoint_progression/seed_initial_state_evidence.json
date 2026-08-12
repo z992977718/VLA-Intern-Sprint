@@ -1,0 +1,242 @@
+{
+  "suite": "libero_10",
+  "task_id": 0,
+  "task_description": "put both the alphabet soup and the tomato sauce in the basket",
+  "init_state_array_shape": [
+    50,
+    123
+  ],
+  "init_state_count": 50,
+  "unique_init_state_rows_total": 50,
+  "first_30_init_state_rows_unique": 30,
+  "fixed_state_selection": "With batch_size=1, LiberoEnv starts init_state_id at 0 and increments it after every explicit rollout reset; the evaluation seed is not used as the init-state index.",
+  "same_fixed_state_different_seed": {
+    "seeds": [
+      1000,
+      1010
+    ],
+    "method": "two newly created environments, so both use fixed init-state index 0",
+    "all_observation_arrays_exact_equal": true,
+    "arrays": {
+      "pixels.image": {
+        "shape": [
+          1,
+          360,
+          360,
+          3
+        ],
+        "dtype": "uint8",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "a42036772ccda9b3e90ffe2d72f03af6775356dfbeb84351ba2f002beee22b89",
+        "right_sha256": "a42036772ccda9b3e90ffe2d72f03af6775356dfbeb84351ba2f002beee22b89"
+      },
+      "pixels.image2": {
+        "shape": [
+          1,
+          360,
+          360,
+          3
+        ],
+        "dtype": "uint8",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "f01cc12af7bd9e9d29cf20f6b53488645a2d9b0505dd214e98a65a83918b83f2",
+        "right_sha256": "f01cc12af7bd9e9d29cf20f6b53488645a2d9b0505dd214e98a65a83918b83f2"
+      },
+      "robot_state.eef.mat": {
+        "shape": [
+          1,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "1ebf836cafa07d7b86b5ba5138eeac6b026ee6faf69547d68f9a719a92d8c7fd",
+        "right_sha256": "1ebf836cafa07d7b86b5ba5138eeac6b026ee6faf69547d68f9a719a92d8c7fd"
+      },
+      "robot_state.eef.pos": {
+        "shape": [
+          1,
+          3
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "e42fe51ff8586bd7959b753eb6e0f657677bb5d99ae082ac20a4b358c97f18b9",
+        "right_sha256": "e42fe51ff8586bd7959b753eb6e0f657677bb5d99ae082ac20a4b358c97f18b9"
+      },
+      "robot_state.eef.quat": {
+        "shape": [
+          1,
+          4
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "b5f15f5ab590df3d57f2fb737b7c6d05c7adce0292fe3df2f914d49ea7babd6f",
+        "right_sha256": "b5f15f5ab590df3d57f2fb737b7c6d05c7adce0292fe3df2f914d49ea7babd6f"
+      },
+      "robot_state.gripper.qpos": {
+        "shape": [
+          1,
+          2
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "7fc15e50921e55573a524887f856d5c78852ae551dc242fd3a81c7d8b741de2e",
+        "right_sha256": "7fc15e50921e55573a524887f856d5c78852ae551dc242fd3a81c7d8b741de2e"
+      },
+      "robot_state.gripper.qvel": {
+        "shape": [
+          1,
+          2
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "1811d278c092fb421fd08e4a2e14a746694611cfe7d43e20b6b96c8ef10bc542",
+        "right_sha256": "1811d278c092fb421fd08e4a2e14a746694611cfe7d43e20b6b96c8ef10bc542"
+      },
+      "robot_state.joints.pos": {
+        "shape": [
+          1,
+          7
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "d324b97a64a5d3854c4669ac58b52a13715729bb9d3e9eba13b46709e4b0ec6c",
+        "right_sha256": "d324b97a64a5d3854c4669ac58b52a13715729bb9d3e9eba13b46709e4b0ec6c"
+      },
+      "robot_state.joints.vel": {
+        "shape": [
+          1,
+          7
+        ],
+        "dtype": "float64",
+        "exact_equal": true,
+        "max_abs_diff": 0.0,
+        "left_sha256": "49bb9b489c241aa8a7b0e3cba8af80dd124fdeadb58bf28a2a419bfaa0491852",
+        "right_sha256": "49bb9b489c241aa8a7b0e3cba8af80dd124fdeadb58bf28a2a419bfaa0491852"
+      }
+    }
+  },
+  "consecutive_fixed_states": {
+    "seeds": [
+      1000,
+      1001
+    ],
+    "method": "two sequential resets of one environment, using fixed init-state indices 0 then 1",
+    "all_observation_arrays_exact_equal": false,
+    "arrays": {
+      "pixels.image": {
+        "shape": [
+          1,
+          360,
+          360,
+          3
+        ],
+        "dtype": "uint8",
+        "exact_equal": false,
+        "max_abs_diff": 229.0,
+        "left_sha256": "a42036772ccda9b3e90ffe2d72f03af6775356dfbeb84351ba2f002beee22b89",
+        "right_sha256": "14abc84005ffb164b87ab5a597f7de404faa88b6b5054878ffd070632e37ba67"
+      },
+      "pixels.image2": {
+        "shape": [
+          1,
+          360,
+          360,
+          3
+        ],
+        "dtype": "uint8",
+        "exact_equal": false,
+        "max_abs_diff": 205.0,
+        "left_sha256": "f01cc12af7bd9e9d29cf20f6b53488645a2d9b0505dd214e98a65a83918b83f2",
+        "right_sha256": "cf013cc18faf02a8e6975caef0368155d0b2a214ffcd2cf25c93a07da6b01b62"
+      },
+      "robot_state.eef.mat": {
+        "shape": [
+          1,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 0.0036840359137187834,
+        "left_sha256": "1ebf836cafa07d7b86b5ba5138eeac6b026ee6faf69547d68f9a719a92d8c7fd",
+        "right_sha256": "b5ac920a189f231b6bfa631564987772a8f59fe3110f18a4101529edab74c655"
+      },
+      "robot_state.eef.pos": {
+        "shape": [
+          1,
+          3
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 0.026899489007643274,
+        "left_sha256": "e42fe51ff8586bd7959b753eb6e0f657677bb5d99ae082ac20a4b358c97f18b9",
+        "right_sha256": "cd494b95d9b7cf2fc465b9e7389b364081ca95e15de727d911f9502ed70cac05"
+      },
+      "robot_state.eef.quat": {
+        "shape": [
+          1,
+          4
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 0.0019349639900445373,
+        "left_sha256": "b5f15f5ab590df3d57f2fb737b7c6d05c7adce0292fe3df2f914d49ea7babd6f",
+        "right_sha256": "a834ab2b003b494e057c1c4d73f1880a17bd7711b21fe7696646b3c04e5aa5c6"
+      },
+      "robot_state.gripper.qpos": {
+        "shape": [
+          1,
+          2
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 6.186588785567215e-07,
+        "left_sha256": "7fc15e50921e55573a524887f856d5c78852ae551dc242fd3a81c7d8b741de2e",
+        "right_sha256": "c602f00b1139ce4cbda03848870452169baeaa66321089226e9dac0d6941720c"
+      },
+      "robot_state.gripper.qvel": {
+        "shape": [
+          1,
+          2
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 4.915231256214566e-06,
+        "left_sha256": "1811d278c092fb421fd08e4a2e14a746694611cfe7d43e20b6b96c8ef10bc542",
+        "right_sha256": "e75b310cf34d3458c911b474bcff30c9cbc96aa31b545854e0a24ccc0b78fbc2"
+      },
+      "robot_state.joints.pos": {
+        "shape": [
+          1,
+          7
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 0.07294810335980673,
+        "left_sha256": "d324b97a64a5d3854c4669ac58b52a13715729bb9d3e9eba13b46709e4b0ec6c",
+        "right_sha256": "e0ebf53a22d6c9d23bf673811049b5639a355cbae17df645e75e493b80664f57"
+      },
+      "robot_state.joints.vel": {
+        "shape": [
+          1,
+          7
+        ],
+        "dtype": "float64",
+        "exact_equal": false,
+        "max_abs_diff": 0.1453601705693064,
+        "left_sha256": "49bb9b489c241aa8a7b0e3cba8af80dd124fdeadb58bf28a2a419bfaa0491852",
+        "right_sha256": "0a87a5c2da586391d0cd28fe6bd1602251ec7d5260d841cb156b8486e80138e6"
+      }
+    }
+  },
+  "interpretation": "For this fixed-init-state protocol, meaningful initial-observation variation comes from cycling through the stored LIBERO init-state rows. Changing only the seed while restarting at the same fixed state produced identical first observations in this measured check."
+}

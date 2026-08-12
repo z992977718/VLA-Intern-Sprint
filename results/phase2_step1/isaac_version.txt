@@ -1,0 +1,12 @@
+Name: isaacsim
+Version: 6.0.1.0
+Summary: A metapackage to manage the Isaac Sim installation
+Home-page: https://developer.nvidia.com/isaac-sim
+Author: Isaac Sim team
+Author-email: 
+License: NVIDIA Proprietary Software
+Location: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages
+Requires: isaacsim-kernel
+Required-by: 
+
+No broken requirements found.

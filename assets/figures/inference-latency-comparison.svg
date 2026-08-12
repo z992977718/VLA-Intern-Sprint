@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">推理延迟对比</title>
+  <desc id="desc">Pretrained、Checkpoint 1k 和 Checkpoint 2k 的 Pi0.5 action-chunk 平均与 p95 推理延迟。</desc>
+  <rect width="960" height="540" fill="#ffffff"/>
+  <style>
+    text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+    .title { font-size: 28px; font-weight: 600; }
+    .subtitle { font-size: 15px; fill: #5f6b7a; }
+    .axis { font-size: 13px; fill: #5f6b7a; }
+    .value { font-size: 16px; font-weight: 600; }
+    .label { font-size: 15px; }
+  </style>
+  <text x="105" y="48" class="title">推理延迟对比</text>
+  <text x="105" y="75" class="subtitle">CUDA 同步的 predict_action_chunk 调用；2k 为 30-Episode Run</text>
+  <rect x="105" y="91" width="14" height="14" fill="#2563eb"/><text x="127" y="103" class="axis">平均值</text>
+  <rect x="193" y="91" width="14" height="14" fill="#e07a1f"/><text x="215" y="103" class="axis">p95</text>
+  <line x1="105" y1="440.0" x2="905" y2="440.0" stroke="#d8dee8"/>
+  <text x="91" y="445.0" text-anchor="end" class="axis">0 ms</text>
+  <line x1="105" y1="375.0" x2="905" y2="375.0" stroke="#d8dee8"/>
+  <text x="91" y="380.0" text-anchor="end" class="axis">50 ms</text>
+  <line x1="105" y1="310.0" x2="905" y2="310.0" stroke="#d8dee8"/>
+  <text x="91" y="315.0" text-anchor="end" class="axis">100 ms</text>
+  <line x1="105" y1="245.0" x2="905" y2="245.0" stroke="#d8dee8"/>
+  <text x="91" y="250.0" text-anchor="end" class="axis">150 ms</text>
+  <line x1="105" y1="180.0" x2="905" y2="180.0" stroke="#d8dee8"/>
+  <text x="91" y="185.0" text-anchor="end" class="axis">200 ms</text>
+  <line x1="105" y1="115.0" x2="905" y2="115.0" stroke="#d8dee8"/>
+  <text x="91" y="120.0" text-anchor="end" class="axis">250 ms</text>
+  <rect x="176.3" y="203.9" width="56" height="236.1" rx="4" fill="#2563eb"/>
+  <text x="204.3" y="194.9" text-anchor="middle" class="axis">181.6</text>
+  <rect x="238.3" y="151.4" width="56" height="288.6" rx="4" fill="#e07a1f"/>
+  <text x="266.3" y="142.4" text-anchor="middle" class="axis">222.0</text>
+  <text x="235.3" y="474.0" text-anchor="middle" class="label">Pretrained</text>
+  <rect x="443.0" y="218.1" width="56" height="221.9" rx="4" fill="#2563eb"/>
+  <text x="471.0" y="209.1" text-anchor="middle" class="axis">170.7</text>
+  <rect x="505.0" y="170.0" width="56" height="270.0" rx="4" fill="#e07a1f"/>
+  <text x="533.0" y="161.0" text-anchor="middle" class="axis">207.7</text>
+  <text x="502.0" y="474.0" text-anchor="middle" class="label">Checkpoint 1k</text>
+  <rect x="709.7" y="221.2" width="56" height="218.8" rx="4" fill="#2563eb"/>
+  <text x="737.7" y="212.2" text-anchor="middle" class="axis">168.3</text>
+  <rect x="771.7" y="171.3" width="56" height="268.7" rx="4" fill="#e07a1f"/>
+  <text x="799.7" y="162.3" text-anchor="middle" class="axis">206.7</text>
+  <text x="768.7" y="474.0" text-anchor="middle" class="label">Checkpoint 2k</text>
+</svg>

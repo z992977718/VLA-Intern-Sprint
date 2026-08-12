@@ -1,0 +1,10 @@
+2026-08-11T13:35:02+08:00
+Linux autodl-container-d3zpepxr3b-a4e43468 5.15.0-78-generic #85-Ubuntu SMP Fri Jul 7 15:25:09 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.13
+torch: 2.8.0+cu128
+torch_cuda: 12.8
+lerobot: 0.6.2
+libero: /root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/site-packages/libero/__init__.py
+22bd7a2f489b367d8df42de803b1e8c4ca63a3f9
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0        150G   42G  109G  28% /root/autodl-tmp

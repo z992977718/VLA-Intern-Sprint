@@ -1,0 +1,93 @@
+{
+  "per_episode": [
+    {
+      "episode_ix": 0,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1000
+    },
+    {
+      "episode_ix": 1,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1001
+    },
+    {
+      "episode_ix": 2,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1002
+    },
+    {
+      "episode_ix": 3,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1003
+    },
+    {
+      "episode_ix": 4,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1004
+    },
+    {
+      "episode_ix": 5,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1005
+    },
+    {
+      "episode_ix": 6,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1006
+    },
+    {
+      "episode_ix": 7,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1007
+    },
+    {
+      "episode_ix": 8,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1008
+    },
+    {
+      "episode_ix": 9,
+      "sum_reward": 1.0,
+      "max_reward": 1.0,
+      "success": true,
+      "seed": 1009
+    }
+  ],
+  "aggregated": {
+    "avg_sum_reward": 1.0,
+    "avg_max_reward": 1.0,
+    "pc_success": 100.0,
+    "eval_s": 153.0873146057129,
+    "eval_ep_s": 15.308731627464294
+  },
+  "video_paths": [
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_0.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_1.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_2.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_3.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_4.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_5.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_6.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_7.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_8.mp4",
+    "/root/autodl-tmp/VLA-Intern-Sprint/results/evaluation/pi05_expert_first_stage_2k/videos/eval_episode_9.mp4"
+  ]
+}

@@ -1,0 +1,4 @@
+checkpoint,train_step,episodes,seed_range,fixed_init_state_indices,success_count,success_rate_pct,wilson_95_pct,mean_episode_length,median_episode_length,min_episode_length,max_episode_length,mean_success_episode_length,mean_model_inference_ms,median_model_inference_ms,p95_model_inference_ms,peak_allocated_gib,peak_reserved_gib,training_loss_at_step,last_100_loss_mean,oom
+pretrained,0,10,1000-1009,0-9,0,0.000,0.0-27.8,520.000,520.000,520,520,,181.610,170.294,221.990,8.870,9.199,,,false
+checkpoint_001000,1000,10,1000-1009,0-9,9,90.000,59.6-98.2,290.000,273.000,230,520,264.444,170.677,160.998,207.672,8.870,9.199,0.199160,0.279736,false
+checkpoint_002000,2000,30,1000-1029,0-29,28,93.333,78.7-98.2,291.133,266.500,227,520,274.786,168.289,160.091,206.702,8.870,9.199,0.204011,0.329684,false
