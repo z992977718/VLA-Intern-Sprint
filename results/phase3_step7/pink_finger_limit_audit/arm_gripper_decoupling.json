@@ -1,0 +1,26 @@
+{
+  "intended_architecture": {
+    "pink": "7 Franka revolute arm joints",
+    "gripper": "2 independently commanded prismatic finger joints"
+  },
+  "actual_architecture": {
+    "pink_configuration": "9 joints: arm + fingers",
+    "pink_qp_velocity": "9 dimensions: arm + fingers",
+    "frame_task": "panda_hand; no direct finger contribution",
+    "posture_task": "full 9D; fingers included",
+    "pink_output": "9 joint targets and velocities",
+    "project_command_1": "writes the full PINK 9D target",
+    "project_command_2": "immediately overwrites indices 7 and 8 with independent finger_target",
+    "final_finger_target_during_descent": 0.03999999910593033
+  },
+  "configuration_decoupled": false,
+  "qp_decoupled": false,
+  "articulation_target_decoupled_by_final_overwrite": true,
+  "why_finger_participates_in_limit_validation": "load_pink_supported_robot('franka') marks every non-fixed URDF joint as controlled. The project passes the full 9D JOINT_NAMES state into PinkIKController, and PINK checks every bounded q coordinate before solving.",
+  "local_project_architecture_bug": true,
+  "bug_description": "An independently controlled gripper is unnecessarily included in an arm-only IK controller's live configuration, QP posture task, limit validation and initial output.",
+  "merge_order_bug": false,
+  "merge_order_evidence": "Articulation.set_dof_position_targets reads the existing full target tensor, overwrites only selected dof_indices and writes it back; the project finger-only call occurs after the full PINK call.",
+  "minimal_future_fix_concept": "Create a project-side PinkRobot controlled-joint view containing ARM_JOINTS only and give PinkIKController a 7-joint robot_joint_space. Keep the existing independent gripper write and project Safety unchanged.",
+  "fix_executed": false
+}

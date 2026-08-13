@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "mode": "offline analysis of two prior capture files",
+  "pi05_called": false,
+  "libero_started": false,
+  "isaac_started": false,
+  "training_started": false,
+  "task_rollout_started": false,
+  "state_adapter_modified": false,
+  "overwrote_existing_results": false,
+  "conclusion": "State Mapping MISMATCH due to position-reference and gripper numeric conventions; policy-source orientation is APPROXIMATE, not a confirmed fixed-transform issue. Preserve this as BEFORE-FIX evidence and wait for approval before applying a minimal correction."
+}

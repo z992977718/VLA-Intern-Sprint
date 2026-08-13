@@ -1,0 +1,18 @@
+{
+  "phase": "Phase 3 / Step 7B.1",
+  "execution": "offline JSON validation plus previously completed static captures",
+  "pi05_called": false,
+  "task_rollout": false,
+  "step6_rerun": false,
+  "training": false,
+  "lora": false,
+  "rl": false,
+  "camera_timestamp_policy_changed": false,
+  "world_space_constant_fit_used": false,
+  "timestamp_max_skew_s_unchanged": 0.15,
+  "position_mapping": "APPROXIMATE",
+  "orientation_mapping": "UNRESOLVED",
+  "gripper_mapping": "MATCH",
+  "overall_state_mapping": "APPROXIMATE",
+  "step6_should_be_rerun_now": false
+}

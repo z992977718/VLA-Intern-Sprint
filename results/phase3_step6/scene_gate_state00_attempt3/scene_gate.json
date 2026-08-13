@@ -1,0 +1,60 @@
+{
+  "pass": true,
+  "initial_state_id": 0,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "source_bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+  "runtime_sec": 6.832865968812257,
+  "camera_resolution": [
+    256,
+    256
+  ],
+  "camera_fovy_deg": {
+    "external": 45.0,
+    "wrist": 75.0
+  },
+  "robot_base_pose_source": "exact LIBERO root-body pose",
+  "robot_initial_arm_joints_source": "exact selected LIBERO fixed initial state",
+  "gripper_mapping": "APPROXIMATE: abs(first LIBERO finger qpos) copied to both Isaac finger joints",
+  "visual_assets": "exact existing LIBERO OBJ converted with Isaac Sim 6.0.1",
+  "collision_assets": {
+    "basket": "five exact box colliders from installed basket.xml",
+    "table": "exact task-relevant table-top box collider from runtime MuJoCo model",
+    "targets": "APPROXIMATE ASSET: one bounding box per target object"
+  },
+  "isaac_hand_position_xyz_m": [
+    -0.04113964200019837,
+    -0.003536001779139042,
+    0.7970187199115752
+  ],
+  "isaac_hand_quaternion_wxyz": [
+    0.00012164375220883405,
+    0.9995904029956623,
+    -0.000632464831372837,
+    -0.02861138636984286
+  ],
+  "libero_eef_position_xyz_m": [
+    -0.0461492722190246,
+    -0.0035678910453917742,
+    0.702046295162181
+  ],
+  "eef_position_delta_norm_m": 0.09510446295854909,
+  "initial_success_metric": {
+    "alphabet_soup_inside": false,
+    "tomato_sauce_inside": false,
+    "alphabet_soup_center_in_contain_frame_m": [
+      -0.41940558617799145,
+      0.09149292583184192,
+      -0.028433164743281177
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      -0.2132297153441147,
+      0.11496556591288529,
+      -0.028321163323581987
+    ],
+    "success": false
+  },
+  "images": [
+    "isaac_external.png",
+    "isaac_wrist.png"
+  ]
+}

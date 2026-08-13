@@ -1,0 +1,15 @@
+{
+  "status": "UNRESOLVED_FROM_EXISTING_LOGS",
+  "runtime_joint_limit_check_present": true,
+  "lower_limit_check_present": true,
+  "upper_limit_check_present": true,
+  "alphabet_00_completed_without_joint_limit_rejection": true,
+  "tomato_trigger_joint_index": null,
+  "tomato_joint_target": null,
+  "tomato_lower_limits": null,
+  "tomato_upper_limits": null,
+  "tomato_limit_margins": null,
+  "joint_limit_violation_confirmed": false,
+  "joint_limit_violation_excluded": false,
+  "rerun_required_for_exact_trigger": true
+}

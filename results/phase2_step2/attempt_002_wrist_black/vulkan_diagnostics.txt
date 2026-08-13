@@ -1,0 +1,21 @@
+Observed on 2026-08-12, RTX 6000D AutoDL container
+
+Isaac log evidence:
+- VkResult: ERROR_INCOMPATIBLE_DRIVER
+- vkCreateInstance failed
+- GPU Foundation is not initialized
+- IHydraTexture refResource had no GPU foundation
+
+Device/runtime evidence:
+- CUDA and Warp detect NVIDIA RTX 6000D
+- /dev/nvidia8 and /dev/nvidiactl exist
+- /dev/dri/renderD136 exists
+- /dev/nvidia-modeset does not exist
+- /etc/vulkan/icd.d/nvidia_icd.json points to libGLX_nvidia.so.0
+- /phase2/external_camera/rgb was not created
+- /phase2/wrist_camera/rgb was not created
+
+Interpretation:
+The container has CUDA compute access but not a working NVIDIA Vulkan graphics path.
+NVIDIA Container Toolkit documentation states that the graphics driver capability is
+required for OpenGL/Vulkan and must be provided when the container is created.

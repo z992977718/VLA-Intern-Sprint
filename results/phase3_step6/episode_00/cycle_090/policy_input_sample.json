@@ -1,0 +1,88 @@
+{
+  "source_joint_topic": "Isaac direct articulation state",
+  "source_joint_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "arm_joint_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7"
+  ],
+  "arm_joint_positions_rad": [
+    -0.32786989212036133,
+    0.9449980854988098,
+    0.38069790601730347,
+    -1.2289036512374878,
+    0.19348160922527313,
+    1.1776957511901855,
+    1.8179001808166504
+  ],
+  "eef_source_prim": "/World/Robot/panda_hand",
+  "eef_reference_frame": "/World",
+  "eef_position_unit": "meter",
+  "eef_position_xyz_m": [
+    0.05221005901694298,
+    0.043869346380233765,
+    0.5824024081230164
+  ],
+  "eef_quaternion_source_wxyz": [
+    -0.00042137497803193687,
+    0.7574918890734822,
+    -0.4071393324233598,
+    -0.5103365795481218
+  ],
+  "eef_quaternion_target_xyzw": [
+    0.7574918866157532,
+    -0.4071393311023712,
+    -0.5103365778923035,
+    -0.0004213749780319631
+  ],
+  "eef_axis_angle_rad": [
+    2.3803696632385254,
+    -1.2794091701507568,
+    -1.6036999225616455
+  ],
+  "gripper_joint_order": [
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "gripper_qpos_source_values": [
+    0.01923731155693531,
+    0.01923716999590397
+  ],
+  "gripper_semantic_compatibility": "PARTIAL: both are two finger joint positions, but cross-simulator calibration/range equivalence is not established",
+  "phase1_state_order": [
+    "eef_x_m",
+    "eef_y_m",
+    "eef_z_m",
+    "eef_axis_angle_x_rad",
+    "eef_axis_angle_y_rad",
+    "eef_axis_angle_z_rad",
+    "gripper_qpos_0",
+    "gripper_qpos_1"
+  ],
+  "robot_state_8d": [
+    0.05221005901694298,
+    0.043869346380233765,
+    0.5824024081230164,
+    2.3803696632385254,
+    -1.2794091701507568,
+    -1.6036999225616455,
+    0.01923731155693531,
+    0.01923716999590397
+  ],
+  "finite": true,
+  "language": "put both the alphabet soup and the tomato sauce in the basket"
+}

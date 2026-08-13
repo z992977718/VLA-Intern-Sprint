@@ -1,0 +1,208 @@
+{
+  "task_suite": "libero_10",
+  "suite_task_id": 0,
+  "suite_task_index_zero_based": 0,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+  "problem_folder": "libero_10",
+  "bddl_file": "/root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/site-packages/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+  "bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+  "robot_class": "SingleArm",
+  "robot_model_class": "OnTheGroundPanda",
+  "robot_model_name": "OnTheGroundPanda0",
+  "robot_root_body": "robot0_base",
+  "robot_base_position_xyz_m": [
+    -0.51,
+    0.0,
+    0.42
+  ],
+  "robot_base_quaternion_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "robot_initial_joint_positions_rad": [
+    0.011648225016690331,
+    -0.1541363800457714,
+    0.013177425724245236,
+    -2.4547992489639445,
+    0.004071800574448131,
+    2.24306019855607,
+    0.8060894277339518
+  ],
+  "gripper_initial_qpos": [
+    0.03872256422216563,
+    -0.03872298048301259
+  ],
+  "eef_position_xyz_m": [
+    -0.059784364050842545,
+    0.011380276899608438,
+    0.6751468061545377
+  ],
+  "eef_quaternion_xyzw": [
+    0.9995825160822884,
+    0.0009008758007357232,
+    -0.02887855511377544,
+    0.00010497586939007403
+  ],
+  "control_frequency_hz": 20,
+  "mujoco_timestep_sec": 0.002,
+  "phase1_episode_horizon_control_steps": 520,
+  "phase1_evaluation_resolution": [
+    256,
+    256
+  ],
+  "camera_poses": {
+    "agentview": {
+      "model_parent_body": "world",
+      "local_position_xyz_m": [
+        0.6065773716836134,
+        0.0,
+        0.96
+      ],
+      "local_quaternion_wxyz": [
+        0.6182166363517068,
+        0.3432307224633757,
+        0.3432314079167274,
+        0.6182176496305745
+      ],
+      "world_position_xyz_m": [
+        0.6065773716836134,
+        0.0,
+        0.96
+      ],
+      "world_rotation_matrix": [
+        [
+          -1.7233905013069872e-06,
+          -0.5287697435529835,
+          0.8487653140297038
+        ],
+        [
+          0.9999999999985034,
+          -7.823149652530503e-07,
+          1.5430955956352577e-06
+        ],
+        [
+          -1.5194045527300304e-07,
+          0.848765314031093,
+          0.5287697435535403
+        ]
+      ],
+      "fovy_deg": 45.0
+    },
+    "robot0_eye_in_hand": {
+      "model_parent_body": "robot0_right_hand",
+      "local_position_xyz_m": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "local_quaternion_wxyz": [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "world_position_xyz_m": [
+        -0.004286622937289111,
+        0.011492452795274466,
+        0.7690935879480785
+      ],
+      "world_rotation_matrix": [
+        [
+          0.0017981426116508437,
+          0.9983345788261386,
+          0.05766138572027832
+        ],
+        [
+          -0.99999837136759,
+          0.0017862281181819095,
+          0.0002581690831599641
+        ],
+        [
+          0.00015474273439554376,
+          -0.05766175603590623,
+          0.998336164798982
+        ]
+      ],
+      "fovy_deg": 75.0
+    }
+  },
+  "body_poses": {
+    "alphabet_soup_1_main": {
+      "position_xyz_m": [
+        -0.1024446658744954,
+        -0.12747379510149245,
+        0.4751698094694409
+      ],
+      "quaternion_wxyz": [
+        -0.0024133556266461957,
+        0.0022849958173943303,
+        0.7074553524058774,
+        0.7067502238139087
+      ]
+    },
+    "tomato_sauce_1_main": {
+      "position_xyz_m": [
+        -0.10207028620113695,
+        0.043142850362217156,
+        0.4751692784892429
+      ],
+      "quaternion_wxyz": [
+        -0.0024677216973246776,
+        0.0022070378667507916,
+        0.7074518281383776,
+        0.7067538115901094
+      ]
+    },
+    "basket_1_main": {
+      "position_xyz_m": [
+        0.008847486565740864,
+        0.2587767123267176,
+        0.43219210516477036
+      ],
+      "quaternion_wxyz": [
+        0.7071047279169355,
+        -0.0016949951945791142,
+        0.001694994057002845,
+        0.7071047714051678
+      ]
+    }
+  },
+  "initial_state_id": 1,
+  "initial_state_count": 50,
+  "initial_state_vector_shape": [
+    50,
+    123
+  ],
+  "check_success_at_reset": false,
+  "images": {
+    "agentview": {
+      "raw": "libero_agentview_raw.png",
+      "raw_sha256": "313b46f647a064191e0352e918ab3ea856f62379678c221b82209dbb21c9ea44",
+      "policy_facing": "libero_agentview.png",
+      "policy_facing_sha256": "7ca5805662271819e3d485328ff15288538a552b587b5f5927bc25039e2af36b",
+      "shape": [
+        256,
+        256,
+        3
+      ]
+    },
+    "robot0_eye_in_hand": {
+      "raw": "libero_robot0_eye_in_hand_raw.png",
+      "raw_sha256": "9692f434627e27468245d3965f2272a10c81cd8949b2a383ecda4fbd30bbd3c5",
+      "policy_facing": "libero_robot0_eye_in_hand.png",
+      "policy_facing_sha256": "f6e9d1e21b17832768c96ba1b4311ca8c85e062e7fb64c93ca37aed465c5686c",
+      "shape": [
+        256,
+        256,
+        3
+      ]
+    }
+  },
+  "success_source": {
+    "bddl_goal": "And(In(alphabet_soup_1, basket_1_contain_region), In(tomato_sauce_1, basket_1_contain_region))",
+    "predicate_in": "container.check_contact(object) and container.check_contain(object)"
+  }
+}

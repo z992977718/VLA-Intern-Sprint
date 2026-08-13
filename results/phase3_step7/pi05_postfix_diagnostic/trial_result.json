@@ -1,0 +1,54 @@
+{
+  "protocol": "DIAGNOSTIC / NOT COUNTED",
+  "episodes": 1,
+  "initial_state": "Step 6 State 0",
+  "max_cycles": 100,
+  "K": 1,
+  "checkpoint_unchanged": true,
+  "robot_side_fixes": {
+    "state_mapping_fix": true,
+    "arm_only_7d_pink": true,
+    "independent_gripper": true,
+    "float_safe_safety": true,
+    "orientation_additional_fix": false,
+    "timestamp_additional_fix": false
+  },
+  "result": "DIAGNOSTIC TASK FAILURE",
+  "success": false,
+  "failure_labels": [
+    "FAILED_APPROACH",
+    "FAILED_GRASP",
+    "HORIZON_REACHED"
+  ],
+  "behavior_change": "NO_CLEAR_IMPROVEMENT",
+  "behavior_evidence": {
+    "before_best_object_distance_m": 0.19347688131117,
+    "after_best_object_distance_m": 0.20132251647793192,
+    "approach_improvement_rule_m": 0.02,
+    "approach_improved": false,
+    "object_motion_observed": false,
+    "plausible_grasp_attempt": false
+  },
+  "comparison_position_reference_note": "Step 6 BEFORE used its logged panda_hand plus fixed offset; Step 7D AFTER uses the corrected native USD tool_center. The changed reference is the audited intervention under test and must be retained when interpreting distance deltas.",
+  "can_step6_0_of_3_be_attributed_to_fixed_robot_bugs_alone": false,
+  "major_confirmed_robot_side_blockers_cleared": true,
+  "remaining_known_limitations": [
+    "orientation mapping UNRESOLVED",
+    "image-state skew up to about 0.15 s remains uncorrected",
+    "cross-simulator visual/domain differences",
+    "controller/embodiment differences"
+  ],
+  "recommended_project_decision": "FREEZE_FRANKA_ISAAC_MAINLINE",
+  "should_additional_franka_benchmark_episodes_be_run": false,
+  "should_training_lora_rl_start_automatically": false,
+  "video": "/root/autodl-tmp/VLA-Intern-Sprint/assets/videos/phase3_step7_pi05_postfix_diagnostic_state0.mp4",
+  "video_sha256": "f50ee2a688ac13fdc9727504914ec31a5b228c636dd428fa8ed3bbd628a64197",
+  "screenshots": {
+    "start": "screenshots/start.png",
+    "closest_to_alphabet": "screenshots/closest_to_alphabet.png",
+    "closest_to_tomato": "screenshots/closest_to_tomato.png",
+    "strongest_grasp_attempt": null,
+    "closest_close_attempt_far_from_objects": "screenshots/closest_close_attempt_far_from_objects.png",
+    "final": "screenshots/final.png"
+  }
+}

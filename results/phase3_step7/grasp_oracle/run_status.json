@@ -1,0 +1,13 @@
+{
+  "phase": "Phase 3 / Step 7C",
+  "formal_trials": 6,
+  "hard_reset_per_trial": true,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "training": false,
+  "step6_rerun": false,
+  "object_teleport": false,
+  "kinematic_attach": false,
+  "physics_parameters_changed": false,
+  "classification": "PARTIAL"
+}

@@ -1,0 +1,230 @@
+{
+  "simulator": "Isaac",
+  "poses": [
+    {
+      "label": "holdout_a",
+      "joint_positions_rad": [
+        0.2,
+        -0.62,
+        -0.1,
+        -2.65,
+        0.25,
+        2.7,
+        0.72
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.11081490874290467,
+        0.028629224747419357,
+        0.9288411569595336
+      ],
+      "panda_hand_quaternion_wxyz": [
+        0.12276236712932584,
+        0.9400065609056432,
+        -0.012425094001192367,
+        0.31806081762803134
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.04867055967799037,
+        0.05167615310861112,
+        0.84947819977917
+      ],
+      "tool_center_quaternion_wxyz": [
+        0.12276236712932584,
+        0.9400065609056432,
+        -0.012425094001192367,
+        0.31806081762803134
+      ],
+      "finger_qpos": [
+        0.02000000700354576,
+        0.020000020042061806
+      ]
+    },
+    {
+      "label": "holdout_b",
+      "joint_positions_rad": [
+        -0.25,
+        -0.48,
+        0.22,
+        -2.55,
+        -0.3,
+        2.88,
+        0.55
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.06582579970359803,
+        0.012371992692351341,
+        0.9393797945976257
+      ],
+      "panda_hand_quaternion_wxyz": [
+        -0.19029363989830028,
+        0.8891956193047554,
+        0.2190815951190084,
+        0.35372692278592466
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        0.007840964562186511,
+        -0.006594299652368796,
+        0.8693437496114618
+      ],
+      "tool_center_quaternion_wxyz": [
+        -0.19029363989830028,
+        0.8891956193047554,
+        0.2190815951190084,
+        0.35372692278592466
+      ],
+      "finger_qpos": [
+        0.02000003680586815,
+        0.020000042393803596
+      ]
+    },
+    {
+      "label": "holdout_c",
+      "joint_positions_rad": [
+        0.05,
+        -0.82,
+        -0.18,
+        -2.35,
+        0.45,
+        2.55,
+        0.82
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.1684894061088562,
+        -0.082083560526371,
+        1.1366926264762878
+      ],
+      "panda_hand_quaternion_wxyz": [
+        0.2448474466800689,
+        0.8299459471229608,
+        -0.17801043932266114,
+        0.46856348150552185
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.07905507251450739,
+        -0.0573087230650092,
+        1.0910936418023076
+      ],
+      "tool_center_quaternion_wxyz": [
+        0.2448474466800689,
+        0.8299459471229608,
+        -0.17801043932266114,
+        0.46856348150552185
+      ],
+      "finger_qpos": [
+        0.01999998278915882,
+        0.02000000886619091
+      ]
+    },
+    {
+      "label": "holdout_d",
+      "joint_positions_rad": [
+        -0.1,
+        -0.6,
+        0.12,
+        -2.75,
+        -0.42,
+        2.48,
+        0.68
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.13588754296302796,
+        0.00754668191075325,
+        0.8437092435359954
+      ],
+      "panda_hand_quaternion_wxyz": [
+        -0.19337718188762673,
+        0.9504199449040155,
+        0.19713420802917198,
+        0.14298705493351213
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.09990041242415788,
+        -0.024631789090678487,
+        0.7522705622266699
+      ],
+      "tool_center_quaternion_wxyz": [
+        -0.19337718188762673,
+        0.9504199449040155,
+        0.19713420802917198,
+        0.14298705493351213
+      ],
+      "finger_qpos": [
+        0.019999992102384567,
+        0.019999969750642776
+      ]
+    },
+    {
+      "label": "holdout_e",
+      "joint_positions_rad": [
+        0.28,
+        -0.5,
+        -0.2,
+        -2.72,
+        0.5,
+        2.95,
+        0.5
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.09811271190643311,
+        -0.0004526805132627487,
+        0.8678639662265777
+      ],
+      "panda_hand_quaternion_wxyz": [
+        0.14183458685874933,
+        0.9265974793357074,
+        -0.048895240005744564,
+        0.3448323023791446
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.030601656944972785,
+        0.023238929787472423,
+        0.7932146188794721
+      ],
+      "tool_center_quaternion_wxyz": [
+        0.14183458685874933,
+        0.9265974793357074,
+        -0.048895240005744564,
+        0.3448323023791446
+      ],
+      "finger_qpos": [
+        0.020000018179416656,
+        0.020000027492642403
+      ]
+    }
+  ],
+  "gripper_states": [
+    {
+      "label": "open",
+      "qpos": [
+        0.03999999910593033,
+        0.039999980479478836
+      ]
+    },
+    {
+      "label": "intermediate",
+      "qpos": [
+        0.019999956712126732,
+        0.019999966025352478
+      ]
+    },
+    {
+      "label": "closed",
+      "qpos": [
+        2.1684279545297613e-06,
+        2.7614757414085034e-07
+      ]
+    }
+  ],
+  "set": "holdout",
+  "comparison_basis": "same explicit Panda joint vectors; no task action, policy, or rollout"
+}

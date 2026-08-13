@@ -1,0 +1,32 @@
+{
+  "before_close": {
+    "finger1_m": 0.039443857967853546,
+    "finger2_m": 0.039443887770175934,
+    "width_m": 0.07888774573802948,
+    "command_target_m": 0.04
+  },
+  "command_close": {
+    "finger1_m": 0.03556085750460625,
+    "finger2_m": 0.03562084957957268,
+    "width_m": 0.07118170708417892,
+    "command_target_m": 0.0
+  },
+  "during_contact": {
+    "finger1_m": 0.035563789308071136,
+    "finger2_m": 0.03562379628419876,
+    "width_m": 0.0711875855922699,
+    "command_target_m": 0.0
+  },
+  "after_close": {
+    "finger1_m": 0.03556803613901138,
+    "finger2_m": 0.03562803938984871,
+    "width_m": 0.07119607925415039,
+    "command_target_m": 0.0
+  },
+  "after_lift": {
+    "finger1_m": 0.015484767965972424,
+    "finger2_m": 0.015483898110687733,
+    "width_m": 0.030968666076660156,
+    "command_target_m": 0.0
+  }
+}

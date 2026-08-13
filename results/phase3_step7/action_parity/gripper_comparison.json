@@ -1,0 +1,12 @@
+{
+  "open": {
+    "status": "MATCH",
+    "libero_semantic": "OPEN",
+    "isaac_semantic": "OPEN"
+  },
+  "close": {
+    "status": "MATCH",
+    "libero_semantic": "CLOSED",
+    "isaac_semantic": "CLOSED"
+  }
+}

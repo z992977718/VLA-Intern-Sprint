@@ -1,0 +1,4 @@
+Phase 2 / Step 5 consolidated evidence index (generated from persisted runtime metadata)
+Raw stdout/stderr: isaac.log, policy.log, ffmpeg.log
+Attempt 001: stopped before Cycle 0; no action executed.
+Successful run: 5 cycles, 5 predict_action_chunk calls, action index 0 only, PASS.

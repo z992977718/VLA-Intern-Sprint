@@ -1,0 +1,19 @@
+{
+  "status": "CONFIRMED_FROM_INSTALLED_BUNDLED_URDF",
+  "model_nq": 9,
+  "model_nv": 9,
+  "controlled_joint_names": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "finger_included": true,
+  "panda_hand_frame_present": true,
+  "source_urdf": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/robot_configurations/franka/robot.urdf"
+}

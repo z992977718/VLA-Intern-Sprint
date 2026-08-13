@@ -1,0 +1,9 @@
+{
+  "checkpoint_path": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "step6_checkpoint_constant": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "same_path_as_step6": true,
+  "model_safetensors_sha256": "590c83ba6061fbfeb887d675deb9b173bbe23f65722c6b38ce242825ffbac631",
+  "config_json_sha256": "eab7fc62be9d58ad679d12d15223b18e01a604a775fad089f5dc96d46cc58df7",
+  "match_step6_checkpoint": true,
+  "weights_modified": false
+}

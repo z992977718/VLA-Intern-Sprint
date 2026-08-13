@@ -1,0 +1,14 @@
+{
+  "status": "UNCHANGED_DURING_THREE_TRIALS",
+  "hash_algorithm": "SHA-256",
+  "before_after_diff_bytes": 0,
+  "files": [
+    {"path": "phase3/scripts/isaac_step7_grasp_oracle.py", "sha256": "b07f61582b3fe1fc5b81547639d5886fce4c89fe92f10636b04967a35ee940c5"},
+    {"path": "phase3/scripts/joint_safety_float_limits.py", "sha256": "5bdceead6904512b0045e67ecbd1d1c5e54eb214a619da0ff5a5b8120e936577"},
+    {"path": "phase3/scripts/isaac_step6_scene_gate.py", "sha256": "2148b0f699a670a42597a600ba1adb75f702a57dd702f2b6a69ebd8367b17597"},
+    {"path": "phase3/scripts/phase3_step6_common.py", "sha256": "db7b5a09182d8f644c9cebe96c1baaca2730682ef851e0e46525027bdb12fd24"},
+    {"path": "phase3/scripts/pink_arm_only.py", "sha256": "cf0a3ae74100a3d8d3528925d90b11a696c1ca988481c6f70d0bb882f63a7cd9"},
+    {"path": "results/phase3_step7/arm_gripper_decoupling/franka_arm_only.urdf", "sha256": "99bda2ff8eed6549235ab372110c715468801cb5583b3ee4205306fca842d15c"},
+    {"path": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/pink_ik_controller.py", "sha256": "69e9b446b4520c960f57b6797c0d651b56477528a9cb2ae62b3cc62e6fe486c5"}
+  ]
+}

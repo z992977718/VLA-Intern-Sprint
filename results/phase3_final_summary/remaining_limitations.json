@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "limitations": [
+    {
+      "id": 1,
+      "name": "orientation mapping",
+      "status": "UNRESOLVED",
+      "impact": "没有证据支持添加固定旋转补偿。"
+    },
+    {
+      "id": 2,
+      "name": "image-state synchronization",
+      "status": "KNOWN_LIMITATION",
+      "impact": "观测中最大 image-state skew 约 0.15 s。"
+    },
+    {
+      "id": 3,
+      "name": "simulator domain gap",
+      "status": "KNOWN_LIMITATION",
+      "impact": "LIBERO/MuJoCo 与 Isaac/PhysX 的 renderer、视觉和动力学存在差异。"
+    },
+    {
+      "id": 4,
+      "name": "controller and embodiment differences",
+      "status": "KNOWN_LIMITATION",
+      "impact": "LIBERO OSC_POSE 链路与 Isaac Franka/PINK 执行链并不等价。"
+    },
+    {
+      "id": 5,
+      "name": "scene reconstruction approximations",
+      "status": "KNOWN_LIMITATION",
+      "impact": "目标物碰撞体与相机标定仍含近似。"
+    },
+    {
+      "id": 6,
+      "name": "post-fix diagnostic sample size",
+      "status": "KNOWN_LIMITATION",
+      "impact": "post-fix Pi0.5 仅运行一个 diagnostic episode，不能形成成功率结论。"
+    },
+    {
+      "id": 7,
+      "name": "action clipping",
+      "status": "KNOWN_LIMITATION",
+      "impact": "post-fix diagnostic 中 99/100 cycles 发生 action clipping，未继续归因或调参。"
+    },
+    {
+      "id": 8,
+      "name": "completion-file handshake race",
+      "status": "TOOLING_LIMITATION",
+      "impact": "100 次 inference 和 100 cycles 均已完成，但 policy process 在顶层 completion file 生成前不到一秒检查，导致原始 exit code 1；不改变已完成 episode 的实验结果。"
+    }
+  ]
+}

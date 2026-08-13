@@ -1,0 +1,26 @@
+{
+  "old_adapter": "p_hand + R_hand @ [0,0,0.0951034858]",
+  "candidate_after": "USD /World/Robot/panda_hand/tool_center world pose",
+  "calibration_before_m": {
+    "mean": 0.03786971875200941,
+    "max": 0.07081415581166076,
+    "min": 0.002517264850813475
+  },
+  "calibration_after_m": {
+    "mean": 0.007873699546689686,
+    "max": 0.008206593721371797,
+    "min": 0.007605157926518939
+  },
+  "holdout_before_m": {
+    "mean": 0.06285155118504368,
+    "max": 0.07970548727020674,
+    "min": 0.04437050007402953
+  },
+  "holdout_after_m": {
+    "mean": 0.007800086866079516,
+    "max": 0.007897530198652705,
+    "min": 0.007645572988243052
+  },
+  "candidate_improves_calibration": true,
+  "candidate_improves_holdout": true
+}

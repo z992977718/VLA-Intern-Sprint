@@ -1,0 +1,2 @@
+mode=dual_camera start=2026-08-13T02:23:05+08:00
+mode=dual_camera finish=2026-08-13T02:23:20+08:00

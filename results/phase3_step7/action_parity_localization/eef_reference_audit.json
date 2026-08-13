@@ -1,0 +1,19 @@
+{
+  "libero_measurement": "raw observation robot0_eef_pos and robots[0].controller.ee_ori_mat",
+  "isaac_measurement": "panda_hand world pose plus EEF_OFFSET_IN_HAND_M=[0,0,0.0951034858] for position; panda_hand orientation for rotation",
+  "initial_position_difference_isaac_minus_libero_m": [
+    -0.00043024050773092515,
+    1.2203181047181714e-05,
+    2.464736494356412e-05
+  ],
+  "initial_position_difference_norm_m": 0.00043111866663239694,
+  "initial_orientation_difference_axis_angle_rad": [
+    -0.08770984228972742,
+    0.002580040340588866,
+    -1.5687254865821638
+  ],
+  "initial_orientation_difference_magnitude_rad": 1.5711776873718308,
+  "position_reference_assessment": "approximately aligned at state 0, but only one calibrated pose was measured",
+  "orientation_reference_assessment": "different frame orientation is confirmed; hand/tool/site orientation semantics require a dedicated calibration audit",
+  "direct_rotation_comparison": "not sufficient to diagnose a controller bug without resolving the fixed EEF frame transform"
+}

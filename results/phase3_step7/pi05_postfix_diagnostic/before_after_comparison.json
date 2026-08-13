@@ -1,0 +1,83 @@
+{
+  "metric_rows": [
+    {
+      "metric": "episode result",
+      "step6_before": "horizon_reached",
+      "step7d_after": "HORIZON_REACHED",
+      "numeric_change": null
+    },
+    {
+      "metric": "cycles",
+      "step6_before": 100,
+      "step7d_after": 100,
+      "numeric_change": 0.0
+    },
+    {
+      "metric": "EEF endpoint path length (m)",
+      "step6_before": 0.9443713671454167,
+      "step7d_after": 0.7797247523926571,
+      "numeric_change": -0.16464661475275955
+    },
+    {
+      "metric": "min distance to alphabet (m)",
+      "step6_before": 0.2581492384773509,
+      "step7d_after": 0.2630737577490472,
+      "numeric_change": 0.004924519271696293
+    },
+    {
+      "metric": "min distance to tomato (m)",
+      "step6_before": 0.19347688131117,
+      "step7d_after": 0.20132251647793192,
+      "numeric_change": 0.007845635166761927
+    },
+    {
+      "metric": "alphabet max displacement (m)",
+      "step6_before": 0.0,
+      "step7d_after": 0.0,
+      "numeric_change": 0.0
+    },
+    {
+      "metric": "tomato max displacement (m)",
+      "step6_before": 0.0,
+      "step7d_after": 0.0,
+      "numeric_change": 0.0
+    },
+    {
+      "metric": "close attempts",
+      "step6_before": 83,
+      "step7d_after": 64,
+      "numeric_change": -19.0
+    },
+    {
+      "metric": "Safety violations",
+      "step6_before": 0,
+      "step7d_after": 0,
+      "numeric_change": 0.0
+    },
+    {
+      "metric": "IK failures",
+      "step6_before": 0,
+      "step7d_after": 0,
+      "numeric_change": 0.0
+    },
+    {
+      "metric": "mean inference latency (ms)",
+      "step6_before": 185.20261247642338,
+      "step7d_after": 259.7686639428139,
+      "numeric_change": 74.56605146639049
+    },
+    {
+      "metric": "median inference latency (ms)",
+      "step6_before": 181.4287258312106,
+      "step7d_after": 237.0580779388547,
+      "numeric_change": 55.62935210764408
+    },
+    {
+      "metric": "p95 inference latency (ms)",
+      "step6_before": 184.70116059761494,
+      "step7d_after": 322.76013838127255,
+      "numeric_change": 138.0589777836576
+    }
+  ],
+  "causal_boundary": "Step 7D jointly inherits confirmed State Mapping, float-safe Safety, and 7D PINK fixes; no single fix is isolated causally."
+}

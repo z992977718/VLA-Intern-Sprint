@@ -1,0 +1,9 @@
+{
+  "cycle_index": 0,
+  "camera_timestamp": 1786540282.8427753,
+  "robot_state_timestamp": 1786540282.8448858,
+  "observation_timestamp": 1786540282.8448858,
+  "image_state_skew_sec": 0.0021104812622070312,
+  "language": "move the robot arm",
+  "fresh_files": true
+}

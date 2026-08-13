@@ -1,0 +1,46 @@
+{
+  "unit": "ms",
+  "observation_to_motion_complete_samples": [
+    2474.169793073088,
+    2143.542389385402,
+    2210.1231068372726,
+    2189.976045396179,
+    2153.186538256705
+  ],
+  "observation_to_motion_complete_mean": 2234.1995745897293,
+  "observation_to_motion_complete_p95_linear_interpolation": 2421.360455825925,
+  "adapter_samples": [
+    0.3980109468102455,
+    0.23837992921471596,
+    0.23421691730618477,
+    0.229658093303442,
+    0.22363895550370216
+  ],
+  "adapter_mean": 0.2647809684276581,
+  "adapter_p95_linear_interpolation": 0.3660847432911396,
+  "controller_cycle_means": [
+    1.8894161912612617,
+    1.8641962048908074,
+    1.8889385042712092,
+    1.8851304116348426,
+    1.8506637192331254
+  ],
+  "controller_mean_of_equal_length_cycles": 1.8756690062582493,
+  "controller_cycle_p95_values": [
+    2.213221532292664,
+    2.197754173539579,
+    2.24539446644485,
+    2.2189187351614237,
+    2.2173449397087097
+  ],
+  "controller_p95_conservative_max_of_cycle_p95": 2.24539446644485,
+  "controller_p95_note": "Raw 600-step samples were not persisted; the conservative value is the maximum of five saved per-cycle p95 values.",
+  "image_state_skew_samples_sec": [
+    0.0021104812622070312,
+    0.002096414566040039,
+    0.002058267593383789,
+    0.002065420150756836,
+    0.002040863037109375
+  ],
+  "image_state_skew_max_sec": 0.0021104812622070312
+}

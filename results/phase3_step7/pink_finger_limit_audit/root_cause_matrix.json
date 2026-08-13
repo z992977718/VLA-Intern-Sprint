@@ -1,0 +1,57 @@
+{
+  "statuses": {
+    "PINK_finger_velocity_drift": {
+      "classification": "RULED_OUT",
+      "scope": "direct cause of the observed failing value",
+      "evidence": "The failing check occurs before solve/integration. Existing step-0 velocity points slightly downward, and the PINK finger target is overwritten before physics."
+    },
+    "finger_included_in_arm_IK_unexpectedly": {
+      "classification": "CONFIRMED",
+      "evidence": "The full 9-joint URDF model, controlled_joint_names, project robot_joint_space, configuration, PostureTask and output all include both fingers."
+    },
+    "input_q_already_over_limit": {
+      "classification": "CONFIRMED",
+      "evidence": "The error is raised by configuration.check_limits before build_ik, using q copied from estimated Isaac state."
+    },
+    "integration_overshoot": {
+      "classification": "RULED_OUT",
+      "scope": "current failing forward call",
+      "evidence": "No velocity or q_next exists because the pre-solve check aborts first."
+    },
+    "joint_ordering_bug": {
+      "classification": "RULED_OUT",
+      "evidence": "Project asserts the Isaac 0..8 order; URDF/Pinocchio order and all saved telemetry match it; index 8 is consistently finger2."
+    },
+    "arm_gripper_merge_bug": {
+      "classification": "RULED_OUT",
+      "evidence": "The final selected-index Articulation write overwrites finger targets with float32 0.04 after the full PINK write."
+    },
+    "dtype_precision": {
+      "classification": "RULED_OUT",
+      "scope": "sole root cause",
+      "evidence": "The observed excess is about 401.76 float32 ULP and 200.88 project tolerances. PINK promotes the measured float32 value to float64 and already allows 1e-6."
+    },
+    "isaac_runtime_joint_state_already_above_limit": {
+      "classification": "CONFIRMED",
+      "evidence": "The value reported from PINK q can only come from robot.get_dof_positions on that forward call. Older telemetry also records actual finger2 positions slightly above the final 0.04 target."
+    },
+    "PINK_strict_internal_configuration_check": {
+      "classification": "CONFIRMED",
+      "evidence": "Configuration.check_limits uses q > upper + 1e-6 before QP solve; the observed excess is 1.49667263030923e-6."
+    },
+    "position_drive_tracking_overshoot_at_hard_upper_target": {
+      "classification": "POSSIBLE",
+      "evidence": "The final target is exactly the float32 upper limit, while saved actual positions sometimes exceed it. Exact mid-descent drive state/stiffness response was not logged."
+    },
+    "finger_unit_labeling_bug": {
+      "classification": "CONFIRMED",
+      "evidence": "Finger joints are prismatic in the URDF, so their values are meters; several project telemetry field names use a generic _rad suffix.",
+      "blocking": false
+    }
+  },
+  "confirmed_root_cause": true,
+  "root_cause": "PINK receives an already-over-limit Isaac finger2 current state because the project includes the independently controlled gripper in the arm IK configuration. PINK's pre-solve 1e-6 limit check rejects it before producing a velocity.",
+  "underlying_source_of_runtime_tracking_overshoot": "UNRESOLVED",
+  "is_local_project_code_bug": true,
+  "is_upstream_pink_solver_drift": false
+}

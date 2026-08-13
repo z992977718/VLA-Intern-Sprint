@@ -1,0 +1,86 @@
+{
+  "+X": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.17417791679512062,
+    "isaac_tracking_ratio": 0.28508576132690827,
+    "actual_direction_cosine": 0.8714391191047365,
+    "actual_magnitude_ratio_isaac_over_libero": 1.627478960386639
+  },
+  "-X": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.0747960339259164,
+    "isaac_tracking_ratio": 0.33594584035339886,
+    "actual_direction_cosine": 0.13987021002646166,
+    "actual_magnitude_ratio_isaac_over_libero": 4.517138189122319
+  },
+  "+Y": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.142959324395798,
+    "isaac_tracking_ratio": 0.135659751609436,
+    "actual_direction_cosine": 0.3308900983130279,
+    "actual_magnitude_ratio_isaac_over_libero": 0.9483524674453556
+  },
+  "-Y": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.13647817978199342,
+    "isaac_tracking_ratio": 0.13219776951551845,
+    "actual_direction_cosine": 0.29129435592681385,
+    "actual_magnitude_ratio_isaac_over_libero": 0.9691868171685669
+  },
+  "+Z": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.18081350062554508,
+    "isaac_tracking_ratio": 0.14613429394579083,
+    "actual_direction_cosine": 0.9169356278670302,
+    "actual_magnitude_ratio_isaac_over_libero": 0.8046834687267808
+  },
+  "-Z": {
+    "kind": "translation",
+    "libero_tracking_ratio": 0.09631122483718048,
+    "isaac_tracking_ratio": 0.2920727711806344,
+    "actual_direction_cosine": 0.45515351471770105,
+    "actual_magnitude_ratio_isaac_over_libero": 3.0458212887462555
+  },
+  "+Rx": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.1412381770210672,
+    "isaac_tracking_ratio": 0.21605217158542084,
+    "actual_axis_sign_cosine": -0.7223778696409486,
+    "actual_magnitude_ratio_isaac_over_libero": 1.5297070894209888
+  },
+  "-Rx": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.14280737150365885,
+    "isaac_tracking_ratio": 0.22434444734309414,
+    "actual_axis_sign_cosine": -0.7321387801121539,
+    "actual_magnitude_ratio_isaac_over_libero": 1.5709220080473925
+  },
+  "+Ry": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.179684723194118,
+    "isaac_tracking_ratio": 0.018154559502091824,
+    "actual_axis_sign_cosine": 0.9484099750458025,
+    "actual_magnitude_ratio_isaac_over_libero": 0.10059730271982663
+  },
+  "-Ry": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.020346037624106923,
+    "isaac_tracking_ratio": 0.04582384659470667,
+    "actual_axis_sign_cosine": -0.9548602346347721,
+    "actual_magnitude_ratio_isaac_over_libero": 2.262080650655064
+  },
+  "+Rz": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.1460090385928214,
+    "isaac_tracking_ratio": 0.21951710238442715,
+    "actual_axis_sign_cosine": 0.9015095721675402,
+    "actual_magnitude_ratio_isaac_over_libero": 1.5028435513549558
+  },
+  "-Rz": {
+    "kind": "rotation",
+    "libero_tracking_ratio": 0.13798694276258164,
+    "isaac_tracking_ratio": 0.21909806378132746,
+    "actual_axis_sign_cosine": 0.8858400768831844,
+    "actual_magnitude_ratio_isaac_over_libero": 1.5884267817269078
+  }
+}

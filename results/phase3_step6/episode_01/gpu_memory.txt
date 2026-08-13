@@ -1,0 +1,3 @@
+本次 run 使用同一全局 1 Hz nvidia-smi 采样。
+全局峰值显存: 13059 MiB。
+逐 episode 精确边界未单独打点，因此不虚构每回合独立峰值；原始数据见 ../../gpu_timeseries.csv。

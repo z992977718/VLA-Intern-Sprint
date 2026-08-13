@@ -1,0 +1,52 @@
+{
+  "confirmed_count": 3,
+  "exact_total_count_known": false,
+  "events": [
+    {
+      "trial": 0,
+      "stage": "descent",
+      "step": 0,
+      "reason": "FLOAT_TOLERANCE_UPPER_CLAMP",
+      "joint": "panda_finger_joint2",
+      "index": 8,
+      "raw_target": 0.04000000283122063,
+      "limit": 0.03999999910593033,
+      "excess": 3.725290298461914e-09,
+      "tolerance": 7.450580596923828e-09,
+      "clamped_target": 0.03999999910593033
+    },
+    {
+      "trial": 1,
+      "stage": "descent",
+      "step": 0,
+      "reason": "FLOAT_TOLERANCE_UPPER_CLAMP",
+      "joint": "panda_finger_joint2",
+      "index": 8,
+      "raw_target": 0.04000000283122063,
+      "limit": 0.03999999910593033,
+      "excess": 3.725290298461914e-09,
+      "tolerance": 7.450580596923828e-09,
+      "clamped_target": 0.03999999910593033
+    },
+    {
+      "trial": 2,
+      "stage": "descent",
+      "step": 0,
+      "reason": "FLOAT_TOLERANCE_UPPER_CLAMP",
+      "joint": "panda_finger_joint2",
+      "index": 8,
+      "raw_target": 0.04000000283122063,
+      "limit": 0.03999999910593033,
+      "excess": 3.725290298461914e-09,
+      "tolerance": 7.450580596923828e-09,
+      "clamped_target": 0.03999999910593033
+    }
+  ],
+  "confirmed_real_safety_rejections": {
+    "JOINT_UPPER_LIMIT": 0,
+    "JOINT_LOWER_LIMIT": 0,
+    "JOINT_DELTA_LIMIT": 0,
+    "NONFINITE_JOINT_TARGET": 0
+  },
+  "note": "Only step-0 snapshots survived the later PINK exception; do not infer the exact total number of non-rejecting clamps."
+}

@@ -1,0 +1,14 @@
+{
+  "camera_header_timestamp_sec": {
+    "wrist": 8.6,
+    "external": 8.6
+  },
+  "joint_state_header_timestamp_sec": 8.65,
+  "observation_creation_wall_time_sec": 1786527692.0925975,
+  "image_to_joint_state_abs_delta_sec": {
+    "wrist": 0.05000000000000071,
+    "external": 0.05000000000000071
+  },
+  "max_image_to_joint_state_abs_delta_sec": 0.05000000000000071,
+  "synchronization": "latest-message approximate pairing; no message_filters"
+}

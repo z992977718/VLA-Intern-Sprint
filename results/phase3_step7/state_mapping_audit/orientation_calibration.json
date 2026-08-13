@@ -1,0 +1,55 @@
+{
+  "policy_orientation_source": "robot0_eef_quat (xyzw), converted by LiberoProcessorStep to axis-angle",
+  "controller_matrix_role": "diagnostic only; controller.ee_ori_mat is not the Pi0.5 state input in this pipeline",
+  "relative_transform_definition": "R_fixed_i = R_isaac_hand_i.T @ R_libero_robot0_eef_quat_i",
+  "per_pose_relative_rotation_angle_rad": [
+    0.025308947875216748,
+    0.24542588100192644,
+    0.3526166720974455,
+    0.8619121710676902,
+    0.6845011635432738
+  ],
+  "mean_fixed_rotation_matrix": [
+    [
+      0.99795513019571,
+      -0.0613306384242041,
+      0.018003080473683
+    ],
+    [
+      0.060929967374454753,
+      0.9978991351377302,
+      0.02201942703879078
+    ],
+    [
+      -0.01931572395252727,
+      -0.020877473071430206,
+      0.9995954351268018
+    ]
+  ],
+  "mean_fixed_rotation_angle_rad": 0.06746870402526649,
+  "orientation_error_before_rad": {
+    "mean": 0.4339529671171105,
+    "max": 0.8619121710676902,
+    "min": 0.025308947875216748
+  },
+  "right_multiply_candidate": "R_equivalent = R_isaac_hand @ R_fixed",
+  "left_multiply_candidate": "R_equivalent = R_fixed @ R_isaac_hand",
+  "orientation_error_after_right_multiply_rad": {
+    "mean": 0.4386630085738476,
+    "max": 0.856934609512632,
+    "min": 0.07336815669295092
+  },
+  "orientation_error_after_left_multiply_rad": {
+    "mean": 0.43876776234068277,
+    "max": 0.8569721055033419,
+    "min": 0.07373437850297168
+  },
+  "selected_candidate": "right_multiply",
+  "selected_candidate_error_rad": {
+    "mean": 0.4386630085738476,
+    "max": 0.856934609512632,
+    "min": 0.07336815669295092
+  },
+  "classification": "APPROXIMATE",
+  "finding": "The policy-source comparison is robot0_eef_quat versus Isaac panda_hand, not controller.ee_ori_mat. Across five poses it remains APPROXIMATE (mean 0.434 rad, max 0.862 rad), and a single fixed rotation does not materially improve it. The approximately 1.571 rad controller-matrix difference is a separate controller-frame convention and is not the Pi0.5 state-input comparison."
+}

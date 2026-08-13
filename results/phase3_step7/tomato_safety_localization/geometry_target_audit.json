@@ -1,0 +1,26 @@
+{
+  "status": "NO_INVALID_GEOMETRY_CONFIRMED",
+  "target_formula": {
+    "grasp_xy": "live collider world center xy",
+    "grasp_z": "live collider world top_z + 0.010 m",
+    "pre_grasp_z": "grasp_z + 0.085 m",
+    "lift_z": "grasp_z + 0.060 m + 0.085 m"
+  },
+  "object_geometry_source": "live /World/Task/tomato_sauce/APPROXIMATE_COLLIDER",
+  "collider_quality": "APPROXIMATE_ASSET_BOUNDING_BOX",
+  "existing_dynamic_scene_export_is_finite": true,
+  "exact_failed_trial_geometry_was_persisted": false,
+  "exact_failed_trial_target_was_persisted": false,
+  "visual_evidence": {
+    "final_approach_frames": [
+      "grasp_oracle/tomato_00/video_frames/00022_approach.png",
+      "grasp_oracle/tomato_01/video_frames/00022_approach.png",
+      "grasp_oracle/tomato_02/video_frames/00022_approach.png"
+    ],
+    "observation": "The gripper is visibly positioned above the tomato object at the end of approach."
+  },
+  "invalid_workspace_target_confirmed": false,
+  "target_inside_object_confirmed": false,
+  "geometry_root_cause_confirmed": false,
+  "rerun_required_for_exact_live_target": true
+}

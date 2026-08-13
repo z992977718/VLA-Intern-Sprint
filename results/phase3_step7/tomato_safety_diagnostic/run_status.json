@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 3 / Step 7C.2",
+  "diagnostic": true,
+  "counted": false,
+  "completed": true,
+  "outcome": "SAFETY_STOP_LOCALIZED",
+  "pre_grasp_completed": true,
+  "descent_entered": true,
+  "descent_step_reached": 0,
+  "pink_target_finite": true,
+  "safety_reason_code": "JOINT_UPPER_LIMIT",
+  "runtime_sec": 34.616131868213415,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "training": false,
+  "step6_rerun": false,
+  "formal_trial_added": false,
+  "formal_results_modified": false,
+  "physics_changed": false,
+  "safety_threshold_changed": false
+}

@@ -1,0 +1,125 @@
+{
+  "timestamp": 1786532769.803496,
+  "images": {
+    "wrist": {
+      "topic": "/phase2/wrist_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step3/camera_wrist.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "wrist_camera_frame",
+      "header_timestamp_sec": 5.1,
+      "received_wall_time_sec": 1786532769.7258735,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 232,
+      "pixel_mean": 117.32086690266927,
+      "pixel_std": 48.970815835371184,
+      "dark_pixel_ratio_at_most_5": 0.0010833740234375
+    },
+    "external": {
+      "topic": "/phase2/external_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step3/camera_external.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "external_camera_frame",
+      "header_timestamp_sec": 5.1,
+      "received_wall_time_sec": 1786532769.8005686,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 255,
+      "pixel_mean": 90.82237752278645,
+      "pixel_std": 61.143418902675585,
+      "dark_pixel_ratio_at_most_5": 0.00189208984375
+    }
+  },
+  "robot_state": {
+    "source": "/joint_states",
+    "kinematics_source": "Isaac Sim USD panda_hand local-to-world transform",
+    "eef_pose": {
+      "timestamp": 1786532768.1028388,
+      "source": "Isaac Sim USD panda_hand local-to-world transform",
+      "source_prim": "/panda/panda_hand",
+      "reference_frame": "/World",
+      "position_unit": "meter",
+      "position_xyz_m": [
+        0.3905278444290161,
+        0.004685185384005308,
+        0.4601283669471741
+      ],
+      "orientation_convention": "right-handed quaternion",
+      "quaternion_source_order": "wxyz",
+      "quaternion_wxyz": [
+        0.0063002407550811065,
+        0.9209595352967682,
+        0.02598395952207079,
+        0.38873985537881794
+      ],
+      "quaternion_target_order": "xyzw",
+      "quaternion_xyzw": [
+        0.9209595352967682,
+        0.02598395952207079,
+        0.38873985537881794,
+        0.0063002407550811065
+      ],
+      "axis_angle_computation": "deferred to LeRobot LiberoProcessorStep",
+      "joint_command_subscriber_created": false,
+      "vla_action_sent": false
+    },
+    "semantics": "named Isaac Franka joints plus panda_hand world transform; 8D conversion is delegated to the policy input adapter",
+    "joint_positions": {
+      "panda_joint1": 0.012,
+      "panda_joint2": -0.5686,
+      "panda_joint3": 0.0,
+      "panda_joint4": -2.8109,
+      "panda_joint5": 0.0,
+      "panda_joint6": 3.0368,
+      "panda_joint7": 0.741,
+      "panda_finger_joint1": 0.0,
+      "panda_finger_joint2": 0.0
+    },
+    "joint_velocities": {
+      "panda_joint1": 0.0,
+      "panda_joint2": 0.0,
+      "panda_joint3": 0.0,
+      "panda_joint4": 0.0,
+      "panda_joint5": 0.0,
+      "panda_joint6": 0.0,
+      "panda_joint7": 0.0,
+      "panda_finger_joint1": 0.0,
+      "panda_finger_joint2": 0.0
+    },
+    "joint_efforts": {
+      "panda_joint1": 0.0,
+      "panda_joint2": -6.5473,
+      "panda_joint3": 0.0,
+      "panda_joint4": 18.6717,
+      "panda_joint5": 0.0,
+      "panda_joint6": 1.0509,
+      "panda_joint7": 0.0,
+      "panda_finger_joint1": 0.0044,
+      "panda_finger_joint2": -0.0044
+    }
+  },
+  "language": "move the robot arm",
+  "policy_inference_executed": false,
+  "joint_command_publisher_created": false,
+  "vla_action_sent": false
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "successful_run": {
+    "rejections": 0,
+    "timeouts": 0,
+    "workspace_violations": 0,
+    "joint_violations": 0,
+    "other": 0
+  },
+  "limits": {
+    "max_cycles": 5,
+    "maximum_total_eef_displacement_m": 0.03,
+    "maximum_cumulative_joint_displacement_rad": 1.0,
+    "maximum_runtime_sec": 300,
+    "maximum_image_state_skew_sec": 0.25,
+    "inference_timeout_sec": 30,
+    "maximum_joint_step_rad": 0.05
+  },
+  "measured": {
+    "total_eef_displacement_m": 0.025383703999117515,
+    "cumulative_joint_endpoint_displacement_rad": 0.2886974588036537,
+    "runtime_sec": 20.03360474202782,
+    "maximum_image_state_skew_sec": 0.0021104812622070312
+  },
+  "pre_cycle_attempt_001": {
+    "executed_action_count": 0,
+    "classification": "configuration error before Cycle 0, not a safety rejection",
+    "evidence": "attempt_001_before_cycle0/isaac_failure.json"
+  }
+}

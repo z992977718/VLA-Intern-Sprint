@@ -1,0 +1,135 @@
+{
+  "scope": "frame-tree inspection only; no Pi0.5, no task action, no rollout",
+  "robot_dof_names": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "candidate_frames": [
+    {
+      "path": "/World/Robot/panda_hand",
+      "name": "panda_hand",
+      "parent": "/World/Robot",
+      "type": "Xform",
+      "world_position_xyz_m": [
+        -0.04113964200019837,
+        -0.003536001779139042,
+        0.7970187199115752
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_hand/panda_finger_joint1",
+      "name": "panda_finger_joint1",
+      "parent": "/World/Robot/panda_hand",
+      "type": "PhysicsPrismaticJoint",
+      "world_position_xyz_m": [
+        -0.04113964200019837,
+        -0.003536001779139042,
+        0.7970187199115752
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_hand/panda_finger_joint2",
+      "name": "panda_finger_joint2",
+      "parent": "/World/Robot/panda_hand",
+      "type": "PhysicsPrismaticJoint",
+      "world_position_xyz_m": [
+        -0.04113964200019837,
+        -0.003536001779139042,
+        0.7970187199115752
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_hand/tool_center",
+      "name": "tool_center",
+      "parent": "/World/Robot/panda_hand",
+      "type": "Xform",
+      "world_position_xyz_m": [
+        -0.047054037273473355,
+        -0.003507113965113379,
+        0.6937880118153614
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_rightfinger",
+      "name": "panda_rightfinger",
+      "parent": "/World/Robot",
+      "type": "Xform",
+      "world_position_xyz_m": [
+        -0.04443083167076112,
+        0.0352022759616375,
+        0.7387223970890044
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_leftfinger",
+      "name": "panda_leftfinger",
+      "parent": "/World/Robot",
+      "type": "Xform",
+      "world_position_xyz_m": [
+        -0.04452929854393006,
+        -0.042241644114255905,
+        0.7387063634395599
+      ],
+      "world_quaternion_wxyz": [
+        0.00012164375220883405,
+        0.9995904029956623,
+        -0.000632464831372837,
+        -0.02861138636984286
+      ]
+    },
+    {
+      "path": "/World/Robot/panda_link7/panda_hand_joint",
+      "name": "panda_hand_joint",
+      "parent": "/World/Robot/panda_link7",
+      "type": "PhysicsFixedJoint",
+      "world_position_xyz_m": [
+        -0.0350193476676941,
+        -0.0035659437999129295,
+        0.9038435947895049
+      ],
+      "world_quaternion_wxyz": [
+        -0.010836707428097659,
+        0.9232590194125198,
+        -0.3831111488904134,
+        -0.026480114074866678
+      ]
+    }
+  ]
+}

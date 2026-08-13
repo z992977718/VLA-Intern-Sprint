@@ -1,0 +1,18 @@
+{
+  "decision": "MINIMAL_FIX_AND_ONE_DIAGNOSTIC_TRIAL",
+  "execute_now": false,
+  "roi_assessment": "HIGH_ENOUGH_FOR_ONE_BOUNDED_DIAGNOSTIC",
+  "reason": "The blocking path is local, small and semantically clear: an independently controlled gripper is included in arm IK state and limit validation. A project-side arm-only controlled-joint view can remove that coupling without changing physical limits, tolerance, Safety, trajectory or upstream PINK.",
+  "one_minimal_fix": {
+    "concept": "After loading the bundled Franka PinkRobot, set its controlled_joint_names to the seven ARM_JOINTS and construct PinkIKController with a seven-joint robot_joint_space. Continue commanding fingers only through the existing independent gripper path.",
+    "upstream_source_change": false,
+    "joint_limit_change": false,
+    "tolerance_change": false,
+    "safety_weakening": false,
+    "physics_change": false,
+    "trajectory_change": false
+  },
+  "one_future_validation": "Exactly one DIAGNOSTIC / NOT COUNTED Tomato trial after explicit user authorization, with telemetry at PINK input and confirmation that desired.position_indices are only 0..6.",
+  "stop_condition": "If the arm-only configuration requires an upstream fork/reduced-model redesign or exposes another non-local controller failure, stop the Franka deep dive and document the limitation.",
+  "should_pi05_diagnostic_rollout_be_done_now": false
+}

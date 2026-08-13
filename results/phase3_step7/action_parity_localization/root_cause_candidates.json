@@ -1,0 +1,11 @@
+{
+  "confirmed_action_adapter_bug": "NO",
+  "confirmed_scaling_bug": "NO",
+  "confirmed_frame_sign_bug": "NOT_YET",
+  "confirmed_eef_reference_mismatch": "YES for orientation frame; position is only approximately aligned at one pose",
+  "most_important_finding": "LIBERO and Isaac command the same normalized target deltas, so the Step 7A MISMATCH values arise after target construction. The fixed orientation-frame discrepancy makes direct rotation tracking comparison incomplete.",
+  "step6_explanation": "POSSIBLE, but not established: short-horizon tracking/reference discrepancies could contribute, yet this audit does not test task completion.",
+  "fix_and_rerun_step7a": "NO",
+  "recommended_minimal_fix": "None executed. First audit the state mapping and EEF/tool-frame calibration across multiple poses.",
+  "next_step": "B. Proceed to State Mapping / EEF Calibration Audit"
+}

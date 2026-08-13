@@ -1,0 +1,45 @@
+{
+  "common_categories": [
+    "failed approach",
+    "failed grasp",
+    "horizon reached"
+  ],
+  "episodes": [
+    {
+      "episode_index": 0,
+      "failure_categories": [
+        "failed approach",
+        "failed grasp",
+        "horizon reached"
+      ],
+      "alphabet_soup_displacement_m": 0.0,
+      "tomato_sauce_displacement_m": 0.0,
+      "eef_path_m": 0.9443713671454163,
+      "observed_behavior": "机械臂在桌面任务区和篮子附近运动，但未形成可观察的目标物体接触、抓取或搬运；两个目标物体测得位移均为 0。"
+    },
+    {
+      "episode_index": 1,
+      "failure_categories": [
+        "failed approach",
+        "failed grasp",
+        "horizon reached"
+      ],
+      "alphabet_soup_displacement_m": 0.0,
+      "tomato_sauce_displacement_m": 0.0,
+      "eef_path_m": 1.1498895077800877,
+      "observed_behavior": "机械臂在桌面任务区和篮子附近运动，但未形成可观察的目标物体接触、抓取或搬运；两个目标物体测得位移均为 0。"
+    },
+    {
+      "episode_index": 2,
+      "failure_categories": [
+        "failed approach",
+        "failed grasp",
+        "horizon reached"
+      ],
+      "alphabet_soup_displacement_m": 0.0,
+      "tomato_sauce_displacement_m": 0.0,
+      "eef_path_m": 0.7434484594574365,
+      "observed_behavior": "机械臂在桌面任务区和篮子附近运动，但未形成可观察的目标物体接触、抓取或搬运；两个目标物体测得位移均为 0。"
+    }
+  ]
+}

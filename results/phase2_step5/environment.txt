@@ -1,0 +1,16 @@
+运行日期：2026-08-12
+远程系统：Linux 5.15.0-78-generic x86_64
+GPU：NVIDIA RTX 6000D
+GPU 总显存：85651 MiB
+NVIDIA Driver：595.71.05
+Python：3.12.13
+PyTorch：2.8.0+cu128
+LeRobot：0.6.2
+LeRobot commit：22bd7a2f489b367d8df42de803b1e8c4ca63a3f9
+Isaac Sim：6.0.1.0
+模型：results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model
+语言：move the robot arm
+执行模式：MAX_CYCLES=5；每轮一次 predict_action_chunk；仅执行 action_chunk[0]
+最终进程：Isaac/Pi0.5/Step5 wrapper 均已停止
+最终 GPU：无 compute process
+LeRobot upstream：clean（detached HEAD）

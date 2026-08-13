@@ -1,0 +1,11 @@
+{
+  "episode_index": 1,
+  "cycle_index": 3,
+  "initial_state_id": 1,
+  "camera_timestamp": 1786547011.7788963,
+  "robot_state_timestamp": 1786547011.780872,
+  "observation_timestamp": 1786547011.780872,
+  "image_state_skew_sec": 0.0019757747650146484,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "fresh_observation": true
+}

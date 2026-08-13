@@ -1,0 +1,21 @@
+{
+  "trial_id": "alphabet_00",
+  "object": "alphabet_soup",
+  "trial_index": 0,
+  "diagnostic": false,
+  "counted": true,
+  "initial_state_id": 0,
+  "hard_reset": true,
+  "failure_category": "SUCCESS",
+  "success": true,
+  "runtime_sec": 24.02394413203001,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "object_teleported": false,
+  "kinematic_attach_used": false,
+  "manual_intervention": false,
+  "physics_parameters_changed": false,
+  "orientation_source": "Isaac top-down task-space rotation diag(1,-1,-1), selected for parallel jaws to descend vertically; not derived from LIBERO state mapping",
+  "object_geometry_source": "live PhysX collider world pose and oriented bounding dimensions",
+  "oom": false
+}

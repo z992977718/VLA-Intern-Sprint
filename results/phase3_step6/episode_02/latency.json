@@ -1,0 +1,36 @@
+{
+  "inference": {
+    "count": 100,
+    "mean_ms": 181.91069963853806,
+    "median_ms": 181.77141738124192,
+    "p95_ms": 183.27088188380003,
+    "min_ms": 180.33986212685704,
+    "max_ms": 184.4895612448454
+  },
+  "inference_steady_state_mean_ms_skip_first_10": 181.9693896557308,
+  "action_adapter": {
+    "count": 100,
+    "mean_ms": 0.2363816276192665,
+    "median_ms": 0.23520691320300102,
+    "p95_ms": 0.2562231384217739,
+    "min_ms": 0.21243980154395103,
+    "max_ms": 0.31286804005503654
+  },
+  "pink_forward_mean_per_cycle": {
+    "count": 100,
+    "mean_ms": 2.0012209495374313,
+    "median_ms": 1.9907252552608647,
+    "p95_ms": 2.2414483362808824,
+    "min_ms": 1.867507673644771,
+    "max_ms": 2.3259647850257656
+  },
+  "observation_to_action_target_note": "可测部分为 Pi0.5 inference + Action Adapter；不含图像采集、文件握手与完整运动执行",
+  "observation_to_action_target_measured": {
+    "count": 100,
+    "mean_ms": 182.14708126615733,
+    "median_ms": 182.00152390636504,
+    "p95_ms": 183.51215356960893,
+    "min_ms": 180.57149928063154,
+    "max_ms": 184.71533060073853
+  }
+}

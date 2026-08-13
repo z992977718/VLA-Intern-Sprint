@@ -1,0 +1,6 @@
+{
+  "libero": "each record sets independent_hard_reset=true; source script creates a new OffScreenRenderEnv per case and applies ten no-op settle steps",
+  "isaac": "each record sets independent_process_and_scene_reset=true; source script creates a new SimulationApp/scene per case and resets PINK before executing",
+  "stale_target_evidence": "no saved record indicates target reuse; Isaac uses PINK reset(state, setpoint, 0) for each isolated process",
+  "limitation": "the completed records do not include repeated no-op baselines, so residual drift cannot be numerically separated from 0.05 s action response"
+}

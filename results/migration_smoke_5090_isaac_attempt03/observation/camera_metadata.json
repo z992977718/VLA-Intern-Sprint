@@ -1,0 +1,53 @@
+{
+  "count": 2,
+  "cameras": {
+    "wrist": {
+      "topic": "/phase2/wrist_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/migration_smoke_5090_isaac_attempt03/observation/camera_wrist.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "wrist_camera_frame",
+      "header_timestamp_sec": 7.8,
+      "received_wall_time_sec": 1786559450.389166,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 233,
+      "pixel_mean": 117.21167500813802,
+      "pixel_std": 49.04405524487119,
+      "dark_pixel_ratio_at_most_5": 0.00140380859375
+    },
+    "external": {
+      "topic": "/phase2/external_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/migration_smoke_5090_isaac_attempt03/observation/camera_external.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "external_camera_frame",
+      "header_timestamp_sec": 7.8,
+      "received_wall_time_sec": 1786559450.4708166,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 255,
+      "pixel_mean": 90.94099934895833,
+      "pixel_std": 61.20841112332897,
+      "dark_pixel_ratio_at_most_5": 0.0019989013671875
+    }
+  }
+}

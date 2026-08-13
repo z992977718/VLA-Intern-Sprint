@@ -1,0 +1,55 @@
+{
+  "topic": "/joint_states",
+  "header_timestamp_sec": 5.15,
+  "received_wall_time_sec": 1786532769.7392545,
+  "raw_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "raw_dimensions": {
+    "name": 9,
+    "position": 9,
+    "velocity": 9,
+    "effort": 9
+  },
+  "position_by_name": {
+    "panda_joint1": 0.012,
+    "panda_joint2": -0.5686,
+    "panda_joint3": 0.0,
+    "panda_joint4": -2.8109,
+    "panda_joint5": 0.0,
+    "panda_joint6": 3.0368,
+    "panda_joint7": 0.741,
+    "panda_finger_joint1": 0.0,
+    "panda_finger_joint2": 0.0
+  },
+  "velocity_by_name": {
+    "panda_joint1": 0.0,
+    "panda_joint2": 0.0,
+    "panda_joint3": 0.0,
+    "panda_joint4": 0.0,
+    "panda_joint5": 0.0,
+    "panda_joint6": 0.0,
+    "panda_joint7": 0.0,
+    "panda_finger_joint1": 0.0,
+    "panda_finger_joint2": 0.0
+  },
+  "effort_by_name": {
+    "panda_joint1": 0.0,
+    "panda_joint2": -6.5473,
+    "panda_joint3": 0.0,
+    "panda_joint4": 18.6717,
+    "panda_joint5": 0.0,
+    "panda_joint6": 1.0509,
+    "panda_joint7": 0.0,
+    "panda_finger_joint1": 0.0044,
+    "panda_finger_joint2": -0.0044
+  }
+}

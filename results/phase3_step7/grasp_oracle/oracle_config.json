@@ -1,0 +1,10 @@
+{
+  "initial_state_id": 0,
+  "objects": ["alphabet_soup", "tomato_sauce"],
+  "formal_trials_per_object": 3,
+  "hard_reset_per_trial": true,
+  "policy": "not used",
+  "trajectory": "top-down: approach, descent, close, settle, lift, hold",
+  "lift_success_threshold_m": 0.06,
+  "physics": "reused unchanged from Phase 3 Step 6"
+}

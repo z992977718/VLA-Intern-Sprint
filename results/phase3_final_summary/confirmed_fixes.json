@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "confirmed_fixes": [
+    {
+      "name": "Franka position state source",
+      "status": "CONFIRMED_IMPROVEMENT",
+      "change": "使用 /World/Robot/panda_hand/tool_center 作为位置源",
+      "evidence": {
+        "calibration_old_mean_max_mm": [37.870, 70.814],
+        "calibration_new_mean_max_mm": [7.874, 8.207],
+        "holdout_old_mean_max_mm": [62.852, 79.705],
+        "holdout_new_mean_max_mm": [7.800, 7.898]
+      },
+      "remaining_boundary": "总体 State Mapping 仍为 APPROXIMATE，因为 orientation 未解决"
+    },
+    {
+      "name": "Gripper state representation",
+      "status": "CONFIRMED",
+      "change": "Isaac [finger1, finger2] -> LIBERO-compatible [finger1, -finger2]"
+    },
+    {
+      "name": "Safety floating-point boundary",
+      "status": "CONFIRMED",
+      "change": "采用 2 ULP 浮点安全比较，不改变 joint limit 或 motion safety threshold",
+      "validation": "13/13 safety decision checks passed"
+    },
+    {
+      "name": "PINK arm/gripper separation",
+      "status": "CONFIRMED",
+      "change": "PINK configuration 从 9D arm+finger 改为 7D arm-only，夹爪保持独立控制",
+      "validation": "Tomato formal post-fix 3/3"
+    }
+  ],
+  "not_claimed_as_fixed": [
+    "orientation mapping",
+    "image-state timestamp skew",
+    "action clipping frequency",
+    "cross-simulator Pi0.5 task behavior",
+    "renderer/visual/dynamics domain gap"
+  ]
+}

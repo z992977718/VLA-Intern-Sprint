@@ -1,0 +1,572 @@
+#usda 1.0
+(
+    endTimeCode = 1000000
+    metersPerUnit = 1
+    startTimeCode = 0
+    timeCodesPerSecond = 60
+    upAxis = "Z"
+)
+
+def "Render" (
+    hide_in_stage_window = true
+    no_delete = true
+)
+{
+    def "OmniverseKit"
+    {
+        def "HydraTextures" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            def RenderProduct "omni_kit_widget_viewport_ViewportTexture_0" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </OmniverseKit_Persp>
+                token omni:rtx:ambientOcclusion:denoiserMode = "none"
+                token omni:rtx:background:source:texture:textureMode = "repeatMirrored"
+                token omni:rtx:background:source:type = "domeLight"
+                bool omni:rtx:debug:view:pixelDebug:enableFixedTextPos = 1
+                token omni:rtx:directLighting:sampledLighting:denoisingTechnique = "None"
+                bool omni:rtx:dlss:frameGeneration = 0
+                float3 omni:rtx:domeLight:rotationAxis = (0, 0, 1)
+                bool omni:rtx:indirectDiffuse:denoiser:enabled = 0
+                bool omni:rtx:material:db:syncLoads = 1
+                token omni:rtx:post:dlss:execMode = "performance"
+                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1
+                bool omni:rtx:post:registeredCompositing:invertToneMap = 1
+                bool omni:rtx:pt:adaptiveSampling:filterError = 0
+                uint omni:rtx:pt:adaptiveSampling:fixedSppIterations = 2
+                int omni:rtx:pt:clampSpp = 64
+                uint omni:rtx:pt:limits:maxBounces = 3
+                uint omni:rtx:pt:limits:maxGlossyBounces = 3
+                uint omni:rtx:pt:maxSamplesPerLaunch = 2073600
+                uint omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12
+                int omni:rtx:pt:samplesPerIteration = 64
+                uint omni:rtx:pt:samplesPerPixel = 64
+                bool omni:rtx:reflections:denoiser:enabled = 0
+                token omni:rtx:rendermode = "RealTimePathTracing"
+                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)
+                bool omni:rtx:rt:demoire = 0
+                bool omni:rtx:rt:ecoMode:enabled = 0
+                bool omni:rtx:rt:lightcache:spatialCache:dontResolveConflicts = 1
+                int omni:rtx:rt:sss:samples = 1
+                uint omni:rtx:rtpt:maxVolumeBounces = 15
+                float omni:rtx:rtpt:modulatingRoughnessThreshold = 0.08
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                bool omni:rtx:scene:hydra:mdlMaterialWarmup = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+
+            def RenderProduct "camera_sensor_8759471618794" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </World/Cameras/External>
+                custom string ogPostProcessPath = "/Render/OmniverseKit/HydraTextures/camera_sensor_8759471618794/PostRender"
+                token omni:rtx:ambientOcclusion:denoiserMode = "none"
+                token omni:rtx:background:source:texture:textureMode = "repeatMirrored"
+                token omni:rtx:background:source:type = "domeLight"
+                bool omni:rtx:debug:view:pixelDebug:enableFixedTextPos = 1
+                token omni:rtx:directLighting:sampledLighting:denoisingTechnique = "None"
+                bool omni:rtx:dlss:frameGeneration = 0
+                float3 omni:rtx:domeLight:rotationAxis = (0, 0, 1)
+                bool omni:rtx:indirectDiffuse:denoiser:enabled = 0
+                bool omni:rtx:material:db:syncLoads = 1
+                token omni:rtx:post:dlss:execMode = "performance"
+                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1
+                bool omni:rtx:post:registeredCompositing:invertToneMap = 1
+                bool omni:rtx:pt:adaptiveSampling:filterError = 0
+                uint omni:rtx:pt:adaptiveSampling:fixedSppIterations = 2
+                int omni:rtx:pt:clampSpp = 64
+                uint omni:rtx:pt:limits:maxBounces = 3
+                uint omni:rtx:pt:limits:maxGlossyBounces = 3
+                uint omni:rtx:pt:maxSamplesPerLaunch = 2073600
+                uint omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12
+                int omni:rtx:pt:samplesPerIteration = 64
+                uint omni:rtx:pt:samplesPerPixel = 64
+                bool omni:rtx:reflections:denoiser:enabled = 0
+                token omni:rtx:rendermode = "RealTimePathTracing"
+                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)
+                bool omni:rtx:rt:demoire = 0
+                bool omni:rtx:rt:ecoMode:enabled = 0
+                bool omni:rtx:rt:lightcache:spatialCache:dontResolveConflicts = 1
+                int omni:rtx:rt:sss:samples = 1
+                uint omni:rtx:rtpt:maxVolumeBounces = 15
+                float omni:rtx:rtpt:modulatingRoughnessThreshold = 0.08
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                bool omni:rtx:scene:hydra:mdlMaterialWarmup = 1
+                rel orderedVars = [
+                    </Render/Vars/LdrColorSD>,
+                    </Render/Vars/LdrColor>,
+                ]
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (256, 256)
+            }
+
+            def RenderProduct "camera_sensor_8759473527686" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </World/Cameras/Wrist>
+                custom string ogPostProcessPath = "/Render/OmniverseKit/HydraTextures/camera_sensor_8759473527686/PostRender"
+                token omni:rtx:ambientOcclusion:denoiserMode = "none"
+                token omni:rtx:background:source:texture:textureMode = "repeatMirrored"
+                token omni:rtx:background:source:type = "domeLight"
+                bool omni:rtx:debug:view:pixelDebug:enableFixedTextPos = 1
+                token omni:rtx:directLighting:sampledLighting:denoisingTechnique = "None"
+                bool omni:rtx:dlss:frameGeneration = 0
+                float3 omni:rtx:domeLight:rotationAxis = (0, 0, 1)
+                bool omni:rtx:indirectDiffuse:denoiser:enabled = 0
+                bool omni:rtx:material:db:syncLoads = 1
+                token omni:rtx:post:dlss:execMode = "performance"
+                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1
+                bool omni:rtx:post:registeredCompositing:invertToneMap = 1
+                bool omni:rtx:pt:adaptiveSampling:filterError = 0
+                uint omni:rtx:pt:adaptiveSampling:fixedSppIterations = 2
+                int omni:rtx:pt:clampSpp = 64
+                uint omni:rtx:pt:limits:maxBounces = 3
+                uint omni:rtx:pt:limits:maxGlossyBounces = 3
+                uint omni:rtx:pt:maxSamplesPerLaunch = 2073600
+                uint omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12
+                int omni:rtx:pt:samplesPerIteration = 64
+                uint omni:rtx:pt:samplesPerPixel = 64
+                bool omni:rtx:reflections:denoiser:enabled = 0
+                token omni:rtx:rendermode = "RealTimePathTracing"
+                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)
+                bool omni:rtx:rt:demoire = 0
+                bool omni:rtx:rt:ecoMode:enabled = 0
+                bool omni:rtx:rt:lightcache:spatialCache:dontResolveConflicts = 1
+                int omni:rtx:rt:sss:samples = 1
+                uint omni:rtx:rtpt:maxVolumeBounces = 15
+                float omni:rtx:rtpt:modulatingRoughnessThreshold = 0.08
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                bool omni:rtx:scene:hydra:mdlMaterialWarmup = 1
+                rel orderedVars = [
+                    </Render/Vars/LdrColorSD>,
+                    </Render/Vars/LdrColor>,
+                ]
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (256, 256)
+            }
+        }
+    }
+
+    def RenderSettings "OmniverseGlobalRenderSettings" (
+        prepend apiSchemas = ["OmniRtxSettingsGlobalRtAdvancedAPI_1", "OmniRtxSettingsGlobalPtAdvancedAPI_1"]
+        no_delete = true
+    )
+    {
+        rel products = [
+            </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>,
+            </Render/OmniverseKit/HydraTextures/camera_sensor_8759471618794>,
+            </Render/OmniverseKit/HydraTextures/camera_sensor_8759473527686>,
+        ]
+    }
+
+    def "Vars"
+    {
+        def RenderVar "LdrColor" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            uniform string sourceName = "LdrColor"
+            uniform token sourceType = "raw"
+        }
+    }
+}
+
+over "OmniverseKit_Persp"
+{
+    float exposure:fStop = 5
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+}
+
+def PhysicsScene "physicsScene" (
+    prepend apiSchemas = ["NewtonSceneAPI", "PhysxSceneAPI"]
+)
+{
+    vector3f physics:gravityDirection = (0, 0, -1)
+    float physics:gravityMagnitude = 9.81
+    uniform token physxScene:broadphaseType = "MBP"
+    bool physxScene:enableCCD = 1
+    bool physxScene:enableGPUDynamics = 0
+    bool physxScene:enableStabilization = 0
+    uniform token physxScene:solverType = "TGS"
+    uint physxScene:timeStepsPerSecond = 60
+}
+
+def "World"
+{
+    def DomeLight "DomeLight"
+    {
+        float inputs:intensity = 850
+    }
+
+    def DistantLight "DistantLight"
+    {
+        float inputs:angle = 0.53
+        float inputs:intensity = 1200
+    }
+
+    def "Task"
+    {
+        def Xform "living_room_table"
+        {
+            quatd xformOp:orient = (0.7071067811865477, 0, 0, 0.7071067811865477)
+            double3 xformOp:translate = (-0.25, 0.25, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+            def Xform "Visual" (
+                prepend references = @/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/living_room_table.usd@
+            )
+            {
+                float3 xformOp:scale = (1.5, 1.5, 1.5)
+                uniform token[] xformOpOrder = ["xformOp:scale"]
+            }
+        }
+
+        def Cube "table_top_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double size = 1
+            token visibility = "invisible"
+            quatd xformOp:orient = (0.5, -0.5, -0.5, -0.5)
+            float3 xformOp:scale = (0.02368, 0.88864, 1.34342)
+            double3 xformOp:translate = (-0.25, 0.05239, 0.42492)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Xform "basket"
+        {
+            quatd xformOp:orient = (0.7071047279169311, -0.0016949951945791442, 0.001694994057002882, 0.7071047714051718)
+            double3 xformOp:translate = (-0.002115499018305853, 0.2689851938137835, 0.43219210516477036)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+            def Xform "Visual" (
+                prepend references = @/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/basket.usd@
+            )
+            {
+                float3 xformOp:scale = (1, 1, 1)
+                uniform token[] xformOpOrder = ["xformOp:scale"]
+            }
+
+            def Cube "collider_0" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (0.7087997490494933, 0, 0.7054097502497221, 0)
+                float3 xformOp:scale = (0.017, 0.1448, 0.15316)
+                double3 xformOp:translate = (0.00251, 0, 0.01308)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+
+            def Cube "collider_1" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (0.026720066308598828, -0.026720066308598828, 0.7066017535050872, 0.7066017535050872)
+                float3 xformOp:scale = (0.01334, 0.12736, 0.1448)
+                double3 xformOp:translate = (-0.07265, 0, 0.07657)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+
+            def Cube "collider_2" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (0.5126315546600733, -0.49025148678793845, 0.5095615453496418, -0.4870414770529271)
+                float3 xformOp:scale = (0.01334, 0.12736, 0.1448)
+                double3 xformOp:translate = (0.00047, -0.06855, 0.08177)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+
+            def Cube "collider_3" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (0.48794093101658165, -0.510430973928749, -0.48935093370693983, 0.5117709764855433)
+                float3 xformOp:scale = (0.01334, 0.12736, 0.1448)
+                double3 xformOp:translate = (-0.0002, 0.06909, 0.08177)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+
+            def Cube "collider_4" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (0.017649911845970437, 0.017649911845970437, -0.7068864693936568, 0.7068864693936568)
+                float3 xformOp:scale = (0.01334, 0.12736, 0.1448)
+                double3 xformOp:translate = (0.07557, 0, 0.07657)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+        }
+
+        def Xform "alphabet_soup"
+        {
+            quatd xformOp:orient = (-0.002413355626639958, 0.0022849958174009184, 0.7074553524058771, 0.7067502238139087)
+            double3 xformOp:translate = (-0.09381554624133535, -0.15042038680035066, 0.4751698094694409)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+            def Xform "Visual" (
+                prepend references = @/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/alphabet_soup.usd@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:scale"]
+            }
+
+            def Cube "APPROXIMATE_COLLIDER" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (0.06605572, 0.08355461, 0.07112054)
+                double3 xformOp:translate = (0, -0.000177575, -0.00016168)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+        }
+
+        def Xform "tomato_sauce"
+        {
+            quatd xformOp:orient = (-0.002467721697335974, 0.0022070378667394777, 0.7074518281383771, 0.706753811590109)
+            double3 xformOp:translate = (-0.11728844084700195, 0.05575548547705468, 0.47516927848924284)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+            def Xform "Visual" (
+                prepend references = @/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/tomato_sauce.usd@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:scale"]
+            }
+
+            def Cube "APPROXIMATE_COLLIDER" (
+                prepend apiSchemas = ["PhysicsCollisionAPI"]
+            )
+            {
+                double size = 1
+                token visibility = "invisible"
+                quatd xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (0.0664698, 0.08284671, 0.07019821)
+                double3 xformOp:translate = (0, -2.05e-7, -0.000040845)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+        }
+    }
+
+    def Xform "Robot" (
+        prepend references = @https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FrankaRobotics/FrankaPanda/franka.usd@
+    )
+    {
+        quatd xformOp:orient = (1, 0, 0, 0)
+        double3 xformOp:translate = (-0.51, 0, 0.42)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+
+        over "panda_link0"
+        {
+            vector3f physics:angularVelocity = (0, 0, 0)
+            vector3f physics:velocity = (0, 0, 0)
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:translate = (9.536743e-9, 2.9802322e-10, 1.66893e-8)
+
+            over "panda_joint1"
+            {
+                float state:angular:physics:position = -0.6695103
+                float state:angular:physics:velocity = -0.013243841
+            }
+        }
+
+        over "panda_link1"
+        {
+            vector3f physics:angularVelocity = (-1.5787895e-9, 0, -0.013243841)
+            vector3f physics:velocity = (0, 0, 0)
+            quatf xformOp:orient = (0.99998295, -6.9648576e-10, 4.039037e-26, -0.0058425465)
+            float3 xformOp:translate = (9.536743e-9, 2.9802324e-10, 0.33300003)
+
+            over "panda_joint2"
+            {
+                float state:angular:physics:position = -8.897488
+                float state:angular:physics:velocity = -0.55586576
+            }
+        }
+
+        over "panda_link2"
+        {
+            vector3f physics:angularVelocity = (-0.0064944997, -0.55582863, -0.013243918)
+            vector3f physics:velocity = (0, 0, 0)
+            quatf xformOp:orient = (-0.70464385, 0.7052848, 0.05072853, 0.05896624)
+            float3 xformOp:translate = (9.536743e-9, 2.9802324e-10, 0.33300003)
+
+            over "panda_joint3"
+            {
+                float state:angular:physics:position = 0.23410876
+                float state:angular:physics:velocity = -0.009254521
+            }
+        }
+
+        over "panda_link3"
+        {
+            vector3f physics:angularVelocity = (-0.0050615966, -0.5558449, -0.022386806)
+            vector3f physics:velocity = (-0.0030284196, 0.000046698267, -0.00047471022)
+            quatf xformOp:orient = (0.99697995, -0.00061164005, -0.077564836, -0.00378814)
+            float3 xformOp:translate = (-0.048871446, 0.0005710496, 0.6451976)
+
+            over "panda_joint4"
+            {
+                float state:angular:physics:position = -136.52142
+                float state:angular:physics:velocity = 0.3284946
+            }
+        }
+
+        over "panda_link4"
+        {
+            vector3f physics:angularVelocity = (-0.007574473, -0.88432753, -0.022179147)
+            vector3f physics:velocity = (-0.0031525858, 0.000015981848, 0.00031602723)
+            quatf xformOp:orient = (-0.3097279, -0.3143836, -0.6331247, 0.6359124)
+            float3 xformOp:translate = (0.032633465, -0.000044271525, 0.6579575)
+
+            over "panda_joint5"
+            {
+                float state:angular:physics:position = 0.0328059
+                float state:angular:physics:velocity = 0.0020038486
+            }
+        }
+
+        over "panda_link5"
+        {
+            vector3f physics:angularVelocity = (-0.0059870672, -0.8843397, -0.023402)
+            vector3f physics:velocity = (-0.0005455618, -0.00014360182, 0.0057885726)
+            quatf xformOp:orient = (0.44131398, 0.0035489507, 0.8973438, -0.001844853)
+            float3 xformOp:translate = (0.3871276, -0.0028623967, 0.48887715)
+
+            over "panda_joint6"
+            {
+                float state:angular:physics:position = 124.34491
+                float state:angular:physics:velocity = 0.013021848
+            }
+        }
+
+        over "panda_link6"
+        {
+            vector3f physics:angularVelocity = (-0.006091228, -0.89736456, -0.02339968)
+            vector3f physics:velocity = (-0.0005455618, -0.00014360182, 0.0057885726)
+            quatf xformOp:orient = (0.7067937, 0.70682955, 0.017403243, -0.023059875)
+            float3 xformOp:translate = (0.3871276, -0.0028623967, 0.48887715)
+
+            over "panda_joint7"
+            {
+                float state:angular:physics:position = 44.61399
+                float state:angular:physics:velocity = -0.00006435005
+            }
+        }
+
+        over "panda_link7"
+        {
+            vector3f physics:angularVelocity = (-0.0060875607, -0.89736384, -0.02333543)
+            vector3f physics:velocity = (-0.00046740306, -0.00018001423, 0.0071646175)
+            quatf xformOp:orient = (0.010836707, 0.923259, -0.38311115, -0.026480114)
+            float3 xformOp:translate = (0.47498065, -0.0035659438, 0.4838436)
+        }
+
+        over "panda_hand"
+        {
+            vector3f physics:angularVelocity = (-0.0060875607, -0.89736384, -0.02333543)
+            vector3f physics:velocity = (0.0012057254, -0.00018888513, 0.007069223)
+            quatf xformOp:orient = (-0.00012164375, 0.9995904, -0.0006324648, -0.028611386)
+            float3 xformOp:translate = (0.46886036, -0.0035360018, 0.37701872)
+
+            over "panda_finger_joint1"
+            {
+                float state:linear:physics:position = 0.03872199
+                float state:linear:physics:velocity = 0.00000611177
+            }
+
+            over "panda_finger_joint2"
+            {
+                float state:linear:physics:position = 0.038721994
+                float state:linear:physics:velocity = 0.00000611177
+            }
+        }
+
+        over "panda_leftfinger"
+        {
+            vector3f physics:angularVelocity = (-0.0060875607, -0.89736384, -0.02333543)
+            vector3f physics:velocity = (0.002103256, -0.00019981935, 0.007020497)
+            quatf xformOp:orient = (-0.00012164375, 0.9995904, -0.0006324648, -0.028611386)
+            float3 xformOp:translate = (0.4654707, -0.042241644, 0.31870636)
+        }
+
+        over "panda_rightfinger"
+        {
+            vector3f physics:angularVelocity = (-0.0060875607, -0.89736384, -0.02333543)
+            vector3f physics:velocity = (0.0021345627, -0.0001876343, 0.007013826)
+            quatf xformOp:orient = (-0.00012164375, 0.9995904, -0.0006324648, -0.028611386)
+            float3 xformOp:translate = (0.46556917, 0.035202276, 0.3187224)
+        }
+    }
+
+    def "Cameras"
+    {
+        def Camera "External" (
+            prepend apiSchemas = ["OmniSensorAPI", "OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.01, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 252.94922
+            float horizontalAperture = 209.55
+            float omni:sensor:tickRate = 20
+            float verticalAperture = 209.55
+            quatd xformOp:orient = (0.6182166337966919, 0.3432307243347168, 0.3432314097881317, 0.6182176470756531)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0.6065773963928223, 0, 0.9599999785423279)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Camera "Wrist" (
+            prepend apiSchemas = ["OmniSensorAPI", "OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.01, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 136.54544
+            float horizontalAperture = 209.55
+            float omni:sensor:tickRate = 20
+            float verticalAperture = 209.55
+            quatd xformOp:orient = (-0.7065308690071106, 0.019005630165338516, -0.01917622797191143, 0.7071670293807983)
+            double3 xformOp:scale = (1, 1, 1)
+            double3 xformOp:translate = (0.009027884341776371, -0.0036367957945913076, 0.7962169051170349)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+}
+

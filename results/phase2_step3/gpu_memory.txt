@@ -1,0 +1,8 @@
+{
+  "device_name": "NVIDIA RTX 6000D",
+  "device_total_bytes": 89173131264,
+  "torch_peak_allocated_bytes": 9523844096,
+  "torch_peak_reserved_bytes": 9879683072,
+  "nvidia_smi_after_inference": "2026/08/12 19:12:21.981, NVIDIA RTX 6000D, 595.71.05, 85651, 10015, 75028, 48",
+  "oom": false
+}

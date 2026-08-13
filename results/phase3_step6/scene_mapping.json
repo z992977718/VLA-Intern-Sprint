@@ -1,0 +1,54 @@
+{
+  "robot": {
+    "status": "APPROXIMATE",
+    "detail": "Franka Panda identity matched; Isaac and robosuite robot assets/dynamics differ"
+  },
+  "table_visual": {
+    "status": "MATCH",
+    "detail": "same LIBERO OBJ, scale 1.5, converted to USD"
+  },
+  "table_collision": {
+    "status": "MATCH_FOR_TASK_TOP",
+    "detail": "exact runtime MuJoCo tabletop box; decorative collision geoms omitted"
+  },
+  "target_visual_assets": {
+    "status": "MATCH",
+    "detail": "same LIBERO OBJ/textures, scale 0.01"
+  },
+  "target_collision": {
+    "status": "APPROXIMATE ASSET",
+    "detail": "one measured bounding box per target, not full multi-box MuJoCo collision set"
+  },
+  "basket_visual_collision": {
+    "status": "MATCH",
+    "detail": "same OBJ plus five exact box colliders from basket.xml"
+  },
+  "object_initial_poses": {
+    "status": "MATCH",
+    "detail": "actual settled poses from fixed LIBERO states 0,1,2"
+  },
+  "external_camera": {
+    "status": "MATCH_PARAMETERS",
+    "detail": "source world pose and 45 degree vertical FOV; renderer differs"
+  },
+  "wrist_camera": {
+    "status": "APPROXIMATE",
+    "detail": "initial LIBERO world pose calibrated then rigidly follows Isaac panda_hand"
+  },
+  "lighting_background": {
+    "status": "APPROXIMATE",
+    "detail": "neutral Isaac lights/background; LIBERO living-room walls and four distractors omitted"
+  },
+  "gripper": {
+    "status": "APPROXIMATE",
+    "detail": "same parallel-gripper intent; joint sign/range and contact dynamics differ"
+  },
+  "control_frame": {
+    "status": "CALIBRATED_APPROXIMATE",
+    "detail": "fixed 95.1035 mm local tool offset maps Isaac panda_hand to LIBERO EEF point"
+  },
+  "physics": {
+    "status": "APPROXIMATE",
+    "detail": "PhysX instead of MuJoCo; friction/contact solver equivalence not established"
+  }
+}

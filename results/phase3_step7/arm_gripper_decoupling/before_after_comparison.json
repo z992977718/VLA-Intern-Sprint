@@ -1,0 +1,81 @@
+{
+  "only_intended_architecture_change": "PINK 9D arm+finger configuration -> 7D arm-only configuration",
+  "before": {
+    "status": "CONFIRMED_FROM_INSTALLED_BUNDLED_URDF",
+    "model_nq": 9,
+    "model_nv": 9,
+    "controlled_joint_names": [
+      "panda_joint1",
+      "panda_joint2",
+      "panda_joint3",
+      "panda_joint4",
+      "panda_joint5",
+      "panda_joint6",
+      "panda_joint7",
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "finger_included": true,
+    "panda_hand_frame_present": true,
+    "source_urdf": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/robot_configurations/franka/robot.urdf"
+  },
+  "after": {
+    "status": "CPU_STATIC_TESTED",
+    "construction": "project-side generated URDF removes both finger subtrees; bundled upstream URDF is unchanged",
+    "model_nq": 7,
+    "model_nv": 7,
+    "controlled_joint_names": [
+      "panda_joint1",
+      "panda_joint2",
+      "panda_joint3",
+      "panda_joint4",
+      "panda_joint5",
+      "panda_joint6",
+      "panda_joint7"
+    ],
+    "finger_included": false,
+    "panda_hand_frame_present": true,
+    "posture_dimension": 7,
+    "velocity_dimension": 7,
+    "generated_urdf": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step7/arm_gripper_decoupling/franka_arm_only.urdf",
+    "urdf_change": {
+      "source_urdf": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/robot_configurations/franka/robot.urdf",
+      "destination_urdf": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step7/arm_gripper_decoupling/franka_arm_only.urdf",
+      "removed_joint_names": [
+        "panda_finger_joint1",
+        "panda_finger_joint2",
+        "panda_leftfingertip",
+        "panda_rightfingertip"
+      ],
+      "removed_link_names": [
+        "panda_leftfinger",
+        "panda_leftfingertip",
+        "panda_rightfinger",
+        "panda_rightfingertip"
+      ],
+      "upstream_modified": false
+    }
+  },
+  "same_scene": true,
+  "same_initial_state": 0,
+  "same_object": "tomato_sauce",
+  "same_pre_grasp_clearance_m": 0.085,
+  "same_grasp_top_clearance_m": 0.01,
+  "same_lift_delta_m": 0.06,
+  "same_pink_costs": {
+    "position": 5.0,
+    "orientation": 0.25,
+    "posture": 0.005
+  },
+  "same_controller_solver": "OSQP",
+  "same_physics": true,
+  "same_safety": true,
+  "same_success_metric": true,
+  "formal_results_modified": false,
+  "diagnostic": {
+    "passed_previous_failure_region": true,
+    "finger_limit_failure_reappeared": false,
+    "full_descent_completed": true,
+    "lift_success": true
+  }
+}

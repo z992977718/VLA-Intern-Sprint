@@ -1,0 +1,10 @@
+phase=Phase 3 / Step 7C.2
+mode=DIAGNOSTIC / NOT COUNTED
+python=3.12.13
+python_executable=/root/autodl-tmp/isaac_sim/venv/bin/python
+platform=Linux-5.15.0-78-generic-x86_64-with-glibc2.35
+gpu=NVIDIA GeForce RTX 5090, 580.105.08, 32607 MiB, 0 MiB, 0 %
+pi05_called=false
+predict_action_chunk_called=false
+physics_changed=false
+safety_threshold_changed=false

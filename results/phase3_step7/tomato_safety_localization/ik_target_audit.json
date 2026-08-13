@@ -1,0 +1,12 @@
+{
+  "status": "PINK_RETURNED_A_TARGET_BUT_TARGET_ACCEPTABILITY_IS_UNRESOLVED",
+  "pink_reset_failed": false,
+  "pink_forward_returned_none": false,
+  "basis": "The exception came from the aggregate safety condition after controller.forward, not from either explicit IK_FAILURE branch.",
+  "structural_ik_failure_confirmed": false,
+  "structural_ik_failure_excluded_for_this_iteration": true,
+  "nonfinite_joint_target_excluded": false,
+  "finite_but_unsafe_joint_target_possible": true,
+  "target_values_persisted": false,
+  "rerun_required_for_exact_trigger": true
+}

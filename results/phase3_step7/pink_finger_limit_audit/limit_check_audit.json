@@ -1,0 +1,23 @@
+{
+  "status": "CONFIRMED",
+  "error": "Joint 8 violates configuration limits 0.0 <= 0.04000149667263031 <= 0.04",
+  "controller_file": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/pink_ik_controller.py",
+  "controller_function": "_solve_ik",
+  "controller_line": 524,
+  "pink_file": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/configuration.py",
+  "pink_function": "Configuration.check_limits",
+  "pink_lines": "167-195",
+  "check_stage": "BEFORE_BUILD_IK_AND_BEFORE_QP_SOLVE",
+  "checked_value": "current configuration q[8]",
+  "comparison": "q < lower - tol or q > upper + tol",
+  "tolerance": 1e-06,
+  "tolerance_unit_for_joint8": "m",
+  "pink_docstring_unit_warning": "The upstream docstring says radians generically, but joint 8 is prismatic and therefore measured in meters.",
+  "q_dtype": "float64",
+  "limit_dtype": "float64",
+  "reported_excess": 1.49667263030923e-06,
+  "excess_beyond_pink_tolerance": 4.96672630309226e-07,
+  "project_safety_tolerance": 7.450580596923828e-09,
+  "ratio_to_project_safety_tolerance": 200.879999999888,
+  "conclusion": "The exception is a pre-solve rejection of an already-out-of-range input q, not a rejection of q_next, velocity, a returned target, or an integrated configuration."
+}

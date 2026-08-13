@@ -1,0 +1,71 @@
+{
+  "-X": {
+    "prior_status": "MISMATCH",
+    "category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target deltas agree, while 0.05 s actual motion differs",
+    "target_same": true,
+    "reference_point_same": "position approximately aligned; full tool-frame equivalence not established",
+    "tracking_same": false
+  },
+  "+Y": {
+    "prior_status": "MISMATCH",
+    "category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target deltas agree, while 0.05 s actual motion differs",
+    "target_same": true,
+    "reference_point_same": "position approximately aligned; full tool-frame equivalence not established",
+    "tracking_same": false
+  },
+  "-Y": {
+    "prior_status": "MISMATCH",
+    "category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target deltas agree, while 0.05 s actual motion differs",
+    "target_same": true,
+    "reference_point_same": "position approximately aligned; full tool-frame equivalence not established",
+    "tracking_same": false
+  },
+  "-Z": {
+    "prior_status": "MISMATCH",
+    "category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target deltas agree, while 0.05 s actual motion differs",
+    "target_same": true,
+    "reference_point_same": "position approximately aligned; full tool-frame equivalence not established",
+    "tracking_same": false
+  },
+  "+Rx": {
+    "prior_status": "MISMATCH",
+    "category": "REFERENCE_POINT_MISMATCH",
+    "secondary_category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target relative rotations agree, but initial measured orientation frames differ; actual rotation must not be interpreted as a confirmed adapter bug",
+    "target_same": true,
+    "reference_point_same": false,
+    "tracking_same": false
+  },
+  "-Rx": {
+    "prior_status": "MISMATCH",
+    "category": "REFERENCE_POINT_MISMATCH",
+    "secondary_category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target relative rotations agree, but initial measured orientation frames differ; actual rotation must not be interpreted as a confirmed adapter bug",
+    "target_same": true,
+    "reference_point_same": false,
+    "tracking_same": false
+  },
+  "-Ry": {
+    "prior_status": "MISMATCH",
+    "category": "REFERENCE_POINT_MISMATCH",
+    "secondary_category": "TRACKING_MAGNITUDE_MISMATCH",
+    "evidence": "target relative rotations agree, but initial measured orientation frames differ; actual rotation must not be interpreted as a confirmed adapter bug",
+    "target_same": true,
+    "reference_point_same": false,
+    "tracking_same": false
+  },
+  "open": {
+    "prior_status": "MATCH",
+    "category": "MATCH",
+    "evidence": "both saved records report the same OPEN/CLOSED semantic"
+  },
+  "close": {
+    "prior_status": "MATCH",
+    "category": "MATCH",
+    "evidence": "both saved records report the same OPEN/CLOSED semantic"
+  }
+}

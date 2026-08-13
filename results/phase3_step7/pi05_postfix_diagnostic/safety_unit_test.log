@@ -1,0 +1,9 @@
+{
+  "all_pass": true,
+  "case_count": 13,
+  "float32_eps": 1.1920928955078125e-07,
+  "upper_limit": 0.03999999910593033,
+  "upper_spacing": 3.725290298461914e-09,
+  "upper_one_ulp_excess": 3.725290298461914e-09,
+  "tolerance_policy": "2 ULP of the coarsest runtime float dtype per joint limit"
+}

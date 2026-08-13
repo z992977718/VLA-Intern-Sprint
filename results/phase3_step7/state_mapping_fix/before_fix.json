@@ -1,0 +1,58 @@
+{
+  "source_directory": "results/phase3_step7/state_mapping_audit",
+  "five_pose_position_error_m": {
+    "mean": 0.03786971875200941,
+    "max": 0.07081415581166076,
+    "min": 0.002517264850813475
+  },
+  "orientation_error_rad": {
+    "mean": 0.4339529671171105,
+    "max": 0.8619121710676902,
+    "min": 0.025308947875216748
+  },
+  "gripper_representation": {
+    "libero_order": "robot0_gripper_qpos: [right_finger, left_finger] with mirrored signs in this environment",
+    "isaac_order": "[panda_finger_joint1, panda_finger_joint2] with equal positive opening positions",
+    "rows": [
+      {
+        "label": "open",
+        "libero_qpos": [
+          0.04,
+          -0.04
+        ],
+        "isaac_qpos": [
+          0.03999609500169754,
+          0.039999429136514664
+        ]
+      },
+      {
+        "label": "intermediate",
+        "libero_qpos": [
+          0.02,
+          -0.02
+        ],
+        "isaac_qpos": [
+          0.02000003680586815,
+          0.020000023767352104
+        ]
+      },
+      {
+        "label": "closed",
+        "libero_qpos": [
+          0.0,
+          0.0
+        ],
+        "isaac_qpos": [
+          3.0772173431614647e-07,
+          2.1259833005160544e-08
+        ]
+      }
+    ],
+    "semantic_trend": "open -> intermediate -> closed is monotonic in both simulators",
+    "absolute_vector_match_required": false,
+    "classification": "MISMATCH",
+    "finding": "Both encode two finger joint positions and preserve open/intermediate/closed semantics, but their sign conventions differ. Passing Isaac finger values unchanged into the LIBERO state schema is not a numerically equivalent representation."
+  },
+  "old_adapter_examples": "position=p_hand + R_hand @ [0,0,0.0951034858]; gripper=[finger1,finger2]",
+  "frame_definitions": "LIBERO position=robot0_eef_pos/grip site; LIBERO orientation=robot0_eef_quat/body API; Isaac source before fix=panda_hand plus local rotated 95.1035 mm offset"
+}

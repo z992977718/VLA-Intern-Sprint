@@ -1,0 +1,18 @@
+{
+  "episode_index": 0,
+  "initial_state_id": 0,
+  "diagnostic_not_counted": true,
+  "completed": true,
+  "success": false,
+  "termination": "HORIZON_REACHED",
+  "cycles_completed": 100,
+  "max_cycles": 100,
+  "K": 1,
+  "runtime_sec": 253.6525608189404,
+  "frames": 2001,
+  "oom": false,
+  "manual_intervention": false,
+  "action_chunk_policy": "K=1; only action_chunk[0]",
+  "safety_event_count": 0,
+  "pink_failure_count": 0
+}

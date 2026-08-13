@@ -1,0 +1,22 @@
+{
+  "task_suite": "libero_10",
+  "suite_task_id": 0,
+  "phase1_dataset_task_index": 5,
+  "instruction": "put both the alphabet soup and the tomato sauce in the basket",
+  "source_bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+  "episodes": 3,
+  "initial_state_ids": [
+    0,
+    1,
+    2
+  ],
+  "hard_reset": true,
+  "max_cycles": 100,
+  "receding_horizon_k": 1,
+  "action_chunk_shape": [
+    50,
+    7
+  ],
+  "success_predicate": "both target body centers lie in basket_1_contain_region oriented box",
+  "training_or_weight_update": false
+}

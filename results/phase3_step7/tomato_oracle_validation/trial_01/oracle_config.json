@@ -1,0 +1,31 @@
+{
+  "object": "tomato_sauce",
+  "pre_grasp_clearance_m": 0.085,
+  "grasp_top_clearance_m": 0.01,
+  "lift_delta_m": 0.06,
+  "top_down_tool_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  ],
+  "stage_steps": {
+    "approach": 240,
+    "descent": 200,
+    "close_settle": 180,
+    "lift": 240,
+    "hold": 180
+  },
+  "physics_reused_from": "Phase 3 / Step 6 build_scene"
+}

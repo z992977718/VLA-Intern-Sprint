@@ -1,0 +1,44 @@
+{
+  "before_fix": {
+    "tomato_success": 0,
+    "trials": 3,
+    "descent_step0_passed": 0,
+    "descent_completed": 0,
+    "grasp_stage_reached": 0,
+    "lift_success": 0,
+    "false_positive_joint_upper_limit_stops": 3,
+    "confirmed_trigger_excess_rad": 3.725290298461914e-09
+  },
+  "after_fix": {
+    "tomato_success": 0,
+    "trials": 3,
+    "descent_step0_passed": 3,
+    "descent_completed": 0,
+    "grasp_stage_reached": 0,
+    "lift_success": 0,
+    "confirmed_floating_tolerance_clamps": 3,
+    "exact_total_clamp_count_known": false,
+    "confirmed_real_upper_limit_safety_rejections": 0,
+    "confirmed_real_lower_limit_safety_rejections": 0,
+    "confirmed_joint_delta_safety_rejections": 0,
+    "confirmed_nonfinite_safety_rejections": 0,
+    "final_failure_category": "IK_FAILURE",
+    "tomato_classification": "FAIL"
+  },
+  "original_false_positive_safety_stop_disappeared": true,
+  "confirmed_safety_comparison_bug_fixed": true,
+  "new_blocker": {
+    "category": "IK_FAILURE",
+    "component": "PINK internal configuration-limit validation",
+    "observed_message": "Joint 8 violates configuration limits 0.0 <= 0.04000149667263031 <= 0.04",
+    "automatic_second_fix_performed": false
+  },
+  "frozen_alphabet_reference": {
+    "success": 3,
+    "trials": 3
+  },
+  "robot_side_oracle_after_fix": "PARTIAL",
+  "does_not_prove_step6_policy_causation": true,
+  "could_have_contributed_to_step6": "UNLIKELY",
+  "next_pi05_diagnostic_rollout_recommended_now": false
+}

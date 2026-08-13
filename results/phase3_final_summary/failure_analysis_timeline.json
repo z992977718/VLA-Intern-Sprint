@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "timeline": [
+    {
+      "order": 1,
+      "stage": "Phase 3 / Step 6",
+      "finding": "同语义 cross-simulator rollout 为 0/3；三次均 HORIZON_REACHED，未观察到有效目标物运动。",
+      "outcome": "需要区分 policy、数据接口、控制器和 robot-side 问题。"
+    },
+    {
+      "order": 2,
+      "stage": "Action Parity Audit",
+      "finding": "目标构造中未确认符号、缩放或 Action Adapter 错误；短时平移差异属于跟踪量级差异，旋转差异与初始 EEF frame 有关。",
+      "outcome": "没有证据把 Step 6 失败归为已确认的 action-semantics bug。"
+    },
+    {
+      "order": 3,
+      "stage": "State Mapping Audit",
+      "finding": "Franka 状态位置源与 LIBERO-compatible state 存在系统偏差，夹爪第二指符号不匹配。",
+      "outcome": "状态接口被确定为可修复问题。"
+    },
+    {
+      "order": 4,
+      "stage": "State Mapping Fix",
+      "finding": "改用 /World/Robot/panda_hand/tool_center，并将夹爪表示改为 [finger1, -finger2]。",
+      "outcome": "位置 calibration mean/max 从 37.870/70.814 mm 降至 7.874/8.207 mm；hold-out 从 62.852/79.705 mm 降至 7.800/7.898 mm。Orientation 仍未解决。"
+    },
+    {
+      "order": 5,
+      "stage": "Scripted Grasp Oracle",
+      "finding": "Alphabet soup 正式试验 3/3；Tomato sauce 原始正式试验 0/3，均在 descent 阶段 SAFETY_STOP。",
+      "outcome": "robot-side pipeline 只得到 PARTIAL，且 tomato 失败与 Pi0.5、视觉和语言无关。"
+    },
+    {
+      "order": 6,
+      "stage": "Tomato Safety Telemetry",
+      "finding": "descent step 0 的 panda_finger_joint2 是 prismatic joint，其 target 仅比 upper limit 高约 3.725e-9 m。",
+      "outcome": "定位为浮点边界比较造成的 Safety false positive。"
+    },
+    {
+      "order": 7,
+      "stage": "Floating-point-safe Safety Fix",
+      "finding": "使用 2 ULP 量级的浮点安全比较，未放宽物理阈值。",
+      "outcome": "Safety 决策测试 13/13 通过；原 false positive 被清除。"
+    },
+    {
+      "order": 8,
+      "stage": "PINK Finger Configuration Blocker",
+      "finding": "PINK arm IK 配置错误地包含两个 prismatic finger joints；finger2 的微小越界值继续阻塞配置。",
+      "outcome": "确定为 controller architecture/configuration blocker。"
+    },
+    {
+      "order": 9,
+      "stage": "PINK Static Audit and Minimal Fix",
+      "finding": "PINK 从 9D arm+finger 改为 7D arm-only；夹爪保持独立命令通道。",
+      "outcome": "避免 arm IK 与 gripper state/target 相互耦合。"
+    },
+    {
+      "order": 10,
+      "stage": "Tomato Formal Post-fix Validation",
+      "finding": "三个 hard-reset tomato 正式试验均成功。",
+      "outcome": "Tomato post-fix 3/3；结合既有 Alphabet 3/3，当前 scripted robot-side manipulation pipeline 标记为 ROBUST PASS。"
+    },
+    {
+      "order": 11,
+      "stage": "One Post-fix Pi0.5 Diagnostic",
+      "finding": "Step 6 state 0、K=1、100 cycles；无 Safety violation、无 IK failure，但仍无成功、物体运动或可信抓取，行为变化为 NO_CLEAR_IMPROVEMENT。",
+      "outcome": "已清除的 robot-side blockers 不能单独解释原 Step 6 结果；单 episode 仍不足以证明 Pi0.5 本身无效。"
+    },
+    {
+      "order": 12,
+      "stage": "Engineering Closeout",
+      "finding": "主要 robot-side blockers 已定位并修复，继续深挖 Franka/Isaac 的项目收益偏低。",
+      "outcome": "FREEZE_FRANKA_ISAAC_MAINLINE。"
+    }
+  ]
+}

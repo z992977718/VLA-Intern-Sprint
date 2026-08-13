@@ -1,0 +1,31 @@
+{
+  "status": "CONFIRMED",
+  "pink_extension_version": "0.1.3",
+  "model_source": "load_pink_supported_robot('franka')",
+  "model_urdf": "/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/robot_configurations/franka/robot.urdf",
+  "configuration_dimension_nq": 9,
+  "velocity_dimension_nv": 9,
+  "controlled_joint_count": 9,
+  "controlled_joints": [
+    "panda_joint1", "panda_joint2", "panda_joint3", "panda_joint4", "panda_joint5",
+    "panda_joint6", "panda_joint7", "panda_finger_joint1", "panda_finger_joint2"
+  ],
+  "contains_fingers": true,
+  "fingers_actively_present_in_qp": true,
+  "why": [
+    "configuration_loader.py includes every URDF joint with nq > 0 as controlled_joint_names",
+    "both finger joints are independent prismatic joints with nq=1; the bundled URDF explicitly removed the mimic element",
+    "PinkIKController receives project robot_joint_space=JOINT_NAMES, which is the full 9-joint order",
+    "PostureTask uses a full nv-dimensional identity Jacobian, so it actively regularizes both fingers",
+    "map_pinocchio_velocity_to_joint_state returns targets and velocities for every controlled_joint_name"
+  ],
+  "frame_task_directly_optimizes_fingers": false,
+  "frame_task_reason": "panda_hand is upstream of the two finger joints in the URDF, so its kinematic Jacobian has no finger motion contribution",
+  "posture_task_updates_fingers": true,
+  "posture_cost": 0.005,
+  "configuration_input_dtype": "float64",
+  "dtype_path": "Isaac positions are read as float32; _extract_joint_positions converts each to Python float and np.array(...) creates float64 before mapping into the Pinocchio q vector",
+  "design_intent": "PINK arm IK plus an independently commanded gripper",
+  "actual_architecture": "PINK configuration/QP/output include arm plus fingers; project then overwrites PINK finger targets with an independent gripper command",
+  "decoupling_status": "NOT_DECOUPLED_AT_CONFIGURATION_OR_QP_LEVEL"
+}

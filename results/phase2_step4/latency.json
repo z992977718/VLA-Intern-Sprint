@@ -1,0 +1,9 @@
+{
+  "pi05_inference_ms": 577.1602881141007,
+  "inference_calls": 1,
+  "action_adapter_ms": 0.40719378739595413,
+  "controller_mean_ms": 1.9496282329782844,
+  "controller_p95_ms": 2.355708694085479,
+  "command_to_movement_ms": 97.11991995573044,
+  "model_startup_excluded_from_inference": true
+}

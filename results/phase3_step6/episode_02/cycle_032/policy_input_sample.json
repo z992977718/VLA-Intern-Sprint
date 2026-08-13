@@ -1,0 +1,88 @@
+{
+  "source_joint_topic": "Isaac direct articulation state",
+  "source_joint_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "arm_joint_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7"
+  ],
+  "arm_joint_positions_rad": [
+    0.07903847843408585,
+    0.3077234923839569,
+    -0.002321550389751792,
+    -1.8004566431045532,
+    0.10425972193479538,
+    1.8149845600128174,
+    1.2303975820541382
+  ],
+  "eef_source_prim": "/World/Robot/panda_hand",
+  "eef_reference_frame": "/World",
+  "eef_position_unit": "meter",
+  "eef_position_xyz_m": [
+    0.05902763456106186,
+    0.05889434739947319,
+    0.6853649616241455
+  ],
+  "eef_quaternion_source_wxyz": [
+    0.008583567105233643,
+    0.9676118060898018,
+    -0.20040543716784529,
+    -0.1532689656941243
+  ],
+  "eef_quaternion_target_xyzw": [
+    0.9676117897033691,
+    -0.20040543377399445,
+    -0.153268963098526,
+    0.00858356710523367
+  ],
+  "eef_axis_angle_rad": [
+    3.0233421325683594,
+    -0.6261748671531677,
+    -0.4788950979709625
+  ],
+  "gripper_joint_order": [
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "gripper_qpos_source_values": [
+    0.03082927130162716,
+    0.03082926571369171
+  ],
+  "gripper_semantic_compatibility": "PARTIAL: both are two finger joint positions, but cross-simulator calibration/range equivalence is not established",
+  "phase1_state_order": [
+    "eef_x_m",
+    "eef_y_m",
+    "eef_z_m",
+    "eef_axis_angle_x_rad",
+    "eef_axis_angle_y_rad",
+    "eef_axis_angle_z_rad",
+    "gripper_qpos_0",
+    "gripper_qpos_1"
+  ],
+  "robot_state_8d": [
+    0.05902763456106186,
+    0.05889434739947319,
+    0.6853649616241455,
+    3.0233421325683594,
+    -0.6261748671531677,
+    -0.4788950979709625,
+    0.03082927130162716,
+    0.03082926571369171
+  ],
+  "finite": true,
+  "language": "put both the alphabet soup and the tomato sauce in the basket"
+}

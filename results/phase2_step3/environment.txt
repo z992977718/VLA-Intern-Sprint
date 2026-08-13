@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-12",
+  "host_role": "RTX 6000D 正式远程运行环境",
+  "os": "Ubuntu 22.04.5 LTS",
+  "python": "3.12.13",
+  "torch": "2.8.0+cu128",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA RTX 6000D",
+  "gpu_total_mib": 85651,
+  "driver": "595.71.05",
+  "isaac_sim": "6.0.1",
+  "ros2": "Humble",
+  "lerobot": "0.6.2",
+  "lerobot_commit": "22bd7a2f489b367d8df42de803b1e8c4ca63a3f9",
+  "checkpoint": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "checkpoint_size": "8.8 GB",
+  "checkpoint_dtype": "bfloat16",
+  "note": "版本来自本项目既有远程验收与本次 checkpoint/Isaac 运行证据；最终自动 Git 查询因远程项目根目录不是 Git 仓库而失败，不影响已保存推理结果。"
+}

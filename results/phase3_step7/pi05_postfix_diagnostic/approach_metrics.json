@@ -1,0 +1,8 @@
+{
+  "position_source": "/World/Robot/panda_hand/tool_center",
+  "minimum_tool_to_alphabet_distance_m": 0.2630737577490472,
+  "minimum_tool_to_alphabet_cycle": 0,
+  "minimum_tool_to_tomato_distance_m": 0.20132251647793192,
+  "minimum_tool_to_tomato_cycle": 17,
+  "separate_gripper_center_metric": "NOT_SEPARATELY_RECONSTRUCTED"
+}

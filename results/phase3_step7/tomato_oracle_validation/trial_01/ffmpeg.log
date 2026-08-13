@@ -1,0 +1,115 @@
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.3.0 (conda-forge gcc 14.3.0-5)
+  configuration: --prefix=/root/autodl-tmp/miniforge3/envs/vla-intern --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --disable-gnutls --enable-libvpx --enable-libass --enable-pthreads --enable-alsa --enable-libpulse --enable-vaapi --enable-libvpl --enable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-ffplay --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/pkg-config
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, concat, from '/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step7/tomato_oracle_validation/trial_01/video_frames_concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 256x256, 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[concat @ 0x55d4ca90cc40] DTS -230584300921369 < 0 out of order
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+[libx264 @ 0x55d4ca929180] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x55d4ca929180] profile High, level 1.2, 4:2:0, 8-bit
+[libx264 @ 0x55d4ca929180] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=8 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=15 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/root/autodl-tmp/VLA-Intern-Sprint/assets/videos/phase3_step7_oracle_tomato_validation_01.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 256x256, q=2-31, 15 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+DTS -230584300921369, next:66667 st:0 invalid dropping
+PTS -230584300921369, next:66667 invalid dropping st:0
+[out#0/mp4 @ 0x55d4ca9264c0] video:45KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.555036%
+frame=   66 fps=0.0 q=-1.0 Lsize=      47KiB time=00:00:04.26 bitrate=  89.7kbits/s speed=16.8x    
+[libx264 @ 0x55d4ca929180] frame I:1     Avg QP:19.70  size:  6365
+[libx264 @ 0x55d4ca929180] frame P:17    Avg QP:21.21  size:  1437
+[libx264 @ 0x55d4ca929180] frame B:48    Avg QP:25.73  size:   306
+[libx264 @ 0x55d4ca929180] consecutive B-frames:  1.5%  3.0%  4.5% 90.9%
+[libx264 @ 0x55d4ca929180] mb I  I16..4:  3.1% 57.8% 39.1%
+[libx264 @ 0x55d4ca929180] mb P  I16..4:  0.4%  2.8%  2.3%  P16..4: 30.6% 13.2%  8.2%  0.0%  0.0%    skip:42.4%
+[libx264 @ 0x55d4ca929180] mb B  I16..4:  0.0%  0.1%  0.1%  B16..8: 16.8%  4.1%  1.1%  direct: 1.5%  skip:76.2%  L0:26.0% L1:60.4% BI:13.5%
+[libx264 @ 0x55d4ca929180] 8x8 transform intra:53.3% inter:57.6%
+[libx264 @ 0x55d4ca929180] coded y,uvDC,uvAC intra: 78.1% 63.8% 43.5% inter: 10.1% 4.0% 0.3%
+[libx264 @ 0x55d4ca929180] i16 v,h,dc,p: 29% 46% 18%  7%
+[libx264 @ 0x55d4ca929180] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9% 44% 17%  3%  4%  3%  7%  5%  7%
+[libx264 @ 0x55d4ca929180] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 43% 13%  3%  4%  5%  6%  3%  6%
+[libx264 @ 0x55d4ca929180] i8c dc,h,v,p: 48% 37% 11%  4%
+[libx264 @ 0x55d4ca929180] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x55d4ca929180] ref P L0: 68.0% 13.1% 14.4%  4.6%
+[libx264 @ 0x55d4ca929180] ref B L0: 92.5%  6.4%  1.1%
+[libx264 @ 0x55d4ca929180] ref B L1: 94.6%  5.4%
+[libx264 @ 0x55d4ca929180] kb/s:82.73

@@ -1,0 +1,23 @@
+Phase 2 / Step 3 运行日志索引
+
+最终有效观测采集：
+- isaac_runtime.log
+- observation_adapter.log
+- ros2_topics.txt
+- ros2_topic_info.txt
+
+Pi0.5：
+- policy_inference_attempt1_missing_batch.log：首次单样本嵌套状态缺 batch 维，官方 LiberoProcessorStep 拒绝。
+- policy_inference.log：2k checkpoint 权重全部成功加载，三次真实推理与 action/latency/memory 产物均已保存；随后仅在写 environment.txt 时因远程项目根目录不是 Git 仓库返回 128。
+
+核心成功证据：
+- action_chunk.npy
+- action_chunks_3_calls.npy
+- action_chunk_summary.json
+- inference_latency.json
+- gpu_memory.txt
+- input_schema.json
+- robot_state_sample.json
+- run_status.json
+
+没有发布或执行任何 VLA Action。

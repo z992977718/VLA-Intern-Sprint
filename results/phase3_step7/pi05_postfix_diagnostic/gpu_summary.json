@@ -1,0 +1,6 @@
+{
+  "torch_peak_allocated_bytes": 9522268160,
+  "torch_peak_reserved_bytes": 9877585920,
+  "nvidia_smi_peak_used_mib": 12955.0,
+  "final_gpu": "NVIDIA GeForce RTX 5090, 32607, 0, 0"
+}

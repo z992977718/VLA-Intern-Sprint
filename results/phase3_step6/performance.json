@@ -1,0 +1,40 @@
+{
+  "inference": {
+    "count": 300,
+    "mean_ms": 182.87598769025257,
+    "median_ms": 181.6027460154146,
+    "p95_ms": 184.1414999216795,
+    "min_ms": 179.5983100309968,
+    "max_ms": 425.8458763360977
+  },
+  "steady_state_mean_ms_skip_first_10_each_episode": 181.9155390219142,
+  "action_adapter": {
+    "count": 300,
+    "mean_ms": 0.22909536492079496,
+    "median_ms": 0.22620894014835358,
+    "p95_ms": 0.25092530995607376,
+    "min_ms": 0.20655104890465736,
+    "max_ms": 0.383598729968071
+  },
+  "pink_forward_mean_per_cycle": {
+    "count": 300,
+    "mean_ms": 1.9819212141058717,
+    "median_ms": 1.9687648532756916,
+    "p95_ms": 2.12509393847237,
+    "min_ms": 1.85131086424614,
+    "max_ms": 2.359058785562714
+  },
+  "observation_to_action_target_measured": {
+    "count": 300,
+    "mean_ms": 183.10508305517337,
+    "median_ms": 181.8206135649234,
+    "p95_ms": 184.34972502291203,
+    "min_ms": 179.82448218390346,
+    "max_ms": 426.2294750660658
+  },
+  "observation_to_action_target_scope": "Pi0.5 inference + Action Adapter only",
+  "nvidia_smi_global_peak_used_mib": 13059,
+  "torch_peak_allocated_bytes": 9522268160,
+  "torch_peak_reserved_bytes": 9877585920,
+  "oom": false
+}

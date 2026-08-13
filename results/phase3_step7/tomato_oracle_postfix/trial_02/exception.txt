@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/isaac_step7_grasp_oracle.py", line 297, in main
+    execute_stage("descent", grasp_position, TOP_DOWN_TOOL_ROTATION, STAGE_STEPS["descent"], 0.04)
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/isaac_step7_grasp_oracle.py", line 199, in execute_stage
+    raise RuntimeError("IK_FAILURE: PINK forward failed")
+RuntimeError: IK_FAILURE: PINK forward failed

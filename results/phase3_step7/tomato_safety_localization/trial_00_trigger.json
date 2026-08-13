@@ -1,0 +1,34 @@
+{
+  "trial_id": "tomato_00",
+  "status": "UNRESOLVED_FROM_EXISTING_LOGS",
+  "localized_stage": "descent",
+  "localized_control_step": 0,
+  "step_localization_basis": {
+    "saved_frames": 23,
+    "frame_labels": {
+      "start": 1,
+      "open": 1,
+      "approach": 21,
+      "descent": 0
+    },
+    "code_fact": "descent step 0 saves a descent frame immediately after the safety gate passes",
+    "exception": "RuntimeError(\"SAFETY_STOP\") from execute_stage('descent')"
+  },
+  "exact_safety_leaf": "UNRESOLVED",
+  "possible_leaves": [
+    "IK_NONFINITE",
+    "JOINT_DELTA_LIMIT",
+    "JOINT_POSITION_LOWER_LIMIT",
+    "JOINT_POSITION_UPPER_LIMIT"
+  ],
+  "missing_values": [
+    "joint_target",
+    "joint_actual_before_command",
+    "joint_delta_by_index",
+    "joint_lower_limits",
+    "joint_upper_limits",
+    "limit_margin_by_index",
+    "finite_mask"
+  ],
+  "rerun_required_for_exact_trigger": true
+}

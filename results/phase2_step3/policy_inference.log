@@ -1,0 +1,22 @@
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+fatal: not a git repository (or any parent up to mount point /root)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: /root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model
+✓ Loaded state dict from model.safetensors
+All keys loaded successfully!
+Traceback (most recent call last):
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase2/scripts/run_pi05_step3_inference.py", line 275, in <module>
+    main()
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase2/scripts/run_pi05_step3_inference.py", line 250, in main
+    "project_git_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'rev-parse', 'HEAD']' returned non-zero exit status 128.

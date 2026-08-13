@@ -1,0 +1,122 @@
+{
+  "alphabet_soup": {
+    "path": "/root/autodl-tmp/cache/libero-assets/stable_hope_objects/alphabet_soup/textured.obj",
+    "sha256": "9f83394a8b6d243b2133be244b3de83e9318401e53a5768063031795bc6919a0",
+    "mujoco_visual_scale": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "vertex_count": 6932,
+    "scaled_min_xyz_m": [
+      -0.033027860000000006,
+      -0.04195488,
+      -0.035721949999999995
+    ],
+    "scaled_max_xyz_m": [
+      0.033027860000000006,
+      0.04159973,
+      0.03539859
+    ],
+    "scaled_dimensions_xyz_m": [
+      0.06605572000000001,
+      0.08355461,
+      0.07112054
+    ],
+    "scaled_center_xyz_m": [
+      0.0,
+      -0.00017757499999999926,
+      -0.00016167999999999738
+    ]
+  },
+  "tomato_sauce": {
+    "path": "/root/autodl-tmp/cache/libero-assets/stable_hope_objects/tomato_sauce/textured.obj",
+    "sha256": "b75cd4063af13da2c3c95f4ed6cc2fbdc00f51730b49b704feb6f1ef362204bf",
+    "mujoco_visual_scale": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "vertex_count": 14296,
+    "scaled_min_xyz_m": [
+      -0.0332349,
+      -0.041423560000000005,
+      -0.03513995
+    ],
+    "scaled_max_xyz_m": [
+      0.0332349,
+      0.04142315,
+      0.03505826
+    ],
+    "scaled_dimensions_xyz_m": [
+      0.0664698,
+      0.08284671,
+      0.07019821000000001
+    ],
+    "scaled_center_xyz_m": [
+      0.0,
+      -2.0500000000311935e-07,
+      -4.084500000000116e-05
+    ]
+  },
+  "basket": {
+    "path": "/root/autodl-tmp/cache/libero-assets/stable_scanned_objects/basket/basket.obj",
+    "sha256": "54a789babe3d15e9ac55b837e0cc2dafb9413ae035be6af6d5847f4b14b3d144",
+    "mujoco_visual_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "vertex_count": 33143,
+    "scaled_min_xyz_m": [
+      -0.086666,
+      -0.080868,
+      -2.2e-05
+    ],
+    "scaled_max_xyz_m": [
+      0.086746,
+      0.081326,
+      0.147591
+    ],
+    "scaled_dimensions_xyz_m": [
+      0.173412,
+      0.162194,
+      0.147613
+    ],
+    "scaled_center_xyz_m": [
+      3.999999999999837e-05,
+      0.00022900000000000004,
+      0.0737845
+    ]
+  },
+  "living_room_table": {
+    "path": "/root/autodl-tmp/cache/libero-assets/scenes/living_room_table/living_room_table.obj",
+    "sha256": "b4b51693da6e25bb57673593b02a79f5716b3db3603a1d8448893f65ba499fbe",
+    "mujoco_visual_scale": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "vertex_count": 7931,
+    "scaled_min_xyz_m": [
+      -1.1082420000000002,
+      -0.6092310000000001,
+      0.0
+    ],
+    "scaled_max_xyz_m": [
+      0.69084,
+      0.5869035,
+      0.44950199999999996
+    ],
+    "scaled_dimensions_xyz_m": [
+      1.7990820000000003,
+      1.1961345,
+      0.44950199999999996
+    ],
+    "scaled_center_xyz_m": [
+      -0.20870100000000008,
+      -0.011163750000000028,
+      0.22475099999999998
+    ]
+  }
+}

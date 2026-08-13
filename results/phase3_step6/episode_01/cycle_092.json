@@ -1,0 +1,98 @@
+{
+  "episode_index": 1,
+  "cycle_index": 92,
+  "initial_state_id": 1,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "raw_action_chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "action_index_executed": 0,
+  "remaining_actions_executed": 0,
+  "raw_first_action": [
+    0.25660061836242676,
+    0.15726226568222046,
+    0.27032211422920227,
+    -0.02572212740778923,
+    -0.10288480669260025,
+    -0.015439133159816265,
+    -1.012528896331787
+  ],
+  "bounded_action": [
+    0.1,
+    0.1,
+    0.1,
+    -0.02572212740778923,
+    -0.05,
+    -0.015439133159816265,
+    -1.0
+  ],
+  "eef_before_xyz_m": [
+    0.031873503022131607,
+    0.13720558879552644,
+    0.60884695772734
+  ],
+  "eef_target_xyz_m": [
+    0.036873503022131604,
+    0.14220558879552644,
+    0.61384695772734
+  ],
+  "eef_after_xyz_m": [
+    0.041450079420934274,
+    0.1537558751225848,
+    0.6112480254240592
+  ],
+  "eef_position_error_m": 0.012692856845018972,
+  "eef_orientation_error_rad": 0.13497393887101747,
+  "last_joint_target": [
+    0.2647097110748291,
+    0.39774373173713684,
+    -0.06158430129289627,
+    -1.862650990486145,
+    0.18746508657932281,
+    1.9215373992919922,
+    1.725161075592041,
+    0.031717631965875626,
+    0.031717658042907715
+  ],
+  "inference_latency_ms": 181.03696778416634,
+  "adapter_latency_ms": 0.22045476362109184,
+  "controller_latency_mean_ms": 2.325583695589254,
+  "controller_latency_p95_ms": 2.464053430594504,
+  "cumulative_joint_endpoint_displacement_rad": 13.023820659145713,
+  "cumulative_eef_path_m": 1.089606718043363,
+  "object_centers_xyz_m": {
+    "alphabet_soup": [
+      -0.1026996299624443,
+      -0.12751233577728271,
+      0.47871488332748413
+    ],
+    "tomato_sauce": [
+      -0.1023239940404892,
+      0.043104689568281174,
+      0.47818347811698914
+    ],
+    "basket": [
+      0.008847486565740864,
+      0.2587767123267176,
+      0.43219210516477036
+    ]
+  },
+  "success_metric": {
+    "alphabet_soup_inside": false,
+    "tomato_sauce_inside": false,
+    "alphabet_soup_center_in_contain_frame_m": [
+      -0.38628905488217824,
+      0.11132277345721699,
+      -0.024792981747129513
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      -0.2156720295144472,
+      0.11094969998488428,
+      -0.025326181956866256
+    ],
+    "success": false
+  },
+  "safety_status": "PASS"
+}

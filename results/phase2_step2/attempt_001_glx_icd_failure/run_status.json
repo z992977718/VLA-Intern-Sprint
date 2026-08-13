@@ -1,0 +1,18 @@
+{
+  "step": "Phase 2 / Step 2",
+  "status": "FAIL",
+  "blocking_condition": "Isaac Sim RTX/Vulkan GPU Foundation unavailable in the current container",
+  "isaac_sim_version": "6.0.1",
+  "gpu": "NVIDIA RTX 6000D",
+  "peak_gpu_vram_mib": 577,
+  "oom": false,
+  "joint_states_topic": true,
+  "external_rgb_topic": false,
+  "wrist_rgb_topic": false,
+  "real_rgb_received": false,
+  "png_saved": false,
+  "observation_snapshot_saved": false,
+  "policy_loaded": false,
+  "vla_action_sent": false,
+  "step3_started": false
+}

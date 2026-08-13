@@ -1,0 +1,11 @@
+{
+  "decision": "PASS",
+  "safety_event_count": 0,
+  "pink_failure_count": 0,
+  "float_safe_joint_limits_active": true,
+  "arm_only_pink_active": true,
+  "independent_gripper_active": true,
+  "finger_configuration_limit_regression": false,
+  "raw_events_file": "runtime_safety_events.json",
+  "pink_failures_file": "pink_failures.json"
+}

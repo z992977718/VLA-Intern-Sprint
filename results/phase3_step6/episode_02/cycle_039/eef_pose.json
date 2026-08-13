@@ -1,0 +1,24 @@
+{
+  "timestamp": 1786547285.6522617,
+  "source_prim": "/World/Robot/panda_hand",
+  "reference_frame": "/World",
+  "position_unit": "meter",
+  "position_xyz_m": [
+    0.07617244288751135,
+    0.06853696268722392,
+    0.6906070007541624
+  ],
+  "quaternion_wxyz": [
+    -0.00915040820837028,
+    0.9437116503928031,
+    -0.263621899841354,
+    -0.19956974937737249
+  ],
+  "quaternion_xyzw": [
+    0.9437116503928031,
+    -0.263621899841354,
+    -0.19956974937737249,
+    -0.00915040820837028
+  ],
+  "calibration": "panda_hand plus fixed audited local tool offset"
+}

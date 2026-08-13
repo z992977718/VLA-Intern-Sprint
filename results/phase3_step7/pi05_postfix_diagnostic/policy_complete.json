@@ -1,0 +1,12 @@
+{
+  "completed": false,
+  "episodes": 1,
+  "initial_state_id": 0,
+  "diagnostic_not_counted": true,
+  "total_real_inference_calls": 100,
+  "torch_peak_allocated_bytes": 9522268160,
+  "torch_peak_reserved_bytes": 9877585920,
+  "oom": false,
+  "training_or_weight_update": false,
+  "exception": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/pi05_step7d_policy_daemon.py\", line 157, in main\n    raise RuntimeError(\"Step 7D Isaac process did not publish completion\")\nRuntimeError: Step 7D Isaac process did not publish completion\n"
+}

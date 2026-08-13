@@ -1,0 +1,16 @@
+{
+  "all_pass": true,
+  "isaac_started": false,
+  "gpu_required": false,
+  "tests": {
+    "A_pink_configuration_dimension_7": true,
+    "B_controlled_joints_exactly_arm": true,
+    "C_finger1_absent": true,
+    "D_finger2_absent": true,
+    "E_arm_mapping_exact": true,
+    "F_independent_gripper_target": true,
+    "G_final_mapping_no_shift": true,
+    "H_safety_regression_13_of_13": true
+  },
+  "safety_regression_source": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step7/arm_gripper_decoupling/safety_regression_13_cases.json"
+}

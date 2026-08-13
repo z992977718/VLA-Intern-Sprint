@@ -1,0 +1,19 @@
+{
+  "known_differences": [
+    "MuJoCo/robosuite versus PhysX/Isaac Sim",
+    "renderer, lighting and background differ",
+    "four source-scene distractor objects omitted",
+    "target collision geometry approximated by one bounding box",
+    "wrist camera follow transform is calibrated but not the same robot camera mount model",
+    "Franka, gripper and controller dynamics differ",
+    "fixed EEF tool-point offset is calibrated from state 0"
+  ],
+  "observed": "3/3 回合中机械臂运动到任务区/篮子附近，但两个目标罐位移均为 0；没有有效抓取、搬运或放置；均在 100 cycles 到达 horizon。",
+  "hypotheses_not_proven": [
+    "visual domain gap",
+    "camera mismatch",
+    "state distribution shift",
+    "action scaling/control mismatch",
+    "gripper/contact dynamics mismatch"
+  ]
+}

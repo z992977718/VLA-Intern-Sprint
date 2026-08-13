@@ -1,0 +1,40 @@
+{
+  "episode_index": 0,
+  "initial_state_id": 0,
+  "completed": true,
+  "success": false,
+  "termination": "horizon_reached",
+  "cycles_completed": 100,
+  "max_cycles": 100,
+  "runtime_sec": 202.55198235623538,
+  "frames": 2001,
+  "final_eef_position_xyz_m": [
+    0.0608894743862122,
+    0.07804411548923781,
+    0.5640886847610707
+  ],
+  "final_eef_quaternion_wxyz": [
+    -0.01182992570102188,
+    0.6906574153138133,
+    -0.3765201153185816,
+    -0.6173208163430367
+  ],
+  "final_success_metric": {
+    "alphabet_soup_inside": false,
+    "tomato_sauce_inside": false,
+    "alphabet_soup_center_in_contain_frame_m": [
+      -0.41944411640884544,
+      0.09173088265015078,
+      -0.024886909329636043
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      -0.21326788158137133,
+      0.11520481910124428,
+      -0.025305752223390356
+    ],
+    "success": false
+  },
+  "oom": false,
+  "manual_intervention": false,
+  "action_chunk_policy": "K=1; only action_chunk[0]"
+}

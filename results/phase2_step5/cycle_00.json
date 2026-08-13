@@ -1,0 +1,100 @@
+{
+  "cycle_index": 0,
+  "camera_timestamp": 1786540282.8427753,
+  "robot_state_timestamp": 1786540282.8448858,
+  "observation_timestamp": 1786540282.8448858,
+  "image_state_skew_sec": 0.0021104812622070312,
+  "language": "move the robot arm",
+  "fresh_files": true,
+  "raw_action_chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "raw_first_action": [
+    -0.3453352451324463,
+    0.011045806109905243,
+    -0.3120579123497009,
+    0.0008908346062526107,
+    -0.1596357673406601,
+    -0.001910861348733306,
+    -1.0155162811279297
+  ],
+  "bounded_action": [
+    -0.1,
+    0.011045806109905243,
+    -0.1,
+    0.0008908346062526107,
+    -0.05,
+    -0.001910861348733306,
+    -1.0
+  ],
+  "eef_before_xyz_m": [
+    0.38924744725227356,
+    0.004671569913625717,
+    0.4562399685382843
+  ],
+  "eef_target_xyz_m": [
+    0.38424744725227356,
+    0.0052238602191209795,
+    0.4512399685382843
+  ],
+  "eef_after_xyz_m": [
+    0.38417762517929077,
+    0.005222612991929054,
+    0.45015934109687805
+  ],
+  "actual_eef_delta_m": [
+    -0.005069822072982788,
+    0.0005510430783033371,
+    -0.00608062744140625
+  ],
+  "position_error_m": 0.0010828815007060976,
+  "orientation_error_rad": 0.0015815333138950853,
+  "joint_target": [
+    0.012038572691380978,
+    -0.5706723928451538,
+    0.0007845261134207249,
+    -2.8389956951141357,
+    -0.0035825364757329226,
+    3.0870676040649414,
+    0.7460860013961792,
+    0.00041372235864400864,
+    0.00041371796396560967
+  ],
+  "gripper_before_m": [
+    0.0005035392241552472,
+    0.0005035342182964087
+  ],
+  "gripper_after_m": [
+    0.0005035392241552472,
+    0.0005035342182964087
+  ],
+  "inference_latency_ms": 421.73849837854505,
+  "adapter_latency_ms": 0.3980109468102455,
+  "controller_latency_mean_ms": 1.8894161912612617,
+  "controller_latency_p95_ms": 2.213221532292664,
+  "observation_to_motion_complete_ms": 2474.169793073088,
+  "eef_distance_from_start_m": 0.00793604274226344,
+  "cumulative_joint_endpoint_displacement_rad": 0.05748279020190239,
+  "safety_status": "PASS",
+  "action_index_executed": 0,
+  "remaining_actions_executed": 0,
+  "external_image": "cycle_00/camera_external.png",
+  "wrist_image": "cycle_00/camera_wrist.png",
+  "external_image_sha256": "ceebbee83f81ed5e0eb571d670a8e9ca52eb0197126fba67b7970d694251f6c0",
+  "wrist_image_sha256": "e2751e9bd3e5cec822c3ed7a712f15132f7faa10ec6961f8333e8c9e0f538c23",
+  "robot_state_8d": [
+    0.38924744725227356,
+    0.004671569913625717,
+    0.4562399685382843,
+    2.885686642817137,
+    0.08138678967572309,
+    1.207250964518422,
+    8.981739370028663e-07,
+    8.968564770839293e-07
+  ],
+  "predict_action_chunk_calls_this_cycle": 1,
+  "torch_allocated_bytes": 9364591104,
+  "torch_reserved_bytes": 9877585920
+}

@@ -1,0 +1,20 @@
+{
+  "type": "DIAGNOSTIC / NOT COUNTED",
+  "episodes": 1,
+  "initial_state_id": 0,
+  "max_cycles": 100,
+  "K": 1,
+  "action_chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "action_index_executed": 0,
+  "task": "put both the alphabet soup and the tomato sauce in the basket",
+  "checkpoint": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "training": false,
+  "weight_update": false,
+  "scene": "exact Step 6 build_scene(..., initial_state=0, dynamic_objects=True)",
+  "cameras": "exact Step 6 external and wrist cameras",
+  "success_detector": "exact Step 6 task_success"
+}

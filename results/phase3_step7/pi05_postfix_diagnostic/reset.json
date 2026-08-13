@@ -1,0 +1,110 @@
+{
+  "episode_index": 0,
+  "initial_state_id": 0,
+  "diagnostic_not_counted": true,
+  "hard_reset_process": true,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "source_robot_arm_joints_rad": [
+    -0.011766667192170068,
+    -0.15722261429150133,
+    0.004053601524006582,
+    -2.381606956618884,
+    0.0005795267091545565,
+    2.1702724230622414,
+    0.7786607532373792
+  ],
+  "isaac_robot_joints_after_settle_rad": [
+    -0.011690419167280197,
+    -0.15527154505252838,
+    0.004086230415850878,
+    -2.382758140563965,
+    0.0005724638467654586,
+    2.1702258586883545,
+    0.7786610126495361,
+    0.03872210159897804,
+    0.03872210159897804
+  ],
+  "eef_position_source": "/World/Robot/panda_hand/tool_center",
+  "eef_position_xyz_m": [
+    -0.047054037273473355,
+    -0.003507113965113379,
+    0.6937880118153614
+  ],
+  "eef_quaternion_wxyz": [
+    0.00012164375220883405,
+    0.9995904029956623,
+    -0.000632464831372837,
+    -0.02861138636984286
+  ],
+  "orientation_additional_fix": false,
+  "timestamp_additional_fix": false,
+  "state_mapping_gripper": "[finger1, -finger2] in policy input only",
+  "pink_configuration_nq": 7,
+  "pink_configuration_nv": 7,
+  "pink_joint_space": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7"
+  ],
+  "independent_gripper": true,
+  "object_poses": {
+    "alphabet_soup": {
+      "position_xyz_m": [
+        -0.09407050162553787,
+        -0.1504589170217514,
+        0.47871488332748413
+      ],
+      "quaternion_wxyz": [
+        6.847541953896624e-05,
+        -6.69523368944659e-05,
+        0.7071060030831169,
+        0.7071075528039004
+      ]
+    },
+    "tomato_sauce": {
+      "position_xyz_m": [
+        -0.11754214763641357,
+        0.05571731925010681,
+        0.4781835079193115
+      ],
+      "quaternion_wxyz": [
+        0.00013467398821383233,
+        -0.00013330770316247523,
+        0.7071061426421227,
+        0.7071073943396091
+      ]
+    },
+    "basket": {
+      "position_xyz_m": [
+        -0.002115499018305853,
+        0.2689851938137835,
+        0.43219210516477036
+      ],
+      "quaternion_wxyz": [
+        0.707104727916931,
+        0.0016949951945791437,
+        -0.0016949940570028818,
+        -0.7071047714051717
+      ]
+    }
+  },
+  "initial_success_metric": {
+    "alphabet_soup_inside": false,
+    "tomato_sauce_inside": false,
+    "alphabet_soup_center_in_contain_frame_m": [
+      -0.41944411640884544,
+      0.09173088265015078,
+      -0.024886909329636043
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      -0.21326788158137133,
+      0.11520481910124428,
+      -0.025305752223390356
+    ],
+    "success": false
+  }
+}

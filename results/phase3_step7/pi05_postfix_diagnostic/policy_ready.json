@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "checkpoint": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "model_load_sec": 132.18513931892812,
+  "episodes": 1,
+  "initial_state_id": 0,
+  "diagnostic_not_counted": true,
+  "max_cycles": 100,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "precision": "bfloat16",
+  "policy_mode": "eval/inference",
+  "training_or_weight_update": false
+}

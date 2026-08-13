@@ -1,0 +1,40 @@
+{
+  "timestamp": 1786523401.882125,
+  "isaac_version": "6.0.1",
+  "renderer": "RaytracedLighting",
+  "headless": true,
+  "franka_asset": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FrankaRobotics/FrankaPanda/franka.usd",
+  "franka_prim": "/panda",
+  "hand_prim": "/panda/panda_hand",
+  "camera_api": "isaacsim.sensors.experimental.rtx.RtxCamera + CameraSensor",
+  "publish_api": "ROS2PublishImage writer",
+  "frame_skip_count_used": false,
+  "cameras": [
+    {
+      "label": "external",
+      "prim_path": "/World/ExternalCamera",
+      "render_product_path": "/Render/OmniverseKit/HydraTextures/camera_sensor_8761780657265",
+      "topic": "/phase2/external_camera/rgb",
+      "frame_id": "external_camera_frame",
+      "resolution_width_height": [
+        256,
+        256
+      ],
+      "tick_rate_hz": 10.0
+    },
+    {
+      "label": "wrist",
+      "prim_path": "/panda/panda_hand/WristCamera",
+      "render_product_path": "/Render/OmniverseKit/HydraTextures/camera_sensor_8761787907055",
+      "topic": "/phase2/wrist_camera/rgb",
+      "frame_id": "wrist_camera_frame",
+      "resolution_width_height": [
+        256,
+        256
+      ],
+      "tick_rate_hz": 10.0
+    }
+  ],
+  "policy_loaded": false,
+  "vla_action_sent": false
+}

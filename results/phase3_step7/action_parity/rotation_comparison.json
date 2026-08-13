@@ -1,0 +1,44 @@
+{
+  "+Rx": {
+    "status": "MISMATCH",
+    "axis_sign_cosine": -0.7223778696409487,
+    "libero_magnitude_rad": 0.0035309402218172237,
+    "isaac_magnitude_rad": 0.005401304289635526,
+    "isaac_over_libero_magnitude_ratio": 1.5297070894209888
+  },
+  "-Rx": {
+    "status": "MISMATCH",
+    "axis_sign_cosine": -0.7321387801121539,
+    "libero_magnitude_rad": 0.003570267113737039,
+    "isaac_magnitude_rad": 0.005608611183577358,
+    "isaac_over_libero_magnitude_ratio": 1.5709220080473925
+  },
+  "+Ry": {
+    "status": "APPROXIMATE",
+    "axis_sign_cosine": 0.9484099750458025,
+    "libero_magnitude_rad": 0.004511691419961344,
+    "isaac_magnitude_rad": 0.0004538639875522958,
+    "isaac_over_libero_magnitude_ratio": 0.10059730271982663
+  },
+  "-Ry": {
+    "status": "MISMATCH",
+    "axis_sign_cosine": -0.9548602346347721,
+    "libero_magnitude_rad": 0.0005064347128984635,
+    "isaac_magnitude_rad": 0.0011455961648676669,
+    "isaac_over_libero_magnitude_ratio": 2.262080650655064
+  },
+  "+Rz": {
+    "status": "APPROXIMATE",
+    "axis_sign_cosine": 0.9015095721675401,
+    "libero_magnitude_rad": 0.0036516958499524413,
+    "isaac_magnitude_rad": 0.005487927559610682,
+    "isaac_over_libero_magnitude_ratio": 1.502843551354956
+  },
+  "-Rz": {
+    "status": "APPROXIMATE",
+    "axis_sign_cosine": 0.8858400768831844,
+    "libero_magnitude_rad": 0.0034483500640666645,
+    "isaac_magnitude_rad": 0.005477451594533188,
+    "isaac_over_libero_magnitude_ratio": 1.5884267817269078
+  }
+}

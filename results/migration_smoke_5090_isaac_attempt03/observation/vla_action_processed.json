@@ -1,0 +1,29 @@
+{
+  "checkpoint_postprocessor_applied": true,
+  "predict_action_chunk_calls": 1,
+  "chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "first_action_index": 0,
+  "first_action": [
+    -0.12541407346725464,
+    -0.0054889097809791565,
+    -0.2489946186542511,
+    0.0016820239834487438,
+    -0.032465167343616486,
+    -0.060407981276512146,
+    -1.0046868324279785
+  ],
+  "remaining_actions_executed": 0,
+  "action_semantics": [
+    "normalized EEF dx",
+    "normalized EEF dy",
+    "normalized EEF dz",
+    "normalized world-axis-angle drx",
+    "normalized world-axis-angle dry",
+    "normalized world-axis-angle drz",
+    "gripper (-1 open, +1 close)"
+  ]
+}

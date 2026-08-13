@@ -1,0 +1,22 @@
+{
+  "implemented_formula": "tool_position = panda_hand_position + R_hand @ [0, 0, 0.0951034858]",
+  "local_offset_m": [
+    0.0,
+    0.0,
+    0.0951034858
+  ],
+  "five_pose_formula_error_m": {
+    "mean": 0.0,
+    "max": 0.0,
+    "min": 0.0
+  },
+  "five_pose_offset_length_m": {
+    "mean": 0.09510348580000001,
+    "max": 0.09510348580000003,
+    "min": 0.0951034858
+  },
+  "orientation_dependent": true,
+  "world_fixed_offset_bug_confirmed": false,
+  "classification": "MATCH",
+  "scope": "This confirms only that the implemented offset rotates with panda_hand. It does not establish that this hand-to-tool offset is the same EEF reference used by LIBERO."
+}

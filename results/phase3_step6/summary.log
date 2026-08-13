@@ -1,0 +1,62 @@
+{
+  "step": "Phase 3 / Step 6",
+  "experimental_pipeline_pass": true,
+  "task_success_count": 0,
+  "episodes": 3,
+  "success_rate": 0.0,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "checkpoint": "results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "cross_simulator_claim": "same LIBERO semantic task reconstructed in Isaac Sim; no retraining",
+  "prohibited_claims": [
+    "unseen-task",
+    "zero-shot new-task",
+    "open-world generalization",
+    "sim-to-real"
+  ],
+  "receding_horizon_k": 1,
+  "max_cycles": 100,
+  "episodes_detail": [
+    {
+      "episode_index": 0,
+      "initial_state_id": 0,
+      "completed": true,
+      "success": false,
+      "termination": "horizon_reached",
+      "cycles_completed": 100,
+      "runtime_sec": 202.55198235623538,
+      "video": "assets/videos/phase3_step6_ep00.mp4"
+    },
+    {
+      "episode_index": 1,
+      "initial_state_id": 1,
+      "completed": true,
+      "success": false,
+      "termination": "horizon_reached",
+      "cycles_completed": 100,
+      "runtime_sec": 193.75116684287786,
+      "video": "assets/videos/phase3_step6_ep01.mp4"
+    },
+    {
+      "episode_index": 2,
+      "initial_state_id": 2,
+      "completed": true,
+      "success": false,
+      "termination": "horizon_reached",
+      "cycles_completed": 100,
+      "runtime_sec": 197.33171302592382,
+      "video": "assets/videos/phase3_step6_ep02.mp4"
+    }
+  ],
+  "inference_latency_ms": {
+    "count": 300,
+    "mean": 182.87598769025257,
+    "median": 181.6027460154146,
+    "min": 179.5983100309968,
+    "max": 425.8458763360977
+  },
+  "torch_peak_allocated_bytes": 9522268160,
+  "torch_peak_reserved_bytes": 9877585920,
+  "oom": false,
+  "manual_intervention": false,
+  "training_or_weight_update": false
+}

@@ -1,0 +1,189 @@
+POSTPROCESSOR_TENSORS
+action.count [273465.0]
+action.max [0.9375, 0.9375, 0.9375, 0.3557142913341522, 0.375, 0.375, 1.0]
+action.mean [0.06278156489133835, 0.08684080839157104, -0.09037306159734726, 0.0005407430580817163, 0.005643379874527454, -0.0052290987223386765, -0.0496407225728035]
+action.min [-0.9375, -0.9375, -0.9375, -0.2582142949104309, -0.375, -0.3675000071525574, -1.0]
+action.q01 [-0.5351995825767517, -0.6038939952850342, -0.7783527374267578, -0.0740940049290657, -0.11625244468450546, -0.12600179016590118, -1.0]
+action.q10 [-0.32529139518737793, -0.3808314800262451, -0.6490355134010315, -0.03721374273300171, -0.06548341363668442, -0.08046642690896988, -1.0]
+action.q50 [0.025483621284365654, 0.018220920115709305, -0.07365990430116653, -0.0010532897431403399, 0.0024614324793219566, -0.0034799312707036734, -0.04420047253370285]
+action.q90 [0.5373876690864563, 0.6317623257637024, 0.531672477722168, 0.04202617332339287, 0.08143579214811325, 0.06562674790620804, 0.9194037318229675]
+action.q99 [0.7094643712043762, 0.7320647835731506, 0.8014754056930542, 0.08395454287528992, 0.1392757147550583, 0.10880500823259354, 0.9194769859313965]
+action.std [0.33552372455596924, 0.3784469962120056, 0.4447286128997803, 0.03924354165792465, 0.06339296698570251, 0.07797027379274368, 0.9987671375274658]
+episode_index.count [273465.0]
+episode_index.max [1692.0]
+episode_index.mean [721.1276245117188]
+episode_index.min [0.0]
+episode_index.q01 [721.1276245117188]
+episode_index.q10 [721.1276245117188]
+episode_index.q50 [721.1276245117188]
+episode_index.q90 [721.1276245117188]
+episode_index.q99 [721.1276245117188]
+episode_index.std [507.76336669921875]
+frame_index.count [273465.0]
+frame_index.max [504.0]
+frame_index.mean [94.64835357666016]
+frame_index.min [0.0]
+frame_index.q01 [1.400033950805664]
+frame_index.q10 [18.475191116333008]
+frame_index.q50 [94.41465759277344]
+frame_index.q90 [170.72146606445312]
+frame_index.q99 [187.88534545898438]
+frame_index.std [72.5956802368164]
+index.count [273465.0]
+index.max [273464.0]
+index.mean [136732.0]
+index.min [0.0]
+index.q01 [136638.75]
+index.q10 [136655.828125]
+index.q50 [136731.765625]
+index.q90 [136808.078125]
+index.q99 [136825.234375]
+index.std [78942.546875]
+observation.images.image.count [273465.0]
+observation.images.image.max [[[1.0]], [[1.0]], [[1.0]]]
+observation.images.image.mean [[[0.48500001430511475]], [[0.4560000002384186]], [[0.4059999883174896]]]
+observation.images.image.min [[[0.0]], [[0.0]], [[0.0]]]
+observation.images.image.q01 [[[0.05049524083733559]], [[0.04448486864566803]], [[0.022844156250357628]]]
+observation.images.image.q10 [[[0.18428252637386322]], [[0.1691184639930725]], [[0.14546675980091095]]]
+observation.images.image.q50 [[[0.5136662721633911]], [[0.47363346815109253]], [[0.42885199189186096]]]
+observation.images.image.q90 [[[0.7022143602371216]], [[0.661221981048584]], [[0.6130834817886353]]]
+observation.images.image.q99 [[[0.8438623547554016]], [[0.8311148285865784]], [[0.8200178742408752]]]
+observation.images.image.std [[[0.2290000021457672]], [[0.2240000069141388]], [[0.22499999403953552]]]
+observation.images.image2.count [273465.0]
+observation.images.image2.max [[[1.0]], [[1.0]], [[1.0]]]
+observation.images.image2.mean [[[0.48500001430511475]], [[0.4560000002384186]], [[0.4059999883174896]]]
+observation.images.image2.min [[[0.0]], [[0.0]], [[0.0]]]
+observation.images.image2.q01 [[[0.041747283190488815]], [[0.037017375230789185]], [[0.01810665801167488]]]
+observation.images.image2.q10 [[[0.1515423208475113]], [[0.14636723697185516]], [[0.13509802520275116]]]
+observation.images.image2.q50 [[[0.6176537871360779]], [[0.561314046382904]], [[0.503253161907196]]]
+observation.images.image2.q90 [[[0.7072204351425171]], [[0.651103138923645]], [[0.6005931496620178]]]
+observation.images.image2.q99 [[[0.8870816230773926]], [[0.873609721660614]], [[0.8522721529006958]]]
+observation.images.image2.std [[[0.2290000021457672]], [[0.2240000069141388]], [[0.22499999403953552]]]
+observation.state.count [273465.0]
+observation.state.max [0.21031762659549713, 0.39128610491752625, 1.3660105466842651, 3.6714255809783936, 3.560650587081909, 1.386339545249939, 0.04233968257904053, 0.0013633022317662835]
+observation.state.mean [-0.04651878401637077, 0.034409068524837494, 0.7645524740219116, 2.9722094535827637, -0.22046978771686554, -0.12557940185070038, 0.02691425383090973, -0.027190783992409706]
+observation.state.min [-0.4828203022480011, -0.3255046010017395, 0.008128180168569088, 0.35277295112609863, -3.641430377960205, -1.842738389968872, -0.0013586411951109767, -0.042040832340717316]
+observation.state.q01 [-0.18941794335842133, -0.13594238460063934, 0.6360146403312683, 2.7590622901916504, -0.7064821720123291, -0.4149194657802582, 0.010922795161604881, -0.039982475340366364]
+observation.state.q10 [-0.14378342032432556, -0.12023886293172836, 0.6513685584068298, 2.80507755279541, -0.6228858828544617, -0.3446786403656006, 0.012858361005783081, -0.03979744762182236]
+observation.state.q50 [-0.043428950011730194, 0.018823808059096336, 0.7683974504470825, 2.963346004486084, -0.23755472898483276, -0.13537468016147614, 0.026361944153904915, -0.02728072553873062]
+observation.state.q90 [0.03485061973333359, 0.20917795598506927, 0.867742121219635, 3.157721996307373, 0.2207743227481842, 0.10510962456464767, 0.039806097745895386, -0.01299212034791708]
+observation.state.q99 [0.047856543213129044, 0.22236329317092896, 0.8834885358810425, 3.1921188831329346, 0.3581669330596924, 0.1767505705356598, 0.039975881576538086, -0.011350016109645367]
+observation.state.std [0.10494395345449448, 0.15176619589328766, 0.3785167336463928, 0.34427371621131897, 0.9069468379020691, 0.3253919184207916, 0.014175903052091599, 0.014058894477784634]
+task_index.count [273465.0]
+task_index.max [39.0]
+task_index.mean [17.11217498779297]
+task_index.min [0.0]
+task_index.q01 [17.11217498779297]
+task_index.q10 [17.11217498779297]
+task_index.q50 [17.11217498779297]
+task_index.q90 [17.11217498779297]
+task_index.q99 [17.11217498779297]
+task_index.std [11.900397300720215]
+timestamp.count [273465.0]
+timestamp.max [50.400001525878906]
+timestamp.mean [9.464835166931152]
+timestamp.min [0.0]
+timestamp.q01 [0.14000338315963745]
+timestamp.q10 [1.8475191593170166]
+timestamp.q50 [9.441420555114746]
+timestamp.q90 [17.072477340698242]
+timestamp.q99 [18.788583755493164]
+timestamp.std [7.259568214416504]
+OSC_SOURCE /root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/site-packages/robosuite/controllers/osc.py
+OSC_SET_GOAL
+    def set_goal(self, action, set_pos=None, set_ori=None):
+        """
+        Sets goal based on input @action. If self.impedance_mode is not "fixed", then the input will be parsed into the
+        delta values to update the goal position / pose and the kp and/or damping_ratio values to be immediately updated
+        internally before executing the proceeding control loop.
+
+        Note that @action expected to be in the following format, based on impedance mode!
+
+            :Mode `'fixed'`: [joint pos command]
+            :Mode `'variable'`: [damping_ratio values, kp values, joint pos command]
+            :Mode `'variable_kp'`: [kp values, joint pos command]
+
+        Args:
+            action (Iterable): Desired relative joint position goal state
+            set_pos (Iterable): If set, overrides @action and sets the desired absolute eef position goal state
+            set_ori (Iterable): IF set, overrides @action and sets the desired absolute eef orientation goal state
+        """
+        # Update state
+        self.update()
+
+        # Parse action based on the impedance mode, and update kp / kd as necessary
+        if self.impedance_mode == "variable":
+            damping_ratio, kp, delta = action[:6], action[6:12], action[12:]
+            self.kp = np.clip(kp, self.kp_min, self.kp_max)
+            self.kd = 2 * np.sqrt(self.kp) * np.clip(damping_ratio, self.damping_ratio_min, self.damping_ratio_max)
+        elif self.impedance_mode == "variable_kp":
+            kp, delta = action[:6], action[6:]
+            self.kp = np.clip(kp, self.kp_min, self.kp_max)
+            self.kd = 2 * np.sqrt(self.kp)  # critically damped
+        else:  # This is case "fixed"
+            delta = action
+
+        # If we're using deltas, interpret actions as such
+        if self.use_delta:
+            if delta is not None:
+                scaled_delta = self.scale_action(delta)
+                if not self.use_ori and set_ori is None:
+                    # Set default control for ori since user isn't actively controlling ori
+                    set_ori = np.array([[0.0, 1.0, 0.0], [1.0, 0.0, 0.0], [0.0, 0.0, -1.0]])
+            else:
+                scaled_delta = []
+        # Else, interpret actions as absolute values
+        else:
+            if set_pos is None:
+                set_pos = delta[:3]
+            # Set default control for ori if we're only using position control
+            if set_ori is None:
+                set_ori = (
+                    T.quat2mat(T.axisangle2quat(delta[3:6]))
+                    if self.use_ori
+                    else np.array([[0.0, 1.0, 0.0], [1.0, 0.0, 0.0], [0.0, 0.0, -1.0]])
+                )
+            # No scaling of values since these are absolute values
+            scaled_delta = delta
+
+        # We only want to update goal orientation if there is a valid delta ori value OR if we're using absolute ori
+        # use math.isclose instead of numpy because numpy is slow
+        bools = [0.0 if math.isclose(elem, 0.0) else 1.0 for elem in scaled_delta[3:]]
+        if sum(bools) > 0.0 or set_ori is not None:
+            self.goal_ori = set_goal_orientation(
+                scaled_delta[3:], self.ee_ori_mat, orientation_limit=self.orientation_limits, set_ori=set_ori
+            )
+        self.goal_pos = set_goal_position(
+            scaled_delta[:3], self.ee_pos, position_limit=self.position_limits, set_pos=set_pos
+        )
+
+        if self.interpolator_pos is not None:
+            self.interpolator_pos.set_goal(self.goal_pos)
+
+        if self.interpolator_ori is not None:
+            self.ori_ref = np.array(self.ee_ori_mat)  # reference is the current orientation at start
+            self.interpolator_ori.set_goal(
+                orientation_error(self.goal_ori, self.ori_ref)
+            )  # goal is the total orientation error
+            self.relative_ori = np.zeros(3)  # relative orientation always starts at 0
+
+OSC_DELTA_TO_ABSOLUTE
+METHOD_NOT_PRESENT_IN_INSTALLED_ROBOSUITE
+PANDA_GRIPPER_SOURCE /root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/site-packages/robosuite/models/grippers/panda_gripper.py
+    def format_action(self, action):
+        """
+        Maps continuous action into binary output
+        -1 => open, 1 => closed
+
+        Args:
+            action (np.array): gripper-specific action
+
+        Raises:
+            AssertionError: [Invalid action dimension size]
+        """
+        assert len(action) == self.dof
+        self.current_action = np.clip(
+            self.current_action + np.array([-1.0, 1.0]) * self.speed * np.sign(action), -1.0, 1.0
+        )
+        return self.current_action
+

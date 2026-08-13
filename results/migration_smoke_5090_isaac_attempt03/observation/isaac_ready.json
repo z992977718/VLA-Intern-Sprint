@@ -1,0 +1,90 @@
+{
+  "timestamp": 1786559446.642095,
+  "isaac_version": "6.0.1",
+  "renderer": "RaytracedLighting",
+  "headless": true,
+  "franka_asset": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Robots/FrankaRobotics/FrankaPanda/franka.usd",
+  "franka_prim": "/panda",
+  "hand_prim": "/panda/panda_hand",
+  "eef_pose_file": "/root/autodl-tmp/VLA-Intern-Sprint/results/migration_smoke_5090_isaac_attempt03/observation/eef_pose.json",
+  "camera_api": "isaacsim.sensors.experimental.rtx.RtxCamera + CameraSensor",
+  "publish_api": "ROS2PublishImage writer",
+  "frame_skip_count_used": false,
+  "cameras": [
+    {
+      "label": "external",
+      "prim_path": "/World/ExternalCamera",
+      "render_product_path": "/Render/OmniverseKit/HydraTextures/camera_sensor_8770228834786",
+      "topic": "/phase2/external_camera/rgb",
+      "frame_id": "external_camera_frame",
+      "resolution_width_height": [
+        256,
+        256
+      ],
+      "tick_rate_hz": 10.0,
+      "configured_pose": {
+        "reference_frame": "world",
+        "position_xyz_m": [
+          1.35,
+          1.35,
+          1.15
+        ],
+        "look_at_xyz_m": [
+          0.0,
+          0.0,
+          0.45
+        ],
+        "orientation_wxyz": [
+          0.3137349744169561,
+          0.21912776007233337,
+          0.5290212102590647,
+          0.7574232302281916
+        ]
+      },
+      "visual_pose_validation": "pending until a real RGB frame is rendered"
+    },
+    {
+      "label": "wrist",
+      "prim_path": "/World/WristTrackingCamera",
+      "render_product_path": "/Render/OmniverseKit/HydraTextures/camera_sensor_8770229125440",
+      "topic": "/phase2/wrist_camera/rgb",
+      "frame_id": "wrist_camera_frame",
+      "resolution_width_height": [
+        256,
+        256
+      ],
+      "tick_rate_hz": 10.0,
+      "configured_pose": {
+        "tracking_prim": "/panda/panda_hand",
+        "camera_parent": "/World",
+        "tracking_mode": "world-space camera follows hand position and looks at workspace target",
+        "hand_position_xyz_m": [
+          0.08372531831264496,
+          3.4643016988411546e-05,
+          0.9377609491348267
+        ],
+        "position_xyz_m": [
+          -0.36627468168735505,
+          -0.6499653569830116,
+          1.3877609491348266
+        ],
+        "look_at_xyz_m": [
+          0.38372531831264495,
+          3.4643016988411546e-05,
+          0.43776094913482666
+        ],
+        "orientation_wxyz": [
+          0.8365529179573059,
+          0.3572736382484436,
+          -0.16314147412776947,
+          -0.38199424743652344
+        ],
+        "camera_axes": "USD Camera: local -Z forward, local +Y up",
+        "limitation": "virtual tracking view; not a calibrated rigid wrist sensor extrinsic"
+      },
+      "visual_pose_validation": "pending until a real RGB frame is rendered"
+    }
+  ],
+  "policy_loaded": false,
+  "vla_action_sent": false
+}

@@ -1,0 +1,34 @@
+{
+  "before_close": {
+    "finger1_m": 0.039443857967853546,
+    "finger2_m": 0.039443887770175934,
+    "width_m": 0.07888774573802948,
+    "command_target_m": 0.04
+  },
+  "command_close": {
+    "finger1_m": 0.03556050732731819,
+    "finger2_m": 0.035620760172605515,
+    "width_m": 0.0711812674999237,
+    "command_target_m": 0.0
+  },
+  "during_contact": {
+    "finger1_m": 0.035560932010412216,
+    "finger2_m": 0.03562188893556595,
+    "width_m": 0.07118281722068787,
+    "command_target_m": 0.0
+  },
+  "after_close": {
+    "finger1_m": 0.03556092455983162,
+    "finger2_m": 0.03562187775969505,
+    "width_m": 0.07118280231952667,
+    "command_target_m": 0.0
+  },
+  "after_lift": {
+    "finger1_m": 0.03556377440690994,
+    "finger2_m": 0.03559642657637596,
+    "width_m": 0.0711601972579956,
+    "command_target_m": 0.0
+  },
+  "close_command_completed": true,
+  "close_blocked_by_object_inferred": true
+}

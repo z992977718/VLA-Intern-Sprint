@@ -1,0 +1,13 @@
+{
+  "object": "tomato_sauce",
+  "formal_post_decoupling_successes": 3,
+  "formal_post_decoupling_trials": 3,
+  "formal_post_decoupling_success_rate": 1.0,
+  "tomato_post_decoupling_validation": "ROBUST PASS",
+  "robot_side_scripted_oracle_pipeline_current_conclusion": "ROBUST PASS",
+  "historical_alphabet_step7c": "3/3",
+  "historical_original_tomato_step7c": "0/3",
+  "historical_original_tomato_unchanged": true,
+  "pi05_used": false,
+  "direct_contact_measured": false
+}

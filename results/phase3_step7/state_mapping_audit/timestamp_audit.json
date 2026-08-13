@@ -1,0 +1,7 @@
+{
+  "current_strategy": "Isaac camera frames and joint/state samples are collected in the same runtime cycle, then passed as one observation snapshot.",
+  "phase2_step2_max_image_to_joint_delta_s": 0.05,
+  "rtx5090_migration_smoke_max_image_to_joint_delta_s": 0.15,
+  "classification": "POTENTIAL ISSUE",
+  "scope": "Recorded separately from spatial calibration. No synchronization policy was modified in this audit."
+}

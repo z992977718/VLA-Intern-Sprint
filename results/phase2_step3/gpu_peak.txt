@@ -1,0 +1,4 @@
+torch_peak_allocated_gib=8.8698
+torch_peak_reserved_gib=9.2012
+nvidia_smi_process_used_peak_mib=10015
+oom=false

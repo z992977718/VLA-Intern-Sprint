@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "framework_provided_by_lerobot_and_upstream": [
+    "Pi0.5 implementation",
+    "dataset/policy/training framework",
+    "LIBERO integration",
+    "upstream policy and processor APIs"
+  ],
+  "project_demonstrated": [
+    "Pi0.5 continued fine-tuning on a fixed-revision 40-task LIBERO dataset",
+    "reproducible checkpoint and focused closed-loop LIBERO evaluation",
+    "Isaac Sim/ROS 2/Franka VLA runtime integration",
+    "real predict_action_chunk closed-loop policy execution in simulation",
+    "cross-simulator task evaluation",
+    "systematic failure localization across action, state, Safety and controller layers",
+    "state-interface, floating-point Safety and controller architecture fixes",
+    "scripted Oracle separation of policy-side and robot-side failure"
+  ],
+  "project_did_not_demonstrate": [
+    "full LIBERO benchmark SOTA",
+    "unseen-task generalization",
+    "open-world generalization",
+    "sim-to-real transfer",
+    "real robot deployment",
+    "Pi0.5 real-world task success",
+    "RL improvement",
+    "LoRA improvement",
+    "world-model capability",
+    "a reimplementation or invention of Pi0.5"
+  ]
+}

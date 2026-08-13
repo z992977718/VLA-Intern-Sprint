@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "decision": "FREEZE_FRANKA_ISAAC_MAINLINE",
+  "status": "FROZEN",
+  "reason": "major robot-side blockers cleared, post-fix Pi0.5 diagnostic showed no clear improvement, further Franka deep-dive has low project ROI",
+  "additional_rollouts_allowed": false,
+  "additional_training_allowed": false,
+  "additional_isaac_experiments_allowed": false,
+  "frozen_assets_must_be_preserved": true,
+  "next_main_phase": {
+    "name": "SO-101_REAL_ROBOT",
+    "status": "PLANNED_NOT_STARTED"
+  }
+}

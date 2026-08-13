@@ -1,0 +1,90 @@
+{
+  "episode_index": 2,
+  "cycle_index": 83,
+  "initial_state_id": 2,
+  "observation_timestamp": 1786547367.5527976,
+  "predict_action_chunk_calls_this_cycle": 1,
+  "chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "chunk_finite": true,
+  "raw_first_action": [
+    0.00916338711977005,
+    -0.01109817624092102,
+    0.6889228820800781,
+    -0.0175688024610281,
+    0.0016492540016770363,
+    -0.037557005882263184,
+    1.009150743484497
+  ],
+  "bounded": {
+    "raw_action": [
+      0.00916338711977005,
+      -0.01109817624092102,
+      0.6889228820800781,
+      -0.0175688024610281,
+      0.0016492540016770363,
+      -0.037557005882263184,
+      1.009150743484497
+    ],
+    "bounded_action": [
+      0.00916338711977005,
+      -0.01109817624092102,
+      0.1,
+      -0.0175688024610281,
+      0.0016492540016770363,
+      -0.037557005882263184,
+      1.0
+    ],
+    "translation_delta_m": [
+      0.00045816935598850253,
+      -0.0005549088120460511,
+      0.005000000000000001
+    ],
+    "rotation_delta_axis_angle_rad": [
+      -0.00878440123051405,
+      0.0008246270008385181,
+      -0.018778502941131592
+    ],
+    "orientation_composition": "R_target = R_delta @ R_current (robosuite set_goal_orientation)",
+    "rotation_frame": "world / spatial left-multiplication",
+    "target_position_xyz_m": [
+      0.09420484855374658,
+      0.14789810197500447,
+      0.5941032184689821
+    ],
+    "target_orientation_matrix": [
+      [
+        0.17714118565434747,
+        -0.6041318992150544,
+        -0.776946361530694
+      ],
+      [
+        -0.6153493168036678,
+        -0.6840852672332114,
+        0.39162809585591024
+      ],
+      [
+        -0.7680925846890021,
+        0.40871994752553736,
+        -0.49293182676764835
+      ]
+    ],
+    "target_quaternion_wxyz": [
+      0.0055698216643062974,
+      0.767163326752395,
+      -0.3973994759307344,
+      -0.5034908774772427
+    ],
+    "gripper_command": 1.0,
+    "clipping_applied": true
+  },
+  "inference_latency_ms": 181.8033568561077,
+  "adapter_latency_ms": 0.2253740094602108,
+  "action_index_authorized": 0,
+  "remaining_49_actions_authorized": false,
+  "torch_allocated_bytes": 9364591104,
+  "torch_reserved_bytes": 9877585920
+}

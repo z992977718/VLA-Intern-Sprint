@@ -1,0 +1,1178 @@
+{
+  "close_attempt_count": 64,
+  "close_attempts": [
+    {
+      "cycle": 1,
+      "policy_command": 0.9968271851539612,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999816566705704,
+        0.0399998314678669
+      ],
+      "finger_actual_after_m": [
+        1.8115799775841879e-06,
+        1.8325554265175015e-06
+      ],
+      "distance_to_alphabet_after_m": 0.2701642381705935,
+      "distance_to_tomato_after_m": 0.23213657978713378
+    },
+    {
+      "cycle": 3,
+      "policy_command": 0.967944324016571,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999306201934814,
+        0.0399993360042572
+      ],
+      "finger_actual_after_m": [
+        1.811257334338734e-06,
+        1.8394439393887296e-06
+      ],
+      "distance_to_alphabet_after_m": 0.27222310947762274,
+      "distance_to_tomato_after_m": 0.22963195906846612
+    },
+    {
+      "cycle": 5,
+      "policy_command": 0.9805751442909241,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999328553676605,
+        0.039999350905418396
+      ],
+      "finger_actual_after_m": [
+        1.8107301684722188e-06,
+        1.8392311176285148e-06
+      ],
+      "distance_to_alphabet_after_m": 0.27051149423235465,
+      "distance_to_tomato_after_m": 0.22714997932350534
+    },
+    {
+      "cycle": 6,
+      "policy_command": 0.9909781813621521,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.658465849795903e-07,
+        6.945990662643453e-07
+      ],
+      "finger_actual_after_m": [
+        3.252762041938695e-07,
+        5.89894284530601e-08
+      ],
+      "distance_to_alphabet_after_m": 0.2695677669826828,
+      "distance_to_tomato_after_m": 0.22023858591056977
+    },
+    {
+      "cycle": 7,
+      "policy_command": 0.9695625901222229,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.183951378105121e-07,
+        4.410829745893352e-08
+      ],
+      "finger_actual_after_m": [
+        1.532584548158411e-08,
+        4.933326636091806e-08
+      ],
+      "distance_to_alphabet_after_m": 0.27498974779847674,
+      "distance_to_tomato_after_m": 0.22493770336646735
+    },
+    {
+      "cycle": 8,
+      "policy_command": 0.9771278500556946,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        1.8845488725105497e-08,
+        5.406311132105657e-08
+      ],
+      "finger_actual_after_m": [
+        5.213704525885987e-07,
+        6.670906316230685e-08
+      ],
+      "distance_to_alphabet_after_m": 0.28301935005770557,
+      "distance_to_tomato_after_m": 0.22930846901288665
+    },
+    {
+      "cycle": 9,
+      "policy_command": 0.9981102347373962,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.255674864201865e-07,
+        7.292143777704041e-08
+      ],
+      "finger_actual_after_m": [
+        2.1198999888838443e-08,
+        5.531613211928743e-08
+      ],
+      "distance_to_alphabet_after_m": 0.27876899049342513,
+      "distance_to_tomato_after_m": 0.22515162925024304
+    },
+    {
+      "cycle": 10,
+      "policy_command": 0.9712840914726257,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        1.6180520034936308e-08,
+        4.939852260577027e-08
+      ],
+      "finger_actual_after_m": [
+        5.551146955440345e-07,
+        8.481764979251238e-08
+      ],
+      "distance_to_alphabet_after_m": 0.2902371810856963,
+      "distance_to_tomato_after_m": 0.22946858789278538
+    },
+    {
+      "cycle": 11,
+      "policy_command": 0.9985182881355286,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.536689400287287e-07,
+        8.3603126199705e-08
+      ],
+      "finger_actual_after_m": [
+        3.466085729542101e-08,
+        3.297320860795594e-09
+      ],
+      "distance_to_alphabet_after_m": 0.2866362666668203,
+      "distance_to_tomato_after_m": 0.22556171446052584
+    },
+    {
+      "cycle": 12,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        2.8645755989487043e-08,
+        3.651702940032919e-08
+      ],
+      "finger_actual_after_m": [
+        8.296683517983183e-07,
+        1.3088951789086423e-07
+      ],
+      "distance_to_alphabet_after_m": 0.2901666072181402,
+      "distance_to_tomato_after_m": 0.227936325023948
+    },
+    {
+      "cycle": 15,
+      "policy_command": 0.9809327721595764,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999992460012436,
+        0.03999999165534973
+      ],
+      "finger_actual_after_m": [
+        1.772805376276665e-06,
+        1.7787614297049004e-06
+      ],
+      "distance_to_alphabet_after_m": 0.27585932250986644,
+      "distance_to_tomato_after_m": 0.2097502171040377
+    },
+    {
+      "cycle": 17,
+      "policy_command": 0.9769682288169861,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999399334192276,
+        0.03999944031238556
+      ],
+      "finger_actual_after_m": [
+        1.7899797057907563e-06,
+        1.8153131122744526e-06
+      ],
+      "distance_to_alphabet_after_m": 0.27602120814725534,
+      "distance_to_tomato_after_m": 0.20594469804586507
+    },
+    {
+      "cycle": 18,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.326592938421527e-07,
+        6.493249884442776e-07
+      ],
+      "finger_actual_after_m": [
+        9.884582823360688e-07,
+        1.268369373974565e-07
+      ],
+      "distance_to_alphabet_after_m": 0.27796144397507605,
+      "distance_to_tomato_after_m": 0.20439530597625175
+    },
+    {
+      "cycle": 19,
+      "policy_command": 0.9867989420890808,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        9.854746849669027e-07,
+        1.2424123951859656e-07
+      ],
+      "finger_actual_after_m": [
+        2.692388818559266e-07,
+        4.300225597830831e-08
+      ],
+      "distance_to_alphabet_after_m": 0.266727012012142,
+      "distance_to_tomato_after_m": 0.20166501019068828
+    },
+    {
+      "cycle": 20,
+      "policy_command": 0.9841979146003723,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        2.6651952111933497e-07,
+        3.8631945642464416e-08
+      ],
+      "finger_actual_after_m": [
+        6.026184564689174e-07,
+        7.909395094429783e-08
+      ],
+      "distance_to_alphabet_after_m": 0.2729768819669715,
+      "distance_to_tomato_after_m": 0.20757007276916356
+    },
+    {
+      "cycle": 21,
+      "policy_command": 0.9829406142234802,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.013517577230232e-07,
+        8.315367949762731e-08
+      ],
+      "finger_actual_after_m": [
+        4.446613957043155e-07,
+        4.4355157768904974e-08
+      ],
+      "distance_to_alphabet_after_m": 0.26918314601173293,
+      "distance_to_tomato_after_m": 0.20527124177082529
+    },
+    {
+      "cycle": 22,
+      "policy_command": 0.9797987341880798,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.447634580628801e-07,
+        4.595139202479004e-08
+      ],
+      "finger_actual_after_m": [
+        5.252258006294142e-07,
+        5.0112333838114864e-08
+      ],
+      "distance_to_alphabet_after_m": 0.276114495921373,
+      "distance_to_tomato_after_m": 0.21074772834583272
+    },
+    {
+      "cycle": 23,
+      "policy_command": 0.9796499609947205,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.219199010753073e-07,
+        4.9674927282694625e-08
+      ],
+      "finger_actual_after_m": [
+        4.3004945382563164e-07,
+        5.040782724563542e-08
+      ],
+      "distance_to_alphabet_after_m": 0.28206027988787274,
+      "distance_to_tomato_after_m": 0.21633003200732165
+    },
+    {
+      "cycle": 24,
+      "policy_command": 0.9691422581672668,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.286628438876505e-07,
+        6.86307330965974e-08
+      ],
+      "finger_actual_after_m": [
+        4.934091748509672e-07,
+        4.68234091499653e-08
+      ],
+      "distance_to_alphabet_after_m": 0.28971616291409563,
+      "distance_to_tomato_after_m": 0.222121463618194
+    },
+    {
+      "cycle": 25,
+      "policy_command": 0.9704583287239075,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.891085723102151e-07,
+        4.350378546291722e-08
+      ],
+      "finger_actual_after_m": [
+        3.438667874888779e-07,
+        1.8193409445643738e-08
+      ],
+      "distance_to_alphabet_after_m": 0.2955215117643501,
+      "distance_to_tomato_after_m": 0.2275555247036011
+    },
+    {
+      "cycle": 26,
+      "policy_command": 0.9987110495567322,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.516786364343716e-07,
+        2.2373026098421178e-08
+      ],
+      "finger_actual_after_m": [
+        6.185934466884646e-07,
+        6.503925931156118e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3046570310216675,
+      "distance_to_tomato_after_m": 0.2334953931973506
+    },
+    {
+      "cycle": 27,
+      "policy_command": 0.9825213551521301,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.095687012930284e-07,
+        5.829052440731175e-08
+      ],
+      "finger_actual_after_m": [
+        3.2012309247875237e-07,
+        2.995817993678429e-08
+      ],
+      "distance_to_alphabet_after_m": 0.30918091238111756,
+      "distance_to_tomato_after_m": 0.2390831274618341
+    },
+    {
+      "cycle": 28,
+      "policy_command": 0.9958606362342834,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.132516894766013e-07,
+        1.623971535025248e-08
+      ],
+      "finger_actual_after_m": [
+        6.466733566412586e-07,
+        5.772528766101459e-08
+      ],
+      "distance_to_alphabet_after_m": 0.31686663397445486,
+      "distance_to_tomato_after_m": 0.24158467092971556
+    },
+    {
+      "cycle": 29,
+      "policy_command": 0.9856336712837219,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.404694090633711e-07,
+        4.6506247741717743e-08
+      ],
+      "finger_actual_after_m": [
+        2.920604060818732e-07,
+        -3.036756401897378e-09
+      ],
+      "distance_to_alphabet_after_m": 0.32036318828712557,
+      "distance_to_tomato_after_m": 0.24680221082653345
+    },
+    {
+      "cycle": 30,
+      "policy_command": 0.9754319787025452,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.0977042797530885e-07,
+        2.7928335200044785e-08
+      ],
+      "finger_actual_after_m": [
+        7.914878779047285e-07,
+        6.632694748986978e-08
+      ],
+      "distance_to_alphabet_after_m": 0.33224117567278244,
+      "distance_to_tomato_after_m": 0.2542049526453745
+    },
+    {
+      "cycle": 31,
+      "policy_command": 0.9772278666496277,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        8.004827236618439e-07,
+        7.850599104131106e-08
+      ],
+      "finger_actual_after_m": [
+        3.730679338787013e-07,
+        4.453371715840149e-08
+      ],
+      "distance_to_alphabet_after_m": 0.32954082391986295,
+      "distance_to_tomato_after_m": 0.2542059032039367
+    },
+    {
+      "cycle": 33,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999938815832138,
+        0.03999928757548332
+      ],
+      "finger_actual_after_m": [
+        1.8171887177231838e-06,
+        1.7065304973584716e-06
+      ],
+      "distance_to_alphabet_after_m": 0.33801698095414495,
+      "distance_to_tomato_after_m": 0.25808967570786956
+    },
+    {
+      "cycle": 34,
+      "policy_command": 0.9727994799613953,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.280606044128945e-07,
+        5.472371640280471e-07
+      ],
+      "finger_actual_after_m": [
+        5.213157123762358e-07,
+        2.970847212679928e-08
+      ],
+      "distance_to_alphabet_after_m": 0.34579469301581334,
+      "distance_to_tomato_after_m": 0.2616868699536456
+    },
+    {
+      "cycle": 35,
+      "policy_command": 0.9912764430046082,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.182941436032706e-07,
+        2.8968596410550163e-08
+      ],
+      "finger_actual_after_m": [
+        4.69922440515802e-07,
+        6.680856756702269e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3498057799993457,
+      "distance_to_tomato_after_m": 0.2649594669541706
+    },
+    {
+      "cycle": 36,
+      "policy_command": 0.9809382557868958,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.691423498570657e-07,
+        5.059420260522529e-08
+      ],
+      "finger_actual_after_m": [
+        5.10876986936637e-07,
+        4.337847414603857e-08
+      ],
+      "distance_to_alphabet_after_m": 0.35823563042963397,
+      "distance_to_tomato_after_m": 0.2717343724666961
+    },
+    {
+      "cycle": 37,
+      "policy_command": 0.9672465920448303,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.052597771282308e-07,
+        3.353448008169835e-08
+      ],
+      "finger_actual_after_m": [
+        4.135074505029479e-07,
+        2.6221933069336956e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3654236936806077,
+      "distance_to_tomato_after_m": 0.27820323062955127
+    },
+    {
+      "cycle": 38,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.1202022771358315e-07,
+        3.6668161840225366e-08
+      ],
+      "finger_actual_after_m": [
+        5.949414116912521e-07,
+        4.607841219694819e-08
+      ],
+      "distance_to_alphabet_after_m": 0.37583785217801324,
+      "distance_to_tomato_after_m": 0.28615515532215713
+    },
+    {
+      "cycle": 39,
+      "policy_command": 0.9839152693748474,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.803145768368267e-07,
+        3.436638351672627e-08
+      ],
+      "finger_actual_after_m": [
+        3.9874259982752847e-07,
+        2.900518580872813e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3796050936433113,
+      "distance_to_tomato_after_m": 0.29078787526760447
+    },
+    {
+      "cycle": 40,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.971297246607719e-07,
+        3.2733847632471225e-08
+      ],
+      "finger_actual_after_m": [
+        6.936107297406124e-07,
+        4.656625662846636e-08
+      ],
+      "distance_to_alphabet_after_m": 0.37994193760090206,
+      "distance_to_tomato_after_m": 0.292694771979118
+    },
+    {
+      "cycle": 41,
+      "policy_command": 0.9895152449607849,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        7.050738304315018e-07,
+        5.329778929308304e-08
+      ],
+      "finger_actual_after_m": [
+        3.029302320101124e-07,
+        2.0557072488713857e-08
+      ],
+      "distance_to_alphabet_after_m": 0.37676120601285956,
+      "distance_to_tomato_after_m": 0.29069061735059765
+    },
+    {
+      "cycle": 42,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        2.8143651320533536e-07,
+        1.503857660622998e-08
+      ],
+      "finger_actual_after_m": [
+        6.783683375033434e-07,
+        2.2371100527607268e-08
+      ],
+      "distance_to_alphabet_after_m": 0.38997660798514927,
+      "distance_to_tomato_after_m": 0.2996171795907524
+    },
+    {
+      "cycle": 43,
+      "policy_command": 0.9991230368614197,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        7.058761184453033e-07,
+        6.676056329979474e-08
+      ],
+      "finger_actual_after_m": [
+        3.2758819656919513e-07,
+        3.0515817428522496e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3907881048779531,
+      "distance_to_tomato_after_m": 0.3032766507963726
+    },
+    {
+      "cycle": 44,
+      "policy_command": 0.975202739238739,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.175353242568235e-07,
+        2.9891968011952486e-08
+      ],
+      "finger_actual_after_m": [
+        7.712534966231033e-07,
+        4.5991537689360484e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4032528518401981,
+      "distance_to_tomato_after_m": 0.3119107709499403
+    },
+    {
+      "cycle": 45,
+      "policy_command": 0.9455389380455017,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        7.76871729613049e-07,
+        5.4543768612802523e-08
+      ],
+      "finger_actual_after_m": [
+        2.9520330713239673e-07,
+        3.9584890032529074e-08
+      ],
+      "distance_to_alphabet_after_m": 0.3884900018940312,
+      "distance_to_tomato_after_m": 0.29893752504194926
+    },
+    {
+      "cycle": 47,
+      "policy_command": 0.9961054921150208,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999946266412735,
+        0.03999936953186989
+      ],
+      "finger_actual_after_m": [
+        1.81404084287351e-06,
+        1.7035494010997354e-06
+      ],
+      "distance_to_alphabet_after_m": 0.3958674463502339,
+      "distance_to_tomato_after_m": 0.3016740340426613
+    },
+    {
+      "cycle": 48,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.994772891426692e-07,
+        5.074900855106534e-07
+      ],
+      "finger_actual_after_m": [
+        5.483021254804044e-07,
+        4.5251347557950794e-08
+      ],
+      "distance_to_alphabet_after_m": 0.40650553167124737,
+      "distance_to_tomato_after_m": 0.3099369593534357
+    },
+    {
+      "cycle": 49,
+      "policy_command": 0.9696959853172302,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.370376356950146e-07,
+        4.0101316045593194e-08
+      ],
+      "finger_actual_after_m": [
+        3.81757189416021e-07,
+        2.821434463839978e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4126766055568956,
+      "distance_to_tomato_after_m": 0.31649556004204615
+    },
+    {
+      "cycle": 50,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.868638316362194e-07,
+        4.4460747972152603e-08
+      ],
+      "finger_actual_after_m": [
+        5.341501605471421e-07,
+        5.328262275838824e-08
+      ],
+      "distance_to_alphabet_after_m": 0.42396935310479567,
+      "distance_to_tomato_after_m": 0.32504020743036244
+    },
+    {
+      "cycle": 51,
+      "policy_command": 0.9972038865089417,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.435230718831008e-07,
+        8.592657962935846e-08
+      ],
+      "finger_actual_after_m": [
+        4.296900897315936e-07,
+        2.5416722948534698e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4163177420085689,
+      "distance_to_tomato_after_m": 0.3150018299257091
+    },
+    {
+      "cycle": 52,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.4712444946526375e-07,
+        7.935732071473467e-08
+      ],
+      "finger_actual_after_m": [
+        5.44054273632355e-07,
+        4.355214855422673e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4233595280075722,
+      "distance_to_tomato_after_m": 0.3196109048747434
+    },
+    {
+      "cycle": 53,
+      "policy_command": 0.9914305806159973,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.414124188973801e-07,
+        4.571210254766811e-08
+      ],
+      "finger_actual_after_m": [
+        4.502225010583061e-07,
+        3.390313807472012e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4283817826787978,
+      "distance_to_tomato_after_m": 0.32461121999777115
+    },
+    {
+      "cycle": 54,
+      "policy_command": 0.9604137539863586,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.5078110133545124e-07,
+        4.175286605345718e-08
+      ],
+      "finger_actual_after_m": [
+        4.3805368932225974e-07,
+        2.6079733927986126e-08
+      ],
+      "distance_to_alphabet_after_m": 0.43468816547563643,
+      "distance_to_tomato_after_m": 0.3276012558338146
+    },
+    {
+      "cycle": 57,
+      "policy_command": 0.9842271208763123,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999622851610184,
+        0.03999987989664078
+      ],
+      "finger_actual_after_m": [
+        1.818936539166316e-06,
+        1.7145315496236435e-06
+      ],
+      "distance_to_alphabet_after_m": 0.443334544794149,
+      "distance_to_tomato_after_m": 0.33554417418612353
+    },
+    {
+      "cycle": 60,
+      "policy_command": 0.9872487187385559,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999955952167511,
+        0.03999987989664078
+      ],
+      "finger_actual_after_m": [
+        1.8141130340154632e-06,
+        1.7162158201244893e-06
+      ],
+      "distance_to_alphabet_after_m": 0.44330920290557796,
+      "distance_to_tomato_after_m": 0.3362873782866881
+    },
+    {
+      "cycle": 61,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        5.926491439822712e-07,
+        4.911880751024e-07
+      ],
+      "finger_actual_after_m": [
+        3.822013070475805e-07,
+        2.2646823083505296e-08
+      ],
+      "distance_to_alphabet_after_m": 0.43404918040770024,
+      "distance_to_tomato_after_m": 0.3278447805855847
+    },
+    {
+      "cycle": 62,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        3.9211317925946787e-07,
+        4.226548355745763e-08
+      ],
+      "finger_actual_after_m": [
+        3.4133407211811573e-07,
+        -3.0537445905309824e-09
+      ],
+      "distance_to_alphabet_after_m": 0.4239891835945293,
+      "distance_to_tomato_after_m": 0.31554989986059284
+    },
+    {
+      "cycle": 66,
+      "policy_command": 0.9086499214172363,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.0399993360042572,
+        0.03999984636902809
+      ],
+      "finger_actual_after_m": [
+        1.8216388752989587e-06,
+        1.7619745449337643e-06
+      ],
+      "distance_to_alphabet_after_m": 0.4077056119872908,
+      "distance_to_tomato_after_m": 0.2962793773718318
+    },
+    {
+      "cycle": 70,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039999160915613174,
+        0.0399998314678669
+      ],
+      "finger_actual_after_m": [
+        1.8108610220224364e-06,
+        1.7529001752336626e-06
+      ],
+      "distance_to_alphabet_after_m": 0.4199823801597144,
+      "distance_to_tomato_after_m": 0.31368348191340406
+    },
+    {
+      "cycle": 77,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999884054064751,
+        0.0399998314678669
+      ],
+      "finger_actual_after_m": [
+        1.816632789086725e-06,
+        1.7786220496418537e-06
+      ],
+      "distance_to_alphabet_after_m": 0.4121205404457533,
+      "distance_to_tomato_after_m": 0.309794843178449
+    },
+    {
+      "cycle": 80,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999868407845497,
+        0.0399998314678669
+      ],
+      "finger_actual_after_m": [
+        1.810926505640964e-06,
+        1.7718936078381375e-06
+      ],
+      "distance_to_alphabet_after_m": 0.411248053727778,
+      "distance_to_tomato_after_m": 0.310431053533645
+    },
+    {
+      "cycle": 83,
+      "policy_command": 0.9935556054115295,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.03999869525432587,
+        0.039999838918447495
+      ],
+      "finger_actual_after_m": [
+        1.8085197552863974e-06,
+        1.7654328985372558e-06
+      ],
+      "distance_to_alphabet_after_m": 0.4216887065009046,
+      "distance_to_tomato_after_m": 0.3218394294867173
+    },
+    {
+      "cycle": 84,
+      "policy_command": 0.9992435574531555,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.05229843131383e-07,
+        5.675848910868808e-07
+      ],
+      "finger_actual_after_m": [
+        1.1582864800629977e-07,
+        2.5676669679342012e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4179587610329186,
+      "distance_to_tomato_after_m": 0.3161840674905811
+    },
+    {
+      "cycle": 85,
+      "policy_command": 0.9944263100624084,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        1.0695575269892288e-07,
+        1.4146468885201102e-08
+      ],
+      "finger_actual_after_m": [
+        3.684491289845937e-08,
+        1.5618001336648035e-09
+      ],
+      "distance_to_alphabet_after_m": 0.410916567288916,
+      "distance_to_tomato_after_m": 0.30493076046445367
+    },
+    {
+      "cycle": 86,
+      "policy_command": 1.0,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        4.850630119790367e-08,
+        1.6269581237793318e-08
+      ],
+      "finger_actual_after_m": [
+        9.407943224459814e-08,
+        -3.719840879767844e-09
+      ],
+      "distance_to_alphabet_after_m": 0.41534554789824457,
+      "distance_to_tomato_after_m": 0.31035600653175316
+    },
+    {
+      "cycle": 87,
+      "policy_command": 0.9772353768348694,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        8.424479602808788e-08,
+        -2.845161439779531e-09
+      ],
+      "finger_actual_after_m": [
+        1.161286711237608e-08,
+        7.508081267815214e-09
+      ],
+      "distance_to_alphabet_after_m": 0.4156215315824351,
+      "distance_to_tomato_after_m": 0.31245971624521407
+    },
+    {
+      "cycle": 91,
+      "policy_command": 0.9751341938972473,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039998169988393784,
+        0.039999838918447495
+      ],
+      "finger_actual_after_m": [
+        1.8468808775651269e-06,
+        1.8515721649237094e-06
+      ],
+      "distance_to_alphabet_after_m": 0.4243354674368207,
+      "distance_to_tomato_after_m": 0.32283621443051075
+    },
+    {
+      "cycle": 92,
+      "policy_command": 0.9929181933403015,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.510940693260636e-07,
+        6.608862008761207e-07
+      ],
+      "finger_actual_after_m": [
+        4.351024784909896e-08,
+        6.388776796484308e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4229649562934873,
+      "distance_to_tomato_after_m": 0.31988798293373166
+    },
+    {
+      "cycle": 95,
+      "policy_command": 0.9934694170951843,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        0.039997510612010956,
+        0.039999835193157196
+      ],
+      "finger_actual_after_m": [
+        1.8630322529133991e-06,
+        1.9109209006273886e-06
+      ],
+      "distance_to_alphabet_after_m": 0.427237051990742,
+      "distance_to_tomato_after_m": 0.3174865125367396
+    },
+    {
+      "cycle": 96,
+      "policy_command": 0.9792118668556213,
+      "finger_target_m": [
+        0.0,
+        0.0
+      ],
+      "finger_actual_before_m": [
+        6.686678375444899e-07,
+        7.189316875155782e-07
+      ],
+      "finger_actual_after_m": [
+        1.607104493928091e-08,
+        9.507162701538618e-08
+      ],
+      "distance_to_alphabet_after_m": 0.4249201737023704,
+      "distance_to_tomato_after_m": 0.31263041757392085
+    }
+  ],
+  "strongest_close_attempt": {
+    "cycle": 19,
+    "policy_command": 0.9867989420890808,
+    "finger_target_m": [
+      0.0,
+      0.0
+    ],
+    "finger_actual_before_m": [
+      9.854746849669027e-07,
+      1.2424123951859656e-07
+    ],
+    "finger_actual_after_m": [
+      2.692388818559266e-07,
+      4.300225597830831e-08
+    ],
+    "distance_to_alphabet_after_m": 0.266727012012142,
+    "distance_to_tomato_after_m": 0.20166501019068828
+  },
+  "plausible_grasp_attempt": false,
+  "plausible_attempt_rule": "close command while native tool_center is within 0.10 m of either object center; behavior heuristic only, not proof of contact/grasp",
+  "behavior_classification": "CLOSE_FAR_FROM_OBJECT"
+}

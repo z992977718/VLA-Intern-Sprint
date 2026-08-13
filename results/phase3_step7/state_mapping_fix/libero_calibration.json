@@ -1,0 +1,185 @@
+{
+  "simulator": "LIBERO",
+  "poses": [
+    {
+      "label": "reference",
+      "joint_positions_rad": [
+        0.012,
+        -0.568,
+        0.0,
+        -2.811,
+        0.0,
+        3.037,
+        0.741
+      ],
+      "grip_site_position_xyz_m": [
+        -0.051827028317354626,
+        0.005498339583025463,
+        0.8092979713853705
+      ],
+      "eef_body_quaternion_xyzw": [
+        0.92185202285368,
+        0.026229518731748724,
+        0.38660112687157144,
+        0.006358381028933352
+      ],
+      "grip_site_name": "gripper0_grip_site",
+      "eef_body_name": "robot0_right_hand",
+      "grip_site_id": 9,
+      "eef_body_id": 13,
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "shoulder_y",
+      "joint_positions_rad": [
+        0.35,
+        -0.7,
+        0.15,
+        -2.5,
+        0.1,
+        2.8,
+        0.6
+      ],
+      "grip_site_position_xyz_m": [
+        -0.09789323743832287,
+        0.23201102662829692,
+        1.001322716132495
+      ],
+      "eef_body_quaternion_xyzw": [
+        0.8357826190348323,
+        0.2710852176143906,
+        0.47351953623435183,
+        -0.06131449514297699
+      ],
+      "grip_site_name": "gripper0_grip_site",
+      "eef_body_name": "robot0_right_hand",
+      "grip_site_id": 9,
+      "eef_body_id": 13,
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "elbow_z",
+      "joint_positions_rad": [
+        -0.35,
+        -0.4,
+        -0.25,
+        -2.45,
+        -0.15,
+        2.65,
+        0.8
+      ],
+      "grip_site_position_xyz_m": [
+        -0.08150083157584438,
+        -0.29563134289646553,
+        0.8477202965781555
+      ],
+      "eef_body_quaternion_xyzw": [
+        0.9251512182578683,
+        -0.242974524483282,
+        0.2779940947757568,
+        0.08819233004015346
+      ],
+      "grip_site_name": "gripper0_grip_site",
+      "eef_body_name": "robot0_right_hand",
+      "grip_site_id": 9,
+      "eef_body_id": 13,
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "wrist_roll",
+      "joint_positions_rad": [
+        0.1,
+        -0.7,
+        0.1,
+        -2.6,
+        0.7,
+        2.9,
+        0.65
+      ],
+      "grip_site_position_xyz_m": [
+        -0.049324172777121714,
+        0.07150021127578743,
+        0.9576355600440836
+      ],
+      "eef_body_quaternion_xyzw": [
+        0.8589324400119425,
+        -0.10618680544608233,
+        0.45299515774204213,
+        -0.2139037468268085
+      ],
+      "grip_site_name": "gripper0_grip_site",
+      "eef_body_name": "robot0_right_hand",
+      "grip_site_id": 9,
+      "eef_body_id": 13,
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "wrist_yaw",
+      "joint_positions_rad": [
+        -0.15,
+        -0.55,
+        -0.1,
+        -2.7,
+        -0.5,
+        2.4,
+        0.9
+      ],
+      "grip_site_position_xyz_m": [
+        -0.1173213154611962,
+        -0.13001473185489432,
+        0.7536729933878525
+      ],
+      "eef_body_quaternion_xyzw": [
+        0.9786950283852778,
+        -0.01312172381718163,
+        0.11375855019396196,
+        0.17041964099179618
+      ],
+      "grip_site_name": "gripper0_grip_site",
+      "eef_body_name": "robot0_right_hand",
+      "grip_site_id": 9,
+      "eef_body_id": 13,
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ]
+    }
+  ],
+  "gripper_states": [
+    {
+      "label": "open",
+      "qpos": [
+        0.04,
+        -0.04
+      ]
+    },
+    {
+      "label": "intermediate",
+      "qpos": [
+        0.02,
+        -0.02
+      ]
+    },
+    {
+      "label": "closed",
+      "qpos": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "set": "calibration",
+  "comparison_basis": "same explicit Panda joint vectors; no task action, policy, or rollout"
+}

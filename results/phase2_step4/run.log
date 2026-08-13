@@ -1,0 +1,8 @@
+Step 4 日志索引：
+- synthetic_run.log：PINK 合成三轴/旋转/夹爪测试
+- policy_once.log：唯一一次 Pi0.5 inference
+- execution_run.log：唯一一个 VLA action 的 Isaac 执行
+- observation_isaac.log / observation_adapter.log：真实输入采集
+- ffmpeg.log：90 帧真实画面封装为 MP4
+
+历史失败尝试均发生在合成动作发送前，原因依次为 PINK extension 未启用、SpatialState 输入类型、Isaac joint-limit API 结构判断错误。最终成功运行以 JSON 和上述日志为准。

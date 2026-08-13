@@ -1,0 +1,309 @@
+{
+  "comparison_basis": "same explicit Panda arm joint vector is assigned in LIBERO and Isaac; no task action is executed",
+  "pose_count": 5,
+  "rows": [
+    {
+      "label": "reference",
+      "joint_positions_rad": [
+        0.012,
+        -0.568,
+        0.0,
+        -2.811,
+        0.0,
+        3.037,
+        0.741
+      ],
+      "libero_eef_position_xyz_m": [
+        -0.051827028317354626,
+        0.005498339583025463,
+        0.8092979713853705
+      ],
+      "isaac_hand_position_xyz_m": [
+        -0.1206925904750824,
+        0.004670880734920502,
+        0.8759737145900726
+      ],
+      "isaac_tool_point_xyz_m": [
+        -0.05308547986844134,
+        0.007673670242678841,
+        0.8091535465125804
+      ],
+      "hand_to_libero_position_error_m": 0.09585825510275339,
+      "tool_to_libero_position_error_m": 0.002517264850813475,
+      "tool_offset_length_m": 0.0951034858,
+      "tool_offset_formula_error_m": 0.0,
+      "relative_rotation_hand_to_libero": [
+        [
+          0.9999471229399524,
+          0.010139503275647834,
+          0.001715166882557816
+        ],
+        [
+          -0.010176452826974602,
+          0.9996810222123474,
+          0.02311479258694377
+        ],
+        [
+          -0.0014802472672692404,
+          -0.023131024659538917,
+          0.9997313461956807
+        ]
+      ],
+      "relative_rotation_angle_rad": 0.025308947875216748,
+      "controller_to_policy_orientation_difference_rad": 1.5707963267948972,
+      "orientation_error_before_rad": 0.025308947875216748,
+      "orientation_error_after_right_multiply_rad": 0.07336815669295092,
+      "orientation_error_after_left_multiply_rad": 0.07373437850297168,
+      "tool_to_libero_position_error_after_rigid_registration_m": 0.007581983656993869
+    },
+    {
+      "label": "shoulder_y",
+      "joint_positions_rad": [
+        0.35,
+        -0.7,
+        0.15,
+        -2.5,
+        0.1,
+        2.8,
+        0.6
+      ],
+      "libero_eef_position_xyz_m": [
+        -0.09789323743832287,
+        0.23201102662829692,
+        1.001322716132495
+      ],
+      "isaac_hand_position_xyz_m": [
+        -0.17075995564460755,
+        0.19764353334903717,
+        1.0526753497123718
+      ],
+      "isaac_tool_point_xyz_m": [
+        -0.09244695952950309,
+        0.21225960446898917,
+        1.0007319370809038
+      ],
+      "hand_to_libero_position_error_m": 0.09553939602092511,
+      "tool_to_libero_position_error_m": 0.0204970641864412,
+      "tool_offset_length_m": 0.09510348580000001,
+      "tool_offset_formula_error_m": 0.0,
+      "relative_rotation_hand_to_libero": [
+        [
+          0.9909047276652405,
+          -0.10799740739786168,
+          0.08027690007726904
+        ],
+        [
+          0.122085327506457,
+          0.9724112963883828,
+          -0.1987748562165405
+        ],
+        [
+          -0.05659499534690884,
+          0.2067675764030849,
+          0.97675184967835
+        ]
+      ],
+      "relative_rotation_angle_rad": 0.24542588100192644,
+      "controller_to_policy_orientation_difference_rad": 1.5707963267948972,
+      "orientation_error_before_rad": 0.24542588100192644,
+      "orientation_error_after_right_multiply_rad": 0.23823830190171905,
+      "orientation_error_after_left_multiply_rad": 0.23871521223395256,
+      "tool_to_libero_position_error_after_rigid_registration_m": 0.024923390027424733
+    },
+    {
+      "label": "elbow_z",
+      "joint_positions_rad": [
+        -0.35,
+        -0.4,
+        -0.25,
+        -2.45,
+        -0.15,
+        2.65,
+        0.8
+      ],
+      "libero_eef_position_xyz_m": [
+        -0.08150083157584438,
+        -0.29563134289646553,
+        0.8477202965781555
+      ],
+      "isaac_hand_position_xyz_m": [
+        -0.12721810698509217,
+        -0.2673628330230713,
+        0.9263957571983337
+      ],
+      "isaac_tool_point_xyz_m": [
+        -0.07445462829668732,
+        -0.2647264582044062,
+        0.8473151789516835
+      ],
+      "hand_to_libero_position_error_m": 0.09528381827521609,
+      "tool_to_libero_position_error_m": 0.03170055202629703,
+      "tool_offset_length_m": 0.09510348580000003,
+      "tool_offset_formula_error_m": 0.0,
+      "relative_rotation_hand_to_libero": [
+        [
+          0.9911720019417616,
+          0.083331883793778,
+          0.10312060759199035
+        ],
+        [
+          -0.11202639107103893,
+          0.9423782172823235,
+          0.3152354410522228
+        ],
+        [
+          -0.07090945120616594,
+          -0.3240047727043092,
+          0.9433942744125969
+        ]
+      ],
+      "relative_rotation_angle_rad": 0.3526166720974455,
+      "controller_to_policy_orientation_difference_rad": 1.5707963267948974,
+      "orientation_error_before_rad": 0.3526166720974455,
+      "orientation_error_after_right_multiply_rad": 0.35173680246712125,
+      "orientation_error_after_left_multiply_rad": 0.35132979436072403,
+      "tool_to_libero_position_error_after_rigid_registration_m": 0.038825462587774175
+    },
+    {
+      "label": "wrist_roll",
+      "joint_positions_rad": [
+        0.1,
+        -0.7,
+        0.1,
+        -2.6,
+        0.7,
+        2.9,
+        0.65
+      ],
+      "libero_eef_position_xyz_m": [
+        -0.049324172777121714,
+        0.07150021127578743,
+        0.9576355600440836
+      ],
+      "isaac_hand_position_xyz_m": [
+        -0.12854013800621034,
+        0.04544265195727348,
+        1.0045782160758971
+      ],
+      "isaac_tool_point_xyz_m": [
+        -0.05899001757057548,
+        0.0013516870455758806,
+        0.957002586055319
+      ],
+      "hand_to_libero_position_error_m": 0.09569628258263334,
+      "tool_to_libero_position_error_m": 0.07081415581166076,
+      "tool_offset_length_m": 0.0951034858,
+      "tool_offset_formula_error_m": 0.0,
+      "relative_rotation_hand_to_libero": [
+        [
+          0.9213479760469033,
+          -0.3838008918899471,
+          0.06176392489759774
+        ],
+        [
+          0.31874236658575916,
+          0.6549010061372824,
+          -0.6852065206225675
+        ],
+        [
+          0.22253361718532444,
+          0.6510004205412286,
+          0.7257253210943927
+        ]
+      ],
+      "relative_rotation_angle_rad": 0.8619121710676902,
+      "controller_to_policy_orientation_difference_rad": 1.5707963267948972,
+      "orientation_error_before_rad": 0.8619121710676902,
+      "orientation_error_after_right_multiply_rad": 0.856934609512632,
+      "orientation_error_after_left_multiply_rad": 0.8569721055033419,
+      "tool_to_libero_position_error_after_rigid_registration_m": 0.06371907376910434
+    },
+    {
+      "label": "wrist_yaw",
+      "joint_positions_rad": [
+        -0.15,
+        -0.55,
+        -0.1,
+        -2.7,
+        -0.5,
+        2.4,
+        0.9
+      ],
+      "libero_eef_position_xyz_m": [
+        -0.1173213154611962,
+        -0.13001473185489432,
+        0.7536729933878525
+      ],
+      "isaac_hand_position_xyz_m": [
+        -0.13853631377220155,
+        -0.09759219735860825,
+        0.8410565984249114
+      ],
+      "isaac_tool_point_xyz_m": [
+        -0.11713480036743665,
+        -0.06619576214453599,
+        0.7538733885095554
+      ],
+      "hand_to_libero_position_error_m": 0.09558865688862629,
+      "tool_to_libero_position_error_m": 0.06381955688483458,
+      "tool_offset_length_m": 0.0951034858,
+      "tool_offset_formula_error_m": 0.0,
+      "relative_rotation_hand_to_libero": [
+        [
+          0.996934133939457,
+          0.0692465392619002,
+          0.036431434045824246
+        ],
+        [
+          -0.07674930571736212,
+          0.774797885484688,
+          0.6275330913349184
+        ],
+        [
+          0.015227496783385473,
+          -0.6284052461976318,
+          0.777737082755481
+        ]
+      ],
+      "relative_rotation_angle_rad": 0.6845011635432738,
+      "controller_to_policy_orientation_difference_rad": 1.5707963267948972,
+      "orientation_error_before_rad": 0.6845011635432738,
+      "orientation_error_after_right_multiply_rad": 0.673037172294815,
+      "orientation_error_after_left_multiply_rad": 0.6730873211024235,
+      "tool_to_libero_position_error_after_rigid_registration_m": 0.05066102346210905
+    }
+  ],
+  "position_tool_to_libero_error_before_m": {
+    "mean": 0.03786971875200941,
+    "max": 0.07081415581166076,
+    "min": 0.002517264850813475
+  },
+  "position_error_after_best_rigid_registration_m": {
+    "mean": 0.037142186700681236,
+    "max": 0.06371907376910434,
+    "min": 0.007581983656993869
+  },
+  "registration_is_diagnostic_only": true,
+  "registration_rotation_matrix": [
+    [
+      0.9988288766112466,
+      -0.03271597124214528,
+      0.03564464157762892
+    ],
+    [
+      0.02919010130186034,
+      0.9950200015680682,
+      0.09530547972424251
+    ],
+    [
+      -0.03858514265234286,
+      -0.0941533945493413,
+      0.9948096928867016
+    ]
+  ],
+  "registration_translation_m": [
+    -0.03230080226871585,
+    -0.0824568650703921,
+    -0.00027243880399541176
+  ]
+}

@@ -1,0 +1,61 @@
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: _Render_PostProcess_SDGPipeline_camera_sensor_8744897344673_NodeWriterWriter
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Endpoint type: PUBLISHER
+GID: 01.0f.60.d9.1d.3a.75.83.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: _Render_PostProcess_SDGPipeline_camera_sensor_8745253772082_NodeWriterWriter
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Endpoint type: PUBLISHER
+GID: 01.0f.60.d9.1d.3a.75.83.00.00.00.00.00.00.04.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+Type: sensor_msgs/msg/JointState
+
+Publisher count: 1
+
+Node name: _ActionGraph_PublishJointState
+Node namespace: /
+Topic type: sensor_msgs/msg/JointState
+Endpoint type: PUBLISHER
+GID: 01.0f.60.d9.1d.3a.75.83.00.00.00.00.00.00.03.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+Unknown topic '/joint_command'

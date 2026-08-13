@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "SUCCESS": 3,
+    "SAFETY_STOP": 3
+  },
+  "trials": [
+    {
+      "trial_id": "alphabet_00",
+      "failure_category": "SUCCESS"
+    },
+    {
+      "trial_id": "alphabet_01",
+      "failure_category": "SUCCESS"
+    },
+    {
+      "trial_id": "alphabet_02",
+      "failure_category": "SUCCESS"
+    },
+    {
+      "trial_id": "tomato_00",
+      "failure_category": "SAFETY_STOP"
+    },
+    {
+      "trial_id": "tomato_01",
+      "failure_category": "SAFETY_STOP"
+    },
+    {
+      "trial_id": "tomato_02",
+      "failure_category": "SAFETY_STOP"
+    }
+  ]
+}

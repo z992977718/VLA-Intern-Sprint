@@ -1,0 +1,9 @@
+{
+  "command": "LIBERO action [0.1,0,0,0,0,0,0] -> +5 mm Isaac /World x",
+  "frame_mapping_pass": true,
+  "gripper_mapping_pass": true,
+  "robot_moved": true,
+  "controller_latency_mean_ms": 1.8253741242612402,
+  "controller_latency_p95_ms": 1.977261109277606,
+  "pass": true
+}

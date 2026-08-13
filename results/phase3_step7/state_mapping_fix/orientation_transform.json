@@ -1,0 +1,22 @@
+{
+  "classification": "UNRESOLVED",
+  "before_calibration_error_rad": {
+    "mean": 0.4339529671171105,
+    "max": 0.8619121710676902,
+    "min": 0.025308947875216748
+  },
+  "after_calibration_error_rad": {
+    "mean": 0.43395296711711007,
+    "max": 0.8619121710676902,
+    "min": 0.025308947875216748
+  },
+  "holdout_error_rad": {
+    "mean": 0.7195567939575465,
+    "max": 0.9895160024575086,
+    "min": 0.4925342880433304
+  },
+  "libero_source": "robot0_eef_quat from robosuite body API (xyzw); source body recorded as robot0_right_hand",
+  "isaac_source": "USD /World/Robot/panda_hand/tool_center quaternion; native tool_center is rigidly parented to panda_hand and has the same sampled orientation",
+  "proven_fixed_rotation": false,
+  "finding": "No fixed orientation compensation is applied. The five-pose evidence showed that a single fixed rotation did not improve the policy-source comparison consistently."
+}

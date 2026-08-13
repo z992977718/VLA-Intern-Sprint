@@ -1,0 +1,11 @@
+{
+  "raw_policy_completed": false,
+  "raw_policy_exit_race": true,
+  "effective_policy_runtime_complete": true,
+  "real_inference_calls": 100,
+  "isaac_cycles_completed": 100,
+  "episode_complete": true,
+  "oom": false,
+  "interpretation": "The policy completed all 100 authorized inferences; its post-loop check ran before Isaac atomically published episode_complete. Raw policy_complete.json is preserved unchanged.",
+  "episode_rerun_required": false
+}

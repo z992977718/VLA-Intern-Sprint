@@ -1,0 +1,28 @@
+{
+  "external": {
+    "available": true,
+    "shape": [
+      256,
+      256,
+      3
+    ],
+    "dtype": "uint8",
+    "pixel_min": 1,
+    "pixel_max": 255,
+    "pixel_mean": 90.02385965983073,
+    "pixel_std": 60.50634442628469
+  },
+  "wrist": {
+    "available": true,
+    "shape": [
+      256,
+      256,
+      3
+    ],
+    "dtype": "uint8",
+    "pixel_min": 0,
+    "pixel_max": 234,
+    "pixel_mean": 26.742640177408855,
+    "pixel_std": 57.80131529134672
+  }
+}

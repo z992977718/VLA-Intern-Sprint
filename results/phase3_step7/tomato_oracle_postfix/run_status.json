@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 3 / Step 7C.3",
+  "completed": true,
+  "postfix_formal_trials": 3,
+  "fourth_trial_run": false,
+  "hard_reset_per_trial": true,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "training": false,
+  "step6_rerun": false,
+  "alphabet_rerun": false,
+  "physics_parameters_changed": false,
+  "joint_delta_threshold_changed": false,
+  "success_metric_changed": false,
+  "frozen_results_modified": false,
+  "automatic_second_fix_performed": false,
+  "classification": "PARTIAL",
+  "stop_reason": "All three post-fix trials exposed a new PINK internal configuration-limit IK failure during descent."
+}

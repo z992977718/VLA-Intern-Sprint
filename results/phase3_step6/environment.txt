@@ -1,0 +1,12 @@
+date: 2026-08-12
+server: AutoDL Linux GPU server
+gpu: NVIDIA RTX 6000D
+gpu_total_mib: 85651
+isaac_sim: 6.0.1
+lerobot: 0.6.2
+lerobot_commit: 22bd7a2f489b367d8df42de803b1e8c4ca63a3f9
+policy_checkpoint: results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model
+torch_peak_allocated_bytes: 9522268160
+torch_peak_reserved_bytes: 9877585920
+nvidia_smi_peak_used_mib_global: 13059
+oom: False

@@ -1,0 +1,230 @@
+{
+  "simulator": "Isaac",
+  "poses": [
+    {
+      "label": "reference",
+      "joint_positions_rad": [
+        0.012,
+        -0.568,
+        0.0,
+        -2.811,
+        0.0,
+        3.037,
+        0.741
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.1206925904750824,
+        0.004670880734920502,
+        0.8759737145900726
+      ],
+      "panda_hand_quaternion_wxyz": [
+        -0.006243676412850683,
+        0.9222938236548748,
+        0.026009916746404314,
+        0.38556271031281986
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.04712049107748836,
+        0.005553906354239352,
+        0.8033243755979923
+      ],
+      "tool_center_quaternion_wxyz": [
+        -0.006243676412850683,
+        0.9222938236548748,
+        0.026009916746404314,
+        0.38556271031281986
+      ],
+      "finger_qpos": [
+        0.02000001259148121,
+        0.02000001259148121
+      ]
+    },
+    {
+      "label": "shoulder_y",
+      "joint_positions_rad": [
+        0.35,
+        -0.7,
+        0.15,
+        -2.5,
+        0.1,
+        2.8,
+        0.6
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.17075995564460755,
+        0.19764353334903717,
+        1.0526753497123718
+      ],
+      "panda_hand_quaternion_wxyz": [
+        0.06131473928689949,
+        0.8363757102959846,
+        0.2712278952236688,
+        0.4723892492697153
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.09249347094413717,
+        0.23474496307763193,
+        0.9962005652087969
+      ],
+      "tool_center_quaternion_wxyz": [
+        0.06131473928689949,
+        0.8363757102959846,
+        0.2712278952236688,
+        0.4723892492697153
+      ],
+      "finger_qpos": [
+        0.019999990239739418,
+        0.019999980926513672
+      ]
+    },
+    {
+      "label": "elbow_z",
+      "joint_positions_rad": [
+        -0.35,
+        -0.4,
+        -0.25,
+        -2.45,
+        -0.15,
+        2.65,
+        0.8
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.12721810698509217,
+        -0.2673628330230713,
+        0.9263957571983337
+      ],
+      "panda_hand_quaternion_wxyz": [
+        -0.08787992596626272,
+        0.9253570359116883,
+        -0.24387502463892735,
+        0.27661606435321345
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.07871587559252162,
+        -0.2981305488764219,
+        0.8404164503209863
+      ],
+      "tool_center_quaternion_wxyz": [
+        -0.08787992596626272,
+        0.9253570359116883,
+        -0.24387502463892735,
+        0.27661606435321345
+      ],
+      "finger_qpos": [
+        0.01999995857477188,
+        0.019999807700514793
+      ]
+    },
+    {
+      "label": "wrist_roll",
+      "joint_positions_rad": [
+        0.1,
+        -0.7,
+        0.1,
+        -2.6,
+        0.7,
+        2.9,
+        0.65
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.12854013800621034,
+        0.04544265195727348,
+        1.0045782160758971
+      ],
+      "panda_hand_quaternion_wxyz": [
+        0.21372318267822266,
+        0.8595310634397298,
+        -0.10645156582580344,
+        0.4518814184067462
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.04351281176575919,
+        0.0734843659072428,
+        0.9528522451217621
+      ],
+      "tool_center_quaternion_wxyz": [
+        0.21372318267822266,
+        0.8595310634397298,
+        -0.10645156582580344,
+        0.4518814184067462
+      ],
+      "finger_qpos": [
+        0.01999993994832039,
+        0.019999956712126732
+      ]
+    },
+    {
+      "label": "wrist_yaw",
+      "joint_positions_rad": [
+        -0.15,
+        -0.55,
+        -0.1,
+        -2.7,
+        -0.5,
+        2.4,
+        0.9
+      ],
+      "panda_hand_path": "/World/Robot/panda_hand",
+      "panda_hand_position_xyz_m": [
+        -0.13853631377220155,
+        -0.09759219735860825,
+        0.8410565984249114
+      ],
+      "panda_hand_quaternion_wxyz": [
+        -0.17016100883483867,
+        0.9788678155060414,
+        -0.013322800216310814,
+        0.11263007517149533
+      ],
+      "tool_center_path": "/World/Robot/panda_hand/tool_center",
+      "tool_center_position_xyz_m": [
+        -0.11620544291386041,
+        -0.13234818060142023,
+        0.7462678130358502
+      ],
+      "tool_center_quaternion_wxyz": [
+        -0.17016100883483867,
+        0.9788678155060414,
+        -0.013322800216310814,
+        0.11263007517149533
+      ],
+      "finger_qpos": [
+        0.02000005543231964,
+        0.020000042393803596
+      ]
+    }
+  ],
+  "gripper_states": [
+    {
+      "label": "open",
+      "qpos": [
+        0.03999609500169754,
+        0.039999429136514664
+      ]
+    },
+    {
+      "label": "intermediate",
+      "qpos": [
+        0.02000003680586815,
+        0.020000023767352104
+      ]
+    },
+    {
+      "label": "closed",
+      "qpos": [
+        3.0772173431614647e-07,
+        2.1259833005160544e-08
+      ]
+    }
+  ],
+  "set": "calibration",
+  "comparison_basis": "same explicit Panda joint vectors; no task action, policy, or rollout"
+}

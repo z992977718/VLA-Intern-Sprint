@@ -1,0 +1,117 @@
+Git status snapshot
+Generated: 2026-08-13 Asia/Hong_Kong
+Branch: main
+Commit performed in this closeout: NO
+Note: this snapshot file itself is necessarily absent from the status captured immediately before its creation.
+
+ M AGENTS.md
+ M README.md
+ M notes/commands.md
+ M notes/daily_log.md
+ M notes/project_facts.md
+ M phase2/ros2_ws/src/vla_manipulator_runtime/package.xml
+ M phase2/ros2_ws/src/vla_manipulator_runtime/setup.py
+ M phase2/scripts/isaac_env.sh
+ M results/phase2_step1/summary.md
+?? assets/images/
+?? assets/videos/phase2_step4_action_execution.mp4
+?? assets/videos/phase2_step5_closed_loop.mp4
+?? assets/videos/phase3_step6_ep00.mp4
+?? assets/videos/phase3_step6_ep01.mp4
+?? assets/videos/phase3_step6_ep02.mp4
+?? assets/videos/phase3_step7_oracle_README.md
+?? assets/videos/phase3_step7_oracle_alphabet_00.mp4
+?? assets/videos/phase3_step7_oracle_alphabet_01.mp4
+?? assets/videos/phase3_step7_oracle_alphabet_02.mp4
+?? assets/videos/phase3_step7_oracle_tomato_00.mp4
+?? assets/videos/phase3_step7_oracle_tomato_01.mp4
+?? assets/videos/phase3_step7_oracle_tomato_02.mp4
+?? assets/videos/phase3_step7_oracle_tomato_postfix_00.mp4
+?? assets/videos/phase3_step7_oracle_tomato_postfix_01.mp4
+?? assets/videos/phase3_step7_oracle_tomato_postfix_02.mp4
+?? assets/videos/phase3_step7_oracle_tomato_validation_00.mp4
+?? assets/videos/phase3_step7_oracle_tomato_validation_01.mp4
+?? assets/videos/phase3_step7_oracle_tomato_validation_02.mp4
+?? assets/videos/phase3_step7_pi05_postfix_diagnostic_state0.mp4
+?? notes/isaac_5090_startup_diagnosis.md
+?? notes/migration_5090_audit.md
+?? notes/phase2_observation_schema.md
+?? notes/phase2_pi05_compatibility.md
+?? notes/phase2_pi05_compatibility_step3.md
+?? notes/phase2_state_mapping_audit.md
+?? notes/phase2_step2_learning.md
+?? notes/phase2_step3_action_mapping_audit.md
+?? notes/phase2_step3_learning.md
+?? notes/phase2_step3_state_adapter.md
+?? notes/phase2_step4_action_semantics.md
+?? notes/phase2_step4_controller_selection.md
+?? notes/phase2_step4_learning.md
+?? notes/phase2_step4_safety.md
+?? notes/phase2_step5_learning.md
+?? notes/phase3_final_closeout.md
+?? notes/phase3_step6_domain_gap_analysis.md
+?? notes/phase3_step6_learning.md
+?? notes/phase3_step6_libero_task_reference.md
+?? notes/phase3_step6_scene_mapping.md
+?? notes/phase3_step6_success_metric.md
+?? notes/phase3_step6_visual_domain_gap.md
+?? notes/phase3_step7_action_parity.md
+?? notes/phase3_step7_action_parity_localization.md
+?? notes/phase3_step7_action_semantics_recheck.md
+?? notes/phase3_step7_arm_gripper_decoupling.md
+?? notes/phase3_step7_frame_tree.md
+?? notes/phase3_step7_grasp_oracle.md
+?? notes/phase3_step7_gripper_state_fix.md
+?? notes/phase3_step7_isaac_state_semantics.md
+?? notes/phase3_step7_learning.md
+?? notes/phase3_step7_libero_state_semantics.md
+?? notes/phase3_step7_pi05_postfix_diagnostic.md
+?? notes/phase3_step7_pink_finger_limit_audit.md
+?? notes/phase3_step7_root_cause_matrix.md
+?? notes/phase3_step7_safety_float_tolerance.md
+?? notes/phase3_step7_state_mapping_audit.md
+?? notes/phase3_step7_state_mapping_fix.md
+?? notes/phase3_step7_state_orientation_fix.md
+?? notes/phase3_step7_state_position_fix.md
+?? notes/phase3_step7_tomato_oracle_postfix.md
+?? notes/phase3_step7_tomato_oracle_validation.md
+?? notes/phase3_step7_tomato_safety_diagnostic.md
+?? notes/phase3_step7_tomato_safety_localization.md
+?? phase2/ros2_ws/src/vla_manipulator_runtime/vla_manipulator_runtime/observation_adapter_node.py
+?? phase2/scripts/action_adapter_step4.py
+?? phase2/scripts/audit_phase2_step4_remote.sh
+?? phase2/scripts/configure_headless_vulkan_icd.sh
+?? phase2/scripts/isaac_franka_camera_ros2.py
+?? phase2/scripts/isaac_step4_execute_one.py
+?? phase2/scripts/isaac_step4_synthetic.py
+?? phase2/scripts/isaac_step5_closed_loop.py
+?? phase2/scripts/locate_pink_step4.sh
+?? phase2/scripts/pi05_step5_policy_daemon.py
+?? phase2/scripts/policy_input_adapter.py
+?? phase2/scripts/prepare_phase2_step2_retry.sh
+?? phase2/scripts/restart_phase2_step5_after_attempt1.sh
+?? phase2/scripts/run_phase2_step2_observation.sh
+?? phase2/scripts/run_phase2_step3_inference.sh
+?? phase2/scripts/run_phase2_step3_policy_only.sh
+?? phase2/scripts/run_phase2_step4.sh
+?? phase2/scripts/run_phase2_step4_synthetic.sh
+?? phase2/scripts/run_phase2_step5.sh
+?? phase2/scripts/run_pi05_step3_inference.py
+?? phase2/scripts/run_pi05_step4_once.py
+?? phase2/scripts/summarize_phase2_step5.py
+?? phase3/
+?? results/isaac_5090_startup_diagnosis_20260813_attempt03/
+?? results/migration_smoke_5090_20260813/
+?? results/migration_smoke_5090_isaac/
+?? results/migration_smoke_5090_isaac_attempt03/
+?? results/phase2_step2/
+?? results/phase2_step3/
+?? results/phase2_step4/
+?? results/phase2_step5/
+?? results/phase3_final_summary/
+?? results/phase3_step6/
+?? results/phase3_step7/
+?? results/phase3_step7_action_parity_matrix_remote.json
+?? results/stage_a_5090_attempt03_launcher.log
+?? results/stage_a_5090_launcher.log
+?? scripts/check_5090_migration.py

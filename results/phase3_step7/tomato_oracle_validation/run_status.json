@@ -1,0 +1,20 @@
+{
+  "phase": "Phase 3 / Step 7C.6",
+  "status": "PASS",
+  "formal_trials_executed": 3,
+  "additional_trials_executed": 0,
+  "hard_reset_each_trial": true,
+  "same_fixed_protocol": true,
+  "code_and_config_hashes_unchanged_during_trials": true,
+  "safety_regression_preserved": true,
+  "tomato_success": "3/3",
+  "robot_side_oracle_current_conclusion": "ROBUST PASS",
+  "arm_gripper_decoupling_fix_robustly_validated": true,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "training_run": false,
+  "step6_pi05_failure_causality_proven": false,
+  "major_confirmed_robot_side_blockers_cleared_enough_for_one_pi05_diagnostic": true,
+  "recommended_next_step": "ONE_POST_STATE_MAPPING_PI05_DIAGNOSTIC_ROLLOUT",
+  "next_step_executed": false
+}

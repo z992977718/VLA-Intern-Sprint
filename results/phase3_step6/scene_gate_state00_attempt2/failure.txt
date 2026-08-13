@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/isaac_step6_scene_gate.py", line 239, in main
+    scene = build_scene(app, args.initial_state_id, dynamic_objects=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/isaac_step6_scene_gate.py", line 147, in build_scene
+    set_pose_scale(UsdGeom, Gf, robot_prim, reference["robot_base_position_xyz_m"], reference["robot_base_quaternion_wxyz"])
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase3/scripts/isaac_step6_scene_gate.py", line 53, in set_pose_scale
+    xform.AddOrientOp().Set(gf_quat(Gf, np.asarray(quaternion)))
+    ^^^^^^^^^^^^^^^^^^^
+pxr.Tf.ErrorException: 
+	Error in 'pxrInternal_v0_25_11__pxrReserved__::UsdGeomXformable::AddXformOp' at line 186 in file /builds/omniverse/usd-ci/conan/src/0.25.11.kit.2/pxr/usd/usdGeom/xformable.cpp : 'XformOp </World/Robot.xformOp:orient> has typeName 'quatd' which does not match the requested precision 'PrecisionFloat'. Proceeding to use existing typeName / precision.'

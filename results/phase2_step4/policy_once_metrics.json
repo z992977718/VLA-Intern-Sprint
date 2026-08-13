@@ -1,0 +1,8 @@
+{
+  "inference_latency_ms": 577.1602881141007,
+  "adapter_latency_ms": 0.40719378739595413,
+  "torch_peak_allocated_bytes": 9522215424,
+  "torch_peak_reserved_bytes": 9877585920,
+  "nvidia_smi": "NVIDIA RTX 6000D, 85651, 10013",
+  "oom": false
+}

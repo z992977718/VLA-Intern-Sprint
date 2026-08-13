@@ -1,0 +1,40 @@
+{
+  "phase": "Phase 3 / Step 7C.1",
+  "status": "UNRESOLVED_FROM_EXISTING_LOGS",
+  "most_specific_supported_localization": "DESCENT_STEP_0_SAFETY_GATE_REJECTION",
+  "all_three_trials_same_high_level_condition": true,
+  "all_three_trials_same_low_level_leaf_confirmed": false,
+  "confirmed_facts": [
+    "All three formal tomato trials completed their approach recording.",
+    "All three raised RuntimeError(\"SAFETY_STOP\") inside execute_stage('descent').",
+    "No descent frame exists; code control flow localizes rejection to descent step 0.",
+    "PINK reset and forward did not take their explicit IK_FAILURE branches.",
+    "No Cartesian workspace gate exists in the Step 7C Oracle.",
+    "No close or lift stage was reached, so physics, contact and gripper grasp quality were not tested."
+  ],
+  "unresolved_safety_leaves": [
+    "IK_NONFINITE",
+    "JOINT_DELTA_LIMIT",
+    "JOINT_POSITION_LOWER_LIMIT",
+    "JOINT_POSITION_UPPER_LIMIT"
+  ],
+  "highest_value_next_check": "Persist the complete pre-raise safety payload at descent step 0 and separate each boolean leaf.",
+  "minimal_proposed_fix_not_executed": {
+    "type": "INSTRUMENTATION_ONLY",
+    "change_thresholds": false,
+    "change_controller": false,
+    "change_physics": false,
+    "record": [
+      "finite mask",
+      "joint target and actual",
+      "delta per joint and argmax",
+      "lower and upper limits",
+      "limit margins",
+      "EEF target and actual",
+      "explicit trigger leaf"
+    ]
+  },
+  "rerun_required_for_exact_trigger": true,
+  "recommended_rerun_if_later_authorized": "ONE DIAGNOSTIC / NOT COUNTED tomato trial only",
+  "pi05_diagnostic_rollout_next": false
+}

@@ -1,0 +1,187 @@
+=== isaacsim package top ===
+LICENSE.txt
+VERSION
+__init__.py
+__main__.py
+__pycache__
+apps
+exts
+extsDeprecated
+extsUser
+extscache
+kit
+=== bounded pink paths ===
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/PACKAGE-LICENSES/isaacsim.robot_motion.pink-LICENSE.md
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pin_pink-4.2.0.dist-info
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/PACKAGE-LICENSES/isaacsim.robot_motion.pink.examples-LICENSE.md
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink
+=== installed distributions ===
+isaacsim                   6.0.1.0
+isaacsim-app               6.0.1.0
+isaacsim-asset             6.0.1.0
+isaacsim-core              6.0.1.0
+isaacsim-cortex            6.0.1.0
+isaacsim-example           6.0.1.0
+isaacsim-extscache-kit     6.0.1.0
+isaacsim-extscache-kit-sdk 6.0.1.0
+isaacsim-extscache-physics 6.0.1.0
+isaacsim-gui               6.0.1.0
+isaacsim-kernel            6.0.1.0
+isaacsim-replicator        6.0.1.0
+isaacsim-robot             6.0.1.0
+isaacsim-robot-motion      6.0.1.0
+isaacsim-ros1              6.0.1.0
+isaacsim-ros2              6.0.1.0
+isaacsim-sensor            6.0.1.0
+isaacsim-storage           6.0.1.0
+isaacsim-test              6.0.1.0
+isaacsim-utils             6.0.1.0
+osqp                       1.0.5
+=== pink python sources ===
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/ik_controller/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/ik_controller/extension.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/ik_controller/global_variables.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/ik_controller/scenario.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/ik_controller/ui_builder.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/multi_task/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/multi_task/extension.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/multi_task/global_variables.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/multi_task/scenario.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/multi_task/ui_builder.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink.examples/isaacsim/robot_motion/pink/examples/tests/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/extension.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/configuration_loader.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/pink_ik_controller.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/utils/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/impl/utils/transforms.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/tests/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/tests/test_configuration_loader.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/tests/test_extension.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/tests/test_pink_ik_controller.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/isaacsim/robot_motion/pink/tests/test_transforms.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/coal/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/coal/viewer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/coal/windows_dll_manager.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/eigenpy/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/eigenpy/windows_dll_manager.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/hppfcl/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/hppfcl/viewer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/deprecated.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/deprecation.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/derivative/dcrba.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/derivative/lambdas.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/derivative/xm.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/explog.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/robot_wrapper.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/romeo_wrapper.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/shortcuts.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/utils.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/base_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/gepetto_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/meshcat_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/panda3d_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/rviz_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/viser_visualizer.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/visualize/visualizers.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel.prefix/lib/python3.12/site-packages/pinocchio/windows_dll_manager.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/__main__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/build.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/cmeel.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/config.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/consts.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/docker.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/env.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/impl.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/metadata.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/release.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/run.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/sdist.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel/utils.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/cmeel_pth.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/loop_rate_limiters/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/loop_rate_limiters/async_rate_limiter.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/loop_rate_limiters/logging.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/loop_rate_limiters/rate_limiter.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/barriers/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/barriers/barrier.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/barriers/body_spherical_barrier.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/barriers/position_barrier.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/barriers/self_collision_barrier.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/configuration.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/exceptions.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/acceleration_limit.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/configuration_limit.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/floating_base_velocity_limit.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/limit.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/limits/velocity_limit.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/solve_ik.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/com_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/damping_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/frame_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/joint_coupling_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/joint_velocity_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/linear_holonomic_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/low_acceleration_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/manipulability_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/omniwheel_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/posture_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/relative_frame_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/rolling_task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/tasks/task.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/utils.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/pink/visualization.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/active_set.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/combine_linear_box_inequalities.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/ensure_sparse_matrices.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/linear_from_box_inequalities.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/socp_from_qp.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/conversions/split_dual_linear_box.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/exceptions.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/problem.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/problems.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solution.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solve_ls.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solve_problem.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solve_qp.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solve_unconstrained.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/__init__.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/clarabel_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/copt_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/cvxopt_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/daqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/ecos_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/gurobi_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/highs_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/hpipm_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/jaxopt_osqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/kvxopt_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/mosek_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/nppro_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/osqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/pdhcg_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/piqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/proxqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/qpalm_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/qpax_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/qpoases_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/qpswift_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/qtqp_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/quadprog_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/scs_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/solvers/sip_.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/utils.py
+/root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/exts/isaacsim.robot_motion.pink/pip_prebundle/qpsolvers/warnings.py

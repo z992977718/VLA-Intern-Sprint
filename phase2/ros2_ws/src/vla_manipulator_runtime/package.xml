@@ -2,7 +2,7 @@
 <package format="3">
   <name>vla_manipulator_runtime</name>
   <version>0.0.1</version>
-  <description>Phase 2 Step 1 的 Franka ROS 2 关节闭环 smoke test。</description>
+  <description>Franka ROS 2 关节闭环检查与 Observation Snapshot 适配。</description>
   <maintainer email="local@example.com">VLA Intern Sprint</maintainer>
   <license>Apache-2.0</license>
   <buildtool_depend>ament_python</buildtool_depend>

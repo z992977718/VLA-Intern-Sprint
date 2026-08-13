@@ -1,0 +1,21 @@
+{
+  "episode_index": 0,
+  "initial_state_id": 0,
+  "completed": true,
+  "success": false,
+  "cycles": 100,
+  "termination": "HORIZON_REACHED",
+  "wall_clock_sec": 202.55198235623538,
+  "manual_intervention": false,
+  "oom": false,
+  "failure_categories": [
+    "failed approach",
+    "failed grasp",
+    "horizon reached"
+  ],
+  "observed_behavior": "机械臂在桌面任务区和篮子附近运动，但未形成可观察的目标物体接触、抓取或搬运；两个目标物体测得位移均为 0。",
+  "possible_explanations": "视觉域差异、相机差异、状态分布偏移、控制/夹爪动力学差异均是可能假设，未证明任何模型内部原因。",
+  "video": "assets/videos/phase3_step6_ep00.mp4",
+  "video_sha256": "ba9bc71b284394d5a213edd336c6359708a7d8a2fcad197e11cbadd244023dba",
+  "video_size_bytes": 1068084
+}

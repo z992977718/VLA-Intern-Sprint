@@ -1,0 +1,40 @@
+{
+  "evidence_threshold_m": 0.005,
+  "threshold_note": "conservative Step 7C object-motion evidence threshold; not a measured sensor-noise estimate",
+  "alphabet_soup": {
+    "initial_position_xyz_m": [
+      -0.09407050162553787,
+      -0.1504589170217514,
+      0.47871488332748413
+    ],
+    "final_position_xyz_m": [
+      -0.09407050162553787,
+      -0.1504589170217514,
+      0.47871488332748413
+    ],
+    "maximum_displacement_m": 0.0,
+    "final_displacement_m": 0.0,
+    "maximum_vertical_displacement_m": 0.0,
+    "minimum_vertical_displacement_m": 0.0,
+    "final_vertical_displacement_m": 0.0,
+    "object_motion_observed": false
+  },
+  "tomato_sauce": {
+    "initial_position_xyz_m": [
+      -0.11754214763641357,
+      0.05571731925010681,
+      0.4781835079193115
+    ],
+    "final_position_xyz_m": [
+      -0.11754214763641357,
+      0.05571731925010681,
+      0.4781835079193115
+    ],
+    "maximum_displacement_m": 0.0,
+    "final_displacement_m": 0.0,
+    "maximum_vertical_displacement_m": 0.0,
+    "minimum_vertical_displacement_m": 0.0,
+    "final_vertical_displacement_m": 0.0,
+    "object_motion_observed": false
+  }
+}

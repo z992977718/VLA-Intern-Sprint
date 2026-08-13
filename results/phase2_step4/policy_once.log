@@ -1,0 +1,9 @@
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING:root:Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+The PI05 model is a direct port of the OpenPI implementation. 
+This implementation follows the original OpenPI structure for compatibility. 
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: /root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model
+✓ Loaded state dict from model.safetensors
+All keys loaded successfully!
+{"inference": "PASS", "calls": 1, "first_action": [-0.02606593817472458, 0.029026560485363007, -0.421049565076828, 0.01197466254234314, -0.008025070652365685, 0.32810109853744507, 1.0194048881530762]}

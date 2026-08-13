@@ -1,0 +1,81 @@
+{
+  "status": "RUNTIME_CONFIRMED",
+  "policy": "2 ULP of the coarsest runtime float dtype per joint limit",
+  "runtime_dtype_capture_required": true,
+  "expected_source_dtype_from_isaac_warp_path": "float32",
+  "observed_boundary_excess_rad": 3.725290298461914e-09,
+  "expected_float32_ulp_near_0_04_rad": 3.725290298461914e-09,
+  "expected_two_ulp_tolerance_near_0_04_rad": 7.450580596923828e-09,
+  "fixed_large_absolute_tolerance_used": false,
+  "joint_delta_threshold_rad": 0.05,
+  "joint_delta_threshold_changed": false,
+  "real_limit_rule": "reject when target < lower - tolerance or target > upper + tolerance",
+  "boundary_rule": "clamp to exact physical limit only when outside by no more than tolerance",
+  "nan_inf_rule": "always reject",
+  "runtime_trials": [
+    {
+      "target_source_dtype": "float32",
+      "joint_limit_source_dtype": "float32",
+      "comparison_dtype": "float32",
+      "tolerance_policy": "2 ULP of the coarsest runtime float dtype per joint limit",
+      "per_joint_tolerance_rad": [
+        4.76837158203125e-07,
+        2.384185791015625e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        7.450580596923828e-09,
+        7.450580596923828e-09
+      ],
+      "max_joint_step_rad": 0.05
+    },
+    {
+      "target_source_dtype": "float32",
+      "joint_limit_source_dtype": "float32",
+      "comparison_dtype": "float32",
+      "tolerance_policy": "2 ULP of the coarsest runtime float dtype per joint limit",
+      "per_joint_tolerance_rad": [
+        4.76837158203125e-07,
+        2.384185791015625e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        7.450580596923828e-09,
+        7.450580596923828e-09
+      ],
+      "max_joint_step_rad": 0.05
+    },
+    {
+      "target_source_dtype": "float32",
+      "joint_limit_source_dtype": "float32",
+      "comparison_dtype": "float32",
+      "tolerance_policy": "2 ULP of the coarsest runtime float dtype per joint limit",
+      "per_joint_tolerance_rad": [
+        4.76837158203125e-07,
+        2.384185791015625e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        4.76837158203125e-07,
+        7.450580596923828e-09,
+        7.450580596923828e-09
+      ],
+      "max_joint_step_rad": 0.05
+    }
+  ],
+  "target_source_dtypes": [
+    "float32"
+  ],
+  "joint_limit_source_dtypes": [
+    "float32"
+  ],
+  "comparison_dtypes": [
+    "float32"
+  ],
+  "finger_limit_tolerance_rad": 7.450580596923828e-09
+}

@@ -1,0 +1,3 @@
+[INFO] [1786559450.403837997] [observation_adapter_node]: 收到 wrist RGB: 256x256 rgb8
+[INFO] [1786559450.473751208] [observation_adapter_node]: 收到 external RGB: 256x256 rgb8
+[INFO] [1786559450.474634050] [observation_adapter_node]: OBSERVATION_SNAPSHOT=/root/autodl-tmp/VLA-Intern-Sprint/results/migration_smoke_5090_isaac_attempt03/observation/observation_snapshot.json

@@ -1,0 +1,51 @@
+{
+  "count": 2,
+  "cameras": {
+    "external": {
+      "topic": "/phase2/external_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step2/camera_external.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "external_camera_frame",
+      "header_timestamp_sec": 5.1,
+      "received_wall_time_sec": 1786529718.2165475,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 255,
+      "pixel_mean": 90.81741333007812,
+      "pixel_std": 61.14226196216837
+    },
+    "wrist": {
+      "topic": "/phase2/wrist_camera/rgb",
+      "path": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step2/camera_wrist.png",
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "source_encoding": "rgb8",
+      "saved_encoding": "rgb8",
+      "width": 256,
+      "height": 256,
+      "step": 768,
+      "frame_id": "wrist_camera_frame",
+      "header_timestamp_sec": 5.1,
+      "received_wall_time_sec": 1786529718.2714372,
+      "data_size_bytes": 196608,
+      "pixel_min": 0,
+      "pixel_max": 231,
+      "pixel_mean": 24.48425801595052,
+      "pixel_std": 55.76667184074039
+    }
+  }
+}

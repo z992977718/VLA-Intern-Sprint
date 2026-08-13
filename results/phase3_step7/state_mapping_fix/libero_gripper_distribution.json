@@ -1,0 +1,28 @@
+{
+  "dataset": "lerobot/libero",
+  "revision": "a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4",
+  "cache_root": "/root/autodl-tmp/cache/huggingface/lerobot/lerobot/libero",
+  "frames_scanned": 273465,
+  "state_dimensions": [
+    6,
+    7
+  ],
+  "per_dimension": [
+    {
+      "index": 6,
+      "min": -0.0013586411951109767,
+      "max": 0.04233968257904053,
+      "mean": 0.026914252831829258
+    },
+    {
+      "index": 7,
+      "min": -0.042040832340717316,
+      "max": 0.0013633022317662835,
+      "mean": -0.027190783688760725
+    }
+  ],
+  "sum_abs_max": 0.04134345974307507,
+  "sum_abs_mean": 0.0017539572475621025,
+  "opposite_sign_fraction": 0.9987676667946538,
+  "interpretation": "These are the two gripper values after the recorded LeRobot LIBERO processing path. They establish the data distribution used by Pi0.5 input normalization."
+}

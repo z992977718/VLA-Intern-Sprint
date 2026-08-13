@@ -1,0 +1,50 @@
+{
+  "+X": {
+    "status": "APPROXIMATE",
+    "direction_cosine": 0.8714391191047363,
+    "libero_magnitude_m": 0.0008758508351443778,
+    "isaac_magnitude_m": 0.0014254288066345416,
+    "isaac_over_libero_magnitude_ratio": 1.627478960386639,
+    "dominant_axis_direction_consistent": false
+  },
+  "-X": {
+    "status": "MISMATCH",
+    "direction_cosine": 0.13987021002646166,
+    "libero_magnitude_m": 0.00037185694380834663,
+    "isaac_magnitude_m": 0.0016797292017669946,
+    "isaac_over_libero_magnitude_ratio": 4.517138189122319,
+    "dominant_axis_direction_consistent": false
+  },
+  "+Y": {
+    "status": "MISMATCH",
+    "direction_cosine": 0.33089009831302796,
+    "libero_magnitude_m": 0.0007152390923538816,
+    "isaac_magnitude_m": 0.0006782987580471802,
+    "isaac_over_libero_magnitude_ratio": 0.9483524674453556,
+    "dominant_axis_direction_consistent": false
+  },
+  "-Y": {
+    "status": "MISMATCH",
+    "direction_cosine": 0.2912943559268138,
+    "libero_magnitude_m": 0.0006820035475808882,
+    "isaac_magnitude_m": 0.0006609888475775924,
+    "isaac_over_libero_magnitude_ratio": 0.9691868171685669,
+    "dominant_axis_direction_consistent": false
+  },
+  "+Z": {
+    "status": "APPROXIMATE",
+    "direction_cosine": 0.9169356278670302,
+    "libero_magnitude_m": 0.0009080234627972005,
+    "isaac_magnitude_m": 0.0007306714697289543,
+    "isaac_over_libero_magnitude_ratio": 0.8046834687267808,
+    "dominant_axis_direction_consistent": false
+  },
+  "-Z": {
+    "status": "MISMATCH",
+    "direction_cosine": 0.4551535147177009,
+    "libero_magnitude_m": 0.00047946472148544824,
+    "isaac_magnitude_m": 0.0014603638559031725,
+    "isaac_over_libero_magnitude_ratio": 3.0458212887462555,
+    "dominant_axis_direction_consistent": false
+  }
+}

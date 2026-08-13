@@ -1,0 +1,53 @@
+{
+  "pink_arm_index_to_isaac": [
+    {
+      "pink_index": 0,
+      "joint_name": "panda_joint1",
+      "isaac_articulation_index": 0
+    },
+    {
+      "pink_index": 1,
+      "joint_name": "panda_joint2",
+      "isaac_articulation_index": 1
+    },
+    {
+      "pink_index": 2,
+      "joint_name": "panda_joint3",
+      "isaac_articulation_index": 2
+    },
+    {
+      "pink_index": 3,
+      "joint_name": "panda_joint4",
+      "isaac_articulation_index": 3
+    },
+    {
+      "pink_index": 4,
+      "joint_name": "panda_joint5",
+      "isaac_articulation_index": 4
+    },
+    {
+      "pink_index": 5,
+      "joint_name": "panda_joint6",
+      "isaac_articulation_index": 5
+    },
+    {
+      "pink_index": 6,
+      "joint_name": "panda_joint7",
+      "isaac_articulation_index": 6
+    }
+  ],
+  "gripper_only": [
+    {
+      "gripper_index": 0,
+      "joint_name": "panda_finger_joint1",
+      "isaac_articulation_index": 7
+    },
+    {
+      "gripper_index": 1,
+      "joint_name": "panda_finger_joint2",
+      "isaac_articulation_index": 8
+    }
+  ],
+  "arm_and_gripper_indices_overlap": false,
+  "runtime_command_policy": "send 7D arm and 2D gripper targets through separate Isaac selected-index calls"
+}

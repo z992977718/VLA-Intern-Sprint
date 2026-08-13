@@ -1,0 +1,3 @@
+[INFO] [1786527692.043558719] [observation_adapter_node]: 收到 wrist RGB: 256x256 rgb8
+[INFO] [1786527692.092560550] [observation_adapter_node]: 收到 external RGB: 256x256 rgb8
+[INFO] [1786527692.093163794] [observation_adapter_node]: OBSERVATION_SNAPSHOT=/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step2/observation_snapshot.json

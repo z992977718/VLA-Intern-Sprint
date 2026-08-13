@@ -1,0 +1,6 @@
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /root/autodl-tmp/miniforge3/envs/vla-intern/lib/python3.12/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Local assets not found. Downloading from HuggingFace Hub...
+Assets already downloaded at /root/.cache/libero/assets

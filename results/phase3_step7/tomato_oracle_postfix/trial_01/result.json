@@ -1,0 +1,17 @@
+{
+  "trial_id": "tomato_01",
+  "object": "tomato_sauce",
+  "trial_index": 1,
+  "diagnostic": false,
+  "counted": true,
+  "hard_reset": true,
+  "success": false,
+  "failure_category": "IK_FAILURE",
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "object_teleported": false,
+  "kinematic_attach_used": false,
+  "manual_intervention": false,
+  "physics_parameters_changed": false,
+  "oom": false
+}

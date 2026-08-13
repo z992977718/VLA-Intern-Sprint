@@ -1,0 +1,3 @@
+phase3/scripts/state_mapping_adapter.py: adds audited finger-sign mapping and validates native tool_center sources.
+phase2/scripts/policy_input_adapter.py: maps Isaac [finger1,finger2] to LIBERO-compatible [finger1,-finger2] before LiberoProcessorStep.
+No Action Adapter, PINK, Safety, camera, Pi0.5, LIBERO upstream, controller, scene, task, or frozen Step 6 script was changed.

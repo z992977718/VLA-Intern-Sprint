@@ -1,0 +1,176 @@
+{
+  "+X": {
+    "normalized_action": [
+      0.1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      0.005028435694642341,
+      2.9667117540706917e-06,
+      2.1797216546493026e-05
+    ],
+    "isaac_delta_target_m": [
+      0.005000000000000001,
+      0.0,
+      0.0
+    ],
+    "target_delta_difference_m": [
+      -2.8435694642340442e-05,
+      -2.9667117540706917e-06,
+      -2.1797216546493026e-05
+    ],
+    "target_direction_cosine": 0.999990430889584,
+    "target_magnitude_ratio_isaac_over_libero": 0.994335506721351,
+    "target_same": true
+  },
+  "-X": {
+    "normalized_action": [
+      -0.1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      -0.004971564454369276,
+      2.9667117540706917e-06,
+      2.1797216546493026e-05
+    ],
+    "isaac_delta_target_m": [
+      -0.005000000000000001,
+      0.0,
+      0.0
+    ],
+    "target_delta_difference_m": [
+      -2.8435545630724895e-05,
+      -2.9667117540706917e-06,
+      -2.1797216546493026e-05
+    ],
+    "target_direction_cosine": 0.9999902107126871,
+    "target_magnitude_ratio_isaac_over_libero": 1.005709792049304,
+    "target_same": true
+  },
+  "+Y": {
+    "normalized_action": [
+      0,
+      0.1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      2.843562013653267e-05,
+      0.005002966786259877,
+      2.1797216546493026e-05
+    ],
+    "isaac_delta_target_m": [
+      0.0,
+      0.005000000000000001,
+      0.0
+    ],
+    "target_delta_difference_m": [
+      -2.843562013653267e-05,
+      -2.966786259875863e-06,
+      -2.1797216546493026e-05
+    ],
+    "target_direction_cosine": 0.9999743573642033,
+    "target_magnitude_ratio_isaac_over_libero": 0.9993813671824966,
+    "target_same": true
+  },
+  "-Y": {
+    "normalized_action": [
+      0,
+      -0.1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      2.843562013653267e-05,
+      -0.004997033362751736,
+      2.1797216546493026e-05
+    ],
+    "isaac_delta_target_m": [
+      0.0,
+      -0.005000000000000001,
+      0.0
+    ],
+    "target_delta_difference_m": [
+      -2.843562013653267e-05,
+      -2.966637248264653e-06,
+      -2.1797216546493026e-05
+    ],
+    "target_direction_cosine": 0.9999742964348208,
+    "target_magnitude_ratio_isaac_over_libero": 1.000567960871249,
+    "target_same": true
+  },
+  "+Z": {
+    "normalized_action": [
+      0,
+      0,
+      0.1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      2.843562013653267e-05,
+      2.9667117540706917e-06,
+      0.005021797291052343
+    ],
+    "isaac_delta_target_m": [
+      0.0,
+      0.0,
+      0.005000000000000001
+    ],
+    "target_delta_difference_m": [
+      -2.843562013653267e-05,
+      -2.9667117540706917e-06,
+      -2.1797291052342432e-05
+    ],
+    "target_direction_cosine": 0.9999837942842339,
+    "target_magnitude_ratio_isaac_over_libero": 0.9956433287997996,
+    "target_same": true
+  },
+  "-Z": {
+    "normalized_action": [
+      0,
+      0,
+      -0.1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "libero_delta_target_m": [
+      2.843562013653267e-05,
+      2.9667117540706917e-06,
+      -0.004978202857959357
+    ],
+    "isaac_delta_target_m": [
+      0.0,
+      0.0,
+      -0.005000000000000001
+    ],
+    "target_delta_difference_m": [
+      -2.843562013653267e-05,
+      -2.9667117540706917e-06,
+      -2.179714204064362e-05
+    ],
+    "target_direction_cosine": 0.9999835092196031,
+    "target_magnitude_ratio_isaac_over_libero": 1.0043619532506476,
+    "target_same": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cycles": 100,
+  "translation_action_magnitude": {
+    "mean": 0.1431859782860282,
+    "max": 0.17320508075688776
+  },
+  "rotation_action_magnitude": {
+    "mean": 0.04597736905143166,
+    "max": 0.08660254037844388
+  },
+  "gripper_action": {
+    "mean": 0.271449898481369,
+    "min": -1.0,
+    "max": 1.0
+  },
+  "clipping_count": 99,
+  "clipping_frequency": 0.99,
+  "safety_intervention_count": 0,
+  "pink_failure_count": 0,
+  "finger_configuration_limit_failure": false
+}

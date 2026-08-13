@@ -1,0 +1,77 @@
+{
+  "joint": "panda_finger_joint2",
+  "joint_index": 8,
+  "unit": "m",
+  "failing_value": 0.04000149667263031,
+  "upper_limit": 0.04,
+  "excess": 1.49667263030923e-06,
+  "stages": [
+    {
+      "stage": "T0",
+      "name": "Isaac current joint state",
+      "value": 0.04000149667263031,
+      "status": "CONFIRMED_BY_ERROR_AND_CALL_CHAIN",
+      "source": "estimated_state() reads robot.get_dof_positions(); the same value is copied into q before the reported check"
+    },
+    {
+      "stage": "T1",
+      "name": "PINK configuration construction/update",
+      "value": 0.04000149667263031,
+      "status": "CONFIRMED",
+      "dtype": "float64",
+      "source": "PinkIKController._update_configuration_from_state -> map_joint_positions_to_pinocchio -> Configuration.update"
+    },
+    {
+      "stage": "T2",
+      "name": "Immediately before solve",
+      "value": 0.04000149667263031,
+      "status": "CONFIRMED",
+      "source": "_solve_ik calls configuration.check_limits() before build_ik or QP solve"
+    },
+    {
+      "stage": "T3",
+      "name": "PINK velocity / returned target",
+      "value": "NOT_PRODUCED",
+      "status": "PRE_SOLVE_LIMIT_CHECK_ABORTED"
+    },
+    {
+      "stage": "T4",
+      "name": "Integrated PINK q",
+      "value": "NOT_EXECUTED",
+      "status": "PRE_SOLVE_LIMIT_CHECK_ABORTED"
+    },
+    {
+      "stage": "T5",
+      "name": "Arm/gripper merged target for the failing call",
+      "value": "NOT_EXECUTED",
+      "status": "PINK_FORWARD_RETURNED_NONE_BEFORE_COMMAND_MERGE",
+      "previous_successful_call_final_gripper_target": 0.03999999910593033
+    },
+    {
+      "stage": "T6",
+      "name": "Project Safety input",
+      "value": "NOT_REACHED",
+      "status": "PINK_FORWARD_RETURNED_NONE"
+    },
+    {
+      "stage": "T7",
+      "name": "Articulation command for the failing call",
+      "value": "NOT_SENT",
+      "status": "PINK_FORWARD_RETURNED_NONE"
+    }
+  ],
+  "existing_telemetry": {
+    "source": "results/phase3_step7/tomato_safety_diagnostic/joint_telemetry.json",
+    "records": 241,
+    "approach_records": 240,
+    "descent_records": 1,
+    "approach_finger2_actual_min": 0.0394438877701759,
+    "approach_finger2_actual_max": 0.0400000177323818,
+    "last_approach_actual": 0.0399999842047691,
+    "last_approach_pink_target": 0.0399342514574528,
+    "descent_step0_actual": 0.040000006556510925,
+    "descent_step0_pink_raw_target": 0.04000000283122063,
+    "observation": "Isaac actual position can be slightly above the upper limit even while the final explicit gripper position target is the float32 representation of 0.04."
+  },
+  "missing_telemetry_point": "At the beginning of every PinkIKController.forward call, before _update_configuration_from_state and before configuration.check_limits, record Isaac q/velocity/target for indices 7 and 8 plus PINK q before and after mapping."
+}

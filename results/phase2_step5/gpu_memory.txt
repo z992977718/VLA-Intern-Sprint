@@ -1,0 +1,6 @@
+GPU: NVIDIA RTX 6000D
+Total VRAM: 85651 MiB
+Torch peak allocated: 9522268160 bytes (8.868 GiB)
+Torch peak reserved: 9877585920 bytes (9.199 GiB)
+nvidia-smi peak used: 13292 MiB (12.980 GiB)
+OOM: false

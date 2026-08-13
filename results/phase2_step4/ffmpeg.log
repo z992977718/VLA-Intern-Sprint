@@ -1,0 +1,48 @@
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.3.0 (conda-forge gcc 14.3.0-5)
+  configuration: --prefix=/root/autodl-tmp/miniforge3/envs/vla-intern --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --disable-gnutls --enable-libvpx --enable-libass --enable-pthreads --enable-alsa --enable-libpulse --enable-vaapi --enable-libvpl --enable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-ffplay --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1758923917305/_build_env/bin/pkg-config
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, image2, from '/root/autodl-tmp/VLA-Intern-Sprint/results/phase2_step4/video_frames/frame_%04d.png':
+  Duration: 00:00:09.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 256x256, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x556f47a45940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x556f47a45940] profile High, level 1.2, 4:2:0, 8-bit
+[libx264 @ 0x556f47a45940] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=8 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/root/autodl-tmp/VLA-Intern-Sprint/assets/videos/phase2_step4_action_execution.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 256x256, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[out#0/mp4 @ 0x556f47a42b80] video:30KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 6.287415%
+frame=   90 fps=0.0 q=-1.0 Lsize=      32KiB time=00:00:08.80 bitrate=  29.5kbits/s speed= 161x    
+[libx264 @ 0x556f47a45940] frame I:1     Avg QP:17.88  size: 12320
+[libx264 @ 0x556f47a45940] frame P:29    Avg QP:18.84  size:   535
+[libx264 @ 0x556f47a45940] frame B:60    Avg QP:27.11  size:    34
+[libx264 @ 0x556f47a45940] consecutive B-frames:  2.2% 24.4%  6.7% 66.7%
+[libx264 @ 0x556f47a45940] mb I  I16..4: 13.3% 18.8% 68.0%
+[libx264 @ 0x556f47a45940] mb P  I16..4:  0.1%  0.1%  0.0%  P16..4: 21.5%  4.1%  4.4%  0.0%  0.0%    skip:69.8%
+[libx264 @ 0x556f47a45940] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  8.7%  0.0%  0.0%  direct: 0.0%  skip:91.2%  L0: 5.4% L1:93.8% BI: 0.8%
+[libx264 @ 0x556f47a45940] 8x8 transform intra:19.6% inter:45.0%
+[libx264 @ 0x556f47a45940] coded y,uvDC,uvAC intra: 71.1% 80.0% 65.7% inter: 3.4% 2.8% 0.2%
+[libx264 @ 0x556f47a45940] i16 v,h,dc,p:  5% 44%  3% 49%
+[libx264 @ 0x556f47a45940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 13% 28% 12%  8%  3%  6%  9%  8% 13%
+[libx264 @ 0x556f47a45940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu:  7% 41% 12%  4%  3%  3% 14%  5% 11%
+[libx264 @ 0x556f47a45940] i8c dc,h,v,p: 48% 26% 12% 14%
+[libx264 @ 0x556f47a45940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x556f47a45940] ref P L0: 82.2%  3.7% 12.1%  2.0%
+[libx264 @ 0x556f47a45940] ref B L0: 83.9% 13.8%  2.3%
+[libx264 @ 0x556f47a45940] ref B L1: 95.6%  4.4%
+[libx264 @ 0x556f47a45940] kb/s:26.56

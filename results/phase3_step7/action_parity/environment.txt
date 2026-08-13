@@ -1,0 +1,2 @@
+Step 7A action parity audit
+No Pi0.5 inference, task rollout, or training.

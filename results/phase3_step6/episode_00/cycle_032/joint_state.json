@@ -1,0 +1,26 @@
+{
+  "topic": "Isaac direct articulation state",
+  "raw_order": [
+    "panda_joint1",
+    "panda_joint2",
+    "panda_joint3",
+    "panda_joint4",
+    "panda_joint5",
+    "panda_joint6",
+    "panda_joint7",
+    "panda_finger_joint1",
+    "panda_finger_joint2"
+  ],
+  "position_by_name": {
+    "panda_joint1": -0.9841817021369934,
+    "panda_joint2": 0.21887394785881042,
+    "panda_joint3": 1.0346235036849976,
+    "panda_joint4": -2.007927894592285,
+    "panda_joint5": -0.16757602989673615,
+    "panda_joint6": 1.9832175970077515,
+    "panda_joint7": 1.565163493156433,
+    "panda_finger_joint1": 0.03276876360177994,
+    "panda_finger_joint2": 0.032767463475465775
+  },
+  "timestamp": 1786546864.5780935
+}

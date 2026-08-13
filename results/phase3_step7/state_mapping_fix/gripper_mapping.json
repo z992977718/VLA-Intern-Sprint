@@ -1,0 +1,219 @@
+{
+  "classification": "MATCH",
+  "mapping": "[finger1, finger2] -> [finger1, -finger2]",
+  "source_evidence": {
+    "before_audit": {
+      "libero_order": "robot0_gripper_qpos: [right_finger, left_finger] with mirrored signs in this environment",
+      "isaac_order": "[panda_finger_joint1, panda_finger_joint2] with equal positive opening positions",
+      "rows": [
+        {
+          "label": "open",
+          "libero_qpos": [
+            0.04,
+            -0.04
+          ],
+          "isaac_qpos": [
+            0.03999609500169754,
+            0.039999429136514664
+          ]
+        },
+        {
+          "label": "intermediate",
+          "libero_qpos": [
+            0.02,
+            -0.02
+          ],
+          "isaac_qpos": [
+            0.02000003680586815,
+            0.020000023767352104
+          ]
+        },
+        {
+          "label": "closed",
+          "libero_qpos": [
+            0.0,
+            0.0
+          ],
+          "isaac_qpos": [
+            3.0772173431614647e-07,
+            2.1259833005160544e-08
+          ]
+        }
+      ],
+      "semantic_trend": "open -> intermediate -> closed is monotonic in both simulators",
+      "absolute_vector_match_required": false,
+      "classification": "MISMATCH",
+      "finding": "Both encode two finger joint positions and preserve open/intermediate/closed semantics, but their sign conventions differ. Passing Isaac finger values unchanged into the LIBERO state schema is not a numerically equivalent representation."
+    },
+    "dataset_distribution": {
+      "dataset": "lerobot/libero",
+      "revision": "a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4",
+      "cache_root": "/root/autodl-tmp/cache/huggingface/lerobot/lerobot/libero",
+      "frames_scanned": 273465,
+      "state_dimensions": [
+        6,
+        7
+      ],
+      "per_dimension": [
+        {
+          "index": 6,
+          "min": -0.0013586411951109767,
+          "max": 0.04233968257904053,
+          "mean": 0.026914252831829258
+        },
+        {
+          "index": 7,
+          "min": -0.042040832340717316,
+          "max": 0.0013633022317662835,
+          "mean": -0.027190783688760725
+        }
+      ],
+      "sum_abs_max": 0.04134345974307507,
+      "sum_abs_mean": 0.0017539572475621025,
+      "opposite_sign_fraction": 0.9987676667946538,
+      "interpretation": "These are the two gripper values after the recorded LeRobot LIBERO processing path. They establish the data distribution used by Pi0.5 input normalization."
+    },
+    "static_validation": [
+      {
+        "label": "open",
+        "isaac_physical_finger_qpos": [
+          0.03999609500169754,
+          0.039999429136514664
+        ],
+        "old_direct_policy_input": [
+          0.03999609500169754,
+          0.039999429136514664
+        ],
+        "new_libero_compatible_policy_input": [
+          0.03999609500169754,
+          -0.039999429136514664
+        ],
+        "libero_reference_qpos": [
+          0.03999999910593033,
+          -0.03999999910593033
+        ],
+        "max_abs_error_to_reference": 3.904104232788086e-06,
+        "sign_convention_matches": true
+      },
+      {
+        "label": "intermediate",
+        "isaac_physical_finger_qpos": [
+          0.02000003680586815,
+          0.020000023767352104
+        ],
+        "old_direct_policy_input": [
+          0.02000003680586815,
+          0.020000023767352104
+        ],
+        "new_libero_compatible_policy_input": [
+          0.02000003680586815,
+          -0.020000023767352104
+        ],
+        "libero_reference_qpos": [
+          0.019999999552965164,
+          -0.019999999552965164
+        ],
+        "max_abs_error_to_reference": 3.725290298461914e-08,
+        "sign_convention_matches": true
+      },
+      {
+        "label": "closed",
+        "isaac_physical_finger_qpos": [
+          3.0772173431614647e-07,
+          2.1259833005160544e-08
+        ],
+        "old_direct_policy_input": [
+          3.0772173431614647e-07,
+          2.1259833005160544e-08
+        ],
+        "new_libero_compatible_policy_input": [
+          3.0772173431614647e-07,
+          -2.1259833005160544e-08
+        ],
+        "libero_reference_qpos": [
+          0.0,
+          0.0
+        ],
+        "max_abs_error_to_reference": 3.0772173431614647e-07,
+        "sign_convention_matches": false
+      }
+    ]
+  },
+  "holdout_pose_mapping_examples": [
+    {
+      "label": "holdout_a",
+      "isaac_input": [
+        0.02000000700354576,
+        0.020000020042061806
+      ],
+      "mapped_output": [
+        0.02000000700354576,
+        -0.020000020042061806
+      ],
+      "libero_reference": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "holdout_b",
+      "isaac_input": [
+        0.02000003680586815,
+        0.020000042393803596
+      ],
+      "mapped_output": [
+        0.02000003680586815,
+        -0.020000042393803596
+      ],
+      "libero_reference": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "holdout_c",
+      "isaac_input": [
+        0.01999998278915882,
+        0.02000000886619091
+      ],
+      "mapped_output": [
+        0.01999998278915882,
+        -0.02000000886619091
+      ],
+      "libero_reference": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "holdout_d",
+      "isaac_input": [
+        0.019999992102384567,
+        0.019999969750642776
+      ],
+      "mapped_output": [
+        0.019999992102384567,
+        -0.019999969750642776
+      ],
+      "libero_reference": [
+        0.020833,
+        -0.020833
+      ]
+    },
+    {
+      "label": "holdout_e",
+      "isaac_input": [
+        0.020000018179416656,
+        0.020000027492642403
+      ],
+      "mapped_output": [
+        0.020000018179416656,
+        -0.020000027492642403
+      ],
+      "libero_reference": [
+        0.020833,
+        -0.020833
+      ]
+    }
+  ]
+}

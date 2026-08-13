@@ -1,0 +1,100 @@
+{
+  "cycle_index": 3,
+  "camera_timestamp": 1786540290.1642618,
+  "robot_state_timestamp": 1786540290.1663272,
+  "observation_timestamp": 1786540290.1663272,
+  "image_state_skew_sec": 0.002065420150756836,
+  "language": "move the robot arm",
+  "fresh_files": true,
+  "raw_action_chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "raw_first_action": [
+    -0.04716504365205765,
+    0.23071007430553436,
+    -0.6849108338356018,
+    0.014296340756118298,
+    -0.009222828783094883,
+    0.33997082710266113,
+    1.0473651885986328
+  ],
+  "bounded_action": [
+    -0.04716504365205765,
+    0.1,
+    -0.1,
+    0.014296340756118298,
+    -0.009222828783094883,
+    0.05,
+    1.0
+  ],
+  "eef_before_xyz_m": [
+    0.3882454037666321,
+    0.013003142550587654,
+    0.4480200409889221
+  ],
+  "eef_target_xyz_m": [
+    0.3858871515840292,
+    0.018003142550587655,
+    0.4430200409889221
+  ],
+  "eef_after_xyz_m": [
+    0.38580334186553955,
+    0.018025759607553482,
+    0.44196462631225586
+  ],
+  "actual_eef_delta_m": [
+    -0.0024420619010925293,
+    0.005022617056965828,
+    -0.00605541467666626
+  ],
+  "position_error_m": 0.0010589786305217144,
+  "orientation_error_rad": 0.010223686339295072,
+  "joint_target": [
+    0.017713719978928566,
+    -0.5385801792144775,
+    0.01574312150478363,
+    -2.849493980407715,
+    -0.05660467967391014,
+    3.1548211574554443,
+    0.785307765007019,
+    0.0008922094129957259,
+    0.0008922074339352548
+  ],
+  "gripper_before_m": [
+    0.000890106603037566,
+    0.0008901049150153995
+  ],
+  "gripper_after_m": [
+    0.000890106603037566,
+    0.0008901049150153995
+  ],
+  "inference_latency_ms": 187.04078067094088,
+  "adapter_latency_ms": 0.229658093303442,
+  "controller_latency_mean_ms": 1.8851304116348426,
+  "controller_latency_p95_ms": 2.2189187351614237,
+  "observation_to_motion_complete_ms": 2189.976045396179,
+  "eef_distance_from_start_m": 0.019848970753330447,
+  "cumulative_joint_endpoint_displacement_rad": 0.2382315956056118,
+  "safety_status": "PASS",
+  "action_index_executed": 0,
+  "remaining_actions_executed": 0,
+  "external_image": "cycle_03/camera_external.png",
+  "wrist_image": "cycle_03/camera_wrist.png",
+  "external_image_sha256": "de9c40470f91b00dde9d924ff65742174ec6de09b08d050be766af52d92938a5",
+  "wrist_image_sha256": "b2bc9eacbbef53faba268f89e1ee47e10ffeb3aa946af548b52e40b575d51092",
+  "robot_state_8d": [
+    0.3882454037666321,
+    0.013003142550587654,
+    0.4480200409889221,
+    2.846670021983439,
+    0.10632336379836589,
+    1.2649688523410014,
+    0.0009022593148984015,
+    0.0009022561134770513
+  ],
+  "predict_action_chunk_calls_this_cycle": 1,
+  "torch_allocated_bytes": 9364591104,
+  "torch_reserved_bytes": 9877585920
+}

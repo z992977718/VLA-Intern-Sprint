@@ -1,0 +1,66 @@
+{
+  "alphabet_soup": {
+    "source": "/root/autodl-tmp/cache/libero-assets/stable_hope_objects/alphabet_soup/textured.obj",
+    "source_sha256": "9f83394a8b6d243b2133be244b3de83e9318401e53a5768063031795bc6919a0",
+    "usd": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/alphabet_soup.usd",
+    "usd_sha256": "4d0733dbf73eb1fe30afa497bad23e95d8243c1f4222620552a2c19d99c4ac32",
+    "usd_size_bytes": 995669,
+    "prims": [
+      "/World",
+      "/World/Looks",
+      "/World/Looks/textured__texture",
+      "/World/Looks/textured__texture/textured__texture",
+      "/World/textured",
+      "/World/textured/mesh"
+    ],
+    "conversion": "Isaac Sim 6.0.1 omni.kit.asset_converter; materials retained"
+  },
+  "tomato_sauce": {
+    "source": "/root/autodl-tmp/cache/libero-assets/stable_hope_objects/tomato_sauce/textured.obj",
+    "source_sha256": "b75cd4063af13da2c3c95f4ed6cc2fbdc00f51730b49b704feb6f1ef362204bf",
+    "usd": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/tomato_sauce.usd",
+    "usd_sha256": "6ea3cbdb84f5e42a202acac29c755f0f824c78fbeed32faee8d5d7ecf70b5601",
+    "usd_size_bytes": 2056825,
+    "prims": [
+      "/World",
+      "/World/Looks",
+      "/World/Looks/textured_material_0",
+      "/World/Looks/textured_material_0/textured_material_0",
+      "/World/textured",
+      "/World/textured/mesh"
+    ],
+    "conversion": "Isaac Sim 6.0.1 omni.kit.asset_converter; materials retained"
+  },
+  "basket": {
+    "source": "/root/autodl-tmp/cache/libero-assets/stable_scanned_objects/basket/basket.obj",
+    "source_sha256": "54a789babe3d15e9ac55b837e0cc2dafb9413ae035be6af6d5847f4b14b3d144",
+    "usd": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/basket.usd",
+    "usd_sha256": "a8f618e2c6c3bb5cc358c3cb13bfe6b5e9fa72f8607a01e612c875f8afff68b0",
+    "usd_size_bytes": 4630877,
+    "prims": [
+      "/World",
+      "/World/Looks",
+      "/World/Looks/Material_001",
+      "/World/Looks/Material_001/Material_001",
+      "/World/basket",
+      "/World/basket/model"
+    ],
+    "conversion": "Isaac Sim 6.0.1 omni.kit.asset_converter; materials retained"
+  },
+  "living_room_table": {
+    "source": "/root/autodl-tmp/cache/libero-assets/scenes/living_room_table/living_room_table.obj",
+    "source_sha256": "b4b51693da6e25bb57673593b02a79f5716b3db3603a1d8448893f65ba499fbe",
+    "usd": "/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/assets_usd/living_room_table.usd",
+    "usd_sha256": "1498ef8b6dc1ff1df38e950d1b54a16c7c30bb3935e95d38fb415fffa86fc8b9",
+    "usd_size_bytes": 755000,
+    "prims": [
+      "/World",
+      "/World/Looks",
+      "/World/Looks/Louisa_Coffee_Table_LTV3",
+      "/World/Looks/Louisa_Coffee_Table_LTV3/Louisa_Coffee_Table_LTV3",
+      "/World/living_room_table",
+      "/World/living_room_table/living_room_table_Louisa_Coffee_Table_LTV3"
+    ],
+    "conversion": "Isaac Sim 6.0.1 omni.kit.asset_converter; materials retained"
+  }
+}

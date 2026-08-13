@@ -1,0 +1,21 @@
+{
+  "classification": "APPROXIMATE",
+  "before_adapter": "p_hand + R_hand @ [0, 0, 0.0951034858]",
+  "after_adapter_source": "USD native prim /World/Robot/panda_hand/tool_center world pose",
+  "frame_chain": {
+    "T_world_hand": "world pose of /World/Robot/panda_hand",
+    "T_hand_equiv_eef": "USD-defined local transform from panda_hand to child tool_center; no fitted world-space offset is introduced",
+    "T_world_equiv_eef": "T_world_hand @ T_hand_tool_center, read as the world pose of /World/Robot/panda_hand/tool_center"
+  },
+  "calibration": {
+    "mean": 0.007873699546689686,
+    "max": 0.008206593721371797,
+    "min": 0.007605157926518939
+  },
+  "holdout": {
+    "mean": 0.007800086866079516,
+    "max": 0.007897530198652705,
+    "min": 0.007645572988243052
+  },
+  "finding": "The native rigid child frame improves both the original five poses and five independent hold-out poses. Residual error remains about 8 mm, so this is not labelled MATCH."
+}

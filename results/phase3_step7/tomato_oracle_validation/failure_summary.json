@@ -1,0 +1,9 @@
+{
+  "failure_count": 0,
+  "failure_categories": {},
+  "finger_configuration_limit_failure_reappeared": false,
+  "new_safety_violation_appeared": false,
+  "new_ik_failure_appeared": false,
+  "reruns_performed": 0,
+  "fourth_trial_performed": false
+}

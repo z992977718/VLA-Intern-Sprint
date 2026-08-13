@@ -1,0 +1,29 @@
+{
+  "checkpoint_postprocessor_applied": true,
+  "predict_action_chunk_calls": 1,
+  "chunk_shape": [
+    1,
+    50,
+    7
+  ],
+  "first_action_index": 0,
+  "first_action": [
+    -0.02606593817472458,
+    0.029026560485363007,
+    -0.421049565076828,
+    0.01197466254234314,
+    -0.008025070652365685,
+    0.32810109853744507,
+    1.0194048881530762
+  ],
+  "remaining_actions_executed": 0,
+  "action_semantics": [
+    "dimensionless OSC input dx",
+    "dimensionless OSC input dy",
+    "dimensionless OSC input dz",
+    "dimensionless world-axis-angle input drx",
+    "dimensionless world-axis-angle input dry",
+    "dimensionless world-axis-angle input drz",
+    "gripper (-1 open, +1 close)"
+  ]
+}

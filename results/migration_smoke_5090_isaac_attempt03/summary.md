@@ -1,0 +1,62 @@
+# RTX 5090 Isaac Full-Stack Migration Smoke Test
+
+{
+  "stage": "A",
+  "pass": true,
+  "isaac_graphics": {
+    "renderer": "RaytracedLighting",
+    "camera_stats": {
+      "external": {
+        "available": true,
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "pixel_min": 1,
+        "pixel_max": 255,
+        "pixel_mean": 90.0506083170573,
+        "pixel_std": 60.48801736196126
+      },
+      "wrist": {
+        "available": true,
+        "shape": [
+          256,
+          256,
+          3
+        ],
+        "dtype": "uint8",
+        "pixel_min": 2,
+        "pixel_max": 232,
+        "pixel_mean": 116.89097595214844,
+        "pixel_std": 48.873148204564075
+      }
+    }
+  },
+  "ros2": {
+    "joint_states": true,
+    "two_camera_topics": true,
+    "max_image_state_skew_sec": 0.15000000000000036
+  },
+  "pink_synthetic": {
+    "command": "LIBERO action [0.1,0,0,0,0,0,0] -> +5 mm Isaac /World x",
+    "frame_mapping_pass": true,
+    "gripper_mapping_pass": true,
+    "robot_moved": true,
+    "controller_latency_mean_ms": 2.21448953056501,
+    "controller_latency_p95_ms": 2.6501921936869617,
+    "pass": true
+  },
+  "one_vla_action": {
+    "action_chunk_shape": [
+      1,
+      50,
+      7
+    ],
+    "finite": true,
+    "robot_moved": true,
+    "target_position_error_m": 0.0010990935763298554
+  },
+  "protocol": "No training. One Pi0.5 predict_action_chunk and only action_chunk[0] executed. No task rollout."
+}

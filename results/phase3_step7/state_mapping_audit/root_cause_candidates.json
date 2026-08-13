@@ -1,0 +1,37 @@
+{
+  "confirmed": [
+    {
+      "issue": "gripper numeric convention mismatch",
+      "evidence": "LIBERO raw qpos is mirrored-sign [positive, negative] for open, while Isaac finger positions are equal-positive. The current adapter passes Isaac values directly into the LIBERO schema.",
+      "affected_dimensions": "state[6:8]",
+      "recommended_minimal_fix": "After validation approval, audit named finger ordering in both implementations and apply an explicit verified value/sign mapping before LiberoProcessorStep. Do not change the processor or policy."
+    }
+  ],
+  "not_confirmed": [
+    {
+      "issue": "world-fixed 95.1035 mm offset",
+      "evidence": "Formula error is near numerical precision across five poses; implementation is R_hand @ offset_local."
+    },
+    {
+      "issue": "Pi0.5/VLM internal cause",
+      "evidence": "This audit does not call Pi0.5 and cannot attribute the Step 6 behavioral result to model internals."
+    }
+  ],
+  "remaining": [
+    {
+      "issue": "position reference equivalence",
+      "evidence": "Tool-point position differs across five matched joint vectors. This establishes a mapping mismatch, but does not by itself identify whether the residual originates in robot asset geometry, base/world convention, or reference-point definition."
+    },
+    {
+      "issue": "gripper numeric mapping",
+      "evidence": "Both state vectors are semantically ordered by opening state, but signs differ across the two simulator conventions."
+    },
+    {
+      "issue": "orientation numeric equivalence",
+      "evidence": "Policy-source robot0_eef_quat versus panda_hand differs by 0.025 to 0.862 rad. A single fixed rotation does not materially improve the five-pose error, so a fixed orientation correction is not justified yet."
+    }
+  ],
+  "could_plausibly_contribute_to_step6_0_of_3": "YES",
+  "causality_limit": "The audit establishes observation-state mismatch; it does not prove that this was the sole cause of Step 6 0/3.",
+  "next_step_choice": "A. Fix State Mapping and rerun calibration"
+}

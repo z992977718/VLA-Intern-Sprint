@@ -1,0 +1,8 @@
+{
+  "start": "screenshots/start.png",
+  "closest_to_alphabet": "screenshots/closest_to_alphabet.png",
+  "closest_to_tomato": "screenshots/closest_to_tomato.png",
+  "strongest_grasp_attempt": null,
+  "closest_close_attempt_far_from_objects": "screenshots/closest_close_attempt_far_from_objects.png",
+  "final": "screenshots/final.png"
+}

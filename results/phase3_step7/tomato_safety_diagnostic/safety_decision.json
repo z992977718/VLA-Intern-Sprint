@@ -1,0 +1,51 @@
+{
+  "decision": "REJECT",
+  "reason_code": "JOINT_UPPER_LIMIT",
+  "stage": "descent",
+  "control_step": 0,
+  "trigger_joint": [
+    "panda_finger_joint2"
+  ],
+  "trigger_value": [
+    {
+      "joint": "panda_finger_joint2",
+      "target": 0.04000000283122063,
+      "delta": -3.725290298461914e-09,
+      "abs_delta": 3.725290298461914e-09
+    }
+  ],
+  "threshold_or_limit": {
+    "max_joint_step_rad": 0.05,
+    "lower": [
+      0.0
+    ],
+    "upper": [
+      0.03999999910593033
+    ]
+  },
+  "all_violations": [
+    {
+      "code": "JOINT_UPPER_LIMIT",
+      "joints": [
+        {
+          "name": "panda_finger_joint2",
+          "index": 8,
+          "actual": 0.040000006556510925,
+          "target": 0.04000000283122063,
+          "delta": -3.725290298461914e-09,
+          "abs_delta": 3.725290298461914e-09,
+          "lower": 0.0,
+          "upper": 0.03999999910593033,
+          "lower_margin": 0.04000000283122063,
+          "upper_margin": -3.725290298461914e-09,
+          "below_lower": false,
+          "above_upper": true,
+          "delta_violation": false,
+          "finite_actual": true,
+          "finite_target": true,
+          "finite": true
+        }
+      ]
+    }
+  ]
+}

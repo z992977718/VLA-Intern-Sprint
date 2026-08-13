@@ -1,0 +1,5 @@
+Isaac: /root/autodl-tmp/isaac_sim/venv/lib/python3.12/site-packages/isaacsim/__init__.py
+Scene: Phase 3 Step 6 build_scene(initial_state_id=0, dynamic_objects=true)
+Controller: PinkIKController + OSQP + Franka
+Policy: NOT USED
+NVIDIA GeForce RTX 5090, 580.105.08, 32607 MiB

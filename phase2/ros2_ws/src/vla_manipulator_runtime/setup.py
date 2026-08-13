@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer="VLA Intern Sprint",
     maintainer_email="local@example.com",
-    description="Franka ROS 2 joint command closed-loop smoke test.",
+    description="Franka ROS 2 runtime checks and observation snapshot adapter.",
     license="Apache-2.0",
     entry_points={
         "console_scripts": [
             "franka_joint_command_test = vla_manipulator_runtime.franka_joint_command_test:main",
+            "observation_adapter_node = vla_manipulator_runtime.observation_adapter_node:main",
         ],
     },
 )

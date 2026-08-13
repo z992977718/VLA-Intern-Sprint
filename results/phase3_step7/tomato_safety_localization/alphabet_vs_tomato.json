@@ -1,0 +1,63 @@
+{
+  "status": "STATIC_COMPARISON_COMPLETE_WITH_TOMATO_TELEMETRY_GAP",
+  "alphabet_success_reference": {
+    "trial": "alphabet_00",
+    "approach_target_tool_xyz_m": [
+      -0.09407047104250273,
+      -0.15062059662964253,
+      0.6091044648087114
+    ],
+    "descent_target_tool_xyz_m": [
+      -0.09407047104250273,
+      -0.15062059662964253,
+      0.5241044648087114
+    ],
+    "lift_target_tool_xyz_m": [
+      -0.09407047104250273,
+      -0.15062059662964253,
+      0.6691044648087114
+    ],
+    "approach_final_position_error_m": 0.002430443594940212,
+    "descent_final_position_error_m": 0.0016136311850897594,
+    "safety_pass": true,
+    "max_vertical_object_displacement_m": 0.14626389741897583
+  },
+  "tomato_existing_evidence": {
+    "trials": 3,
+    "all_reached_end_of_approach_recording": true,
+    "all_stopped_at_descent_step_0_safety_gate": true,
+    "exact_runtime_targets_persisted": false,
+    "trajectory_persisted": false,
+    "safety_payload_persisted": false
+  },
+  "tomato_geometry_reference_from_existing_dynamic_scene_export": {
+    "source": "results/phase3_step6/scene_gate_state00_dynamic/scene_gate.usda",
+    "root_position_xyz_m": [
+      -0.11754214763641357,
+      0.05571731925010681,
+      0.4781835079193115
+    ],
+    "collider_local_center_xyz_m": [
+      0.0,
+      -2.05e-7,
+      -0.000040845
+    ],
+    "collider_half_extents_xyz_m": [
+      0.0332349,
+      0.041423355,
+      0.035099105
+    ],
+    "approximate_scalar_z_reconstruction": {
+      "grasp_z_m": 0.5232417679193115,
+      "pre_grasp_z_m": 0.6082417679193115,
+      "lift_z_m": 0.6682417679193115,
+      "warning": "This scalar reconstruction is not the exact live Gf world-oriented target used by the failed trial."
+    }
+  },
+  "comparison": {
+    "vertical_target_scale_is_similar": true,
+    "invalid_tomato_geometry_confirmed": false,
+    "large_expected_xy_difference_between_objects": true,
+    "physics_or_gripper_failure_can_be_evaluated": false
+  }
+}

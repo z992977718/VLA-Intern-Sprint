@@ -1,0 +1,13 @@
+{
+  "status": "NO_CARTESIAN_WORKSPACE_GATE_IN_STEP7C_ORACLE",
+  "oracle_has_explicit_workspace_min_max": false,
+  "oracle_safety_checks": [
+    "joint target finite",
+    "maximum joint delta <= 0.05 rad",
+    "joint target >= runtime lower limit",
+    "joint target <= runtime upper limit"
+  ],
+  "workspace_could_have_directly_raised_current_safety_stop": false,
+  "target_inside_an_explicit_oracle_workspace": "NOT_APPLICABLE",
+  "note": "Step 6 workspace constants were not imported into the Step 7C Oracle and must not be used to explain this stop."
+}

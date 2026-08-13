@@ -1,0 +1,14 @@
+{
+  "measurement": "torch.cuda.synchronize immediately before and after each predict_action_chunk call",
+  "cached_action_used": false,
+  "number_of_real_calls": 3,
+  "latency_ms": [
+    407.1572180837393,
+    186.76619697362185,
+    186.21790409088135
+  ],
+  "mean_ms": 260.0471063827475,
+  "median_ms": 186.76619697362185,
+  "p95_ms": 385.11811597272754,
+  "model_load_sec": 99.00370092177764
+}

@@ -1,0 +1,9 @@
+{
+  "success_requirements": [
+    "close command target 0 is issued and maintained; actual nonzero width is allowed when object contact blocks further closure",
+    "object maximum vertical displacement is >= 0.060 m",
+    "object final vertical displacement is >= 0.045 m after hold"
+  ],
+  "not_sufficient": ["gripper command alone", "contact alone", "EEF movement alone"],
+  "object_motion_source": "live dynamic object root world pose"
+}

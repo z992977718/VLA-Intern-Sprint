@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "positive_case": {
+    "alphabet_soup_inside": true,
+    "tomato_sauce_inside": true,
+    "alphabet_soup_center_in_contain_frame_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      0.030539999999999998,
+      -0.03054,
+      0.034745000000000026
+    ],
+    "success": true
+  },
+  "negative_case": {
+    "alphabet_soup_inside": true,
+    "tomato_sauce_inside": false,
+    "alphabet_soup_center_in_contain_frame_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "tomato_sauce_center_in_contain_frame_m": [
+      0.07108000000000002,
+      1.4903949615511694e-17,
+      0.0
+    ],
+    "success": false
+  },
+  "predicate": "both target body centers lie in basket_1_contain_region oriented box",
+  "libero_contact_term": "SiteObjectState.check_contact returns True; no extra contact or stability condition added",
+  "half_extents_m": [
+    0.06108,
+    0.06108,
+    0.06949
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "position_semantics": {
+    "status": "MISMATCH",
+    "evidence": "Direct tool-point to LIBERO EEF errors vary over the five matched joint vectors; a free rigid registration is diagnostic only and is not a permitted runtime correction."
+  },
+  "orientation_semantics": {
+    "status": "APPROXIMATE",
+    "evidence": "The policy-source robot0_eef_quat differs from raw panda_hand by 0.025 to 0.862 rad. A controller-frame 90-degree convention is separate and not the policy state source."
+  },
+  "tool_point_calibration": {
+    "status": "APPROXIMATE",
+    "evidence": "The offset is correctly orientation dependent, but the measured tool point is not yet proven to be the same EEF point as LIBERO across five poses."
+  },
+  "gripper_state": {
+    "status": "MISMATCH",
+    "evidence": "Open/half/closed semantics agree but component sign conventions are not numerically identical."
+  },
+  "time_synchronization": {
+    "status": "POTENTIAL ISSUE",
+    "evidence": "Previously recorded maximum image-to-joint skew is 0.15 s on the RTX 5090 migration smoke."
+  },
+  "overall_state_mapping": "MISMATCH"
+}

@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "events": [],
+  "max_joint_step_rad": 0.05,
+  "joint_limits_checked": true,
+  "float_limit_tolerance_policy": "2 ULP of the coarsest runtime float dtype per joint limit",
+  "clamp_count": 0,
+  "real_violation_count": 0,
+  "stage_progress": {
+    "approach_last_passed_step": 239,
+    "descent_last_passed_step": 199,
+    "lift_last_passed_step": 239
+  }
+}

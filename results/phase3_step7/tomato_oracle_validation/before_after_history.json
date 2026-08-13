@@ -1,0 +1,19 @@
+{
+  "timeline": [
+    {"stage": "BEFORE", "alphabet": "3/3", "tomato": "0/3", "status": "PARTIAL"},
+    {"stage": "Failure Localization", "finding": "floating-point Safety false positive"},
+    {"stage": "Bug 1 fixed", "finding": "2-ULP floating-point-safe limit comparison; Safety regression 13/13 PASS"},
+    {"stage": "New blocker", "finding": "PINK finger configuration limit blocked arm IK"},
+    {"stage": "Static audit", "finding": "independent finger joints were incorrectly included in live arm IK configuration"},
+    {"stage": "Architecture fix", "finding": "PINK 9D arm+finger -> 7D arm-only; gripper remains independent"},
+    {"stage": "Single diagnostic", "tomato": "1 diagnostic success", "counted": false},
+    {"stage": "FORMAL AFTER", "tomato": "3/3", "status": "ROBUST PASS"}
+  ],
+  "historical_results_preserved": {
+    "step7c_alphabet": "3/3",
+    "step7c_original_tomato": "0/3",
+    "step7c3_tomato_postfix": "0/3",
+    "step7c5_tomato_diagnostic": "1 diagnostic success, NOT COUNTED"
+  },
+  "current_fixed_protocol_result": {"step7c6_tomato": "3/3"}
+}

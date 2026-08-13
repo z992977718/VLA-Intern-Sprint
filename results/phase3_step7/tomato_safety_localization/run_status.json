@@ -1,0 +1,18 @@
+{
+  "phase": "Phase 3 / Step 7C.1",
+  "mode": "STATIC_EXISTING_ARTIFACT_ANALYSIS",
+  "completed": true,
+  "remote_simulation_started": false,
+  "isaac_started": false,
+  "pi05_called": false,
+  "predict_action_chunk_called": false,
+  "training_started": false,
+  "step6_rerun": false,
+  "formal_trials_added": 0,
+  "safety_threshold_changed": false,
+  "physics_changed": false,
+  "upstream_lerobot_changed": false,
+  "formal_step7c_results_modified": false,
+  "exact_safety_leaf_resolved": false,
+  "next_action_automatically_started": false
+}

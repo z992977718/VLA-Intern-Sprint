@@ -1,0 +1,21 @@
+{
+  "status": "CONFIRMED_FROM_PROJECT_CODE_URDF_AND_EXISTING_LOGS",
+  "isaac_order_source": "phase3/scripts/isaac_step6_scene_gate.py:158-160 asserts robot.dof_names == ARM_JOINTS + FINGER_JOINTS",
+  "project_order_source": "phase3/scripts/phase3_step6_common.py:17-19",
+  "pink_order_source": "configuration_loader.py:59-73 walks all Pinocchio joints with nq > 0 in URDF order",
+  "mapping_bug": false,
+  "joint_8_confirmed_as": "panda_finger_joint2",
+  "value_snapshot": "results/phase3_step7/tomato_oracle_postfix/trial_00/descent_step0.json",
+  "joints": [
+    {"index": 0, "name": "panda_joint1", "type": "revolute", "unit": "rad", "current": 0.04468599334359169, "lower": -2.8973000049591064, "upper": 2.8973000049591064, "in_pink_configuration": true},
+    {"index": 1, "name": "panda_joint2", "type": "revolute", "unit": "rad", "current": -0.21039769053459167, "lower": -1.7627999782562256, "upper": 1.7627999782562256, "in_pink_configuration": true},
+    {"index": 2, "name": "panda_joint3", "type": "revolute", "unit": "rad", "current": 0.10243216156959534, "lower": -2.8973000049591064, "upper": 2.8973000049591064, "in_pink_configuration": true},
+    {"index": 3, "name": "panda_joint4", "type": "revolute", "unit": "rad", "current": -2.7196545600891113, "lower": -3.0717999935150146, "upper": -0.0697999969124794, "in_pink_configuration": true},
+    {"index": 4, "name": "panda_joint5", "type": "revolute", "unit": "rad", "current": 0.03627486154437065, "lower": -2.8973000049591064, "upper": 2.8973000049591064, "in_pink_configuration": true},
+    {"index": 5, "name": "panda_joint6", "type": "revolute", "unit": "rad", "current": 2.5070297718048096, "lower": -0.017500000074505806, "upper": 3.752500057220459, "in_pink_configuration": true},
+    {"index": 6, "name": "panda_joint7", "type": "revolute", "unit": "rad", "current": 0.8998859524726868, "lower": -2.8973000049591064, "upper": 2.8973000049591064, "in_pink_configuration": true},
+    {"index": 7, "name": "panda_finger_joint1", "type": "prismatic", "unit": "m", "current": 0.039999764412641525, "lower": 0.0, "upper": 0.03999999910593033, "in_pink_configuration": true},
+    {"index": 8, "name": "panda_finger_joint2", "type": "prismatic", "unit": "m", "current": 0.040000006556510925, "lower": 0.0, "upper": 0.03999999910593033, "in_pink_configuration": true}
+  ],
+  "unit_correction": "Finger joints are prismatic and their 0.04 limit/excess are meters, not radians. Earlier generic telemetry field names ending in _rad are semantically inaccurate for finger joints but did not create the PINK failure."
+}

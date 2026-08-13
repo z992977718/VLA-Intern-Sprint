@@ -1,0 +1,59 @@
+{
+  "libero": [
+    {
+      "frame": "MuJoCo world",
+      "parent": null,
+      "used_by_state_adapter": false
+    },
+    {
+      "frame": "robot base / robot model",
+      "parent": "MuJoCo world",
+      "used_by_state_adapter": false
+    },
+    {
+      "frame": "robot0_eef observable",
+      "parent": "robot model",
+      "position_source": "robot0_eef_pos",
+      "orientation_source": "robot0_eef_quat (xyzw)",
+      "used_by_state_adapter": true
+    },
+    {
+      "frame": "controller EEF",
+      "parent": "robot model",
+      "orientation_source": "robots[0].controller.ee_ori_mat",
+      "used_by_state_adapter": false,
+      "note": "diagnostic controller convention; not used for Pi0.5 8D state construction"
+    }
+  ],
+  "isaac": [
+    {
+      "frame": "/World",
+      "parent": null,
+      "used_by_state_adapter": false
+    },
+    {
+      "frame": "/World/panda",
+      "parent": "/World",
+      "used_by_state_adapter": false
+    },
+    {
+      "frame": "/World/panda/panda_hand",
+      "parent": "/World/panda",
+      "position_source": "USD world pose",
+      "orientation_source": "USD quaternion wxyz",
+      "used_by_state_adapter": true
+    },
+    {
+      "frame": "current tool point",
+      "parent": "panda_hand",
+      "translation_local_m": [
+        0.0,
+        0.0,
+        0.0951034858
+      ],
+      "orientation": "currently equal to panda_hand",
+      "used_by_state_adapter": "position only"
+    }
+  ],
+  "measured_relationship": "R_libero_robot0_eef_quat is the policy-source orientation and differs from R_isaac_hand by 0.025 to 0.862 rad across five sampled poses; no single fixed rotation materially improves it. controller.ee_ori_mat uses a separate 90-degree convention. Position correspondence remains non-identical across five explicitly matched joint vectors."
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-13",
+  "project_status": "PHASE_3_CLOSED_OUT",
+  "phase_1": {
+    "scope": "LIBERO/MuJoCo policy learning and closed-loop evaluation",
+    "status": "DONE",
+    "model": "LeRobot Pi0.5",
+    "starting_checkpoint": "lerobot/pi05_libero_base",
+    "continued_fine_tuning_steps": 2000,
+    "dataset": {
+      "name": "lerobot/libero",
+      "revision": "a1aaacb7f6cd6ee5fb43120f673cebb0cfea7dd4",
+      "tasks": 40,
+      "episodes": 1693,
+      "frames": 273465,
+      "suites": ["Spatial", "Object", "Goal", "LIBERO-10"]
+    },
+    "focused_evaluation": {
+      "suite": "libero_10",
+      "task_id": 0,
+      "instruction": "put both the alphabet soup and the tomato sauce in the basket",
+      "checkpoint": "002000",
+      "fixed_initial_states": 50,
+      "successes": 46,
+      "failures": 4,
+      "success_fraction": 0.92,
+      "claim_boundary": "同一指定 LIBERO 任务的 50 个固定初态结果，不是完整 LIBERO benchmark 成功率，也不是 Isaac 成功率"
+    }
+  },
+  "phase_2": {
+    "scope": "Isaac Sim/ROS 2/Franka runtime integration",
+    "status": "PASS",
+    "components": [
+      "Observation Adapter",
+      "Policy Input Adapter",
+      "Pi0.5 Policy Adapter",
+      "Action Adapter",
+      "Safety Layer",
+      "PINK IK",
+      "Franka command and feedback",
+      "receding-horizon closed loop"
+    ],
+    "closed_loop_smoke_test": {
+      "cycles": 5,
+      "policy_calls": 5,
+      "action_chunk_shape": [1, 50, 7],
+      "executed_action_index_per_cycle": 0,
+      "task_success_evaluated": false
+    }
+  },
+  "phase_3": {
+    "scope": "cross-simulator task evaluation and systematic failure analysis",
+    "status": "CLOSED_OUT",
+    "step_6_cross_simulator_evaluation": {
+      "fixed_initial_states": [0, 1, 2],
+      "episodes": 3,
+      "successes": 0,
+      "failures": 3,
+      "cycles_per_episode": 100,
+      "action_execution_horizon_k": 1,
+      "failure_labels": ["FAILED_APPROACH", "FAILED_GRASP", "HORIZON_REACHED"],
+      "effective_object_motion_observed": false,
+      "experimental_pipeline": "PASS",
+      "task_transfer": "FAIL"
+    },
+    "state_mapping": {
+      "status": "APPROXIMATE",
+      "position_calibration_mm": {
+        "old_mean": 37.870,
+        "old_max": 70.814,
+        "new_mean": 7.874,
+        "new_max": 8.207
+      },
+      "position_holdout_mm": {
+        "old_mean": 62.852,
+        "old_max": 79.705,
+        "new_mean": 7.800,
+        "new_max": 7.898
+      },
+      "gripper_mapping": "Isaac [finger1, finger2] -> LIBERO-compatible [finger1, -finger2]",
+      "orientation": "UNRESOLVED",
+      "max_image_state_skew_seconds_approx": 0.15
+    },
+    "robot_side_scripted_oracle": {
+      "alphabet_soup_formal": "3/3",
+      "tomato_sauce_original": "0/3",
+      "tomato_sauce_post_fix_formal": "3/3",
+      "current_pipeline_status": "ROBUST_PASS",
+      "uses_pi05": false,
+      "claim_boundary": "证明当前 scripted robot-side manipulation pipeline 可工作，不是 Pi0.5 成功率"
+    },
+    "post_fix_pi05_diagnostic": {
+      "counted_as_formal_benchmark": false,
+      "episodes": 1,
+      "initial_state": 0,
+      "cycles": 100,
+      "action_execution_horizon_k": 1,
+      "termination": "HORIZON_REACHED",
+      "task_success": false,
+      "alphabet_object_motion": false,
+      "tomato_object_motion": false,
+      "plausible_grasp": false,
+      "behavior_change": "NO_CLEAR_IMPROVEMENT",
+      "safety_violations": 0,
+      "ik_failures": 0,
+      "action_clipping_cycles": 99,
+      "close_command_cycles": 64,
+      "closest_close_attempt_to_tomato_m": 0.2016650102,
+      "claim_boundary": "单次诊断不能证明 Pi0.5 本身无效"
+    },
+    "final_engineering_decision": "FREEZE_FRANKA_ISAAC_MAINLINE"
+  }
+}

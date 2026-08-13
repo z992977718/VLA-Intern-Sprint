@@ -1,0 +1,5 @@
+/joint_states
+/parameter_events
+/phase2/external_camera/rgb
+/phase2/wrist_camera/rgb
+/rosout

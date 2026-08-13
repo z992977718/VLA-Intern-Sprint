@@ -1,0 +1,6 @@
+GPU=NVIDIA RTX 6000D
+total_mib=85651
+nvidia_smi_used_during_policy_mib=10013
+torch_peak_allocated_bytes=9522215424
+torch_peak_reserved_bytes=9877585920
+oom=false

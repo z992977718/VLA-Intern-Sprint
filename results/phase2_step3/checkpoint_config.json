@@ -1,0 +1,59 @@
+{
+  "checkpoint_path": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model",
+  "policy_type": "pi05",
+  "device": "cuda",
+  "dtype": "bfloat16",
+  "use_amp": false,
+  "chunk_size": 50,
+  "n_action_steps": 10,
+  "num_inference_steps": 10,
+  "input_features": {
+    "observation.images.image": {
+      "type": "FeatureType.VISUAL",
+      "shape": [
+        3,
+        256,
+        256
+      ]
+    },
+    "observation.images.image2": {
+      "type": "FeatureType.VISUAL",
+      "shape": [
+        3,
+        256,
+        256
+      ]
+    },
+    "observation.state": {
+      "type": "FeatureType.STATE",
+      "shape": [
+        8
+      ]
+    },
+    "observation.images.empty_camera_0": {
+      "type": "FeatureType.VISUAL",
+      "shape": [
+        3,
+        224,
+        224
+      ]
+    }
+  },
+  "output_features": {
+    "action": {
+      "type": "FeatureType.ACTION",
+      "shape": [
+        7
+      ]
+    }
+  },
+  "gradient_checkpointing": true,
+  "train_expert_only": true,
+  "freeze_vision_encoder": true,
+  "processor_config": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model/policy_preprocessor.json",
+  "postprocessor_config": "/root/autodl-tmp/VLA-Intern-Sprint/results/training/pi05_expert_first_stage_2k/run/checkpoints/002000/pretrained_model/policy_postprocessor.json",
+  "inference_only": true,
+  "optimizer_created": false,
+  "backward_executed": false,
+  "action_execution_code_present": false
+}

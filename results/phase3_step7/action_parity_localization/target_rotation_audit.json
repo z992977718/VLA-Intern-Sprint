@@ -1,0 +1,152 @@
+{
+  "+Rx": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      0.024999660176155788,
+      0.00010880062929567605,
+      1.1190499294460224e-05
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      0.025000000000000022,
+      -2.2758969571083737e-18,
+      -5.10814075331075e-19
+    ],
+    "target_axis_sign_cosine": 0.9999904296338409,
+    "target_magnitude_ratio_isaac_over_libero": 1.00000402264229,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  },
+  "-Rx": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      -0.05,
+      0,
+      0,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      -0.025000340733406273,
+      0.00010904636436984743,
+      8.467269999004352e-06
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      -0.02500000000000002,
+      -2.5164793740138883e-18,
+      3.566380194268368e-19
+    ],
+    "target_axis_sign_cosine": 0.9999904301548467,
+    "target_magnitude_ratio_isaac_over_libero": 0.9999768011347816,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  },
+  "+Ry": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      0,
+      0.05,
+      0,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      -2.1739349167706853e-07,
+      0.025108929649789773,
+      9.833140362109416e-06
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      -2.7107877961184743e-20,
+      0.025000000000000012,
+      -1.1097287540360005e-19
+    ],
+    "target_axis_sign_cosine": 0.9999999232797071,
+    "target_magnitude_ratio_isaac_over_libero": 0.9956616403281056,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  },
+  "-Ry": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      0,
+      -0.05,
+      0,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      -4.631282569733294e-07,
+      -0.02489107130921269,
+      9.824628935217596e-06
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      -2.033090847088856e-20,
+      -0.025000000000000005,
+      -3.0496362706332836e-20
+    ],
+    "target_axis_sign_cosine": 0.9999999219309168,
+    "target_magnitude_ratio_isaac_over_libero": 1.0043761370375377,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  },
+  "+Rz": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.05,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      -1.7018755917556337e-06,
+      0.00010891924558023996,
+      0.025009829851583072
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      -4.405030168692521e-19,
+      3.2344145793921407e-18,
+      0.02500000000000001
+    ],
+    "target_axis_sign_cosine": 0.9999905145570237,
+    "target_magnitude_ratio_isaac_over_libero": 0.9995974787626621,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  },
+  "-Rz": {
+    "normalized_action": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -0.05,
+      0
+    ],
+    "libero_relative_target_axis_angle_rad": [
+      1.0213537315720175e-06,
+      0.00010892774808493468,
+      -0.024990171058381083
+    ],
+    "isaac_relative_target_axis_angle_rad": [
+      3.7273332196629024e-19,
+      5.027770130761769e-18,
+      -0.025000000000000005
+    ],
+    "target_axis_sign_cosine": 0.9999904996284885,
+    "target_magnitude_ratio_isaac_over_libero": 1.0003838081903773,
+    "target_same": true,
+    "multiplication_order": "both records specify R_target = R_delta @ R_current"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "CONFIRMED_FOR_FAILURE_PATH",
+  "normal_path": [
+    "PinkIKController.forward updates configuration from estimated Isaac state",
+    "_solve_ik checks current configuration limits",
+    "QP returns velocity",
+    "Configuration.integrate_inplace applies pin.integrate(q, velocity * dt)",
+    "map_pinocchio_velocity_to_joint_state independently applies pin.integrate(q_current, velocity * dt) to form output targets"
+  ],
+  "failing_path": [
+    "current Isaac finger2 value is mapped to PINK q[8]",
+    "configuration.check_limits rejects q[8]",
+    "no QP velocity is produced",
+    "no integration runs",
+    "no target is returned"
+  ],
+  "failure_caused_by_current_call_integration": false,
+  "failure_caused_by_current_call_velocity": false,
+  "finger_velocity_theoretically_zero": false,
+  "finger_velocity_reason": "The full-dimensional PostureTask has an identity Jacobian and regularizes both finger joints toward the posture captured at stage reset.",
+  "existing_velocity_evidence": {
+    "descent_step0_actual": 0.040000006556510925,
+    "descent_step0_returned_target": 0.04000000283122063,
+    "dt_seconds": 0.016666666666666666,
+    "inferred_velocity_m_per_s": -2.2351741790771484e-07,
+    "direction": "toward the in-limit posture target, not upward"
+  },
+  "why_pink_velocity_does_not_reach_finger_actuator": "After the full 9D PINK target write, project code immediately rewrites DOF indices 7 and 8 with the independent finger_target. Isaac Articulation performs a read-modify-write on selected indices, so the second call wins for the finger targets.",
+  "unresolved": "The exact PhysX/drive dynamics that changed the measured current position from the final 0.04 target to 0.04000149667263031 were not recorded and cannot be derived from static code alone."
+}

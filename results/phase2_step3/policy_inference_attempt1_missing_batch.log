@@ -1,0 +1,20 @@
+/root/autodl-tmp/VLA-Intern-Sprint/lerobot/src/lerobot/envs/utils.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:203.)
+  img_tensor = torch.from_numpy(img)
+Traceback (most recent call last):
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase2/scripts/run_pi05_step3_inference.py", line 275, in <module>
+    main()
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase2/scripts/run_pi05_step3_inference.py", line 73, in main
+    observation, robot_state_sample = build_policy_input(result_dir, args.language)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/VLA-Intern-Sprint/phase2/scripts/policy_input_adapter.py", line 87, in build_policy_input
+    observation = LiberoProcessorStep().observation(observation)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/VLA-Intern-Sprint/lerobot/src/lerobot/processor/env_processor.py", line 112, in observation
+    return self._process_observation(observation)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/VLA-Intern-Sprint/lerobot/src/lerobot/processor/env_processor.py", line 73, in _process_observation
+    eef_axisangle = self._quat2axisangle(eef_quat)  # (B, 3)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/VLA-Intern-Sprint/lerobot/src/lerobot/processor/env_processor.py", line 134, in _quat2axisangle
+    raise ValueError(f"_quat2axisangle expected shape (B, 4), got {tuple(quat.shape)}")
+ValueError: _quat2axisangle expected shape (B, 4), got (4,)

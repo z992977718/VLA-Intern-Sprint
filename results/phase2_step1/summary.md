@@ -24,8 +24,8 @@ ROS 2 /joint_command
 
 ## 运行状态
 
-- Isaac Sim startup：PASS
-- RaytracedLighting / RTX runtime：PASS
+- Isaac Sim application startup：PASS
+- RaytracedLighting：已请求，但 Step 1 未做图像验收；原始日志已出现 Vulkan `ERROR_INCOMPATIBLE_DRIVER`，因此 RTX rendering runtime：FAIL / NOT VALIDATED
 - Franka USD：PASS
 - Physics：PASS
 - ROS 2 Bridge：PASS
@@ -36,6 +36,8 @@ ROS 2 /joint_command
 - 实测 peak GPU VRAM：577 MiB（最终成功一键复现的 23 个 `nvidia-smi` 原始采样点；仅代表本简单场景）
 - OOM：NO
 - Remote visualization：NOT CONFIGURED
+
+> 2026-08-12 Step 2 追溯更正：Step 1 的 Franka physics + ROS 2 关节闭环结论不变；此前把 `RaytracedLighting / RTX runtime` 标为 PASS 属于超出证据的表述。Camera 阶段确认当前容器没有可工作的 Vulkan GPU Foundation。
 
 ## 边界
 

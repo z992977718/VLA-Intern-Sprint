@@ -1,0 +1,48 @@
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/root/autodl-tmp/VLA-Intern-Sprint/results/phase3_step6/episode_01/video_frames/frame_%05d.png':
+  Duration: 00:03:20.10, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 256x256, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x8342240] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x8342240] profile High, level 1.2, 4:2:0, 8-bit
+[libx264 @ 0x8342240] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=8 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/root/autodl-tmp/VLA-Intern-Sprint/assets/videos/phase3_step6_ep01.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 256x256, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame= 1249 fps=0.0 q=25.0 size=     512KiB time=00:02:04.70 bitrate=  33.6kbits/s speed= 249x    [out#0/mp4 @ 0x833ed00] video:991KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 2.440455%
+frame= 2001 fps=0.0 q=-1.0 Lsize=    1015KiB time=00:03:19.90 bitrate=  41.6kbits/s speed= 252x    
+[libx264 @ 0x8342240] frame I:9     Avg QP:15.18  size: 10970
+[libx264 @ 0x8342240] frame P:521   Avg QP:18.08  size:  1339
+[libx264 @ 0x8342240] frame B:1471  Avg QP:22.64  size:   148
+[libx264 @ 0x8342240] consecutive B-frames:  1.2%  1.5%  2.1% 95.2%
+[libx264 @ 0x8342240] mb I  I16..4:  6.5% 52.7% 40.8%
+[libx264 @ 0x8342240] mb P  I16..4:  0.1%  0.3%  0.3%  P16..4: 30.3% 14.3% 11.2%  0.0%  0.0%    skip:43.5%
+[libx264 @ 0x8342240] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 12.5%  2.1%  0.4%  direct: 0.8%  skip:84.1%  L0:24.1% L1:64.2% BI:11.7%
+[libx264 @ 0x8342240] 8x8 transform intra:50.4% inter:41.7%
+[libx264 @ 0x8342240] coded y,uvDC,uvAC intra: 73.4% 61.2% 52.0% inter: 8.2% 2.5% 0.2%
+[libx264 @ 0x8342240] i16 v,h,dc,p: 48% 19% 26%  8%
+[libx264 @ 0x8342240] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  6% 47% 26%  2%  3%  2%  6%  2%  6%
+[libx264 @ 0x8342240] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 34% 13%  3%  6%  6%  9%  4%  7%
+[libx264 @ 0x8342240] i8c dc,h,v,p: 56% 28% 11%  4%
+[libx264 @ 0x8342240] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x8342240] ref P L0: 70.6% 10.8% 15.2%  3.3%
+[libx264 @ 0x8342240] ref B L0: 90.0%  8.3%  1.7%
+[libx264 @ 0x8342240] ref B L1: 94.1%  5.9%
+[libx264 @ 0x8342240] kb/s:40.53

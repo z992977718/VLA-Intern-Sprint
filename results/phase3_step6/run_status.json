@@ -1,0 +1,19 @@
+{
+  "experimental_pipeline": {
+    "task_scene": "PASS",
+    "success_detector": "PASS",
+    "reset": "PASS",
+    "observation": "PASS",
+    "pi05_runtime": "PASS",
+    "action_adapter": "PASS",
+    "closed_loop": "PASS",
+    "artifacts": "PASS"
+  },
+  "step6": "PASS",
+  "policy_task_result": "0/3",
+  "task_transfer": "FAIL",
+  "unseen_task_generalization_claimed": false,
+  "sim_to_real_claimed": false,
+  "ready_for_step7": false,
+  "gpu_idle_after_run": true
+}

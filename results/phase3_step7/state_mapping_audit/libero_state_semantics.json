@@ -1,0 +1,273 @@
+{
+  "task": "put both the alphabet soup and the tomato sauce in the basket",
+  "init_state_id": 0,
+  "control_frequency_hz": 20,
+  "comparison_basis": "same explicit Panda arm joint vector is assigned in LIBERO and Isaac; no task action is executed",
+  "poses": [
+    {
+      "label": "reference",
+      "joint_positions_rad": [
+        0.012,
+        -0.568,
+        0.0,
+        -2.811,
+        0.0,
+        3.037,
+        0.741
+      ],
+      "eef_position_xyz_m": [
+        -0.051827028317354626,
+        0.005498339583025463,
+        0.8092979713853705
+      ],
+      "eef_quaternion_xyzw": [
+        0.92185202285368,
+        0.026229518731748724,
+        0.38660112687157144,
+        0.006358381028933352
+      ],
+      "controller_ee_orientation_matrix": [
+        [
+          -0.04344315526095313,
+          0.6997031620974625,
+          0.7131116162367445
+        ],
+        [
+          0.998543166675582,
+          0.05327578434441091,
+          0.008557750170792744
+        ],
+        [
+          -0.03200369582517937,
+          0.7124445071395364,
+          -0.7009982793846424
+        ]
+      ],
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "eef_observable": "robot0_eef_pos / robot0_eef_quat"
+    },
+    {
+      "label": "shoulder_y",
+      "joint_positions_rad": [
+        0.35,
+        -0.7,
+        0.15,
+        -2.5,
+        0.1,
+        2.8,
+        0.6
+      ],
+      "eef_position_xyz_m": [
+        -0.09789323743832287,
+        0.23201102662829692,
+        1.001322716132495
+      ],
+      "eef_quaternion_xyzw": [
+        0.8357826190348323,
+        0.2710852176143906,
+        0.47351953623435183,
+        -0.06131449514297699
+      ],
+      "controller_ee_orientation_matrix": [
+        [
+          -0.5112038489278573,
+          0.4045841071907247,
+          0.7582758897987105
+        ],
+        [
+          0.8455066749526395,
+          0.3950694037096738,
+          0.3592194717203007
+        ],
+        [
+          -0.1542371143787174,
+          0.8247617028337122,
+          -0.5440395629795314
+        ]
+      ],
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "eef_observable": "robot0_eef_pos / robot0_eef_quat"
+    },
+    {
+      "label": "elbow_z",
+      "joint_positions_rad": [
+        -0.35,
+        -0.4,
+        -0.25,
+        -2.45,
+        -0.15,
+        2.65,
+        0.8
+      ],
+      "eef_position_xyz_m": [
+        -0.08150083157584438,
+        -0.29563134289646553,
+        0.8477202965781555
+      ],
+      "eef_quaternion_xyzw": [
+        0.9251512182578683,
+        -0.242974524483282,
+        0.2779940947757568,
+        0.08819233004015346
+      ],
+      "controller_ee_orientation_matrix": [
+        [
+          0.49861024857402353,
+          0.7273653274438598,
+          0.4715161719914115
+        ],
+        [
+          0.866370986748422,
+          -0.4005424607513145,
+          -0.29827344912989584
+        ],
+        [
+          -0.028091517180696107,
+          0.5572301298097273,
+          -0.829882792383791
+        ]
+      ],
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "eef_observable": "robot0_eef_pos / robot0_eef_quat"
+    },
+    {
+      "label": "wrist_roll",
+      "joint_positions_rad": [
+        0.1,
+        -0.7,
+        0.1,
+        -2.6,
+        0.7,
+        2.9,
+        0.65
+      ],
+      "eef_position_xyz_m": [
+        -0.049324172777121714,
+        0.07150021127578743,
+        0.9576355600440836
+      ],
+      "eef_quaternion_xyzw": [
+        0.8589324400119425,
+        -0.10618680544608233,
+        0.45299515774204213,
+        -0.2139037468268085
+      ],
+      "controller_ee_orientation_matrix": [
+        [
+          -0.011380139273093948,
+          0.5670394988228344,
+          0.8236119834029066
+        ],
+        [
+          0.8859390988852149,
+          -0.3762093068686018,
+          0.2712535170129515
+        ],
+        [
+          0.46366195174563807,
+          0.732756961208961,
+          -0.4980811483114281
+        ]
+      ],
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "eef_observable": "robot0_eef_pos / robot0_eef_quat"
+    },
+    {
+      "label": "wrist_yaw",
+      "joint_positions_rad": [
+        -0.15,
+        -0.55,
+        -0.1,
+        -2.7,
+        -0.5,
+        2.4,
+        0.9
+      ],
+      "eef_position_xyz_m": [
+        -0.1173213154611962,
+        -0.13001473185489432,
+        0.7536729933878525
+      ],
+      "eef_quaternion_xyzw": [
+        0.9786950283852778,
+        -0.01312172381718163,
+        0.11375855019396196,
+        0.17041964099179618
+      ],
+      "controller_ee_orientation_matrix": [
+        [
+          0.06445771429504515,
+          0.9737736252436655,
+          0.21819745609806002
+        ],
+        [
+          0.9415699326565845,
+          0.013089050840163704,
+          -0.3365631273107259
+        ],
+        [
+          -0.33059229420077324,
+          0.22714225394653043,
+          -0.916032276443989
+        ]
+      ],
+      "gripper_qpos": [
+        0.020833,
+        -0.020833
+      ],
+      "eef_observable": "robot0_eef_pos / robot0_eef_quat"
+    }
+  ],
+  "gripper_states": [
+    {
+      "label": "open",
+      "set_qpos": [
+        0.04,
+        -0.04
+      ],
+      "observed_robot0_gripper_qpos": [
+        0.04,
+        -0.04
+      ]
+    },
+    {
+      "label": "intermediate",
+      "set_qpos": [
+        0.02,
+        -0.02
+      ],
+      "observed_robot0_gripper_qpos": [
+        0.02,
+        -0.02
+      ]
+    },
+    {
+      "label": "closed",
+      "set_qpos": [
+        0.0,
+        0.0
+      ],
+      "observed_robot0_gripper_qpos": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "state_sources": {
+    "position": "raw observation robot0_eef_pos",
+    "orientation": "raw observation robot0_eef_quat (xyzw) plus controller.ee_ori_mat",
+    "gripper": "raw observation robot0_gripper_qpos"
+  }
+}
